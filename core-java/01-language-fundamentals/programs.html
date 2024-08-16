@@ -1,0 +1,8369 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>object-class-programs</title>
+		<!-- font awesome -->
+		<link
+			rel="stylesheet"
+			href="../../fontawesome-free-6.2.1-web/css/all.css"
+		/>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="../../google-code-prettify/prettify.css"
+		/>
+		<!-- styles -->
+		<link rel="stylesheet" href="../../styles/styles.css" />
+	</head>
+	<body onload="PR.prettyPrint()">
+		<!-- navigation button -->
+		<span class="resource-nav-btn" id="resource-nav-btn">
+			<i class="fa-sharp fa-solid fa-bars fa-2x" style="color: #000"></i>
+		</span>
+
+		<!-- navigation bar -->
+		<nav class="resource-navbar" id="resource-navbar">
+			<div class="resource-navbar-header">
+				<span class="resource-nav-close" id="resource-nav-close">
+					<i class="fa-sharp fa-solid fa-xmark fa-1.5x" style="color: #000"></i>
+				</span>
+			</div>
+			<ul class="resource-nav-items">
+				<span class="resource-navbar-links">Resources Navigator</span>
+				<br />
+
+				<li><a href="./notes.html" class="resource-nav-link">notes</a></li>
+				<li>
+					<a href="./programs.html" class="resource-nav-link">programs</a>
+				</li>
+				<li><a href="./points.html" class="resource-nav-link">points</a></li>
+				<li>
+					<a href="./interview-qa.html" class="resource-nav-link"
+						>interview QA</a
+					>
+				</li>
+				<li>
+					<a href="./assignment-qa.html" class="resource-nav-link"
+						>assignment QA</a
+					>
+				</li>
+			</ul>
+		</nav>
+
+		<span class="main-nav-btn" id="main-nav-btn">
+			<i class="fa-sharp fa-solid fa-bars fa-2x" style="color: #000"></i>
+		</span>
+
+		<!-- main navigator -->
+		<nav class="main-navbar" id="main-navbar">
+			<div class="main-navbar-header">
+				<span class="main-nav-close" id="main-nav-close">
+					<i class="fa-sharp fa-solid fa-xmark fa-1.5x" style="color: #000"></i>
+				</span>
+				<!-- main navigation button -->
+			</div>
+			<ul class="main-nav-items">
+				<span class="main-navbar-links">Main Navigator</span>
+				<br />
+				<li>
+					<a href="../01-language-fundamentals/notes.html" class="main-nav-link"
+						>Language Fundamentals</a
+					>
+				</li>
+				<li>
+					<a href="../02-static-members/notes.html" class="main-nav-link"
+						>static-members</a
+					>
+				</li>
+				<li>
+					<a href="../03-non-static-members/notes.html" class="main-nav-link"
+						>non-static-members</a
+					>
+				</li>
+				<li>
+					<a href="../04-inheritence/notes.html" class="main-nav-link"
+						>inheritance</a
+					>
+				</li>
+				<li>
+					<a href="../05-scanner-class/notes.html" class="main-nav-link"
+						>scanner-class</a
+					>
+				</li>
+				<li>
+					<a href="../06-objects-count/notes.html" class="main-nav-link"
+						>objects-count</a
+					>
+				</li>
+				<li>
+					<a
+						href="../07-packages-and-access-levels/notes.html"
+						class="main-nav-link"
+						>packages-and-access-levels</a
+					>
+				</li>
+				<li>
+					<a href="../08-encapsulation/notes.html" class="main-nav-link"
+						>encapsulation</a
+					>
+				</li>
+				<li>
+					<a href="../09-type-casting/notes.html" class="main-nav-link"
+						>type-casting</a
+					>
+				</li>
+				<li>
+					<a href="../10-polymorphism/notes.html" class="main-nav-link"
+						>polymorphism</a
+					>
+				</li>
+				<li>
+					<a href="../11-super-this-in-methods/notes.html" class="main-nav-link"
+						>super-this-in-methods</a
+					>
+				</li>
+				<li>
+					<a href="../12-abstraction/notes.html" class="main-nav-link"
+						>abstraction</a
+					>
+				</li>
+				<li><a href="index.html" class="main-nav-link">interfaces</a></li>
+				<li>
+					<a href="../14-arrays/notes.html" class="main-nav-link">arrays</a>
+				</li>
+				<li>
+					<a
+						href="../15-command-line-arguments/notes.html"
+						class="main-nav-link"
+						>command-line-arguments</a
+					>
+				</li>
+				<li>
+					<a href="../16-final-keyword/notes.html" class="main-nav-link"
+						>final-keyword</a
+					>
+				</li>
+				<li>
+					<a href="../17-exception-handling/notes.html" class="main-nav-link"
+						>exception-handling</a
+					>
+				</li>
+				<li>
+					<a href="../18-asserstion/notes.html" class="main-nav-link"
+						>assertion</a
+					>
+				</li>
+				<li><a href="../19-enum/notes.html" class="main-nav-link">enum</a></li>
+				<li>
+					<a href="../20-wrapper-classes/notes.html" class="main-nav-link"
+						>wrapper-classes</a
+					>
+				</li>
+				<li>
+					<a href="../21-string/notes.html" class="main-nav-link">string</a>
+				</li>
+				<li>
+					<a
+						href="../22-string-buffer-and-string-builder/notes.html"
+						class="main-nav-link"
+						>string-buffer-and-string-builder</a
+					>
+				</li>
+				<li>
+					<a href="../23-multi-threads/notes.html" class="main-nav-link"
+						>multi-threads</a
+					>
+				</li>
+				<li>
+					<a href="../24-object-class/notes.html" class="main-nav-link"
+						>object-class</a
+					>
+				</li>
+				<li>
+					<a href="../25-generics/notes.html" class="main-nav-link">Generics</a>
+				</li>
+				<li>
+					<a href="../26-collection-api/notes.html" class="main-nav-link"
+						>collection-API</a
+					>
+				</li>
+				<li>
+					<a href="../27-inner-classes/notes.html" class="main-nav-link"
+						>Inner classes</a
+					>
+				</li>
+
+				<li>
+					<a href="../28-annotations/notes.html" class="main-nav-link"
+						>Annotations</a
+					>
+				</li>
+				<li>
+					<a href="../29-jdk8-features/notes.html" class="main-nav-link"
+						>Java-8.0-Features</a
+					>
+				</li>
+				<li>
+					<a href="../30-file-handling/notes.html" class="main-nav-link"
+						>File Handling</a
+					>
+				</li>
+				<li>
+					<a href="../31-JDBC-MYSQL/notes.html" class="main-nav-link"
+						>JDBC-MYSQL</a
+					>
+				</li>
+				<li>
+					<a href="../JDBC/notes.html" class="main-nav-link">JDBC-ORACLE</a>
+				</li>
+			</ul>
+		</nav>
+
+		<!-- header -->
+		<header class="header">
+			<div class="banner">
+				<h1 class="banner-title">Object class in java - programs</h1>
+			</div>
+		</header>
+
+		<!-- end of header -->
+		<!-- content-divider -->
+		<div class="content-divider"></div>
+		<!-- end of content divider -->
+
+		<br />
+		<article class="topic app">
+			<h2>01-hello-world</h2>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 1</h3>
+			<pre class="prettyprint linenums">
+class HelloWorld
+{
+public static void main(String[] args)
+{
+System.out.println("Hello World!");
+}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 2</h3>
+			<pre class="prettyprint linenums">
+class HelloWorld 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<br />
+		<article class="topic app">
+			<h2>02-public-class-demonstration</h2>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 3</h3>
+			<pre class="prettyprint linenums">
+class HelloWorld 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 4</h3>
+			<pre class="prettyprint linenums">
+public class HelloWorldAgain
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World! Again");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 5</h3>
+			<pre class="prettyprint linenums">
+class C 
+{
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 6</h3>
+			<pre class="prettyprint linenums">
+class D
+{
+}
+class E
+{
+}
+class F
+{
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 7</h3>
+			<pre class="prettyprint linenums">
+public class HelloWorldAgainAndAgain
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World! Again and Again");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 8</h3>
+			<pre class="prettyprint linenums">
+class J
+{
+	public static void main(String[] args)
+	{
+		System.out.println("from J");
+	}
+}
+public class K
+{
+	public static void main(String[] args)
+	{
+		System.out.println("from K");
+	}
+}
+class L
+{
+	public static void main(String[] args)
+	{
+		System.out.println("from L");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 9</h3>
+			<pre class="prettyprint linenums">
+public class M
+{
+}
+public class N
+{
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 10</h3>
+			<pre class="prettyprint linenums">
+class G
+{
+}
+class H
+{
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 11</h3>
+			<pre class="prettyprint linenums">
+public class I
+{
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 12</h3>
+			<pre class="prettyprint linenums">
+public class O
+{
+}
+public class P
+{
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<br />
+		<article class="topic app">
+			<h2>03-identifiers</h2>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 13</h3>
+			<pre class="prettyprint linenums">
+class A 
+{
+	public static void main(String[] anyReference) 
+	{
+		System.out.println("Hello World!");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 14</h3>
+			<pre class="prettyprint linenums">
+class 0HelloWorld
+{
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 15</h3>
+			<pre class="prettyprint linenums">
+class Hello100World
+{
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 16</h3>
+			<pre class="prettyprint linenums">
+class Hello100World200
+{
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 17</h3>
+			<pre class="prettyprint linenums">
+class !HelloWorld
+{
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 18</h3>
+			<pre class="prettyprint linenums">
+class $HelloWorld
+{
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 19</h3>
+			<pre class="prettyprint linenums">
+class $Hello$World$
+{
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 20</h3>
+			<pre class="prettyprint linenums">
+class _Hello_World_
+{
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 21</h3>
+			<pre class="prettyprint linenums">
+class _$Hello$World$_$
+{
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 22</h3>
+			<pre class="prettyprint linenums">
+class $
+{
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 23</h3>
+			<pre class="prettyprint linenums">
+class _
+{
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 24</h3>
+			<pre class="prettyprint linenums">
+class public
+{
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 25</h3>
+			<pre class="prettyprint linenums">
+class M 
+{
+	public static void main(String[] args) 
+	{
+		String NAME = "vijay";
+		String name = "kumar";
+		System.out.println(NAME);
+		System.out.println(name);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 26</h3>
+			<pre class="prettyprint linenums">
+class m
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World! from m class");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 27</h3>
+			<pre class="prettyprint linenums">
+class Runnable
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 28</h3>
+			<pre class="prettyprint linenums">
+class ThisIsLengthyIdintifierNameWhichIsNotRecommendedAtAll 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 29</h3>
+			<pre class="prettyprint linenums">
+class Thread 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<br />
+		<article class="topic app">
+			<h2>04-comments-in-java</h2>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 30</h3>
+			<pre class="prettyprint linenums">
+class A 
+{
+	public static void main(String[] args) 
+	{
+		//This is a single line comment
+		System.out.println("Hello World!");
+		//The below statement has been removed from the latest release
+		//System.out.println("Hello World!");
+	}
+}
+//Comments are used for information(description) purpose.
+//on top of any statment or on top of a code block or on top of a java file we can write comments, so that new developers can understand about the code that has already been written by the previous developers.
+//comments will be ignored by the compilers, i,e it will not effect the flow of execution.
+//There are 3 types of comments in Java
+//1. Single Line 2.Multi Line 3. Documentation Comment.
+
+
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 31</h3>
+			<pre class="prettyprint linenums">
+class B 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		System.out.println("Hello World!");
+		System.out.println("Hello World!");
+		System.out.println("Hello World!");
+		/* This is an example for block level or
+		  Multiline comment, it will be spanning
+		  accross multiple lines */
+		//The below block commented statements are discontinued from the latest release.
+		/*
+		System.out.println("Hello World!");
+		System.out.println("Hello World!");
+		System.out.println("Hello World!");
+		System.out.println("Hello World!");
+		System.out.println("Hello World!");*/
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 32</h3>
+			<pre class="prettyprint linenums">
+/*
+* This is a Source code of a software
+* Author: vijay kumar
+* License: GNU public license
+* Year: 2023
+* This program containes a part of the software and prints hello world on the
+* command prompt
+* This is an example for documentation comment.
+* We can write some code related documentation. 
+*/
+class C 
+{
+	public static void main(String[] args) 
+	{
+		//write some comment
+		System.out.println("Hello World!");
+	}
+}
+/*
+1. ---------------------------------------------
+2. ------------------------------------------
+*/
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<br />
+		<article class="topic app">
+			<h2>05-literals-in-java</h2>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 33</h3>
+			<pre class="prettyprint linenums">
+class A 
+{
+	public static void main(String[] args) 
+	{
+		//a whole number without any decimal points
+		System.out.println(1000);
+		//a number with decimal point
+		System.out.println(90.0);
+		//a single character(any character) within a pair of single quotes
+		System.out.println('a');
+		//a sequence of characters(any no.s) within a pair of double quotes
+		System.out.println("abc");
+		//in case of boolean literal either it can be true or false
+		System.out.println(true);
+		//null cant be printed directly in SOP we need to print it via a reference variable
+		//A a1 = null;
+		//args = null;
+		//System.out.println(a1);
+		//System.out.println(args);
+		System.out.println("null");
+
+	}
+}
+// A literal is a value that can be assigned to a variable
+/*
+In java we have totally 6 types of literals
+1. Integer literal
+2. Floating literal
+3. Character literal
+4. String literal
+5. Boolean literal
+6. Null literal
+*/
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<br />
+		<article class="topic app">
+			<h2>06-arithmetic-operators</h2>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 34</h3>
+			<pre class="prettyprint linenums">
+class A 
+{
+	public static void main(String[] args) 
+	{
+		//we can perform mathematical operations in the SOP
+		//OPERAND[OPERATOR]OPERAND
+		System.out.println(10 + 10);//20
+		System.out.println(20 - 10);//10
+		System.out.println(10 * 10);//100
+		//In case of MOD or Modulus operator you will get remainder
+		System.out.println(10 % 2);//0
+		//In case division you will get quotient 
+		System.out.println(10 / 2);//5
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<br />
+		<article class="topic app">
+			<h2>07-basic-escape-characters</h2>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 35</h3>
+			<pre class="prettyprint linenums">
+class A 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!\nHello World!\nHello World!");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 36</h3>
+			<pre class="prettyprint linenums">
+class B 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!\tHello World!\tHello World!");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 37</h3>
+			<pre class="prettyprint linenums">
+class C
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!\b Hello World!\b Hello World!\b ");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 38</h3>
+			<pre class="prettyprint linenums">
+class D
+{
+	public static void main(String[] args) 
+	{
+		//carriage return '\r'
+		//brings the cursor to the beginning of the line by wiping out the first charaters in the line.  
+		System.out.println("Hello\rWorld!");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 39</h3>
+			<pre class="prettyprint linenums">
+class E
+{
+	public static void main(String[] args) 
+	{
+		//straightaway you cant print '\' bcz it has some speacial meaning to the compiler itself, we cant use it alone.
+		System.out.println("Hello\World!");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 40</h3>
+			<pre class="prettyprint linenums">
+class F
+{
+	public static void main(String[] args) 
+	{
+		//add one more '\' next to to the already available '\'
+		//to escape the main feature of backslash go for another backslash
+		System.out.println("Hello\\World!");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 41</h3>
+			<pre class="prettyprint linenums">
+class G 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println(""Hello World!"");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 42</h3>
+			<pre class="prettyprint linenums">
+class H
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("\"Trainer Has Seen 5,000 Students!\"");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 43</h3>
+			<pre class="prettyprint linenums">
+class I
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("'HelloWorld!'");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 44</h3>
+			<pre class="prettyprint linenums">
+class J
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("'Hello'123'World!'");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 45</h3>
+			<pre class="prettyprint linenums">
+class K
+{
+	public static void main(String[] args) 
+	{
+		//"'" (single quote)is a normal character inside the string only.
+		System.out.println("'");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 46</h3>
+			<pre class="prettyprint linenums">
+class L
+{
+	public static void main(String[] args) 
+	{
+		//we can print almost all characters in the sop directly except '\','""'
+		System.out.println("1");
+		System.out.println("2");
+		System.out.println("$");
+		System.out.println("!!!!!!");
+		System.out.println("^^^^^^^");
+		System.out.println("^");
+		System.out.println("-");
+		System.out.println("~~~~~~~~");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 47</h3>
+			<pre class="prettyprint linenums">
+class M 
+{
+	public static void main(String[] args) 
+	{
+		//unicode = text encoding format
+		//to print unicode characters
+		System.out.println("\u03B1");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<br />
+		<article class="topic app">
+			<h2>08-string-concatination</h2>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 48</h3>
+			<pre class="prettyprint linenums">
+class A 
+{
+	public static void main(String[] args) 
+	{
+		//String can be added to anything and anything can be added to String
+		System.out.println("Hello World: " + 123);
+		System.out.println(123 + " Hello World");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 49</h3>
+			<pre class="prettyprint linenums">
+class B
+{
+	public static void main(String[] args) 
+	{
+		//you can add any literal
+		System.out.println("Hello World: " + null);
+		System.out.println(null + " Hello World");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 50</h3>
+			<pre class="prettyprint linenums">
+class C
+{
+	public static void main(String[] args) 
+	{
+		//you can add any literal
+		//'+' character acts as a concatination operator if you are using in between String and any literal and String and String
+		System.out.println("Hello World: " + 123 + " Hello World");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 51</h3>
+			<pre class="prettyprint linenums">
+class D
+{
+	public static void main(String[] args) 
+	{
+		//you can add any literal
+		//'+' character acts as a concatination operator if you are using in between String and any literal and String and String
+		System.out.println("Hello World: " + 123 + 123);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 52</h3>
+			<pre class="prettyprint linenums">
+class E
+{
+	public static void main(String[] args) 
+	{
+		//you can add any literal
+		//'+' character acts as a addition operator if you are using in between number and number
+		System.out.println(123 + 123 + " Hello World: ");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 53</h3>
+			<pre class="prettyprint linenums">
+class F
+{
+	public static void main(String[] args) 
+	{
+		//you can add any literal
+		//'+' character acts as a addition operator if you are using in between number and number
+		System.out.println(123 + 123 + " Hello World: " + 123 + 123);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 54</h3>
+			<pre class="prettyprint linenums">
+class G
+{
+	public static void main(String[] args) 
+	{
+		//you can add any literal
+		//'+' character acts as a addition operator if you are using in between number and number
+		System.out.println(123 + 123 + " Hello World: " + 123 + 123 + 123);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 55</h3>
+			<pre class="prettyprint linenums">
+class H
+{
+	public static void main(String[] args) 
+	{
+		//you can add any literal
+		//'+' character acts as a addition operator if you are using in between number and number
+		System.out.println(123 + 123 + " Hello World: " + 123 + 123 + 123 + " Hello World");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<br />
+		<article class="topic app">
+			<h2>09-print-and-println</h2>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 56</h3>
+			<pre class="prettyprint linenums">
+class A 
+{
+	public static void main(String[] args) 
+	{
+		//String is an inbuilt class, we can create array object, we can create normal object, we can use string as a literal 
+		//ln (line)
+		//3 streams in java, 1. output stream 2. input stream 3. error stream
+		System.out.println("Hello World!");
+		System.out.println("Hello World!");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 57</h3>
+			<pre class="prettyprint linenums">
+class B
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		System.out.println();
+		System.out.println("Hello World!");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 58</h3>
+			<pre class="prettyprint linenums">
+class C
+{
+	public static void main(String[] args) 
+	{
+		System.out.print("Hello World!");
+		System.out.print(" Hello World!");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 59</h3>
+			<pre class="prettyprint linenums">
+class D
+{
+	public static void main(String[] args) 
+	{
+		System.out.print("PRINT");
+		System.out.println(" PRINTLN");
+		System.out.println("PRINTLN");
+		System.out.print("PRINT");
+		System.out.println(" PRINTLN");
+		System.out.print("PRINT");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 60</h3>
+			<pre class="prettyprint linenums">
+class E
+{
+	public static void main(String[] args) 
+	{
+		//useless
+		System.out.print();
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 61</h3>
+			<pre class="prettyprint linenums">
+class F 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println();
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<br />
+		<article class="topic app">
+			<h2>10-datatypes-and-variables</h2>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 62</h3>
+			<pre class="prettyprint linenums">
+class A 
+{
+	public static void main(String[] args) 
+	{
+		//DATATYPE IDENTIFIER; //variable declaration part
+		int i;//variable declaration part
+		// '=' is the assignment operator(left side assignment)
+		i = 10;//variable initializtion part
+		System.out.println(i);//usage 
+	}
+}
+/*
+Datatype: Type of the data. that we are providing for a variable.
+Variable: In order to store varying values we use variables.
+
+Note: variable is also an identifier
+
+In java we have two kinds of datatypes
+1.primitive type
+2.reference type -> String (datatype as well as class)
+
+8 primitive: byte, short, int, long, float, double, char, boolean
+6 are number primitive types: byte, short, int, long, float, double
+
+Ranges for number primitive types:
+byte: Range: -128 to 127.
+short: Range: -32,768 to 32,767.
+int: Range: -2,147,483,648 to 2,147,483,647.
+long: Range: -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807.
+float: Range: Approximately ±3.40282347E+38F (6-7 significant decimal digits).
+double: Range: Approximately ±1.79769313486231570E+308 (15 significant decimal digits).
+char: 16-bit Unicode character. Range: '\u0000' (0) to '\uffff' (65,535).
+boolean: Represents true or false.
+
+char: 'ANY_SINGLE_CHARACTER'
+boolean: either it can be true or false
+
+*/
+
+
+
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 63</h3>
+			<pre class="prettyprint linenums">
+class B 
+{
+	public static void main(String[] args) 
+	{
+		//declaration and intializtion in the same line
+		int i = 10;
+		System.out.println(i);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 64</h3>
+			<pre class="prettyprint linenums">
+class C 
+{
+	public static void main(String[] args) 
+	{
+		byte i = 10;
+		short j = 20;
+		int k = 30;
+		System.out.println(i + " " + j + " " + k);//10 20 30
+		System.out.println(i + j + k);//60
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 65</h3>
+			<pre class="prettyprint linenums">
+class D
+{
+	public static void main(String[] args) 
+	{
+		//by default whole number considered as int value only
+		//int will be upcasted to long
+		long l = 1000;
+		System.out.println(l);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 66</h3>
+			<pre class="prettyprint linenums">
+class E
+{
+	public static void main(String[] args) 
+	{
+		//if you want to strictly represent this value as long then add either 'l' or 'L' at the end of the integer value
+		long l = 1000L;
+		long m = 1000l;
+		System.out.println(l);
+		System.out.println(m); 
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 67</h3>
+			<pre class="prettyprint linenums">
+class F 
+{
+	public static void main(String[] args) 
+	{
+		//by default a number with decimal points considered as double only
+		float f = 20.6;
+		System.out.println(f);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 68</h3>
+			<pre class="prettyprint linenums">
+class G
+{
+	public static void main(String[] args) 
+	{
+		//by default a number with decimal points considered as double only
+		float f1 = 20.6f;
+		float f2 = 20.6F;
+		System.out.println(f1);
+		System.out.println(f2);
+		System.out.println(f1 + " " + f2);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 69</h3>
+			<pre class="prettyprint linenums">
+class H
+{
+	public static void main(String[] args) 
+	{
+		double d1 = 90.6d;
+		double d2 = 90.6D;
+		System.out.println(d1);
+		System.out.println(d2);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 70</h3>
+			<pre class="prettyprint linenums">
+class I 
+{
+	public static void main(String[] args) 
+	{
+		char ch = 'a';
+		System.out.println(ch);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 71</h3>
+			<pre class="prettyprint linenums">
+class J
+{
+	public static void main(String[] args) 
+	{
+		char ch = 'aa';
+		System.out.println(ch);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 72</h3>
+			<pre class="prettyprint linenums">
+class K 
+{
+	public             static           void       main(String[]      args) 
+	{
+		boolean               b           =                true;
+		System.out.       println(b                      );
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 73</h3>
+			<pre class="prettyprint linenums">
+class L 
+{
+	public static void main(String[] args) 
+	{
+		boolean b                =                     True;
+		System.out.println(b);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 74</h3>
+			<pre class="prettyprint linenums">
+class M 
+{
+	public static void main(String[] args) 
+	{
+		//String is a datatype and also a class
+		String s1 = "abc";
+		System.out.println(s1);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 75</h3>
+			<pre class="prettyprint linenums">
+class N 
+{
+	public static void main(String[] args) 
+	{
+		//local variables
+		//local variables belongs to a block or method in which you have declared them
+		//the scope(visibility) of local variables limited to that block or that method only, not outside.
+		int i = 10;
+		int j = 20;
+		int k = 30;
+		System.out.println(i);
+		System.out.println(j);
+		System.out.println(k);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 76</h3>
+			<pre class="prettyprint linenums">
+class O 
+{
+	public static void main(String[] args) 
+	{
+		//by using ',' as a seperator we can declare and intialization any number of variables of the same type.
+		int i = 10, j, k = 20, l = 30, m;
+		j = 40;
+		m = 50;
+		System.out.println(i);
+		System.out.println(j);
+		System.out.println(k);
+		System.out.println(l);
+		System.out.println(m);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 77</h3>
+			<pre class="prettyprint linenums">
+class P 
+{
+	public static void main(String[] args) 
+	{
+		int a, b, c, d;
+		float e, f;
+		boolean g, h;
+		char i, j;
+		String k, l;
+
+		//compound assignment
+		a = b = c = d = 10;
+		e = f = 10.0f;
+		g = h = false;
+		i = j = 'a';
+		k = l = "xyz";
+
+		System.out.println(a + " " + b + " " + c + " " + d);
+		System.out.println(e + " " + f);
+		System.out.println(g + " " + h);
+		System.out.println(i + " " + j);
+		System.out.println(k + " " + l);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 78</h3>
+			<pre class="prettyprint linenums">
+class Q 
+{
+	public static void main(String[] args) 
+	{
+		int i;
+		System.out.println(i = 10);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 79</h3>
+			<pre class="prettyprint linenums">
+class R
+{
+	public static void main(String[] args) 
+	{
+		int i;
+		System.out.println((i = 10) + (i = 20));
+		System.out.println(i);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 80</h3>
+			<pre class="prettyprint linenums">
+class S 
+{
+	public static void main(String[] args) 
+	{
+		//local variables must be initialized before usage
+		//there wont be any default values for local variables
+		int i;
+		System.out.println(i);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 81</h3>
+			<pre class="prettyprint linenums">
+class T
+{
+	public static void main(String[] args) 
+	{
+		int i;
+		System.out.println('i');
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 82</h3>
+			<pre class="prettyprint linenums">
+class U 
+{
+	public static void main(String[] args) 
+	{
+		int i;
+		int j = 10 + (i = 20) + i;
+		System.out.println(i);
+		System.out.println(j);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 83</h3>
+			<pre class="prettyprint linenums">
+class V
+{
+	public static void main(String[] args) 
+	{
+		int i;
+		int j = 10 + i + (i = 20);
+		System.out.println(i);
+		System.out.println(j);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 84</h3>
+			<pre class="prettyprint linenums">
+class W 
+{
+	public static void main(String[] args) 
+	{
+		int i;
+		int j = i;
+		System.out.println(i);
+		System.out.println(j);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 85</h3>
+			<pre class="prettyprint linenums">
+class X
+{
+	public static void main(String[] args) 
+	{
+		int i = 10;
+		int j = i * 100;
+		System.out.println(i);
+		System.out.println(j);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<br />
+		<article class="topic app">
+			<h2>11-relational-operators</h2>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 86</h3>
+			<pre class="prettyprint linenums">
+class A 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println(100 == 100);
+		System.out.println(100 != 100);
+		System.out.println(100 > 100);
+		System.out.println(1000 < 100);
+		System.out.println(100 >= 100);
+		System.out.println(100 <= 100);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<br />
+		<article class="topic app">
+			<h2>12-unary-operators</h2>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 87</h3>
+			<pre class="prettyprint linenums">
+class A 
+{
+	public static void main(String[] args) 
+	{
+		int i = 0;
+		//i = i + 1;
+		System.out.println(i++);
+		System.out.println(i);
+		System.out.println(i);
+	}
+}
+/*
+Unary operators in Java
+++[increment] [post-increment] [pre-increment]
+--[decrement] [post-decrement] [pre-decrement]
+*/
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 88</h3>
+			<pre class="prettyprint linenums">
+class B
+{
+	public static void main(String[] args) 
+	{
+		int i = 0;
+		//i = i - 1;
+		System.out.println(i--);
+		System.out.println(i);
+		System.out.println(i);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 89</h3>
+			<pre class="prettyprint linenums">
+class C 
+{
+	public static void main(String[] args) 
+	{
+		int i = 0;
+		int j = i++;
+		System.out.println(i);
+		System.out.println(j);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 90</h3>
+			<pre class="prettyprint linenums">
+class D
+{
+	public static void main(String[] args) 
+	{
+		int i = 0;
+		int j = i++ + i;
+		System.out.println(i);
+		System.out.println(j);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 91</h3>
+			<pre class="prettyprint linenums">
+class E
+{
+	public static void main(String[] args)
+	{
+		int i = 0;
+		
+		int j = i++ + i + i++ + i;//0 + 1 + 1 + 2
+		System.out.println(i);//2
+		System.out.println(j);//4
+	}
+}
+//i = 0, 1, 2
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 92</h3>
+			<pre class="prettyprint linenums">
+class F
+{
+	public static void main(String[] args)
+	{
+		int i = 0;
+		//     
+		int j = i-- + i + i-- + i;// 0 + -1 + -1 + -2
+		System.out.println(i);//-2
+		System.out.println(j);//-4
+	}
+}
+//i = 0, -1, -2
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 93</h3>
+			<pre class="prettyprint linenums">
+class G
+{
+	public static void main(String[] args)
+	{
+		int x = 0;
+		
+		int	y = x++ + x++ + x++ + x;//0 + 1 + 2 + 3
+		System.out.println(x);//3
+		System.out.println(y);//6
+	}
+}
+//x = 0, 1, 2, 3
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 94</h3>
+			<pre class="prettyprint linenums">
+class H
+{
+	public static void main(String[] args)
+	{
+		int i = 0;
+		
+		int j = i++ + i + i-- + i;//0 + 1 + 1 + 0
+		System.out.println(i);//0
+		System.out.println(j);//2
+	}
+}
+//i = 0, 1, 0
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 95</h3>
+			<pre class="prettyprint linenums">
+class I
+{
+	public static void main(String[] args)
+	{
+		int i = 0;
+	
+		int j = i++ + i + i-- + i + //0 + 1 + 1 + 0
+	   
+ 		i-- + i++ + i-- + i + //0 + -1 + 0 + -1 
+	 
+		i++ + i-- + i + i++; //-1 + 0 + -1 + -1
+		System.out.println(i);//0
+		System.out.println(j);//-3
+	}
+}
+
+//i = 0, 1, 0, -1, 0, -1, 0, -1, 0
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 96</h3>
+			<pre class="prettyprint linenums">
+class J
+{
+	public static void main(String[] args)
+	{
+		int i = 0;
+		System.out.println(++i);//1
+		System.out.println(i);//1
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 97</h3>
+			<pre class="prettyprint linenums">
+class K
+{
+	public static void main(String[] args)
+	{
+		int i = 0;
+		i = i++;
+		System.out.println(i);
+	}
+}
+//i = 0, 1, 0
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 98</h3>
+			<pre class="prettyprint linenums">
+class L
+{
+	public static void main(String[] args)
+	{
+		int i = 0;
+		int j = ++i;
+		System.out.println(i);
+		System.out.println(j);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 99</h3>
+			<pre class="prettyprint linenums">
+class M
+{
+	public static void main(String[] args)
+	{
+		int i = 0;
+		//      1   + 2   +  3  + 3
+		int j = ++i + ++i + ++i + i;
+		System.out.println(i);//3
+		System.out.println(j);//9
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 100</h3>
+			<pre class="prettyprint linenums">
+class N
+{
+	public static void main(String[] args)
+	{
+		int i = 0;
+		int j = ++i + i + ++i + i;//1 + 1 +  2 + 2
+		i = 0;
+		int k = --i + i + --i + i;// -1 + -1 + -2 + -2
+		System.out.println(i);//-2
+		System.out.println(j);//6
+		System.out.println(k);//-6
+	}
+}
+//i = 0, -1, -2
+//j = 6
+//k = -6
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 101</h3>
+			<pre class="prettyprint linenums">
+class O
+{
+	public static void main(String[] args)
+	{
+		//i = 0, 1, 0, 1, 0, -1, 0, 1, 0, -1, -2, -1, -2, -1, -2, -3, -2, -1, -2, -3, -4
+		int i = 0;
+		int j = ++i + i-- + ++i + i +//1 + 1 + 1 + 1 ==> 4
+		
+			i-- + i + --i + i +//1 + 0 + -1 + -1 ==> -1
+		
+			++i + i++ + --i + i +//0 + 0 + 0 + 0 ==> 0
+		
+			--i + i + i-- + i +//-1 + -1 + -1 + -2 ==>-5
+		
+			++i + --i + ++i + i +//-1 + -2 + -1 + -1 ==> -5
+		
+			--i + i + --i + i +//-2 + -2 + -3 + -3 ==> -10
+		
+			++i + i++ + --i + i +//-2 + -2 + -2 + -2 ==> -8
+		
+			i-- + i + i-- + i;//-2 + -3 + -3 + -4 ==> -12
+		System.out.println(i);//-4
+		System.out.println(j);//-37
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<br />
+		<article class="topic app">
+			<h2>13-if-block</h2>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 102</h3>
+			<pre class="prettyprint linenums">
+class A 
+{
+	public static void main(String[] args) 
+	{
+		if(false)
+		{
+			System.out.println("from if");
+		}
+		System.out.println("main end");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 103</h3>
+			<pre class="prettyprint linenums">
+class B 
+{
+	public static void main(String[] args) 
+	{
+		if(true)
+		{
+			System.out.println("from if");
+		}
+		System.out.println("main end");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 104</h3>
+			<pre class="prettyprint linenums">
+class C
+{
+	public static void main(String[] args)
+	{
+		int i = 10;
+		if(i == 10)
+		{
+			System.out.println("Gurupreet from punjab");
+		}
+		System.out.println("end of main");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 105</h3>
+			<pre class="prettyprint linenums">
+class D
+{
+	public static void main(String[] args)
+	{
+		int i = 10;
+		if(i != 10)
+		{
+			System.out.println("from if");
+		}
+		System.out.println("end of main");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 106</h3>
+			<pre class="prettyprint linenums">
+class E
+{
+	public static void main(String[] args)
+	{
+		int i = 10;
+		if(i != 100)
+		{
+			System.out.println("from if");
+		}
+		System.out.println("end of main");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 107</h3>
+			<pre class="prettyprint linenums">
+class F
+{
+	public static void main(String[] args)
+	{
+		int i = 10;
+		if(i = 10)
+		{
+			System.out.println("from if");
+		}
+		System.out.println("end of main");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 108</h3>
+			<pre class="prettyprint linenums">
+class G
+{
+	public static void main(String[] args)
+	{
+		boolean flag = true;
+		if(flag)
+		{
+			System.out.println("from if");
+		}
+		System.out.println("end of main");
+	}
+}
+//compare using relational operators
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 109</h3>
+			<pre class="prettyprint linenums">
+class H
+{
+	public static void main(String[] args)
+	{
+		boolean flag = false;
+		if(flag)
+		{
+			System.out.println("from if");
+		}
+		System.out.println("end of main");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 110</h3>
+			<pre class="prettyprint linenums">
+class I
+{
+	public static void main(String[] args)
+	{
+		boolean flag = !(!(!false != !true));
+		if(flag)
+		{
+			System.out.println("from if");
+		}
+		System.out.println("end of main");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 111</h3>
+			<pre class="prettyprint linenums">
+class J
+{
+	public static void main(String[] args)
+	{
+		boolean flag = false;
+		if(flag = true)
+		{
+			System.out.println("from if");
+		}
+		System.out.println("end of main");
+		System.out.println(flag);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 112</h3>
+			<pre class="prettyprint linenums">
+class K
+{
+	public static void main(String[] args)
+	{
+		boolean flag = true;
+		if(flag = false)
+		{
+			System.out.println("from if");
+		}
+		System.out.println("end of main");
+		System.out.println(flag);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 113</h3>
+			<pre class="prettyprint linenums">
+class L
+{
+	public static void main(String[] args)
+	{
+		boolean flag = false;
+		if(flag == true)
+		{
+			System.out.println("from if");
+		}
+		System.out.println("end of main");
+		System.out.println(flag);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 114</h3>
+			<pre class="prettyprint linenums">
+class M
+{
+	public static void main(String[] args)
+	{
+		boolean flag = true;
+		if(flag == false)
+		{
+			System.out.println("from if");
+		}
+		System.out.println("end of main");
+		System.out.println(flag);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<br />
+		<article class="topic app">
+			<h2>14-doubleand-and-doubleor</h2>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 115</h3>
+			<pre class="prettyprint linenums">
+class A
+{
+	public static void main(String[] args)
+	{
+		if(true && true)
+		{
+			System.out.println("from if");
+		}
+		System.out.println("end of main");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 116</h3>
+			<pre class="prettyprint linenums">
+class B
+{
+	public static void main(String[] args)
+	{
+		if(false && true)
+		{
+			System.out.println("from if");
+		}
+		System.out.println("end of main");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 117</h3>
+			<pre class="prettyprint linenums">
+class C
+{
+	public static void main(String[] args)
+	{
+		int i = 0;
+		if((i++ == 0) && (i++ == 1))
+		{
+			System.out.println("from if");
+			i++;
+		}
+		System.out.println("end of main");
+		System.out.println(i);
+	}
+}
+//i = 0, 1, 2, 3
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 118</h3>
+			<pre class="prettyprint linenums">
+class D
+{
+	public static void main(String[] args)
+	{
+		int i = 0;
+		if((i++ == 1) && (i++ == 1))
+		{
+			System.out.println("from if");
+			i++;
+		}
+		System.out.println("end of main");
+		System.out.println(i);
+	}
+}
+//i = 0, 1
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 119</h3>
+			<pre class="prettyprint linenums">
+class E
+{
+	public static void main(String[] args)
+	{
+		int i = 0;
+		if((++i == 1) && (i++ == 2))
+		{
+			System.out.println("from if");
+			i++;
+		}
+		System.out.println("end of main");
+		System.out.println(i);
+	}
+}
+//i = 0, 1, 2
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 120</h3>
+			<pre class="prettyprint linenums">
+class F
+{
+	public static void main(String[] args)
+	{
+		boolean flag = true;
+		if((flag = false) && (flag = true))
+		{
+			System.out.println("from if");
+		}
+		System.out.println("end of main");
+		System.out.println(flag);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 121</h3>
+			<pre class="prettyprint linenums">
+class G
+{
+	public static void main(String[] args)
+	{
+		if(false || true)
+		{
+			System.out.println("from if");
+		}
+		System.out.println("end of main");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 122</h3>
+			<pre class="prettyprint linenums">
+class H
+{
+	public static void main(String[] args)
+	{
+		int i = 0;
+		if((i++ == 0) || (i++ == 1))
+		{
+			System.out.println("from if");
+			i++;
+		}
+		System.out.println("end of main");
+		System.out.println(i);
+	}
+}
+//i = 0, 1, 2
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 123</h3>
+			<pre class="prettyprint linenums">
+class I
+{
+	public static void main(String[] args)
+	{
+		int i = 0;
+		if((i++ == 1) || (i++ == 1))
+		{
+			System.out.println("from if");
+			i++;
+		}
+		System.out.println("end of main");
+		System.out.println(i);
+	}
+}
+//i = 0, 1, 2, 3
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 124</h3>
+			<pre class="prettyprint linenums">
+class J
+{
+	public static void main(String[] args)
+	{
+		int i = 0;
+		if((++i == 1) || (i++ == 2))
+		{
+			System.out.println("from if");
+			i++;
+		}
+		System.out.println("end of main");
+		System.out.println(i);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<br />
+		<article class="topic app">
+			<h2>15-singleand-and-singleor</h2>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 125</h3>
+			<pre class="prettyprint linenums">
+class A
+{
+	public static void main(String[] args)
+	{
+		int i = 0;
+		if((i++ == 1) & (i++ == 1))
+		{
+			System.out.println("from if");
+			i++;
+		}
+		System.out.println("end of main");
+		System.out.println(i);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 126</h3>
+			<pre class="prettyprint linenums">
+class B
+{
+	public static void main(String[] args)
+	{
+		int i = 0;
+		if((i++ == 0) | (i++ == 1))
+		{
+			System.out.println("from if");
+			i++;
+		}
+		System.out.println("end of main");
+		System.out.println(i);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<br />
+		<article class="topic app">
+			<h2>16-if-else</h2>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 127</h3>
+			<pre class="prettyprint linenums">
+class A
+{
+	public static void main(String[] args)
+	{
+		if(true)
+			System.out.println(1);
+			System.out.println(2);
+			System.out.println(3);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 128</h3>
+			<pre class="prettyprint linenums">
+class B
+{
+	public static void main(String[] args)
+	{
+		if(false)
+			System.out.println(1);
+			System.out.println(2);
+			System.out.println(3);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 129</h3>
+			<pre class="prettyprint linenums">
+class C
+{
+	public static void main(String[] args)
+	{
+		if(true)
+		{
+			System.out.println("from if");
+		}
+		else
+		{
+			System.out.println("from else");
+		}
+		System.out.println("main end");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 130</h3>
+			<pre class="prettyprint linenums">
+class D
+{
+	public static void main(String[] args)
+	{
+		if(false)
+		{
+			System.out.println("from if");
+		}
+		else
+		{
+			System.out.println("from else");
+		}
+		System.out.println("main end");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 131</h3>
+			<pre class="prettyprint linenums">
+class E 
+{
+	public static void main(String[] args)
+	{
+		else
+		{
+			System.out.println("from else");
+		}
+		System.out.println("main end");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 132</h3>
+			<pre class="prettyprint linenums">
+class F
+{
+	public static void main(String[] args)
+	{
+		if(false)
+		{
+			System.out.println("from if");
+		}
+		System.out.println("abc");
+		else
+		{
+			System.out.println("from else");
+		}
+		System.out.println("main end");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 133</h3>
+			<pre class="prettyprint linenums">
+class G 
+{
+	public static void main(String[] args) 
+	{
+		if(true)
+		{
+			System.out.println("if");
+			if(true)
+			{
+				System.out.println("inner if");
+			}
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 134</h3>
+			<pre class="prettyprint linenums">
+class H
+{
+	public static void main(String[] args) 
+	{
+		if(true)
+		{
+			System.out.println("outer-if-begin");
+			if(false)
+			{
+				System.out.println("inner if");
+			}
+			System.out.println("outer-if-end");
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 135</h3>
+			<pre class="prettyprint linenums">
+class I
+{
+	public static void main(String[] args) 
+	{
+		if(false)
+		{
+			System.out.println("outer-if-begin");
+			if(true)
+			{
+				if (true)
+				{
+					if (true)
+					{
+						System.out.println("inner-most-if");
+					}
+				}
+			}
+			System.out.println("outer-if-end");
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 136</h3>
+			<pre class="prettyprint linenums">
+class J 
+{
+	public static void main(String[] args) 
+	{
+		if (true)
+		{
+			System.out.println("from if");				
+			if (false)
+			{
+				System.out.println("if-if-block");				
+			}
+			else
+			{
+				System.out.println("if-if-else-block");		
+			}
+		}
+		else
+		{
+			System.out.println("from else");			
+		}
+		System.out.println("main end");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 137</h3>
+			<pre class="prettyprint linenums">
+class K
+{
+	public static void main(String[] args) 
+	{
+		if (false)
+		{
+			System.out.println("from if");				
+		}
+		else
+		{
+			if (true)
+			{
+				System.out.println("from else block - if");	
+			}
+			else
+			{
+				System.out.println("from else block - else");		
+			}
+		}
+		System.out.println("main end");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 138</h3>
+			<pre class="prettyprint linenums">
+class L
+{
+	public static void main(String[] args)
+	{
+		if(true)
+		if(true)
+			System.out.println("inner if");
+		else
+			System.out.println("else1");
+		else
+			System.out.println("else2");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 139</h3>
+			<pre class="prettyprint linenums">
+class M
+{
+	public static void main(String[] args)
+	{
+		if(false)
+		if(true)
+			System.out.println("inner if");
+		else
+			System.out.println("else1");
+		else
+			System.out.println("else2");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 140</h3>
+			<pre class="prettyprint linenums">
+class N
+{
+	public static void main(String[] args)
+	{
+		if(true)
+		if(false)
+			System.out.println("inner if");
+		else
+			System.out.println("else1");
+		else
+			System.out.println("else2");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<br />
+		<article class="topic app">
+			<h2>17-if-and-else-if-and-else-blocks</h2>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 141</h3>
+			<pre class="prettyprint linenums">
+class A 
+{
+	public static void main(String[] args) 
+	{
+		if (false)
+		{
+			System.out.println("from if");
+		}
+		else if(true)
+		{
+			System.out.println("from else if");
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 142</h3>
+			<pre class="prettyprint linenums">
+class B
+{
+	public static void main(String[] args) 
+	{
+		if (false)
+		{
+			System.out.println("from if");
+		}
+		else if(false)
+		{
+			System.out.println("from else if");
+		}
+		else if(true)
+		{
+			System.out.println("from last else if");
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 143</h3>
+			<pre class="prettyprint linenums">
+class C
+{
+	public static void main(String[] args) 
+	{
+		if (false)
+		{
+			System.out.println("from if");
+		}
+		else if(true)
+		{
+			System.out.println("from else if");
+		}
+		else if(false)
+		{
+			System.out.println("from last else if");
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 144</h3>
+			<pre class="prettyprint linenums">
+class D
+{
+	public static void main(String[] args) 
+	{
+		if(false)
+		{
+			System.out.println("from if");
+		}
+		else if(true)
+		{
+			System.out.println("from else if 1");
+			System.out.println("from else if 1");
+			System.out.println("from else if 1");
+			System.out.println("from else if 1");
+			System.out.println("from else if 1");
+			System.out.println("from else if 1");
+			System.out.println("from else if 1");
+		}
+		else if(true)
+		{
+			System.out.println("from else if 2");
+		}
+		else if(true)
+		{
+			System.out.println("from else if 3");
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 145</h3>
+			<pre class="prettyprint linenums">
+class E
+{
+	public static void main(String[] args) 
+	{
+		if(false)
+		{
+			System.out.println("from if");
+		}
+		else if(false)
+		{
+			System.out.println("from else if 1");
+		}
+		else if(false)
+		{
+			System.out.println("from else if 2");
+		}
+		else if(false)
+		{
+			System.out.println("from else if 3");
+		}
+		else
+		{
+			System.out.println("from last else");
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 146</h3>
+			<pre class="prettyprint linenums">
+class F
+{
+	public static void main(String[] args) 
+	{
+		if(false)
+		{
+			System.out.println("from if");
+		}
+		else
+		{
+			System.out.println("from last else");
+		}
+		else if(false)
+		{
+			System.out.println("from else if 1");
+		}
+		else if(false)
+		{
+			System.out.println("from else if 2");
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 147</h3>
+			<pre class="prettyprint linenums">
+class G
+{
+	public static void main(String[] args) 
+	{
+		else if(true)
+		{
+			System.out.println("from else if 1");
+		}	
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 148</h3>
+			<pre class="prettyprint linenums">
+class H
+{
+	public static void main(String[] args) 
+	{
+		if(false)
+		{
+			System.out.println("from if");
+		}
+		System.out.println("some statement");
+		else if(false)
+		{
+			System.out.println("from else if");
+		}	
+		else
+		{
+			System.out.println("from last else");
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 149</h3>
+			<pre class="prettyprint linenums">
+class I
+{
+	public static void main(String[] args) 
+	{
+		if(false)
+		{
+			System.out.println("from if");
+		}
+		else if(false)
+		{
+			System.out.println("from else if");
+		}	
+		System.out.println("some statement");
+		else if(false)
+		{
+			System.out.println("from last else");
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 150</h3>
+			<pre class="prettyprint linenums">
+class J
+{
+	public static void main(String[] args) 
+	{
+		if(false)
+		{
+			System.out.println("from if");
+		}
+		else if(false)
+		{
+			System.out.println("from else if");
+		}	
+		System.out.println("some statement");
+		else
+		{
+			System.out.println("from last else");
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 151</h3>
+			<pre class="prettyprint linenums">
+class K
+{
+	public static void main(String[] args) 
+	{
+		if(false)
+		{
+			System.out.println("from if");
+		}
+		else
+		{
+			System.out.println("from else 1");
+		}
+		else
+		{
+			System.out.println("from else 2");
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 152</h3>
+			<pre class="prettyprint linenums">
+class L
+{
+	public static void main(String[] args) 
+	{
+		if(false)
+			System.out.println("from if");
+		else
+			System.out.println("from else 1");
+		else
+			System.out.println("from else 2");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 153</h3>
+			<pre class="prettyprint linenums">
+/*
+Given an integer, n, perform the following conditional actions:
+
+If n is odd, print Weird
+If n is even and in the inclusive range of 2 to 5, print Not Weird
+If n is even and in the inclusive range of 6 to 20, print Weird
+If n is even and greater than 20, print Not Weird
+*/
+
+class M 
+{
+	public static void main(String[] args) 
+	{
+		int N = 4;
+
+		if(N % 2 != 0)
+		{
+			System.out.println("Weird");
+		}
+		else if(N % 2 == 0 && N >= 2 && N <= 5)
+		{
+			System.out.println("Not Weird");
+		}
+		else if(N % 2 == 0 && N >= 6 && N <= 20)
+		{
+			System.out.println("Weird");
+		}
+		else if(N % 2 == 0 && N > 20)
+		{
+			System.out.println("Not Weird");
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<br />
+		<article class="topic app">
+			<h2>18-left-shift-and-right-shift</h2>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 154</h3>
+			<pre class="prettyprint linenums">
+class A 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println(10 << 2);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 155</h3>
+			<pre class="prettyprint linenums">
+class B
+{
+	public static void main(String[] args) 
+	{
+		System.out.println(10 << 3);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 156</h3>
+			<pre class="prettyprint linenums">
+class C
+{
+	public static void main(String[] args) 
+	{
+		System.out.println(10 >> 2);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 157</h3>
+			<pre class="prettyprint linenums">
+class D
+{
+	public static void main(String[] args) 
+	{
+		System.out.println(10 >> 3);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<br />
+		<article class="topic app">
+			<h2>19-negation-operator</h2>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 158</h3>
+			<pre class="prettyprint linenums">
+class A 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println(~4);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<br />
+		<article class="topic app">
+			<h2>20-ternary-operator</h2>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 159</h3>
+			<pre class="prettyprint linenums">
+class A 
+{
+	public static void main(String[] args) 
+	{
+		if (true)
+		{
+			System.out.println("Hello");
+		}
+		else
+		{
+			System.out.println("Goodbye");
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 160</h3>
+			<pre class="prettyprint linenums">
+class B
+{
+	public static void main(String[] args) 
+	{
+		String str = true ? "Hello" : "GoodBye";
+		System.out.println(str);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 161</h3>
+			<pre class="prettyprint linenums">
+class C
+{
+	public static void main(String[] args) 
+	{
+		boolean b = (10 == 100) ? true : false;
+		System.out.println(b);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 162</h3>
+			<pre class="prettyprint linenums">
+class D
+{
+	public static void main(String[] args) 
+	{
+		int i = false ? 10 : 20;
+		System.out.println(i);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 163</h3>
+			<pre class="prettyprint linenums">
+class E 
+{
+	public static void main(String[] args) 
+	{
+		int firstNum = 10;
+		int secondNum = 0;
+		if(firstNum < secondNum)
+		{
+			System.out.println("Among firstNum and secondNum: " + firstNum + " is minimum");
+		}
+		else
+		{
+			System.out.println("Among firstNum and secondNum: " + secondNum + " is minimum");
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 164</h3>
+			<pre class="prettyprint linenums">
+class F
+{
+	public static void main(String[] args) 
+	{
+		int firstNum = 5;
+		int secondNum = 0;
+		int thirdNum = 10;
+		if(firstNum < secondNum && firstNum < thirdNum)
+		{
+			System.out.println("Among firstNum, secondNum, thirdNum : " + firstNum + " is minimum");
+		}
+		else if(secondNum < thirdNum)
+		{
+			System.out.println("Among firstNum, secondNum, thirdNum : " + secondNum + " is minimum");
+		}
+		else
+		{
+			System.out.println("Among firstNum, secondNum, thirdNum : " + thirdNum + " is minimum");
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 165</h3>
+			<pre class="prettyprint linenums">
+class G 
+{
+	public static void main(String[] args) 
+	{
+		int firstNum = -5;
+		int secondNum = 0;
+
+		int min = (firstNum < secondNum) ? firstNum : secondNum;
+		System.out.println(min);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 166</h3>
+			<pre class="prettyprint linenums">
+class H
+{
+	public static void main(String[] args) 
+	{
+		int firstNum = -5;
+		int secondNum = -110;
+		int thirdNum = -10;
+
+		int min = (firstNum < secondNum && firstNum < thirdNum) ? firstNum : (secondNum < thirdNum) ? secondNum : thirdNum;
+
+		System.out.println(min);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 167</h3>
+			<pre class="prettyprint linenums">
+class I
+{
+	public static void main(String[] args) 
+	{
+		int firstNum = -5110;
+		int secondNum = -2110;
+		int thirdNum = -1110;
+		int fourthNum = -770;
+
+		int min = (firstNum < secondNum && firstNum < thirdNum && firstNum < fourthNum) ? firstNum : (secondNum < thirdNum && secondNum < fourthNum) ? secondNum : (thirdNum < fourthNum) ? thirdNum : fourthNum;
+
+		System.out.println(min);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<br />
+		<article class="topic app">
+			<h2>21-for-loop</h2>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 168</h3>
+			<pre class="prettyprint linenums">
+class A 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println(1);
+		System.out.println(2);
+		System.out.println(3);
+		System.out.println(4);
+		System.out.println(5);
+		System.out.println(6);
+		System.out.println(7);
+		System.out.println(8);
+		System.out.println(9);
+		System.out.println(10);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 169</h3>
+			<pre class="prettyprint linenums">
+class B 
+{
+	public static void main(String[] args) 
+	{
+		for (int i = 1; i <= 100000; i++)
+		{
+			System.out.println(i);
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 170</h3>
+			<pre class="prettyprint linenums">
+class C 
+{
+	public static void main(String[] args) 
+	{
+		for(int i = 0; i < 10; i++)
+		{
+			System.out.println("i value: " + i);
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 171</h3>
+			<pre class="prettyprint linenums">
+class D 
+{
+	public static void main(String[] args) 
+	{
+		for(int i = 5; i > 0; --i)
+		{
+			System.out.println("i value: " + i);
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 172</h3>
+			<pre class="prettyprint linenums">
+class E 
+{
+	public static void main(String[] args) 
+	{
+		for(int i = 0; i < 5; i++)
+		{
+			System.out.println("i value:" + i);
+		}
+		System.out.println("main end:" + i);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 173</h3>
+			<pre class="prettyprint linenums">
+class F
+{
+	public static void main(String[] args) 
+	{
+		int i;
+		for(i = 0; i < 5; i++)
+		{
+			System.out.println("i value: " + i);
+		}
+		System.out.println("main end: " + i);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 174</h3>
+			<pre class="prettyprint linenums">
+class G 
+{
+	public static void main(String[] args) 
+	{
+		for(int i = 0; i < 10; i++)
+		System.out.println("loop: " + i);
+		System.out.println("--------------------");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 175</h3>
+			<pre class="prettyprint linenums">
+class H
+{
+	public static void main(String[] args) 
+	{
+		for(int i = 0; i < 10; i++)
+		System.out.println("loop: " + i);
+		System.out.println("main " + i);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 176</h3>
+			<pre class="prettyprint linenums">
+class I
+{
+	public static void main(String[] args) 
+	{
+		int i;
+		for(i = 0; i < 10; i++)
+		System.out.println("loop: " + i);
+		System.out.println("main " + i);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 177</h3>
+			<pre class="prettyprint linenums">
+class J
+{
+	public static void main(String[] args) 
+	{
+		int i;
+		for(i = 0; i < 10; i++);
+		System.out.println("loop: " + i);
+		System.out.println("main: " + i);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 178</h3>
+			<pre class="prettyprint linenums">
+class K
+{
+	public static void main(String[] args) 
+	{
+		for(int i = 0; i < 10; i++);
+		System.out.println("loop: " + i);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 179</h3>
+			<pre class="prettyprint linenums">
+class L 
+{
+	public static void main(String[] args) 
+	{
+		int i;
+		for(i = 0; i < 5; i++);
+		System.out.println("loop: " + i);
+		System.out.println("main: " + i);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 180</h3>
+			<pre class="prettyprint linenums">
+class M 
+{
+	public static void main(String[] args)
+	{
+		for(int i = 0, j = 10; i < 5; i++, j--)
+		{
+			System.out.println(i + ":" + j);
+		}
+	}
+}
+/*
+//i = 0, 1, 2, 3, 4, 5
+//j = 10, 9, 8, 7, 6, 5
+
+0:10
+1:9
+2:8
+3:7
+4:6
+
+*/
+
+
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 181</h3>
+			<pre class="prettyprint linenums">
+class N
+{
+	public static void main(String[] args)
+	{
+		int i, j;
+		for(i = 0, j = 10; i < 5; i++, j--)
+		{
+			System.out.println(i + ":" + j);
+		}
+		System.out.println("main end: " + i + ":" + j);
+	}
+}
+/*
+//i = 0, 1, 2, 3, 4, 5
+//j = 10, 9, 8, 7, 6, 5
+
+0:10
+1:9
+2:8
+3:7
+4:6
+main end: 5:5
+
+*/
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 182</h3>
+			<pre class="prettyprint linenums">
+class O 
+{
+	public static void main(String[] args)
+	{
+		int i, j;
+		for(i = 0, j = 20;
+		(i < 5 || j > 10);
+			i++, j--)
+		{
+			System.out.println(i + ":" + j);
+		}
+		System.out.println(i + ":" + j);
+	}
+}
+
+
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 183</h3>
+			<pre class="prettyprint linenums">
+class P
+{
+	public static void main(String[] args)
+	{
+		int i, j;
+		for(i = 0, j = 20;
+		(i < 6 && j > 15);
+			i++, j--)
+		{
+			System.out.println(i + ":" + j);
+		}
+		System.out.println(i + ":" + j);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 184</h3>
+			<pre class="prettyprint linenums">
+class Q
+{
+	public static void main(String[] args)
+	{
+		int i;
+		for(i = 0, System.out.println("INITIALIZER");
+		i < 5;
+		i++, System.out.println("INCREMENT"))
+		{
+			System.out.println("BODY");
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 185</h3>
+			<pre class="prettyprint linenums">
+class R
+{
+	public static void main(String[] args) 
+	{
+		for(int i = 0; false; i++)
+		{
+			System.out.println("from if");
+		}
+		System.out.println("main");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 186</h3>
+			<pre class="prettyprint linenums">
+class S
+{
+	public static void main(String[] args) 
+	{
+		for(int i = 0; true; i++)
+		{
+			System.out.println("from if");
+		}
+		System.out.println("main");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 187</h3>
+			<pre class="prettyprint linenums">
+class T
+{
+	public static void main(String[] args) 
+	{
+		for(int i = 0; true; i++)
+		{
+			System.out.println("from if");
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 188</h3>
+			<pre class="prettyprint linenums">
+class U
+{
+	public static void main(String[] args) 
+	{
+		for(int i = 0; false; i++);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 189</h3>
+			<pre class="prettyprint linenums">
+class V
+{
+	public static void main(String[] args) 
+	{
+		for(int i = 0; true; i++);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 190</h3>
+			<pre class="prettyprint linenums">
+class W
+{
+	public static void main(String[] args) 
+	{
+		for(int i = 0; true; i++);
+		System.out.println("main end");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 191</h3>
+			<pre class="prettyprint linenums">
+class X
+{
+	public static void main(String[] args) 
+	{
+		int i, j;
+		for (i = 0; i <= 4; i++)
+		{
+			System.out.println("iteration number: " + i);
+			for (j = 0; j <= 4; j++)
+			{
+				System.out.print(i+""+j);
+			}
+			System.out.println();
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 192</h3>
+			<pre class="prettyprint linenums">
+class Y 
+{
+	public static void main(String[] args) 
+	{
+		int i, j;
+		for (i = 1; i <= 4; i++)
+		{
+			for (j = 1; j <= 4; j++)
+			{
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+	}
+}
+
+/*
+****
+****
+****
+****
+*/
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 193</h3>
+			<pre class="prettyprint linenums">
+class Z
+{
+	public static void main(String[] args) 
+	{
+		//int a = 8;
+		//a= 8, 9, 10, 9, 8
+	     //  8  + 10  - 10  + 8
+		 //  16
+		//a = a++ + ++a - a-- + --a;
+		//System.out.println(a);
+		int i, j;
+		for (i = 1; i <= 5; i++)
+		{
+			for (j = 1; j <= i; j++)
+			{
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<br />
+		<article class="topic app">
+			<h2>22-continue</h2>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 194</h3>
+			<pre class="prettyprint linenums">
+class A
+{
+	public static void main(String[] args)
+	{
+		int i;
+		for(i = 0; i < 10; i++)
+		{
+			System.out.println("loop begin: " + i);
+			if(i > 5)
+			{
+				continue;
+			}
+			System.out.println("loop end: " + i);
+		}
+		System.out.println("main end: " + i);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 195</h3>
+			<pre class="prettyprint linenums">
+class B
+{
+	public static void main(String[] args)
+	{
+		int i;
+		for(i = 0; i < 10; i++)
+		{
+			System.out.println("loop begin: " + i);
+			if(i > 5)
+			{
+				continue;
+				System.out.println("some statement");
+			}
+			System.out.println("loop end: " + i);
+		}
+		System.out.println("main end: " + i);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 196</h3>
+			<pre class="prettyprint linenums">
+class C
+{
+	public static void main(String[] args)
+	{
+		int i = 10;
+		
+		if(i > 5)
+		{
+			continue;
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 197</h3>
+			<pre class="prettyprint linenums">
+class D
+{
+	public static void main(String[] args)
+	{
+		for (int i = 0; i < 10; i++)
+		{
+			System.out.println(i);
+			continue;	
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 198</h3>
+			<pre class="prettyprint linenums">
+class E
+{
+	public static void main(String[] args)
+	{
+		for (int i = 0; i < 10; i++)
+		{
+			System.out.println(i);
+			continue;	
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 199</h3>
+			<pre class="prettyprint linenums">
+class F
+{
+	public static void main(String[] args)
+	{
+		for (int i = 1; i <= 5; i++)
+		{
+			System.out.println(i);
+			if(i >= 3)
+			{
+				continue;
+			}
+			System.out.println(i);
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 200</h3>
+			<pre class="prettyprint linenums">
+class G
+{
+	public static void main(String[] args)
+	{
+		for (int i = 1; i <= 5; i++)
+		{
+			System.out.println(i);
+			if(i >= 3)
+			{
+				continue;
+				continue;
+			}
+			System.out.println(i);
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 201</h3>
+			<pre class="prettyprint linenums">
+class H
+{
+	public static void main(String[] args)
+	{
+		for (int i = 1; i <= 5; i++)
+		{
+			System.out.println("main begin: " + i);
+			if(i == 2)
+			{
+				System.out.println("skipping to next iteration: " + i);
+				continue;
+			}
+			System.out.println("main middle: " + i);
+			if(i == 3)
+			{
+				System.out.println("skipping to next iteration: " + i);
+				continue;
+			}
+			System.out.println("main end: " + i);
+			System.out.println("moving to next iteration: " + i);
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 202</h3>
+			<pre class="prettyprint linenums">
+class I
+{
+	public static void main(String[] args)
+	{
+		for(int i = 1; i <= 5; i++)
+		{
+			if(i == 2)
+			{
+				System.out.println("current i value is 2: " + i);
+			}
+			else if(i == 3)
+			{
+				System.out.println("current i value is 3: " + i);
+			}
+			else if(i == 5)
+			{
+				System.out.println("current i value is 5: " + i);
+			}
+			else
+			{
+				System.out.println("current i value is other than 2, 3, 5: " + i);
+			}
+		}
+	}
+}
+/*
+Possibilities
+----------------
+case 1: if block alone is possible
+case 2: one if and correspondigly one else
+case 3: one if and any no. of else if blocks
+case 4: one if and any no. of else if blocks and at last one else
+
+Impossibilities
+----------------
+case 1: else alone
+case 2: else if alone is not possible
+case 3: for one if multiple else block not possible
+case 4: one if block after multiple else-ifs then you cant develop more than one else
+*/
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 203</h3>
+			<pre class="prettyprint linenums">
+class J
+{
+	public static void main(String[] args)
+	{
+		for(int i = 0; i <= 10; i += 2)//i = i + 2
+		{
+			System.out.println(i);
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 204</h3>
+			<pre class="prettyprint linenums">
+class K
+{
+	public static void main(String[] args)
+	{
+		for(int i = 1; i <= 10; i++)
+		{
+			System.out.println("200 x " + 200 * i);
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<br />
+		<article class="topic app">
+			<h2>23-break</h2>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 205</h3>
+			<pre class="prettyprint linenums">
+class A
+{
+	public static void main(String[] args)
+	{
+		for(int i = 0; i < 10; i++)
+		{
+			System.out.println("loop begin");
+			if(i > 5)
+			{
+				break;
+			}
+			System.out.println("loop end");
+		}
+		System.out.println("main end");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 206</h3>
+			<pre class="prettyprint linenums">
+class B
+{
+	public static void main(String[] args)
+	{
+		int i;
+		for(i = 0; i < 10; i++)
+		{
+			System.out.println("loop begin: " + i);
+			if(i > 5)
+			{
+				break;
+			}
+			System.out.println("loop end: " + i);
+		}
+		System.out.println("main end: " + i);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 207</h3>
+			<pre class="prettyprint linenums">
+class C
+{
+	public static void main(String[] args)
+	{
+		int i;
+		for(i = 0; i < 10; i++)
+		{
+			System.out.println("loop begin: " + i);
+			if(i > 5)
+			{
+				break;
+				System.out.println("some statements");
+			}
+			System.out.println("loop end: " + i);
+		}
+		System.out.println("main end: " + i);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 208</h3>
+			<pre class="prettyprint linenums">
+class D
+{
+	public static void main(String[] args)
+	{
+		int i;
+		for(i = 0; i < 10; i++)
+		{
+			System.out.println("loop begin: " + i);
+			if(i > 5)
+			{
+				System.out.println("some statements");
+				break;
+			}
+			System.out.println("loop end: " + i);
+		}
+		System.out.println("main end: " + i);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 209</h3>
+			<pre class="prettyprint linenums">
+class E
+{
+	public static void main(String[] args)
+	{
+		int i;
+		for(i = 0; i < 10; i++)
+		{
+			System.out.println("loop begin: " + i);
+			if(i > 5)
+			{
+				System.out.println("some statements");
+				break;
+				System.out.println("some statements");
+			}
+			System.out.println("loop end: " + i);
+		}
+		System.out.println("main end: " + i);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 210</h3>
+			<pre class="prettyprint linenums">
+class F
+{
+	public static void main(String[] args)
+	{
+		int i;
+		for(i = 0; i < 10; i++)
+		{
+			System.out.println("loop begin: " + i);
+			if(i > 5)
+			{
+				System.out.println("some statements");
+				break;
+				break;
+			}
+			System.out.println("loop end: " + i);
+		}
+		System.out.println("main end: " + i);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 211</h3>
+			<pre class="prettyprint linenums">
+class G
+{
+	public static void main(String[] args)
+	{
+		int i;
+		for(i = 0; i < 10; i++)
+		{
+			System.out.println("loop begin: " + i);
+			break;
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 212</h3>
+			<pre class="prettyprint linenums">
+class H
+{
+	public static void main(String[] args)
+	{
+		if(true)
+		{
+			//break can be used within switch or any of loop only
+			//continue can be used within any loop only
+			break;
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<br />
+		<article class="topic app">
+			<h2>24-loop-lables</h2>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 213</h3>
+			<pre class="prettyprint linenums">
+class A
+{
+	public static void main(String[] args)
+	{
+		for(int i = 0; i < 2; i++)
+		{
+			System.out.println("loop1 begin: " + i);
+			for(int j = 0; j < 5; j++)
+			{
+				System.out.println("loop2 begin: " + j);
+				if(j > 2)
+				{
+					continue;
+				}
+				System.out.println("loop2 end: " + j);
+			}
+			System.out.println("loop1 end: " + i);
+		}
+		System.out.println("main end");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 214</h3>
+			<pre class="prettyprint linenums">
+class B
+{
+	public static void main(String[] args)
+	{
+		for(int i = 0; i < 2; i++)
+		{
+			System.out.println("loop1 begin: " + i);
+			for(int j = 0; j < 5; j++)
+			{
+				System.out.println("loop2 begin: " + j);
+				if(j > 2)
+				{
+					break;
+				}
+				System.out.println("loop2 end: " + j);
+			}
+			System.out.println("loop1 end: " + i);
+		}
+		System.out.println("main end");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 215</h3>
+			<pre class="prettyprint linenums">
+class C
+{
+	public static void main(String[] args)
+	{
+		outer:
+		for(int i = 0; i < 2; i++)
+		{
+			System.out.println("loop1 begin: " + i);
+			inner:
+			for(int j = 0; j < 5; j++)
+			{
+				System.out.println("loop2 begin: " + j);
+				if(j > 2)
+				{
+					continue outer;
+				}
+				System.out.println("loop2 end: " + j);
+			}
+			System.out.println("loop1 end: " + i);
+		}
+		System.out.println("main end");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 216</h3>
+			<pre class="prettyprint linenums">
+class D
+{
+	public static void main(String[] args)
+	{
+		outer:
+		for(int i = 0; i < 2; i++)
+		{
+			System.out.println("loop1 begin: " + i);
+			inner:
+			for(int j = 0; j < 5; j++)
+			{
+				System.out.println("loop2 begin: " + j);
+				if(j > 2)
+				{
+					break outer;
+				}
+				System.out.println("loop2 end: " + j);
+			}
+			System.out.println("loop1 end: " + i);
+		}
+		System.out.println("main end");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<br />
+		<article class="topic app">
+			<h2>25-enhanced-for-loop-or-for-each-loop</h2>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 217</h3>
+			<pre class="prettyprint linenums">
+class A 
+{
+	public static void main(String[] args) 
+	{
+		int[] array = {10, 20, 30, 40};
+
+		for (int i : array)
+		{
+			System.out.println(i);
+		}
+	}
+}
+/*
+enhanced for loop or for-each loop
+introduced in Java 1.5
+
+
+*/
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 218</h3>
+			<pre class="prettyprint linenums">
+class B
+{
+	public static void main(String[] args) 
+	{
+		int[] array = {10, 20, 30, 40};
+
+		for (int i : array)
+		{
+			if (i == 20)
+			{
+				break;
+			}
+			System.out.println(i);
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 219</h3>
+			<pre class="prettyprint linenums">
+class C
+{
+	public static void main(String[] args) 
+	{
+		float[] array = {10.0f, 20.0f, 30.0f, 40.0f};
+
+		for (float i : array)
+		{
+			System.out.println(i);
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 220</h3>
+			<pre class="prettyprint linenums">
+class D
+{
+	public static void main(String[] args) 
+	{
+		double[] array = {10.0, 20.0, 30.0, 40.0};
+
+		for (double i : array)
+		{
+			System.out.println(i);
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 221</h3>
+			<pre class="prettyprint linenums">
+class E
+{
+	public static void main(String[] args) 
+	{
+		boolean[] array = {true, false, false, true};
+
+		for (boolean i : array)
+		{
+			System.out.println(i);
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 222</h3>
+			<pre class="prettyprint linenums">
+class F
+{
+	public static void main(String[] args) 
+	{
+		char[] array = {'a', 'b', 'c', 'd'};
+
+		for (char i : array)
+		{
+			System.out.println(i);
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 223</h3>
+			<pre class="prettyprint linenums">
+class G
+{
+	public static void main(String[] args) 
+	{
+		String[] array = {"abc", "xyz", "test", "123"};
+
+		for (String str : array)
+		{
+			System.out.println(str);
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 224</h3>
+			<pre class="prettyprint linenums">
+class H
+{
+	public static void main(String[] args) 
+	{
+		String[] array = {"abc", "xyz", "test", "123"};
+
+		String str;
+		for (str : array)
+		{
+			System.out.println(str);
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<br />
+		<article class="topic app">
+			<h2>26-while-loop</h2>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 225</h3>
+			<pre class="prettyprint linenums">
+class A
+{
+	public static void main(String[] args)
+	{
+		int i = 0;
+		while(i < 5)
+		{
+			System.out.println(i);
+			i++;
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 226</h3>
+			<pre class="prettyprint linenums">
+class B
+{
+	public static void main(String[] args)
+	{
+		int i = 5;
+		while(i > 0)
+		{
+			System.out.println(i);
+			i--;
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 227</h3>
+			<pre class="prettyprint linenums">
+class C
+{
+	public static void main(String[] args)
+	{
+		int i = 0;
+		while((i = 2) < 5)
+		{
+			System.out.println(i);
+			i++;
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 228</h3>
+			<pre class="prettyprint linenums">
+class D
+{
+	public static void main(String[] args)
+	{
+		int i = 0;
+		while(i < 5)
+		{
+			i++;
+		}
+		System.out.println(i);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 229</h3>
+			<pre class="prettyprint linenums">
+class E
+{
+	public static void main(String[] args)
+	{
+		int i = 0;
+		while(i < 5);
+		{
+			i++;
+		}
+		System.out.println(i);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 230</h3>
+			<pre class="prettyprint linenums">
+class F
+{
+	public static void main(String[] args)
+	{
+		int i = 0;
+		while(i < 4)
+		{
+			System.out.println("begin: " + i);
+			if(i > 2)
+			{
+				continue;
+			}
+			System.out.println("end: " + i);	
+			i++;
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 231</h3>
+			<pre class="prettyprint linenums">
+class G
+{
+	public static void main(String[] args)
+	{
+		int i = 0;
+		while(i < 4)
+		{
+			i++;
+			System.out.println("begin: " + i);
+			if(i > 2)
+			{
+				continue;
+			}
+			System.out.println("end: " + i);	
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 232</h3>
+			<pre class="prettyprint linenums">
+class H
+{
+	public static void main(String[] args)
+	{
+		int i = 0;
+		while(i < 4)
+		{
+			System.out.println("begin: " + i);
+			if(i > 2)
+			{
+				break;
+			}
+			System.out.println("end: " + i);	
+			i++;
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 233</h3>
+			<pre class="prettyprint linenums">
+class I
+{
+	public static void main(String[] args)
+	{
+		int i = 0;
+		while(i < 5)
+		{
+			System.out.println("loop1 begin: " + i);
+			int j = 0;
+			while(j < 5)
+			{
+				j++;
+				System.out.println("loop2 begin: " + i + ", " + j);
+				if(j > 1)
+				{
+					continue;
+				}
+				System.out.println("loop2 end: " + i + ", " + j);
+			}
+			System.out.println("loop1 end: " + i);
+			i++;
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 234</h3>
+			<pre class="prettyprint linenums">
+class J
+{
+	public static void main(String[] args)
+	{
+		int i = 0;
+		while(i < 5)
+		{
+			System.out.println("loop1 begin: " + i);
+			int j = 0;
+			while(j < 5)
+			{
+				j++;
+				System.out.println("loop2 begin: " + i + ", " + j);
+				if(j > 1)
+				{
+					break;
+				}
+				System.out.println("loop2 end: " + i + ", " + j);
+			}
+			System.out.println("loop1 end: " + i);
+			i++;
+			System.out.println();
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<br />
+		<article class="topic app">
+			<h2>27-do-while</h2>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 235</h3>
+			<pre class="prettyprint linenums">
+ class A
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		int i = 0;
+		do
+		{
+			System.out.println("body: " + i);
+			i++;
+		}
+		while (i < 5);
+		System.out.println("main end");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 236</h3>
+			<pre class="prettyprint linenums">
+ class B
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		int i = 5;
+		do
+		{
+			System.out.println("body: " + i);
+			i++;
+		}
+		while (i < 5);
+		System.out.println("main end");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 237</h3>
+			<pre class="prettyprint linenums">
+class C
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		int i = 10;
+		do
+		{
+			i++;
+			System.out.println("body: " + i);
+			if(i == 15)
+			{
+				break;
+			}
+		}
+		while (i > 10);
+		System.out.println("main end");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 238</h3>
+			<pre class="prettyprint linenums">
+class D
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		int i = 0;
+		do
+		{
+			System.out.println("body: " + i);
+			i++;
+		}
+		while ((i++ == 1) || (i++ == 2));
+		System.out.println("main end: " + i);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 239</h3>
+			<pre class="prettyprint linenums">
+class E
+{
+	public static void main(String[] args)
+	{
+		int i = 0;
+		do
+		{
+			System.out.println("begin: " + i);
+			i++;
+			if(i > 3)
+			{
+				continue;
+			}
+			System.out.println("end: " + i);
+		}
+		while (i < 10);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 240</h3>
+			<pre class="prettyprint linenums">
+class F
+{
+	public static void main(String[] args)
+	{
+		int i = 0;
+		do
+		{
+			System.out.println("begin: " + i);
+			i++;
+			if(i > 3)
+			{
+				break;
+			}
+			System.out.println("end: " + i);
+		}
+		while (i < 10);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 241</h3>
+			<pre class="prettyprint linenums">
+class G
+{
+	public static void main(String[] args)
+	{
+		int i = 0;
+		do
+		{
+			System.out.println("loop1 begin: " + i);
+			int j = 0;
+			do
+			{
+				System.out.println("loop2 begin: " + j);
+				j++;
+				System.out.println("loop2 end: " + j);
+			}
+			while (j < 2);
+			i++;
+			System.out.println("loop1 end: " + i);
+		}
+		while (i < 3);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 242</h3>
+			<pre class="prettyprint linenums">
+class H
+{
+	public static void main(String[] args)
+	{
+		int i = 0;
+		do
+		{
+			System.out.println("loop1 begin: " + i);
+			int j = 0;
+			do
+			{
+				System.out.println("loop2 begin: " + j);
+				j++;
+				if(j > 1)
+				{
+					continue;
+				}
+				System.out.println("loop2 end: " + j);
+			}
+			while (j < 2);
+			i++;
+			System.out.println("loop1 end: " + i);
+		}
+		while (i < 3);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 243</h3>
+			<pre class="prettyprint linenums">
+class I
+{
+	public static void main(String[] args)
+	{
+		int i = 0;
+		do
+		{
+			System.out.println("loop1 begin: " + i);
+			int j = 0;
+			do
+			{
+				System.out.println("loop2 begin: " + j);
+				j++;
+				if(j > 1)
+				{
+					break;
+				}
+				System.out.println("loop2 end: " + j);
+			}
+			while (j < 2);
+			i++;
+			System.out.println("loop1 end: " + i);
+		}
+		while (i < 3);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 244</h3>
+			<pre class="prettyprint linenums">
+class J
+{
+	public static void main(String[] args)
+	{
+		int i = 0;
+		loop1:
+		do
+		{
+			System.out.println("loop1 begin: " + i);
+			i++;
+			int j = 0;
+			do
+			{
+				System.out.println("loop2 begin: " + j);
+				j++;
+				if(j > 1)
+				{
+					continue loop1;
+				}
+				System.out.println("loop2 end: " + j);
+			}
+			while (j < 2);
+			System.out.println("loop1 end: " + i);
+		}
+		while (i < 3);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 245</h3>
+			<pre class="prettyprint linenums">
+class K
+{
+	public static void main(String[] args)
+	{
+		int i = 0;
+		loop1:
+		do
+		{
+			System.out.println("loop1 begin: " + i);
+			i++;
+			int j = 0;
+			do
+			{
+				System.out.println("loop2 begin: " + j);
+				j++;
+				if(j > 1)
+				{
+					break loop1;
+				}
+				System.out.println("loop2 end: " + j);
+			}
+			while (j < 2);
+			System.out.println("loop1 end: " + i);
+		}
+		while (i < 3);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<br />
+		<article class="topic app">
+			<h2>28.switch-case-or-switch-condition</h2>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 246</h3>
+			<pre class="prettyprint linenums">
+class A 
+{
+	public static void main(String[] args) 
+	{
+		//int i = 3;
+		switch(3)//byte, short, int, char, string, enum type
+		{
+			case 100:
+				System.out.println("from case 2");
+			case 2000:
+				System.out.println("from case 5");
+			case 3:System.out.println("from case 3");
+			System.out.println("from case 3");
+			System.out.println("from case 3");
+			System.out.println("from case 3");
+			System.out.println("from case 3");
+			case 4: System.out.println("from case 4");
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 247</h3>
+			<pre class="prettyprint linenums">
+class B
+{
+	public static void main(String[] args) 
+	{
+		int i = 3;
+		switch(i)
+		{
+			case 2:
+				System.out.println("from case 2");
+			case 3:
+				System.out.println("from case 3");
+				break;
+			case 5:
+				System.out.println("from case 5");
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 248</h3>
+			<pre class="prettyprint linenums">
+class C
+{
+	public static void main(String[] args) 
+	{
+		int i = 3;
+		switch(i)
+		{
+			case 2:
+				System.out.println("from case 2");
+				break;
+			case 3:
+				System.out.println("from case 3");
+				break;
+			case 5:
+				System.out.println("from case 5");
+				break;
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 249</h3>
+			<pre class="prettyprint linenums">
+class D
+{
+	public static void main(String[] args) 
+	{
+		//switch or switch condition accepts one argument and search for the matching case, if found, it will execute from that case.
+		int i = 3;
+		switch(i)
+		{
+			case 2:
+				System.out.println("from case 2");
+			    for (int var1 = 1; var1 <= 20; var1++)
+			    {
+					System.out.println("from case 2: " + var1);
+			    }
+			case 3:
+				System.out.println("from case 3");
+			    int j = 1;
+				while(j <= 10)
+				{
+					System.out.println("from case 3: " + j);
+					j++;
+				}
+			case 5:
+				System.out.println("from case 5");
+			    int k = 100;
+				do
+			    {
+					k++;
+					System.out.println("from case 5: " + k);
+			    }
+			    while (k <= 120);
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 250</h3>
+			<pre class="prettyprint linenums">
+class E
+{
+	public static void main(String[] args) 
+	{
+		int i = 10;
+		switch(i)
+		{
+			case 2:
+				System.out.println("from case 2");
+				break;
+			case 3:
+				System.out.println("from case 3");
+				break;
+			case 5:
+				System.out.println("from case 5");
+				break;
+		}
+		System.out.println("main end");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 251</h3>
+			<pre class="prettyprint linenums">
+class F
+{
+	public static void main(String[] args) 
+	{
+		int i = 10;
+		switch(i)
+		{
+			case 2:
+				System.out.println("from case 2");
+				break;
+			case 3:
+				System.out.println("from case 3");
+				break;
+			case 5:
+				System.out.println("from case 5");
+				break;
+			default:
+				System.out.println("from case default");
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 252</h3>
+			<pre class="prettyprint linenums">
+class G
+{
+	public static void main(String[] args) 
+	{
+		int i = 10;
+		switch(i)
+		{
+			default:
+				System.out.println("from case default");
+			case 2:
+				System.out.println("from case 2");
+				break;
+			case 3:
+				System.out.println("from case 3");
+				break;
+			case 5:
+				System.out.println("from case 5");
+				break;
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 253</h3>
+			<pre class="prettyprint linenums">
+class H
+{
+	public static void main(String[] args) 
+	{
+		int i = 10;
+		switch(i)
+		{
+			default:
+				System.out.println("from case default");
+				break;
+			case 2:
+				System.out.println("from case 2");
+				break;
+			case 3:
+				System.out.println("from case 3");
+				break;
+			case 5:
+				System.out.println("from case 5");
+				break;
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 254</h3>
+			<pre class="prettyprint linenums">
+class I
+{
+	public static void main(String[] args) 
+	{
+		int i = 10;
+		switch(i)
+		{
+			case 2:
+				System.out.println("from case 2");
+				break;
+			case 2:
+				System.out.println("from case 2");
+				break;
+			case 3:
+				System.out.println("from case 3");
+				break;
+			case 5:
+				System.out.println("from case 5");
+				break;
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 255</h3>
+			<pre class="prettyprint linenums">
+class J
+{
+	public static void main(String[] args) 
+	{
+		int i = 10;
+		switch(i)
+		{
+			default:
+				System.out.println("from case default");
+				break;
+			case 2:
+				System.out.println("from case 2");
+				break;
+			default:
+				System.out.println("from case default");
+				break;
+			case 3:
+				System.out.println("from case 3");
+				break;
+			case 5:
+				System.out.println("from case 5");
+				break;
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 256</h3>
+			<pre class="prettyprint linenums">
+class K
+{
+	public static void main(String[] args) 
+	{
+		char ch = 'a';
+		switch(ch)
+		{
+			case 'b':
+				System.out.println("from case b");
+				break;
+			case 'c':
+				System.out.println("from case c");
+				break;
+			case 'a':
+				System.out.println("from case a");
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 257</h3>
+			<pre class="prettyprint linenums">
+class L
+{
+	public static void main(String[] args) 
+	{
+		String str = "abc";
+		switch(str)
+		{
+			case "abc":
+				System.out.println("from case abc");
+				break;
+			case "xyz":
+				System.out.println("from case xyz");
+				break;
+			case "test":
+				System.out.println("from case test");
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 258</h3>
+			<pre class="prettyprint linenums">
+class M
+{
+	public static void main(String[] args) 
+	{
+		double d = 10.0;
+		switch(d)
+		{
+			case 10.0:
+				System.out.println("from case 10.0");
+				break;
+			case 20.0:
+				System.out.println("from case 20.0");
+				break;
+			case 30.0:
+				System.out.println("from case 30.0");
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 259</h3>
+			<pre class="prettyprint linenums">
+class N
+{
+	public static void main(String[] args) 
+	{
+		boolean b = true;
+		switch(b)
+		{
+			case true:
+				System.out.println("from case true");
+				break;
+			case false:
+				System.out.println("from case false");
+				break;
+			case true:
+				System.out.println("from case true");
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 260</h3>
+			<pre class="prettyprint linenums">
+class O
+{
+	public static void main(String[] args) 
+	{
+		byte b = 10;
+		switch(b)
+		{
+			case 10:
+				System.out.println("from case 10");
+				break;
+			case 20:
+				System.out.println("from case 20");
+				break;
+			case 30:
+				System.out.println("from case 30");
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 261</h3>
+			<pre class="prettyprint linenums">
+class P
+{
+	public static void main(String[] args) 
+	{
+		short s = 10;
+		switch(s)
+		{
+			case 10:
+				System.out.println("from case 10");
+				break;
+			case 20:
+				System.out.println("from case 20");
+				break;
+			case 30:
+				System.out.println("from case 30");
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 262</h3>
+			<pre class="prettyprint linenums">
+class Q
+{
+	public static void main(String[] args) 
+	{
+		short s = 10;
+		switch(s)
+		{
+			case 10:
+				System.out.println("from case 10");
+				break;
+			default:
+				System.out.println("from case default");
+				break;
+			case 20:
+				System.out.println("from case 20");
+				break;
+			case 30:
+				System.out.println("from case 30");
+		}
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 263</h3>
+			<pre class="prettyprint linenums">
+class R
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		String str = "abc";
+		switch(str)
+		{
+		}
+		System.out.println("main end");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 264</h3>
+			<pre class="prettyprint linenums">
+class S
+{
+	public static void main(String[] args) 
+	{
+		String i = "abc";
+		switch(i);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<br />
+		<article class="topic app">
+			<h2>29-methods</h2>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 265</h3>
+			<pre class="prettyprint linenums">
+class M1
+{
+	public static void main(String[] args)
+	{
+		System.out.println("from main");
+	}
+}
+
+/*
+
+- By using methods We can execute a set of statements any no. of times.
+- each time we can able to supply diff value for a method.
+- We can call a method any no. of times. and in each time all the statements which are in the method will be executed.
+- main is also a method which is the starting point of a program.
+- JVM will start the execution from the main method.
+- JVM will be always searching for "public static void main(String[] args)"  declaration.
+- main method is also called as an entry point of a java program.
+- we can keep any no. of statements and any type of statments inside a method.
+- we can develop any no. of methods inside a class.
+- methods must be having a return type. at least 'void'
+- void means nothing. if we keep void return type for any method that means the method returns nothing(no value).
+- methods can takes any no. of arguments(parameters, signature) including no-argument or 0 no. of arguments.
+- argument datatype can be anything.
+- by using ',' as a seperator we can develop any no. of arguments.
+- while JVM is calling the main method compulsary it has create one empty String array Object and should supply that object as an argument to the main method.
+- method will be called by the JVM only once while the class is executing.
+- method must be having '{' '}'. thats what we are calling body of that method.
+- method can be static or non-static.
+- methods compulsary has the access-specifiers or access modifiers.
+  (public,protected,default,private)
+- if we dont specify anything, the default access specifier will be 'default'(friedly)
+- methods are going to be executed if and only if they are called. otherwise they will never execute.
+- in case of main method that will be called implicitly by the JVM. but with the regular user created methods, compulsary we have to make a call to them, in order for them to be executed.
+- to call the static methods we dont have to create object for that class.
+- main method also a static method. that means there is no need for JVM to create an object in order to call the main method.
+- if we dont keep any access specifier for a user created method, compiler only adding 'default' access specifier at time of compilation.
+- method name must be a valid identifier.
+- if method name is more than two words follow the camel case but first word first letter in the lower case.
+*/
+
+
+
+
+
+
+
+
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 266</h3>
+			<pre class="prettyprint linenums">
+class M10
+{
+	public static void main(String[] args)
+	{
+		System.out.println("from main");
+	}
+	static void test()
+	{
+		System.out.println("from test");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 267</h3>
+			<pre class="prettyprint linenums">
+class M11 //MachineLearningAlgorithm
+{
+	static void testOneMethod() //TESTONEMETHOD()
+	{
+		System.out.println("from testOneMethod");
+	}
+	public static void main(String[] args)
+	{
+		System.out.println("from main");
+	}
+	static void testTwoMethod()
+	{
+		System.out.println("from testTwoMethod");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 268</h3>
+			<pre class="prettyprint linenums">
+class M12
+{
+	public static void main1(String[] args)
+	{
+		System.out.println("from main1");
+	}
+	public static void main2(String[] args)
+	{
+		System.out.println("from main2");
+	}
+	public static void main(String[] args)
+	{
+		System.out.println("from main");
+	}
+	public static void main3(String[] args)
+	{
+		System.out.println("from main3");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 269</h3>
+			<pre class="prettyprint linenums">
+class M13
+{
+	static void test()
+	{
+		System.out.println("from test");
+	}
+	public static void main(String[] args)
+	{
+		System.out.println("from main begin");
+		test();
+		System.out.println("from main end");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 270</h3>
+			<pre class="prettyprint linenums">
+class M14
+{
+	static void test()
+	{
+		System.out.println("from test");
+		System.out.println("from test");
+		if (true)
+		{
+			System.out.println("from test");
+		}
+		System.out.println("from test");
+		System.out.println("from test");
+	}
+	public static void main(String[] args)
+	{
+		System.out.println("from main begin");
+		test();
+		System.out.println("from main end");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 271</h3>
+			<pre class="prettyprint linenums">
+class M15
+{
+	static void test()
+	{
+		System.out.println("from test");
+		System.out.println("from test");
+	}
+	public static void main(String[] args)
+	{
+		System.out.println("from main begin");
+		//code reusability
+		test();
+		test();
+		test();
+		test();
+		System.out.println("from main end");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 272</h3>
+			<pre class="prettyprint linenums">
+class M16
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		test1();
+		System.out.println("main end");
+	}
+	public static void test1()
+	{
+		System.out.println("test1 begin");
+		test2();
+		System.out.println("test1 end");
+	}
+	public static void test2()
+	{
+		System.out.println("test2 begin");
+		System.out.println("test2 end");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 273</h3>
+			<pre class="prettyprint linenums">
+class M17
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		test();
+		System.out.println("main end");
+	}
+	static void test()
+	{
+		System.out.println("from test");
+		return;
+	}
+}
+
+/*
+- for a method which is having void as the return type, we can keep return statement at last. which is optional.
+*/
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 274</h3>
+			<pre class="prettyprint linenums">
+class M18
+{
+	public static void main(String[] args)
+	{
+		System.out.println("browser begin");
+		website();
+		website();
+		System.out.println("brower end");
+	}
+	static void website()
+	{
+		System.out.println("website begin");
+		int age = 18;
+		if (age == 18)
+		{
+			return;
+		}
+		System.out.println("continue website");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 275</h3>
+			<pre class="prettyprint linenums">
+class M19
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		test();
+		System.out.println("main end");
+	}
+	static void test()
+	{
+		System.out.println("from test begin");
+		if (false)
+		{
+			return;
+		}
+		System.out.println("from test end");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 276</h3>
+			<pre class="prettyprint linenums">
+class M2
+{
+	static public void main(String[] args)
+	{
+		System.out.println("from main");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 277</h3>
+			<pre class="prettyprint linenums">
+class M20
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		System.out.println("main end");
+		return;
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 278</h3>
+			<pre class="prettyprint linenums">
+class M21
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		if (true)
+		{
+			return;
+		}
+		System.out.println("main end");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 279</h3>
+			<pre class="prettyprint linenums">
+class M22
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		System.out.println("main end");
+		return 100;
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 280</h3>
+			<pre class="prettyprint linenums">
+class M23
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		return;
+		System.out.println("main end");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 281</h3>
+			<pre class="prettyprint linenums">
+class M24
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		if(true)
+		{
+			System.out.println("from if");
+			return;
+		}
+		System.out.println("main end");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 282</h3>
+			<pre class="prettyprint linenums">
+class M25
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		test();
+		System.out.println("main end");
+	}
+	static int test()
+	{
+		System.out.println("from test");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 283</h3>
+			<pre class="prettyprint linenums">
+class M26
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		System.out.println(test());
+		System.out.println("main end");
+	}
+	static int test()
+	{
+		System.out.println("from test");
+		return 101;
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 284</h3>
+			<pre class="prettyprint linenums">
+class M27
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		test();
+		System.out.println("main end");
+	}
+	static int test()
+	{
+		System.out.println("from test");
+		return;
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 285</h3>
+			<pre class="prettyprint linenums">
+class M28
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		test();
+		System.out.println("main end");
+	}
+	static int test()
+	{
+		System.out.println("from test");
+		return 100;
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 286</h3>
+			<pre class="prettyprint linenums">
+class M29
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		test();
+		System.out.println("main end");
+	}
+	static String test()
+	{
+		System.out.println("from test");
+		return "abc";
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 287</h3>
+			<pre class="prettyprint linenums">
+class M3
+{
+	static public void main(String... args)
+	{
+		System.out.println("from main");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 288</h3>
+			<pre class="prettyprint linenums">
+class M30
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		test();
+		System.out.println("main end");
+	}
+	static boolean test()
+	{
+		System.out.println("from test");
+		return false;
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 289</h3>
+			<pre class="prettyprint linenums">
+class M31
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		test();
+		System.out.println("main end");
+	}
+	static int test()
+	{
+		System.out.println("from test");
+		return "abc";
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 290</h3>
+			<pre class="prettyprint linenums">
+class M32
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		test();
+		System.out.println("main end");
+	}
+	static String test()
+	{
+		System.out.println("from test begin");
+		if (true)
+		{
+			return "100";
+		}
+		System.out.println("from test end");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 291</h3>
+			<pre class="prettyprint linenums">
+class M32
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		test();
+		System.out.println("main end");
+	}
+	static String test()
+	{
+		System.out.println("from test begin");
+		if (true)
+		{
+			return "100";
+		}
+		System.out.println("from test end");
+		return "200"
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 292</h3>
+			<pre class="prettyprint linenums">
+class M34
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		System.out.println(test() + test());
+		System.out.println("main end");
+	}
+	static int test()
+	{
+		System.out.println("from test");
+		return 100;
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 293</h3>
+			<pre class="prettyprint linenums">
+class M35
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		System.out.println(test());
+		System.out.println("main end");
+	}
+	static boolean test()
+	{
+		System.out.println("from test");
+		return true;
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 294</h3>
+			<pre class="prettyprint linenums">
+class M36
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		System.out.println(test1() + " " + test2() + " " + test3());
+		System.out.println("main end");
+	}
+	static String test1()
+	{
+		return "vijay";
+	}
+	static String test2()
+	{
+		return "from";
+	}
+	static String test3()
+	{
+		return "excelr";
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 295</h3>
+			<pre class="prettyprint linenums">
+class M37
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		String str = test1() + " " + test2() + " " + test3();
+		System.out.println("main end: " + str);
+	}
+	static String test1()
+	{
+		return "vijay";
+	}
+	static String test2()
+	{
+		return "from";
+	}
+	static String test3()
+	{
+		return "excelr";
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 296</h3>
+			<pre class="prettyprint linenums">
+class M38
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		int i = test();
+		System.out.println(i);
+		System.out.println("main end");
+	}
+	static int test()
+	{
+		System.out.println("from test");
+		return 12 - 4 * 4 / 2;
+	}
+}
+
+/*
+BODMAS
+Brackets
+Orders (i.e., powers and square roots, etc.)
+Division
+Multiplication
+Addition
+Subtraction
+*/
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 297</h3>
+			<pre class="prettyprint linenums">
+class M39
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		int i = test();
+		System.out.println(i);
+		System.out.println("main end");
+	}
+	static int test()
+	{
+		System.out.println("from test");
+		return 12 - (4 * 3) / 2;
+	}
+}
+
+/*
+BODMAS
+Brackets
+Orders (i.e., powers and square roots, etc.)
+Division
+Multiplication
+Addition
+Subtraction
+*/
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 298</h3>
+			<pre class="prettyprint linenums">
+class M4
+{
+	static public void main(String[] any)
+	{
+		System.out.println("from main");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 299</h3>
+			<pre class="prettyprint linenums">
+class M40
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		System.out.println(test());
+		System.out.println("main end");
+	}
+	static void test()
+	{
+		System.out.println("from test");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 300</h3>
+			<pre class="prettyprint linenums">
+class M41
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		test();
+		System.out.println("main end");
+	}
+	static void test(int i)
+	{
+		System.out.println("from test");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 301</h3>
+			<pre class="prettyprint linenums">
+class M42
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		test(10);
+		System.out.println("main end");
+	}
+	static void test(int i)
+	{
+		System.out.println("from test");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 302</h3>
+			<pre class="prettyprint linenums">
+class M43
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		test(10);	
+		System.out.println("main end");
+	}
+	static void test(int i, int j)
+	{
+		System.out.println("from test");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 303</h3>
+			<pre class="prettyprint linenums">
+class M44
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		test(10, 20);	
+		System.out.println("main end");
+	}
+	static void test(int i, int j)
+	{
+		System.out.println("from test");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 304</h3>
+			<pre class="prettyprint linenums">
+class M45
+{
+	public static void main(String[] args)
+	{
+		int i = 10, j = 20;
+		System.out.println("main begin");
+		test(i, j);	
+		System.out.println("main end");
+	}
+	static void test(int i, int j)//argument,parameter,signature
+	{
+		int k = i, l = j;
+		System.out.println("from test: " + k + ", " + l);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 305</h3>
+			<pre class="prettyprint linenums">
+class M46
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		test(100, 200);
+		System.out.println("main end");
+	}
+	static void test(int i, int j)
+	{
+		System.out.println("from test: " + i);
+		System.out.println("from test: " + j);
+		i = 1000;
+		j = 2000;
+		System.out.println("from test: " + i);
+		System.out.println("from test: " + j);
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 306</h3>
+			<pre class="prettyprint linenums">
+class M47
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		test((byte)127, (short)200, 300, 10.0f, 20.0, 'a', true, "hello");
+		System.out.println("main end");
+	}
+	static void test(byte b, short s, int i, float j, double k, char ch, boolean l, String str)
+	{
+		System.out.println("from test: " + b + " " + s + " " + i + " " + j + " " + k + " " + ch + " " + l + " " + str);  
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 307</h3>
+			<pre class="prettyprint linenums">
+class M5
+{
+	static public void main(String any[])
+	{
+		System.out.println("from main");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 308</h3>
+			<pre class="prettyprint linenums">
+class M6
+{
+	static public void main(String []any)
+	{
+		System.out.println("from main");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 309</h3>
+			<pre class="prettyprint linenums">
+class M7
+{
+	static public void main([]String any)
+	{
+		System.out.println("from main");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 310</h3>
+			<pre class="prettyprint linenums">
+class M8
+{
+	static public void main1(String[] any)
+	{
+		System.out.println("from main");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+		<article class="topic">
+			<h3 class="topic-title" id="introduction">Example No. 311</h3>
+			<pre class="prettyprint linenums">
+class M9
+{
+	static public void main(String[] any)
+	{
+		System.out.println("from main");
+	}
+}
+</pre
+			>
+			<br />
+			<pre class="output"><b>o/p: </b>
+</pre>
+			<br />
+			<pre class="output"><b>Explanation: </b>
+</pre>
+		</article>
+
+		<!-- notes body start -->
+		<main class="main">
+			<section class="class-notes">
+				<!-- <h2 class="subject-title">Subject Title</h2> -->
+
+				<!-- Add more articles for other topics -->
+			</section>
+		</main>
+		<!-- notes body end -->
+
+		<!-- content-divider -->
+		<div class="content-divider"></div>
+		<!-- end of content divider -->
+		<!-- footer section -->
+		<footer class="footer">
+			<div class="section-center">
+				<div class="social-icons">
+					<!-- social icon -->
+					<a href="#" class="social-icon">
+						<i class="fa-brands fa-square-facebook"></i>
+					</a>
+					<!-- social icon -->
+					<a href="#" class="social-icon">
+						<i class="fa-brands fa-square-twitter"></i>
+					</a>
+					<!-- social icon -->
+					<a href="#" class="social-icon">
+						<i class="fa-brands fa-square-instagram"></i>
+					</a>
+					<!-- end of social icon -->
+				</div>
+				<p class="footer-text">
+					&copy;
+					<span class="text-primary">vijays programming 2024</span>
+					all rights reserved
+				</p>
+			</div>
+		</footer>
+		<script src="../../js/app.js"></script>
+		<script
+			type="text/javascript"
+			src="../../google-code-prettify/prettify.js"
+		></script>
+	</body>
+</html>
+
+<!-- <span class="navbar-links">Notes Navigator</span>
+        <br />
+        <li><a href="#introduction" class="nav-link">Introduction</a></li>
+        <li><a href="#object-class" class="nav-link">Object Class</a></li>
+        <li><a href="#tostring" class="nav-link">toString() Method</a></li>
+        <li>
+          <a href="#hashcode" class="nav-link">hashCode() Method</a>
+        </li>
+        <li><a href="#equals" class="nav-link">equals() Method</a></li>
+        <li><a href="#clone" class="nav-link">clone() Method</a></li>
+        <li>
+          <a href="#finalize" class="nav-link">finalize() Method</a>
+        </li>
+        <li><a href="#wait" class="nav-link">wait() Method</a></li>
+        <li><a href="#notify" class="nav-link">notify() Method</a></li>
+        <li>
+          <a href="#notify-all" class="nav-link">notifyAll() Method </a>
+        </li> -->

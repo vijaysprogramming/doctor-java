@@ -1,0 +1,4574 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>object-class-programs</title>
+		<!-- font awesome -->
+		<link rel="stylesheet" href="./fontawesome-free-6.2.1-web/css/all.css" />
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="./google-code-prettify/prettify.css"
+		/>
+		<style>
+			/* Background color style */
+			pre.prettyprint {
+				background-color: #eee;
+				padding: 2px;
+				border: 1px solid #888;
+			}
+		</style>
+		<!-- styles -->
+		<link rel="stylesheet" href="./styles.css" />
+	</head>
+	<body onload="PR.prettyPrint()">
+		<!-- navigation button -->
+		<span class="resource-nav-btn" id="resource-nav-btn">
+			<i class="fa-sharp fa-solid fa-bars fa-2x" style="color: #000"></i>
+		</span>
+
+		<!-- navigation bar -->
+		<nav class="resource-navbar" id="resource-navbar">
+			<div class="resource-navbar-header">
+				<span class="resource-nav-close" id="resource-nav-close">
+					<i class="fa-sharp fa-solid fa-xmark fa-1.5x" style="color: #000"></i>
+				</span>
+			</div>
+			<ul class="resource-nav-items">
+				<span class="resource-navbar-links">Resources Navigator</span>
+				<br />
+
+				<li><a href="./index.html" class="resource-nav-link">notes</a></li>
+				<li>
+					<a href="./programs.html" class="resource-nav-link">programs</a>
+				</li>
+				<li><a href="./points.html" class="resource-nav-link">points</a></li>
+				<li>
+					<a href="./interview-qa.html" class="resource-nav-link"
+						>interview QA</a
+					>
+				</li>
+				<li>
+					<a href="./assignment-qa.html" class="resource-nav-link"
+						>assignment QA</a
+					>
+				</li>
+			</ul>
+		</nav>
+
+		<span class="main-nav-btn" id="main-nav-btn">
+			<i class="fa-sharp fa-solid fa-bars fa-2x" style="color: #000"></i>
+		</span>
+
+		<!-- main navigator -->
+		<nav class="main-navbar" id="main-navbar">
+			<div class="main-navbar-header">
+				<span class="main-nav-close" id="main-nav-close">
+					<i class="fa-sharp fa-solid fa-xmark fa-1.5x" style="color: #000"></i>
+				</span>
+				<!-- main navigation button -->
+			</div>
+			<ul class="main-nav-items">
+				<span class="main-navbar-links">Main Navigator</span>
+				<br />
+				<li>
+					<a href="index.html" class="main-nav-link">Language Fundamentals</a>
+				</li>
+				<li><a href="about.html" class="main-nav-link">static-members</a></li>
+				<li>
+					<a href="work.html" class="main-nav-link">non-static-members</a>
+				</li>
+				<li><a href="contact.html" class="main-nav-link">inheritance</a></li>
+				<li><a href="index.html" class="main-nav-link">scanner-class</a></li>
+				<li><a href="about.html" class="main-nav-link">objects-count</a></li>
+				<li>
+					<a href="work.html" class="main-nav-link"
+						>packages-and-access-levels</a
+					>
+				</li>
+				<li><a href="contact.html" class="main-nav-link">encapsulation</a></li>
+				<li><a href="index.html" class="main-nav-link">type-casting</a></li>
+				<li><a href="about.html" class="main-nav-link">polymorphism</a></li>
+				<li>
+					<a href="work.html" class="main-nav-link">super-this-in-methods</a>
+				</li>
+				<li><a href="contact.html" class="main-nav-link">abstraction</a></li>
+				<li><a href="index.html" class="main-nav-link">interfaces</a></li>
+				<li>
+					<a href="about.html" class="main-nav-link">command-line-arguments</a>
+				</li>
+				<li><a href="work.html" class="main-nav-link">final-keyword</a></li>
+				<li>
+					<a href="contact.html" class="main-nav-link">exception-handling</a>
+				</li>
+				<li><a href="index.html" class="main-nav-link">assertion</a></li>
+				<li><a href="about.html" class="main-nav-link">enum</a></li>
+				<li><a href="work.html" class="main-nav-link">wrapper-classes</a></li>
+				<li><a href="contact.html" class="main-nav-link">string</a></li>
+				<li>
+					<a href="index.html" class="main-nav-link"
+						>string-buffer-and-string-builder</a
+					>
+				</li>
+				<li><a href="about.html" class="main-nav-link">multi-threads</a></li>
+				<li><a href="work.html" class="main-nav-link">object-class</a></li>
+				<li><a href="contact.html" class="main-nav-link">Generics</a></li>
+				<li><a href="index.html" class="main-nav-link">collection-API</a></li>
+				<li><a href="about.html" class="main-nav-link">File-Handling</a></li>
+				<li><a href="work.html" class="main-nav-link">Annotations</a></li>
+				<li>
+					<a href="contact.html" class="main-nav-link">Java-8.0-Features</a>
+				</li>
+			</ul>
+		</nav>
+
+		<!-- header -->
+		<header class="header">
+			<div class="banner">
+				<h1 class="banner-title">Object class in java - programs</h1>
+			</div>
+		</header>
+
+		<!-- end of header -->
+		<!-- content-divider -->
+		<div class="content-divider"></div>
+		<!-- end of content divider -->
+<br />
+<article class="topic app">
+<h2>app1</h2>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 1</h3>
+<pre class="prettyprint linenums">
+class A 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		int remainder = 10 % 0;
+		int i = 10 / 0;
+		System.out.println("main end");
+		System.out.println("main end");
+		System.out.println("main end");
+		System.out.println("main end");
+		System.out.println("main end");
+		System.out.println("main end");
+		System.out.println("main end");
+		System.out.println("main end");
+		System.out.println("main end");
+		System.out.println("main end");
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 2</h3>
+<pre class="prettyprint linenums">
+class B 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		int[] x = {12, 30, 20};
+		int i = x[3];
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 3</h3>
+<pre class="prettyprint linenums">
+class C
+{
+	int i;
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		C c1 = null;
+		c1.i = 10;
+		String s1 = null;
+		int i = s1.length();
+		System.out.println("main end");
+	}
+}
+/* we cant able to call from the null reference otherwise
+we get NullPointerException
+*/
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 4</h3>
+<pre class="prettyprint linenums">
+class D
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		Object obj = new Object();
+		D d1 = (D) obj;
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 5</h3>
+<pre class="prettyprint linenums">
+class E 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		int i = Integer.parseInt("abc");
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 6</h3>
+<pre class="prettyprint linenums">
+class F 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		String s1 = "vijay kumar";
+		String s2 = s1.substring(12, 5);
+		System.out.println("main end: " + s1);
+		System.out.println("main end: " + s2);
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 7</h3>
+<pre class="prettyprint linenums">
+class G
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		main(args);
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 8</h3>
+<pre class="prettyprint linenums">
+class G 
+{
+	static void test()
+	{
+		System.out.println("test begin");
+		int i = 10 / 0;
+		System.out.println("test end");
+	}
+}
+class H
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		G.test();
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 9</h3>
+<pre class="prettyprint linenums">
+class I
+{
+	public static void main(String[] args) 
+	{
+		//int i = 9999999999;
+		//long y = 9999999999l;
+		System.out.println("main begin");
+		//int[] x = new int[9999999999];//number is too large
+		int[] x = new int[999999999];
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 10</h3>
+<pre class="prettyprint linenums">
+class J
+{
+	//static int x;
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 11</h3>
+<pre class="prettyprint linenums">
+class K
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		J.x = 20;
+		System.out.println("main end");
+	}
+}
+
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 12</h3>
+<pre class="prettyprint linenums">
+class L
+{
+	/*
+	void test()
+	{
+	}*/
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 13</h3>
+<pre class="prettyprint linenums">
+class M
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		L obj = new L();
+		obj.test();
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 14</h3>
+<pre class="prettyprint linenums">
+class N
+{
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 15</h3>
+<pre class="prettyprint linenums">
+class O
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		N n1 = new N();
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 16</h3>
+<pre class="prettyprint linenums">
+class P
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			int i = 10 / 0;
+		}
+		catch (ArithmeticException ex)
+		{
+		}
+		System.out.println("main end");
+	}
+}
+/* try-catch can be kept anywhere*/
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 17</h3>
+<pre class="prettyprint linenums">
+class Q
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("customer came asked for vegitable");
+		try
+		{
+			System.out.println("checking veggies");
+			//int i = 10 / 0;
+			System.out.println("veggies are good");
+		}
+		catch (ArithmeticException ex)
+		{
+			System.out.println("bad condition veggies kept inside bin");
+		}
+		System.out.println("customer is happy with provided good veggies");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 18</h3>
+<pre class="prettyprint linenums">
+class R
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			System.out.println("try begin");
+			int i = 10 / 0;
+			System.out.println("try end");
+		}
+		catch (NullPointerException ex)
+		{
+			System.out.println("from catch");
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 19</h3>
+<pre class="prettyprint linenums">
+class S
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			System.out.println("try begin");
+			String s1 = null;
+			int i = s1.length();
+			System.out.println("try end");
+		}
+		catch (NullPointerException ex)
+		{
+			System.out.println("from catch");
+		}
+		System.out.println("end of main");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 20</h3>
+<pre class="prettyprint linenums">
+class T
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			System.out.println("try begin");
+			int[] x = {10, 20, 30, 40};
+			int i = x[4];
+			System.out.println("try end");
+		}
+		catch (ArrayIndexOutOfBoundsException ex)
+		{
+			System.out.println("from catch");
+		}
+		System.out.println("end of main");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 21</h3>
+<pre class="prettyprint linenums">
+class U
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			System.out.println("try begin");
+			Object obj = new Object();
+			U u1 = (U) obj;
+			System.out.println("try end");
+		}
+		catch (ClassCastException ex)
+		{
+			System.out.println("from catch");
+		}
+		System.out.println("end of main");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 22</h3>
+<pre class="prettyprint linenums">
+class V
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			System.out.println("try begin");
+			int[] x = new int[999999999];
+			System.out.println("try end");
+		}
+		catch (OutOfMemoryError ex)
+		{
+			System.out.println("from catch");
+		}
+		System.out.println("end of main");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 23</h3>
+<pre class="prettyprint linenums">
+class W
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			System.out.println("try begin");
+			String s1 = "hello";
+			String s2 = s1.substring(5, 10);
+			System.out.println("try end");
+		}
+		catch (StringIndexOutOfBoundsException ex)
+		{
+			System.out.println("from catch");
+		}
+		System.out.println("end of main");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 24</h3>
+<pre class="prettyprint linenums">
+class X
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			System.out.println("try begin");
+			main(args);
+			System.out.println("try end");
+		}
+		catch (StackOverflowError ex)
+		{
+			System.out.println("from catch");
+		}
+		System.out.println("end of main");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<br />
+<article class="topic app">
+<h2>app2</h2>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 25</h3>
+<pre class="prettyprint linenums">
+class A
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			System.out.println("try begin");
+			int i = 10 / 0;
+			System.out.println("try end");
+		}
+		catch (ArithmeticException ex)
+		{
+			System.out.println("from catch:" + ex);
+		}
+		System.out.println("end of main");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 26</h3>
+<pre class="prettyprint linenums">
+class B
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			System.out.println("try begin");
+			int i = 10 / 0;
+			System.out.println("try end");
+		}
+		catch (ArithmeticException ex)
+		{
+			System.out.println("from catch:" + ex.getMessage());
+		}
+		System.out.println("end of main");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 27</h3>
+<pre class="prettyprint linenums">
+class C 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			//int j = 10 / 0;
+			System.out.println("try begin");
+			try
+			{
+				int i = 10 / 0;
+			}
+			catch (ArithmeticException ex)
+			{
+				System.out.println("from nested try-catch: " + ex);
+			}
+			System.out.println("try end");
+		}
+		catch (ArithmeticException ex1)
+		{
+			System.out.println("from outer try-catch: " + ex1);
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 28</h3>
+<pre class="prettyprint linenums">
+import java.util.Scanner;
+class D
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Enter a sentence!");
+		String s1 = new Scanner(System.in).nextLine();
+		try
+		{
+			System.out.println("try begin");
+			int i = Integer.parseInt(s1);
+			System.out.println("+++++++++");
+			int k = i / 0;
+			System.out.println("try end");
+		}
+		catch (NumberFormatException ex2)
+		{
+			System.out.println("from catch: " + ex2);
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 29</h3>
+<pre class="prettyprint linenums">
+import java.util.Scanner;
+class E
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Enter a number to get AE or Enter alphabets to get NFE");
+		String s1 = new Scanner(System.in).nextLine();
+		try
+		{
+			System.out.println("try begin");
+			int i = Integer.parseInt(s1);
+			System.out.println("+++++++++");
+			int k = i / 0;
+			System.out.println("try end");
+		}
+		catch (NumberFormatException ex)
+		{
+			System.out.println("from catch: " + ex);
+		}
+		catch (ArithmeticException ex)
+		{
+			System.out.println("from catch: " + ex);
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 30</h3>
+<pre class="prettyprint linenums">
+import java.util.Scanner;
+class F
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Enter a number to get AE or Enter alphabets to get NFE");
+		String s1 = new Scanner(System.in).nextLine();
+		try
+		{
+			System.out.println("try begin");
+			int i = Integer.parseInt(s1);
+			System.out.println("+++++++++");
+			int k = i / 0;
+			System.out.println("try end");
+		}
+		catch (NumberFormatException | ArithmeticException ex)
+		{
+			System.out.println("from catch: " + ex);
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 31</h3>
+<pre class="prettyprint linenums">
+class G
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			System.out.println("try begin");
+			int i = 10 / 0;
+			System.out.println("try end");
+		}
+		catch (ArithmeticException ex1)
+		{
+			System.out.println("outer catch begin");
+			try
+			{
+				int i = 10 / 0;
+			}
+			catch (ArithmeticException ex2)
+			{
+				System.out.println("from nested try-catch: " + ex2);
+			}
+			System.out.println("outer catch end");
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 32</h3>
+<pre class="prettyprint linenums">
+import java.util.Scanner;
+class H
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Enter a sentence!");
+		String s1 = new Scanner(System.in).nextLine();
+		try
+		{
+			System.out.println("try begin");
+			int i = Integer.parseInt(s1);
+			System.out.println("+++++++++");
+			int k = i / 0;
+			System.out.println("try end");
+		}
+		catch (NumberFormatException ex)
+		{
+			System.out.println("from catch: " + ex);
+		}
+		finally
+		{
+			System.out.println("from finally");	
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 33</h3>
+<pre class="prettyprint linenums">
+import java.util.Scanner;
+class I
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Enter a sentence!");
+		String s1 = new Scanner(System.in).nextLine();
+		try
+		{
+			System.out.println("try begin");
+			int i = Integer.parseInt(s1);
+			System.out.println("+++++++++");
+			int k = i / 0;
+			System.out.println("try end");
+		}
+		catch (NumberFormatException ex2)
+		{
+			System.out.println("from catch: " + ex2);
+		}
+		catch (ArithmeticException ex2)
+		{
+			System.out.println("from catch: " + ex2);
+		}
+		finally
+		{
+			System.out.println("from finally");	
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 34</h3>
+<pre class="prettyprint linenums">
+class J
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			System.out.println("from try");
+		}
+		catch (ArithmeticException ex)
+		{
+			System.out.println("from catch: " + ex);
+		}
+		finally
+		{
+			System.out.println("from finally");	
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 35</h3>
+<pre class="prettyprint linenums">
+class K
+{
+	public static void main(String[] args) 
+	{
+		int i = 10 / 0;
+		System.out.println("main begin");
+		try
+		{
+			System.out.println("from try");
+		}
+		catch (ArithmeticException ex)
+		{
+			System.out.println("from catch: " + ex);
+		}
+		finally
+		{
+			System.out.println("from finally");	
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 36</h3>
+<pre class="prettyprint linenums">
+class L
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			System.out.println("from try");
+		}
+		catch (ArithmeticException ex)
+		{
+			System.out.println("from catch: " + ex);
+		}
+		finally
+		{
+			System.out.println("from finally");	
+		}
+		int i = 10 / 0;
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 37</h3>
+<pre class="prettyprint linenums">
+class M
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			System.out.println("from try");
+		}
+		catch (ArithmeticException ex)
+		{
+			System.out.println("from catch: " + ex);
+		}
+		finally
+		{
+			System.out.println("from finally");	
+			try
+			{
+				int i = 10 / 0;
+			}
+			catch (ArithmeticException ex)
+			{
+			}
+			finally
+			{
+				System.out.println("from nested-finally");	
+			}
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 38</h3>
+<pre class="prettyprint linenums">
+class N
+{
+	public static void main(String[] args) 
+	{
+		//int i = 10;
+		//if (i == 10)
+		//{
+			//return;
+		//}
+		System.out.println("main begin");
+		try
+		{
+			System.out.println("from try begin");
+			System.out.println("from try end");
+			return;
+		}
+		catch (NumberFormatException ex)
+		{
+			System.out.println("from catch: " + ex);
+		}
+		finally
+		{
+			System.out.println("from finally");	
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 39</h3>
+<pre class="prettyprint linenums">
+class O
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			System.out.println("from try begin");
+			int i = 10 / 0;
+			System.out.println("from try end");
+		}
+		catch (ArithmeticException ex)
+		{
+			System.out.println("from catch: " + ex);
+			return;
+		}
+		finally
+		{
+			System.out.println("from finally");	
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 40</h3>
+<pre class="prettyprint linenums">
+class P
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			System.out.println("from try begin");
+			int i = 10 / 0;
+			System.out.println("from try end");
+		}
+		catch (ArithmeticException ex)
+		{
+			System.out.println("from catch: " + ex);
+			//System.exit(0);
+			Runtime.getRuntime().exit(-1);
+		}
+		finally
+		{
+			System.out.println("from finally");	
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 41</h3>
+<pre class="prettyprint linenums">
+class Q
+{
+	static int test(int i)
+	{
+		try
+		{
+			System.out.println("from try begin");
+			//int k = i / 0;
+			System.out.println("from try end");
+		}
+		catch (ArithmeticException ex)
+		{
+			System.out.println("from catch: " + ex);
+			return -1;
+		}
+		finally
+		{
+			System.out.println("from finally");	
+		}
+		return 10;
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		int i = test(10);
+		System.out.println("main end: " + i);
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 42</h3>
+<pre class="prettyprint linenums">
+class S
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			System.out.println("from try begin");
+			int i = 10 / 0;
+			System.out.println("from try end");
+		}
+		catch (ArithmeticException ex)
+		{
+			i = 20;
+		}
+		if(10 == 10)
+		{
+			int j = 10;
+			System.out.println("from if");
+		}
+		else
+		{
+			System.out.println("from else: " + j);
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 43</h3>
+<pre class="prettyprint linenums">
+class T
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		int i;
+		try
+		{
+			System.out.println("from try begin");
+			i = 10 / 0;
+			System.out.println("from try end");
+		}
+		catch (ArithmeticException ex)
+		{
+			ex.printStackTrace(System.err);
+			System.out.println("from catch: " + (i = 20));
+		}
+		finally
+		{
+			System.out.println("from finally: " + (i = 40));
+		}
+		System.out.println("main end: " + i);
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 44</h3>
+<pre class="prettyprint linenums">
+import java.util.Scanner;
+class W
+{
+ 	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		System.out.println("enter one int value");
+		Scanner sc = new Scanner(System.in);
+		int i = sc.nextInt();
+		try
+		{
+			System.out.println("from try begin");
+			int k = i / 0;
+			System.out.println("from try end");
+		}
+		catch (ArithmeticException ex)
+		{
+			System.out.println("from catch begin");
+			int j = i / 0;
+			System.out.println("from catch end");	
+		}
+		finally
+		{
+			//best practice, to close the opened resource
+			sc.close();
+			System.out.println("from finally");	
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 45</h3>
+<pre class="prettyprint linenums">
+class X
+{
+ 	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		int i;
+		try
+		{
+			System.out.println("from try begin");
+			i = 10 / 0;
+			System.out.println("from try end");
+		}
+		catch (ArithmeticException ex)
+		{
+			ex = null;
+			System.out.println("catch: " + ex);
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<br />
+<article class="topic app">
+<h2>app3</h2>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 46</h3>
+<pre class="prettyprint linenums">
+class A
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		int i;
+		try
+		{
+			System.out.println("try begin");
+			i = 10 / 0;
+			System.out.println("try end");
+		}
+		finally
+		{
+			System.out.println("from finally");
+		}
+		System.out.println("main end");
+	}
+}
+
+/*possible combinations
+try-catch
+try-catches
+try-catch-finally
+try-catches-finally
+try-finally
+*/
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 47</h3>
+<pre class="prettyprint linenums">
+class B
+{
+ 	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		int i;
+		try
+		{
+			System.out.println("from try begin");
+			i = 10 / 0;
+			System.out.println("from try end");
+		}
+		finally
+		{
+			System.out.println("from finally1");
+		}
+		finally
+		{
+			System.out.println("from finally2");
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 48</h3>
+<pre class="prettyprint linenums">
+class C
+{
+ 	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		int i;
+		try
+		{
+			System.out.println("from try begin");
+			i = 10 / 0;
+			System.out.println("from try end");
+		}
+		finally
+		{
+			finally
+			{
+				System.out.println("from finally2");
+			}
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 49</h3>
+<pre class="prettyprint linenums">
+class D
+{
+ 	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			System.out.println("from try begin: ");
+			System.out.println(10 / 0);
+			System.out.println("from try end");
+		}
+		finally
+		{
+			System.out.println("outer finally begin");
+			try
+			{	
+				 System.out.println(10 / 0);
+			}
+			catch(ArithmeticException ex)
+			{
+				System.out.println("nested catch");
+			}
+			finally
+			{
+				System.out.println("nested finally");
+			}
+
+			System.out.println("outer finally end");
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 50</h3>
+<pre class="prettyprint linenums">
+class E
+{
+	int test(boolean flag)
+	{
+		return 10;
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 51</h3>
+<pre class="prettyprint linenums">
+class F
+{
+	int test(boolean flag)
+	{
+		if (flag)
+		{
+			return 10;
+		}
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 52</h3>
+<pre class="prettyprint linenums">
+class G
+{
+	int test(boolean flag)
+	{
+		if (flag)
+		{
+			return 10;
+		}
+		return 20;
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 53</h3>
+<pre class="prettyprint linenums">
+class H
+{
+	void test(boolean flag)
+	{
+		if (flag)
+		{
+			return;
+		}
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 54</h3>
+<pre class="prettyprint linenums">
+class I
+{
+	int test(boolean flag)
+	{
+		if (flag)
+		{
+		}
+		else
+		{
+			return 20;
+		}
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 55</h3>
+<pre class="prettyprint linenums">
+class J
+{
+	int test(boolean flag)
+	{
+		if (flag)
+		{
+			return 10;
+		}
+		else
+		{
+		}
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 56</h3>
+<pre class="prettyprint linenums">
+class K
+{
+	int test(boolean flag)
+	{
+		if (flag)
+		{
+		}
+		else
+		{
+			return 10;
+		}
+		return 20;
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 57</h3>
+<pre class="prettyprint linenums">
+class L
+{
+	int test(boolean flag)
+	{
+		if (flag)
+		{
+			return 10;
+		}
+		else
+		{
+		}
+		return 20;
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 58</h3>
+<pre class="prettyprint linenums">
+class M
+{
+	void test(boolean flag)
+	{
+		if (flag)
+		{
+			return;
+		}
+		return;
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 59</h3>
+<pre class="prettyprint linenums">
+class N
+{
+	int test(boolean flag)
+	{
+		if (flag)
+		{
+			return 10;
+		}
+		else
+		{
+			return 20;
+		}
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 60</h3>
+<pre class="prettyprint linenums">
+class O
+{
+	int test(boolean flag)
+	{
+		if (flag)
+		{
+			return 10;
+		}
+		else
+		{
+			return 20;
+		}
+		return 30;
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 61</h3>
+<pre class="prettyprint linenums">
+class P
+{
+	int test(boolean flag)
+	{
+		if (flag)
+		{
+		}
+		else
+		{
+		}
+		return 10;
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 62</h3>
+<pre class="prettyprint linenums">
+class Q
+{
+	int test()
+	{
+		try
+		{
+			//code
+		}
+		catch (ArithmeticException ex)
+		{
+		}
+		return 10;
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 63</h3>
+<pre class="prettyprint linenums">
+class R
+{
+	int test()
+	{
+		try
+		{
+			//code
+			int i = 10 / 0;
+		}
+		catch (ArithmeticException ex)
+		{
+		}
+		return 10;
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 64</h3>
+<pre class="prettyprint linenums">
+class S
+{
+	int test()
+	{
+		try
+		{
+			return 10;
+		}
+		catch (ArithmeticException ex)
+		{
+		}
+		return 20;
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 65</h3>
+<pre class="prettyprint linenums">
+class T
+{
+	int test()
+	{
+		try
+		{
+		}
+		catch (ArithmeticException ex)
+		{
+			return 10;
+		}
+		return 20;
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 66</h3>
+<pre class="prettyprint linenums">
+class U
+{
+	int test()
+	{
+		try
+		{
+		}
+		catch (ArithmeticException ex)
+		{
+			return 10;
+		}
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 67</h3>
+<pre class="prettyprint linenums">
+class V
+{
+	int test()
+	{
+		try
+		{
+			//int i = 10 / 0;
+			return 10;	
+		}
+		catch (ArithmeticException ex)
+		{	
+		}
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<br />
+<article class="topic app">
+<h2>app4</h2>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 68</h3>
+<pre class="prettyprint linenums">
+class A
+{
+	int test()
+	{
+		try
+		{
+			return 10;	
+		}
+		catch (ArithmeticException ex)
+		{
+			return 20;
+		}
+		return 30;
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 69</h3>
+<pre class="prettyprint linenums">
+class B
+{
+	int test()
+	{
+		try
+		{
+			return 10;	
+		}
+		catch (ArithmeticException ex)
+		{
+			return 20;
+		}
+		catch (NullPointerException ex)
+		{
+			return 30;
+		}
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 70</h3>
+<pre class="prettyprint linenums">
+class C
+{
+	int test()
+	{
+		try
+		{
+			return 10;	
+		}
+		catch (ArithmeticException ex)
+		{
+			return 20;
+		}
+		catch (NullPointerException ex)
+		{
+			return 30;
+		}
+		return 40;
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 71</h3>
+<pre class="prettyprint linenums">
+class E
+{
+	int test()
+	{
+		try
+		{
+			//code
+		}
+		catch (ArithmeticException ex)
+		{
+			//code
+		}
+		catch (NullPointerException ex)
+		{
+			//code
+		}
+		return 40;
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 72</h3>
+<pre class="prettyprint linenums">
+class F
+{
+	int test()
+	{
+		try
+		{
+			//code
+			return 10;
+		}
+		catch (ArithmeticException ex)
+		{
+			//code
+		}
+		catch (NullPointerException ex)
+		{
+			//code
+		}
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 73</h3>
+<pre class="prettyprint linenums">
+class G
+{
+	int test()
+	{
+		try
+		{
+			//code
+			return 10;
+		}
+		catch (ArithmeticException ex)
+		{
+			//code
+			return 20;
+		}
+		catch (NullPointerException ex)
+		{
+			//code
+		}
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 74</h3>
+<pre class="prettyprint linenums">
+class H
+{
+	static int test()
+	{
+		try
+		{
+			//code
+			//int i = 10 / 0;
+			//return 10;
+		}
+		catch (ArithmeticException ex)
+		{
+			//code
+		}
+		catch (NullPointerException ex)
+		{
+			//code
+		}
+		finally
+		{
+			return 20;
+		}
+	}
+
+	public static void main(String[] args) 
+	{
+		System.out.println(test());
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 75</h3>
+<pre class="prettyprint linenums">
+class I
+{
+	int test()
+	{
+		try
+		{
+			//code
+			return 10;
+		}
+		catch (ArithmeticException ex)
+		{
+			//code
+		}
+		catch (NullPointerException ex)
+		{
+			//code
+		}
+		finally
+		{
+		}
+		return 20;
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 76</h3>
+<pre class="prettyprint linenums">
+class J
+{
+	int test()
+	{
+		try
+		{
+			//code
+			return 10;
+		}
+		catch (ArithmeticException ex)
+		{
+			//code
+			return 20;
+		}
+		catch (NullPointerException ex)
+		{
+			//code
+			return 60;
+		}
+		finally
+		{
+			//code
+			return 30;
+		}
+		System.out.println("end of main");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 77</h3>
+<pre class="prettyprint linenums">
+class K 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			int i = 10 / 0;
+		}
+		catch (ArithmeticException ex)
+		{
+			System.out.println("from catch: " + ex.getMessage());
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 78</h3>
+<pre class="prettyprint linenums">
+class L
+{
+	public static void main(String[] args) 
+	{
+		int i = 10 / 0;//AE
+		int j = Integer.parseInt("abc");//NFE
+		String s1 = null;
+		int k = s1.length();//NPE
+		int[] l = new int[4];
+		int m = l[4];//AIOBE
+		Object obj = new L();
+		String s = (String)obj;//CCE
+		main(null);//SOE
+		int[] n = new int[99999999];//OME
+		String s2 = "hello";
+		String s3 = s2.substring(5, 10);//SIOBE
+		int[] p = new int[-10];//NASE
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 79</h3>
+<pre class="prettyprint linenums">
+class L2
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			int i = 10 / 0;//AE
+		}
+		catch (ArithmeticException ex)
+		{
+			try
+			{
+				int j = Integer.parseInt("abc");//NFE
+			}
+			catch (NumberFormatException ex2)
+			{
+				try
+				{
+					String s1 = null;
+					int k = s1.length();//NPE
+				}
+				catch (NullPointerException ex3)
+				{
+					try
+					{
+						int[] l = new int[4];
+						int m = l[4];//AIOBE
+					}
+					catch (ArrayIndexOutOfBoundsException ex4)
+					{
+						try
+						{
+							Object obj = new L();
+							String s = (String)obj;//CCE
+						}
+						catch (ClassCastException ex5)
+						{
+							try
+							{
+								main(null);//SOE
+							}
+							catch (StackOverflowError ex6)
+							{
+								try
+								{
+									int[] n = new int[99999999];//OME
+								}
+								catch (OutOfMemoryError ex7)
+								{
+									try
+									{
+										String s2 = "hello";
+										String s3 = s2.substring(5, 10);//SIOBE
+									}
+									catch (StringIndexOutOfBoundsException ex8)
+									{
+										try
+										{
+											int[] p = new int[-10];//NASE
+										}
+										catch (NegativeArraySizeException ex9)
+										{
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		System.out.println("main end");
+		
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 80</h3>
+<pre class="prettyprint linenums">
+class M 
+{
+	public static void main(String[] args) 
+	{
+		Class.forName("");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 81</h3>
+<pre class="prettyprint linenums">
+class N 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			Class.forName("");
+		}
+		catch (ClassNotFoundException ex)
+		{
+			ex.printStackTrace();
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 82</h3>
+<pre class="prettyprint linenums">
+class O
+{
+	void test()
+	{
+		clone();
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 83</h3>
+<pre class="prettyprint linenums">
+class P
+{
+	void test()
+	{
+		try
+		{
+			clone();
+		}
+		catch (CloneNotSupportedException ex)
+		{
+			ex.printStackTrace();
+		}
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 84</h3>
+<pre class="prettyprint linenums">
+import java.io.FileReader;
+class Q
+{
+	public static void main(String[] args) 
+	{
+		FileReader fileReader = new FileReader("");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 85</h3>
+<pre class="prettyprint linenums">
+import java.io.FileReader;
+import java.io.IOException;
+class R
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			FileReader fileReader = new FileReader("");
+		}
+		catch (IOException ex)
+		{
+			System.out.println("from catch: " + ex);
+			ex.printStackTrace();
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 86</h3>
+<pre class="prettyprint linenums">
+import java.io.FileReader;
+import java.io.FileNotFoundException;
+class S
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			FileReader fileReader = new FileReader("");
+		}
+		catch (FileNotFoundException ex)
+		{
+			System.out.println("from catch: " + ex);
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 87</h3>
+<pre class="prettyprint linenums">
+import java.sql.DriverManager;
+class T 
+{
+	public static void main(String[] args) 
+	{
+		DriverManager.getConnection("");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 88</h3>
+<pre class="prettyprint linenums">
+import java.sql.SQLException;
+import java.sql.DriverManager;
+class U
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			DriverManager.getConnection("");		
+		}
+		catch (SQLException ex)
+		{
+			System.out.println("from catch");	
+		}
+		System.out.println("main end");	
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 89</h3>
+<pre class="prettyprint linenums">
+class V 
+{
+	public static void main(String[] args) 
+	{
+		Thread.sleep(1000);
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 90</h3>
+<pre class="prettyprint linenums">
+class W
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			Thread.sleep(1000);	
+		}
+		catch (InterruptedException ex)
+		{
+			System.out.println("from catch");	
+		}
+		System.out.println("main end");	
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 91</h3>
+<pre class="prettyprint linenums">
+import java.text.SimpleDateFormat;
+class X 
+{
+	public static void main(String[] args) 
+	{
+		SimpleDateFormat df = null;
+		df.parse("");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 92</h3>
+<pre class="prettyprint linenums">
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+class Y
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		try
+		{
+			df.parse("");
+		}
+		catch (ParseException ex)
+		{
+			System.out.println("from catch");
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<br />
+<article class="topic app">
+<h2>app5</h2>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 93</h3>
+<pre class="prettyprint linenums">
+class A 
+{
+	public static void main(String[] args) throws ClassNotFoundException 
+	{
+		Class.forName("");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 94</h3>
+<pre class="prettyprint linenums">
+class B 
+{
+	static void test() throws ClassNotFoundException
+	{
+		Class.forName("");
+	}
+
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		test();
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 95</h3>
+<pre class="prettyprint linenums">
+class C
+{
+	static void fielder() throws ClassNotFoundException
+	{
+		Class.forName("");
+	}
+
+	public static void main(String[] args) throws ClassNotFoundException
+	{
+		System.out.println("main begin");
+		fielder();
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 96</h3>
+<pre class="prettyprint linenums">
+class D
+{
+	static void test() 
+	{
+		try
+		{
+			Class.forName("");
+		}
+		catch (ClassNotFoundException ex)
+		{
+			System.out.println("from catch");
+		}
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		test();
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 97</h3>
+<pre class="prettyprint linenums">
+class E
+{
+	static void test() throws ClassNotFoundException
+	{
+		Class.forName("");
+	}
+
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			test();
+		}
+		catch (ClassNotFoundException ex)
+		{
+			System.out.println("from catch");
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 98</h3>
+<pre class="prettyprint linenums">
+class F
+{
+	static void test1() throws ClassNotFoundException
+	{
+		test2();
+	}
+	static void test2() throws ClassNotFoundException
+	{
+		test3();
+	}
+	static void test3() throws ClassNotFoundException
+	{
+		Class.forName("");
+	}
+	public static void main(String[] args) throws ClassNotFoundException
+	{
+		System.out.println("main begin");
+		test1();
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 99</h3>
+<pre class="prettyprint linenums">
+class G
+{
+	static void test1() 
+	{
+		test2();
+	}
+	static void test2() 
+	{
+		try
+		{
+			test3();
+		}
+		catch (ClassNotFoundException ex)
+		{
+			System.out.println("from test2 catch");
+		}
+	}
+	static void test3() throws ClassNotFoundException
+	{
+		Class.forName("");
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		test1();
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 100</h3>
+<pre class="prettyprint linenums">
+class H
+{
+	static void test1() 
+	{
+		try
+		{
+			test2();
+		}
+		catch (ClassNotFoundException ex)
+		{
+			System.out.println("from test1 catch");
+		}
+	}
+	static void test2() throws ClassNotFoundException
+	{
+		test3();
+	}
+	static void test3() throws ClassNotFoundException
+	{
+		Class.forName("");
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		test1();
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 101</h3>
+<pre class="prettyprint linenums">
+class I
+{
+	static void test1() throws ClassNotFoundException
+	{
+		test2();
+	}
+	static void test2() throws ClassNotFoundException
+	{
+		test3();
+	}
+	static void test3() throws ClassNotFoundException
+	{
+		Class.forName("");
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			test1();
+		}
+		catch (ClassNotFoundException ex)
+		{
+			System.out.println("from main try/catch");
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 102</h3>
+<pre class="prettyprint linenums">
+class J
+{
+	static void test1() 
+	{
+		test2();
+	}
+	static void test2() 
+	{
+		try
+		{
+			test3();
+		}
+		catch (ArithmeticException ex)
+		{
+			System.out.println("from catch");
+		}
+	}
+	static void test3() throws ArithmeticException
+	{
+		int i = 10 / 0;
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		test1();
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 103</h3>
+<pre class="prettyprint linenums">
+class K
+{
+	static void test1() throws OutOfMemoryError
+	{
+		test2();
+	}
+	static void test2() throws NullPointerException
+	{
+		test3();
+	}
+	static void test3() throws ArithmeticException
+	{
+		//Class.forName("");
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		test1();
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 104</h3>
+<pre class="prettyprint linenums">
+import java.sql.DriverManager;
+import java.sql.SQLException;
+class L
+{
+	public static void main(String[] args) throws SQLException 
+	{
+		System.out.println("main begin");
+		DriverManager.getConnection("");
+		Thread.sleep(1000);
+		Class.forName("");
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 105</h3>
+<pre class="prettyprint linenums">
+import java.sql.DriverManager;
+import java.sql.SQLException;
+class M
+{
+	public static void main(String[] args) throws SQLException, InterruptedException
+	{
+		System.out.println("main begin");
+		DriverManager.getConnection("");
+		Thread.sleep(1000);
+		Class.forName("");
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 106</h3>
+<pre class="prettyprint linenums">
+import java.sql.DriverManager;
+import java.sql.SQLException;
+class O
+{
+	public static void main(String[] args) throws SQLException, InterruptedException, ClassNotFoundException 
+	{
+		System.out.println("main begin");
+		DriverManager.getConnection("");
+		Thread.sleep(1000);
+		Class.forName("");
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 107</h3>
+<pre class="prettyprint linenums">
+import java.sql.DriverManager;
+class P
+{
+	public static void main(String[] args) throws Exception
+	{
+		System.out.println("main begin");
+		DriverManager.getConnection("");
+		Thread.sleep(1000);
+		Class.forName("");
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 108</h3>
+<pre class="prettyprint linenums">
+import java.sql.DriverManager;
+class Q
+{
+	public static void main(String[] args) throws Throwable
+	{
+		System.out.println("main begin");
+		DriverManager.getConnection("");
+		Thread.sleep(1000);
+		Class.forName("");
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 109</h3>
+<pre class="prettyprint linenums">
+class R
+{
+	static void test() throws Exception
+	{
+		Class.forName("");
+	}
+	public static void main(String[] args) throws Throwable
+	{
+		System.out.println("main begin");
+		test();
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 110</h3>
+<pre class="prettyprint linenums">
+class S
+{
+	static void test() throws Throwable
+	{
+		Class.forName("");
+	}
+	public static void main(String[] args) throws Exception 
+	{
+		System.out.println("main begin");
+		test();
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 111</h3>
+<pre class="prettyprint linenums">
+class T
+{
+	static void test() throws Throwable
+	{
+		Class.forName("");
+	}
+	public static void main(String[] args) throws Throwable
+	{
+		System.out.println("main begin");
+		test();
+		System.out.println("main end");
+	}
+}
+
+//test() - Exception, main() - Exception
+//test() - Exception, main() - Throwable
+//test() - Throwable, main() - Exception
+//test() - Throwable, main() - Throwable
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 112</h3>
+<pre class="prettyprint linenums">
+import java.sql.DriverManager;
+import java.sql.SQLException;
+class U
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			DriverManager.getConnection("");
+			Thread.sleep(1000);
+			Class.forName("");
+		}
+		catch (SQLException ex)
+		{
+		}
+		catch (InterruptedException | ClassNotFoundException ex)
+		{
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 113</h3>
+<pre class="prettyprint linenums">
+import java.sql.DriverManager;
+class V
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			DriverManager.getConnection("");
+			Thread.sleep(1000);
+			Class.forName("");
+		}
+		catch (Exception | Error ex)
+		{
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 114</h3>
+<pre class="prettyprint linenums">
+import java.sql.DriverManager;
+class W
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			DriverManager.getConnection("");
+			Thread.sleep(1000);
+			Class.forName("");
+		}
+		catch (Throwable ex)
+		{
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 115</h3>
+<pre class="prettyprint linenums">
+import java.sql.DriverManager;
+class X
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			main(null);
+		}
+		catch (Exception ex)
+		{
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 116</h3>
+<pre class="prettyprint linenums">
+class Y
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			main(null);
+		}
+		catch (Error ex)
+		{
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 117</h3>
+<pre class="prettyprint linenums">
+class Z
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			int i = 10 / 0;
+		}
+		//catch (Error ex)
+		catch (Throwable ex)
+		{
+		}
+		System.out.println("main end");
+	}
+}
+//Exception cant handle Error
+//Error cant handle Exception
+//but both will be handled by Throwable
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<br />
+<article class="topic app">
+<h2>app6</h2>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 118</h3>
+<pre class="prettyprint linenums">
+class A
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			int i = 10 / 0;//un-checked
+			main(null);//Error
+			Class.forName("");//checked
+		}
+		catch (Throwable ex)
+		{
+		}
+		System.out.println("main end");
+	}
+}
+//Exception cant handle Error
+//Error cant handle Exception
+//but both will be handled by Throwable
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 119</h3>
+<pre class="prettyprint linenums">
+class B
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			int i = 10 / 0;//un-checked
+		}
+		catch (ArithmeticException ex)
+		{
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 120</h3>
+<pre class="prettyprint linenums">
+class C
+{
+	int i = 10;
+
+	public String toString()
+	{
+		return i + "";
+	}
+
+	public static void main(String[] args) 
+	{
+		C c1 = new C();
+		System.out.println("main begin: " + c1);
+		try
+		{
+		}
+		catch (ArithmeticException ex)
+		{
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 121</h3>
+<pre class="prettyprint linenums">
+class D
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+		}
+		catch (ClassNotFoundException ex)
+		{
+		}
+		System.out.println("main end");
+	}
+}
+//1. try can be empty if the catch is un-checked type
+//2. try cant be empty if the catch is checked type
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 122</h3>
+<pre class="prettyprint linenums">
+class E
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			//Class.forName("");
+			//Thread.sleep(1000);
+		}
+		catch (ClassNotFoundException | InterruptedException ex)
+		{
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 123</h3>
+<pre class="prettyprint linenums">
+class F
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+			Class.forName("");
+		}
+		catch (ClassNotFoundException ex)
+		{
+		}
+		catch (InterruptedException ex)
+		{
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 124</h3>
+<pre class="prettyprint linenums">
+class G
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+		}
+		catch (Exception ex)
+		{
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 125</h3>
+<pre class="prettyprint linenums">
+class G1 
+{
+	public static void test1() throws Exception
+	{
+		test2();
+	}
+
+	public static void test2() throws Exception
+	{
+		//Class.forName("");
+	}
+
+	public static void main(String[] args) 
+	{
+		test1();
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 126</h3>
+<pre class="prettyprint linenums">
+class G2
+{
+	public static void test1() throws Throwable
+	{
+		test2();
+	}
+
+	public static void test2() throws Throwable
+	{
+		//Class.forName("");
+	}
+
+	public static void main(String[] args) 
+	{
+		test1();
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 127</h3>
+<pre class="prettyprint linenums">
+class H
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+		}
+		catch (Throwable ex)
+		{
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 128</h3>
+<pre class="prettyprint linenums">
+class I
+{
+	static void test() throws Exception
+	{
+	}
+
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		test();
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 129</h3>
+<pre class="prettyprint linenums">
+class J
+{
+	static void test() throws Throwable
+	{
+	}
+
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		test();
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 130</h3>
+<pre class="prettyprint linenums">
+class L
+{
+	static void test() throws ClassNotFoundException
+	{
+	}
+
+	public static void main(String[] args) throws Exception 
+	{
+		System.out.println("main begin");
+		test();
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 131</h3>
+<pre class="prettyprint linenums">
+class M
+{
+	public static void main(String[] args) 
+	{
+		try
+		{
+		}
+		catch (ClassNotFoundException ex)
+		{
+		}
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 132</h3>
+<pre class="prettyprint linenums">
+class N
+{
+	static void test() throws Throwable
+	{
+	}
+
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		test();
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 133</h3>
+<pre class="prettyprint linenums">
+class P
+{
+	static void test() throws ClassNotFoundException
+	{
+	}
+
+	public static void main(String[] args) throws ClassNotFoundException
+	{
+		System.out.println("main begin");
+		test();
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 134</h3>
+<pre class="prettyprint linenums">
+import java.sql.SQLException;
+class Q
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		try
+		{
+		}
+		catch (SQLException ex)
+		{
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 135</h3>
+<pre class="prettyprint linenums">
+class R
+{
+	R() throws ClassNotFoundException
+	{
+	}
+}
+class S 
+{
+	public static void main(String[] args) 
+	{
+		R r1 = new R();
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 136</h3>
+<pre class="prettyprint linenums">
+class S
+{
+	S() throws ClassNotFoundException
+	{
+	}
+}
+class T
+{
+	public static void main(String[] args) throws ClassNotFoundException
+	{
+		S s1 = new S();
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 137</h3>
+<pre class="prettyprint linenums">
+class U
+{
+	U() throws ClassNotFoundException
+	{
+	}
+}
+class V extends U
+{
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 138</h3>
+<pre class="prettyprint linenums">
+class X
+{
+	X() throws ClassNotFoundException
+	{
+	}
+}
+class Y extends X
+{
+	Y() throws ClassNotFoundException
+	{
+		super();
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 139</h3>
+<pre class="prettyprint linenums">
+class X
+{
+	X() throws ClassNotFoundException
+	{
+	}
+}
+class Z extends X
+{
+	Z() 
+	{
+		try
+		{
+			super();
+		}
+		catch (ClassNotFoundException ex)
+		{
+		}
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 140</h3>
+<pre class="prettyprint linenums">
+class X
+{
+	X() throws ClassNotFoundException
+	{
+		Class.forName("");
+	}
+}
+class Z1 extends X
+{
+	Z1() throws ClassNotFoundException
+	{
+		super();
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 141</h3>
+<pre class="prettyprint linenums">
+class X
+{
+	X() 
+	{
+		try
+		{
+			Class.forName("");
+		}
+		catch (ClassNotFoundException ex)
+		{
+		}
+	}
+}
+class Z2 extends X
+{
+	Z2()
+	{
+		super();
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<br />
+<article class="topic app">
+<h2>app7</h2>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 142</h3>
+<pre class="prettyprint linenums">
+class A
+{
+	A() throws ClassNotFoundException
+	{
+	}
+}
+class B extends A
+{
+	B() throws ClassNotFoundException
+	{
+		super();
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 143</h3>
+<pre class="prettyprint linenums">
+class C
+{
+	C() throws ClassNotFoundException
+	{
+	}
+}
+class D extends C
+{
+	D()
+	{
+		try
+		{
+			super();
+		}
+		catch (ClassNotFoundException ex)
+		{
+		}
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 144</h3>
+<pre class="prettyprint linenums">
+class E
+{
+	E()
+	{
+		try
+		{
+			Class.forName("");
+		}
+		catch (ClassNotFoundException ex)
+		{
+		}
+	}
+}
+class F extends E
+{
+	F()
+	{
+		super();
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 145</h3>
+<pre class="prettyprint linenums">
+class G 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		if (true)
+		{
+			throw new ArithmeticException();
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 146</h3>
+<pre class="prettyprint linenums">
+class H
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		if (true)
+		{
+			throw new StackOverflowError();
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 147</h3>
+<pre class="prettyprint linenums">
+class I
+{
+	public static void main(String[] args) throws ClassNotFoundException
+	{
+		System.out.println("main begin");
+		if (true)
+		{
+			throw new ClassNotFoundException();
+
+			/*
+			try
+			{
+				throw new ClassNotFoundException();
+			}
+			catch (ClassNotFoundException ex)
+			{
+			}*/
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 148</h3>
+<pre class="prettyprint linenums">
+class InsufficientBalanceException extends ArithmeticException //extends Exception //extends ArithmeticException//extends Throwable//extends IOException
+{
+	InsufficientBalanceException(String msg)
+	{
+		super(msg);
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 149</h3>
+<pre class="prettyprint linenums">
+class J
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		if (true)
+		{
+			throw new ArithmeticException("we are terminating the flow by raising an exception explicitely");
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 150</h3>
+<pre class="prettyprint linenums">
+class K
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		if (true)
+		{
+			throw new ArithmeticException();
+			System.out.println("some statement");
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 151</h3>
+<pre class="prettyprint linenums">
+class L
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		try
+		{
+		}
+		catch (String str)
+		{
+		}
+		System.out.println("main end");
+	}
+}
+//catch should be always Throwable or sub-class to to Throwable type
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 152</h3>
+<pre class="prettyprint linenums">
+import java.util.Scanner;
+class M
+{
+	public static void main(String[] args) throws Scanner
+	{
+		System.out.println("main begin");
+		System.out.println("main end");
+	}
+}
+//throws should be always Throwable type or sub-class to to Throwable type
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 153</h3>
+<pre class="prettyprint linenums">
+class N
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		if (true)
+		{
+			throw new String();
+		}
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 154</h3>
+<pre class="prettyprint linenums">
+import java.util.Scanner;
+class O
+{
+	public static void main(String[] args) //throws InsufficientBalanceException
+	{
+		System.out.println("Welcome to your Account");
+		System.out.println("Your Balance is 10,000.0 Rupees");
+		Scanner sc = new Scanner(System.in);
+		int i;
+		do
+		{
+			System.out.println("Enter the amount to be withdrawn");
+
+			i = sc.nextInt();
+
+			if (!(i <= 0) && i <= 10000)
+			{
+				break;
+			}
+
+			if(i > 10000)
+			{
+				throw new InsufficientBalanceException("your balance is 10,000 only!");
+			}
+			if(i <= 0)
+			{
+				System.out.println("Invalid do you wish to try again?? yes or no");
+				String response = sc.next();
+				
+				if (!response.equalsIgnoreCase("yes"))
+				{
+					break;
+				}
+				else
+				{
+					continue;
+				}
+			}
+		}
+		while (true);
+		System.out.println((double)i + " cash despensed. count the cash before leaving");
+		System.out.println("Thank you");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+
+
+		<!-- notes body start -->
+		<main class="main">
+			<section class="class-notes">
+				<!-- <h2 class="subject-title">Subject Title</h2> -->
+
+				<!-- Add more articles for other topics -->
+			</section>
+		</main>
+		<!-- notes body end -->
+
+		<!-- content-divider -->
+		<div class="content-divider"></div>
+		<!-- end of content divider -->
+		<!-- footer section -->
+		<footer class="footer">
+			<div class="section-center">
+				<div class="social-icons">
+					<!-- social icon -->
+					<a href="#" class="social-icon">
+						<i class="fa-brands fa-square-facebook"></i>
+					</a>
+					<!-- social icon -->
+					<a href="#" class="social-icon">
+						<i class="fa-brands fa-square-twitter"></i>
+					</a>
+					<!-- social icon -->
+					<a href="#" class="social-icon">
+						<i class="fa-brands fa-square-instagram"></i>
+					</a>
+					<!-- end of social icon -->
+				</div>
+				<p class="footer-text">
+					&copy;
+					<span class="text-primary">vijays programming 2024</span>
+					all rights reserved
+				</p>
+			</div>
+		</footer>
+		<script src="./app.js"></script>
+		<script
+			type="text/javascript"
+			src="./google-code-prettify/prettify.js"
+		></script>
+	</body>
+</html>
+
+<!-- <span class="navbar-links">Notes Navigator</span>
+        <br />
+        <li><a href="#introduction" class="nav-link">Introduction</a></li>
+        <li><a href="#object-class" class="nav-link">Object Class</a></li>
+        <li><a href="#tostring" class="nav-link">toString() Method</a></li>
+        <li>
+          <a href="#hashcode" class="nav-link">hashCode() Method</a>
+        </li>
+        <li><a href="#equals" class="nav-link">equals() Method</a></li>
+        <li><a href="#clone" class="nav-link">clone() Method</a></li>
+        <li>
+          <a href="#finalize" class="nav-link">finalize() Method</a>
+        </li>
+        <li><a href="#wait" class="nav-link">wait() Method</a></li>
+        <li><a href="#notify" class="nav-link">notify() Method</a></li>
+        <li>
+          <a href="#notify-all" class="nav-link">notifyAll() Method </a>
+        </li> -->

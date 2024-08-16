@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>object-class-programs</title>
+		<!-- font awesome -->
+		<link rel="stylesheet" href="./fontawesome-free-6.2.1-web/css/all.css" />
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="./google-code-prettify/prettify.css"
+		/>
+		<style>
+			/* Background color style */
+			pre.prettyprint {
+				background-color: #eee;
+				padding: 2px;
+				border: 1px solid #888;
+			}
+		</style>
+		<!-- styles -->
+		<link rel="stylesheet" href="./styles.css" />
+	</head>
+	<body onload="PR.prettyPrint()">
+		<!-- navigation button -->
+		<span class="resource-nav-btn" id="resource-nav-btn">
+			<i class="fa-sharp fa-solid fa-bars fa-2x" style="color: #000"></i>
+		</span>
+
+		<!-- navigation bar -->
+		<nav class="resource-navbar" id="resource-navbar">
+			<div class="resource-navbar-header">
+				<span class="resource-nav-close" id="resource-nav-close">
+					<i class="fa-sharp fa-solid fa-xmark fa-1.5x" style="color: #000"></i>
+				</span>
+			</div>
+			<ul class="resource-nav-items">
+				<span class="resource-navbar-links">Resources Navigator</span>
+				<br />
+
+				<li><a href="./index.html" class="resource-nav-link">notes</a></li>
+				<li>
+					<a href="./programs.html" class="resource-nav-link">programs</a>
+				</li>
+				<li><a href="./points.html" class="resource-nav-link">points</a></li>
+				<li>
+					<a href="./interview-qa.html" class="resource-nav-link"
+						>interview QA</a
+					>
+				</li>
+				<li>
+					<a href="./assignment-qa.html" class="resource-nav-link"
+						>assignment QA</a
+					>
+				</li>
+			</ul>
+		</nav>
+
+		<span class="main-nav-btn" id="main-nav-btn">
+			<i class="fa-sharp fa-solid fa-bars fa-2x" style="color: #000"></i>
+		</span>
+
+		<!-- main navigator -->
+		<nav class="main-navbar" id="main-navbar">
+			<div class="main-navbar-header">
+				<span class="main-nav-close" id="main-nav-close">
+					<i class="fa-sharp fa-solid fa-xmark fa-1.5x" style="color: #000"></i>
+				</span>
+				<!-- main navigation button -->
+			</div>
+			<ul class="main-nav-items">
+				<span class="main-navbar-links">Main Navigator</span>
+				<br />
+				<li>
+					<a href="index.html" class="main-nav-link">Language Fundamentals</a>
+				</li>
+				<li><a href="about.html" class="main-nav-link">static-members</a></li>
+				<li>
+					<a href="work.html" class="main-nav-link">non-static-members</a>
+				</li>
+				<li><a href="contact.html" class="main-nav-link">inheritance</a></li>
+				<li><a href="index.html" class="main-nav-link">scanner-class</a></li>
+				<li><a href="about.html" class="main-nav-link">objects-count</a></li>
+				<li>
+					<a href="work.html" class="main-nav-link"
+						>packages-and-access-levels</a
+					>
+				</li>
+				<li><a href="contact.html" class="main-nav-link">encapsulation</a></li>
+				<li><a href="index.html" class="main-nav-link">type-casting</a></li>
+				<li><a href="about.html" class="main-nav-link">polymorphism</a></li>
+				<li>
+					<a href="work.html" class="main-nav-link">super-this-in-methods</a>
+				</li>
+				<li><a href="contact.html" class="main-nav-link">abstraction</a></li>
+				<li><a href="index.html" class="main-nav-link">interfaces</a></li>
+				<li>
+					<a href="about.html" class="main-nav-link">command-line-arguments</a>
+				</li>
+				<li><a href="work.html" class="main-nav-link">final-keyword</a></li>
+				<li>
+					<a href="contact.html" class="main-nav-link">exception-handling</a>
+				</li>
+				<li><a href="index.html" class="main-nav-link">assertion</a></li>
+				<li><a href="about.html" class="main-nav-link">enum</a></li>
+				<li><a href="work.html" class="main-nav-link">wrapper-classes</a></li>
+				<li><a href="contact.html" class="main-nav-link">string</a></li>
+				<li>
+					<a href="index.html" class="main-nav-link"
+						>string-buffer-and-string-builder</a
+					>
+				</li>
+				<li><a href="about.html" class="main-nav-link">multi-threads</a></li>
+				<li><a href="work.html" class="main-nav-link">object-class</a></li>
+				<li><a href="contact.html" class="main-nav-link">Generics</a></li>
+				<li><a href="index.html" class="main-nav-link">collection-API</a></li>
+				<li><a href="about.html" class="main-nav-link">File-Handling</a></li>
+				<li><a href="work.html" class="main-nav-link">Annotations</a></li>
+				<li>
+					<a href="contact.html" class="main-nav-link">Java-8.0-Features</a>
+				</li>
+			</ul>
+		</nav>
+
+		<!-- header -->
+		<header class="header">
+			<div class="banner">
+				<h1 class="banner-title">Object class in java - programs</h1>
+			</div>
+		</header>
+
+		<!-- end of header -->
+		<!-- content-divider -->
+		<div class="content-divider"></div>
+		<!-- end of content divider -->
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 1</h3>
+<pre class="prettyprint linenums">
+class A
+{
+	public void test()
+	{
+		System.out.println("from A test()");
+	}
+}
+class B extends A
+{
+	public void test(int i)
+	{
+		super.test();
+		System.out.println("from B test(int)");
+	}
+
+	public static void main(String[] args) 
+	{
+		B obj = new B();
+		obj.test();
+		obj.test(10);
+		System.out.println("done");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 2</h3>
+<pre class="prettyprint linenums">
+class C
+{
+	public void test()
+	{
+		System.out.println("from C test()");
+	}
+}
+class D extends C
+{
+	public void test(int i)
+	{
+		System.out.println("from D test(int) begin");
+		super.test();
+		System.out.println("from D test(int) end");
+	}
+
+	public static void main(String[] args) 
+	{
+		D obj = new D();
+		obj.test();
+		obj.test(10);
+		System.out.println("done");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 3</h3>
+<pre class="prettyprint linenums">
+class E
+{
+	public void test()
+	{
+		System.out.println("from E test()");
+	}
+}
+class F extends E
+{
+	public static void test(int i)
+	{
+		super.test();
+		System.out.println("from F test(int)");
+	}
+
+	public static void main(String[] args) 
+	{
+		F obj = new F();
+		obj.test();
+		obj.test(10);
+		System.out.println("done");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 4</h3>
+<pre class="prettyprint linenums">
+class G
+{
+	public static void test()
+	{
+		System.out.println("from G test()");
+	}
+}
+class H extends G
+{
+	public void test(int i)
+	{
+		super.test();
+		System.out.println("from H test(int)");
+	}
+
+	public static void main(String[] args) 
+	{
+		H obj = new H();
+		obj.test();
+		obj.test(10);
+		System.out.println("done");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 5</h3>
+<pre class="prettyprint linenums">
+class I
+{
+	static int i;
+	boolean k;
+}
+class J extends I
+{
+	J()
+	{
+		super();
+		System.out.println("J() begin");
+		System.out.println(super.i);
+		System.out.println(super.k);
+		System.out.println("J() end");
+	}
+
+	{
+		//super();
+		System.out.println("J-IIB begin");
+		System.out.println(super.i);
+		System.out.println(super.k);
+		System.out.println("J-IIB end");
+	}
+
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		J obj = new J();
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 6</h3>
+<pre class="prettyprint linenums">
+class K 
+{
+	public void test()
+	{
+		this.test(10);
+		System.out.println("from K test()");
+	}
+
+	public void test(int i)
+	{
+		System.out.println("from K test(int i)");
+	}
+
+	public static void main(String[] args) 
+	{
+		K obj = new K();
+		obj.test();
+		System.out.println("done");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 7</h3>
+<pre class="prettyprint linenums">
+class L
+{
+	public static void test()
+	{
+		this.test(10);
+		System.out.println("from L test()");
+	}
+
+	public void test(int i)
+	{
+		System.out.println("from L test(int i)");
+	}
+
+	public static void main(String[] args) 
+	{
+		L obj = new L();
+		obj.test();
+		System.out.println("done");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 8</h3>
+<pre class="prettyprint linenums">
+class M
+{
+	public void test()
+	{
+		this.test(10);
+		System.out.println("from M test()");
+	}
+
+	public static void test(int i)
+	{
+		System.out.println("from M test(int i)");
+	}
+
+	public static void main(String[] args) 
+	{
+		M obj = new M();
+		obj.test();
+		System.out.println("done");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 9</h3>
+<pre class="prettyprint linenums">
+class N
+{
+	public void test()
+	{
+		System.out.println("froN N test() begin");
+		this.test(10);
+		System.out.println("froN N test() end");
+	}
+
+	public static void test(int i)
+	{
+		System.out.println("from N test(int i)");
+	}
+
+	public static void main(String[] args) 
+	{
+		N obj = new N();
+		obj.test();
+		System.out.println("done");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 10</h3>
+<pre class="prettyprint linenums">
+class O
+{
+	public void test()
+	{
+		System.out.println("from O test()");
+	}
+
+	O()
+	{
+		this.test();
+	}
+
+	{
+		this.test();
+	}
+
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		O obj = new O();
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+<article class="topic">
+<h3 class="topic-title" id="introduction">Example No. 11</h3>
+<pre class="prettyprint linenums">
+class P
+{
+	static String str = "abc";
+	int i = 10;
+
+	public void test()
+	{
+		System.out.println("from P test() begin");
+		System.out.println(this.str);
+		System.out.println(this.i);
+		System.out.println("from P test() end");
+	}
+
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		P obj = new P();
+		obj.test();
+		System.out.println("main end");
+	}
+}
+</pre>
+<br />
+<pre class="output"><b>o/p: </b>
+</pre>
+<br />
+<pre class="output"><b>Explanation: </b>
+</pre>
+</article>
+
+
+		<!-- notes body start -->
+		<main class="main">
+			<section class="class-notes">
+				<!-- <h2 class="subject-title">Subject Title</h2> -->
+
+				<!-- Add more articles for other topics -->
+			</section>
+		</main>
+		<!-- notes body end -->
+
+		<!-- content-divider -->
+		<div class="content-divider"></div>
+		<!-- end of content divider -->
+		<!-- footer section -->
+		<footer class="footer">
+			<div class="section-center">
+				<div class="social-icons">
+					<!-- social icon -->
+					<a href="#" class="social-icon">
+						<i class="fa-brands fa-square-facebook"></i>
+					</a>
+					<!-- social icon -->
+					<a href="#" class="social-icon">
+						<i class="fa-brands fa-square-twitter"></i>
+					</a>
+					<!-- social icon -->
+					<a href="#" class="social-icon">
+						<i class="fa-brands fa-square-instagram"></i>
+					</a>
+					<!-- end of social icon -->
+				</div>
+				<p class="footer-text">
+					&copy;
+					<span class="text-primary">vijays programming 2024</span>
+					all rights reserved
+				</p>
+			</div>
+		</footer>
+		<script src="./app.js"></script>
+		<script
+			type="text/javascript"
+			src="./google-code-prettify/prettify.js"
+		></script>
+	</body>
+</html>
+
+<!-- <span class="navbar-links">Notes Navigator</span>
+        <br />
+        <li><a href="#introduction" class="nav-link">Introduction</a></li>
+        <li><a href="#object-class" class="nav-link">Object Class</a></li>
+        <li><a href="#tostring" class="nav-link">toString() Method</a></li>
+        <li>
+          <a href="#hashcode" class="nav-link">hashCode() Method</a>
+        </li>
+        <li><a href="#equals" class="nav-link">equals() Method</a></li>
+        <li><a href="#clone" class="nav-link">clone() Method</a></li>
+        <li>
+          <a href="#finalize" class="nav-link">finalize() Method</a>
+        </li>
+        <li><a href="#wait" class="nav-link">wait() Method</a></li>
+        <li><a href="#notify" class="nav-link">notify() Method</a></li>
+        <li>
+          <a href="#notify-all" class="nav-link">notifyAll() Method </a>
+        </li> -->
