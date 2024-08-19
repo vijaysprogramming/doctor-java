@@ -1,0 +1,27 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.topic-btn {
+    margin-bottom: 15px;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.topic-btn:hover {
+    background-color: #0056b3;
+    color: white;
+    transform: scale(1.05);
+}
+
+.jumbotron {
+    background-color: #007bff;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
