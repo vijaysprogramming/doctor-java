@@ -1,98 +1,153 @@
 const quizData = [
     {
-        question: "Which language runs in a web browser?",
-        a: "Java",
-        b: "C",
-        c: "Python",
-        d: "JavaScript",
-        correct: "d",
-    },
+        question: "What will be the output of the following Java program?",
+        code: `class I
+{
+    public static void main(String[] args)
     {
-        question: "What does CSS stand for?",
-        a: "Central Style Sheets",
-        b: "Cascading Style Sheets",
-        c: "Cascading Simple Sheets",
-        d: "Cars SUVs Sailboats",
+        boolean flag = !(!(!false != !true)); 
+        if(flag)
+        {
+            System.out.println("from if");
+        }
+        System.out.println("end of main");
+    }
+}`,
+        a: "from if<br>end of main",
+        b: "end of main",
+        c: "Compilation error",
+        d: "Runtime error",
         correct: "b",
     },
     {
-        question: "What does HTML stand for?",
-        a: "Hypertext Markup Language",
-        b: "Hypertext Markdown Language",
-        c: "Hyperloop Machine Language",
-        d: "Helicopters Terminals Motorboats Lamborginis",
-        correct: "a",
-    },
+        question: "What will be the output of the following Java program?",
+        code: `class J
+{
+    public static void main(String[] args)
     {
-        question: "What year was JavaScript launched?",
-        a: "1996",
-        b: "1995",
-        c: "1994",
-        d: "none of the above",
+        int x = 5;
+        int y = 10;
+        if(x + y > 15)
+        {
+            System.out.println("Sum is greater than 15");
+        }
+        else
+        {
+            System.out.println("Sum is less than or equal to 15");
+        }
+    }
+}`,
+        a: "Sum is greater than 15",
+        b: "Sum is less than or equal to 15",
+        c: "Compilation error",
+        d: "Runtime error",
         correct: "b",
-    },
+    }
 ];
 
-const quiz = document.getElementById('quiz')
-const answerEls = document.querySelectorAll('.answer')
-const questionEl = document.getElementById('question')
-const a_text = document.getElementById('a_text')
-const b_text = document.getElementById('b_text')
-const c_text = document.getElementById('c_text')
-const d_text = document.getElementById('d_text')
-const submitBtn = document.getElementById('submit')
+const quiz = document.getElementById('quiz');
+const answerEls = document.querySelectorAll('.answer');
+const questionEl = document.getElementById('question');
+const codeEl = document.getElementById('code');
+const a_text = document.getElementById('a_text');
+const b_text = document.getElementById('b_text');
+const c_text = document.getElementById('c_text');
+const d_text = document.getElementById('d_text');
+const submitBtn = document.getElementById('submit');
 
-let currentQuiz = 0
-let score = 0
+let currentQuiz = 0;
+let score = 0;
+let selectedAnswers = [];
 
-loadQuiz()
+loadQuiz();
 
 function loadQuiz() {
-    deselectAnswers()
+    deselectAnswers();
 
-    const currentQuizData = quizData[currentQuiz]
+    const currentQuizData = quizData[currentQuiz];
 
-    questionEl.innerText = currentQuizData.question
-    a_text.innerText = currentQuizData.a
-    b_text.innerText = currentQuizData.b
-    c_text.innerText = currentQuizData.c
-    d_text.innerText = currentQuizData.d
+    questionEl.innerText = currentQuizData.question;
+    codeEl.innerHTML = `<pre><code class="language-java">${currentQuizData.code}</code></pre>`;
+    a_text.innerHTML = currentQuizData.a;
+    b_text.innerHTML = currentQuizData.b;
+    c_text.innerHTML = currentQuizData.c;
+    d_text.innerHTML = currentQuizData.d;
+
+    hljs.highlightAll(); // Apply syntax highlighting
 }
 
 function deselectAnswers() {
-    answerEls.forEach(answerEl => answerEl.checked = false)
+    answerEls.forEach(answerEl => answerEl.checked = false);
 }
 
 function getSelected() {
-    let answer
+    let answer;
 
     answerEls.forEach(answerEl => {
-        if(answerEl.checked) {
-            answer = answerEl.id
+        if (answerEl.checked) {
+            answer = answerEl.id;
         }
-    })
+    });
 
-    return answer
+    return answer;
 }
 
 submitBtn.addEventListener('click', () => {
-    const answer = getSelected()
-    
-    if(answer) {
-        if(answer === quizData[currentQuiz].correct) {
-            score++
-        }
+    const answer = getSelected();
 
-        currentQuiz++
+    if (answer) {
+        const currentQuizData = quizData[currentQuiz];
+        const correctAnswerText = document.getElementById(currentQuizData.correct + "_text").innerText;
+        const selectedAnswerText = document.getElementById(answer + "_text").innerText;
 
-        if(currentQuiz < quizData.length) {
-            loadQuiz()
+        if (answer === currentQuizData.correct) {
+            score++;
+            alert(`Correct! You selected "${selectedAnswerText}".`);
         } else {
-            quiz.innerHTML = `
-                <h2>You answered ${score}/${quizData.length} questions correctly</h2>
-
-                <button onclick="location.reload()">Reload</button>
-            `
+            alert(`Incorrect! You selected "${selectedAnswerText}". The correct answer is "${correctAnswerText}".`);
         }
+
+        selectedAnswers.push({
+            question: currentQuizData.question,
+            code: currentQuizData.code,
+            selected: selectedAnswerText,
+            correct: correctAnswerText,
+            isCorrect: answer === currentQuizData.correct
+        });
+
+        currentQuiz++;
+
+        if (currentQuiz < quizData.length) {
+            loadQuiz();
+        } else {
+            showResults();
+        }
+    } else {
+        alert("Please select an answer!");
     }
-})
+});
+
+function showResults() {
+    quiz.innerHTML = `
+        <h2 style="text-align: center; font-size: 2rem;">Quiz Results</h2>
+        <p style="font-size: 1.5rem; text-align: center;">You answered ${score}/${quizData.length} questions correctly</p>
+        <div style="margin-top: 2rem; max-height: 400px; overflow-y: auto; padding: 1rem; border: 1px solid #ccc; border-radius: 10px;">
+            <h3 style="text-align: center; margin-bottom: 2rem;">Detailed Summary</h3>
+            <ul style="list-style-type: none; padding: 0; font-size: 1.2rem;">
+                ${selectedAnswers.map((result, index) => `
+                    <li style="margin-bottom: 1.5rem;">
+                        <strong>Question ${index + 1}:</strong> ${result.question}<br>
+                        <pre><code class="language-java">${result.code}</code></pre>
+                        <strong>Your Answer:</strong> ${result.selected} (${result.isCorrect ? '<span style="color: green;">Correct</span>' : '<span style="color: red;">Incorrect</span>'})<br>
+                        ${!result.isCorrect ? `<strong>Correct Answer:</strong> ${result.correct}` : ''}
+                    </li>
+                `).join('')}
+            </ul>
+        </div>
+        <div style="text-align: center; margin-top: 2rem;">
+            <button onclick="location.reload()" style="font-size: 1.2rem; padding: 0.8rem 1.5rem; background-color: #8e44ad; color: #fff; border: none; cursor: pointer;">Reload Quiz</button>
+        </div>
+    `;
+
+    hljs.highlightAll(); // Apply syntax highlighting in the summary
+}
