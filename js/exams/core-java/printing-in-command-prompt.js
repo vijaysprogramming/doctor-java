@@ -1,18 +1,22 @@
 const quizData = [
     
     {
-        "question": "println method automatically goes to the next line after printing?",
-        "code": "Select The Correct Answer",
-        "a": " true",
-        "b": "false",
-        
-        "correct": "d"
+        question: "println method automatically goes to the next line after printing?",
+        code: "Select The Correct Answer",
+        a: " true",
+        b: "false",
+        c: "not applicable",
+        d: "non of above",
+        correct: "d"
     },
     {
         question: "print method automatically goes to the next line after printing?",
         code: `Select The Correct Answer`,
         a: "true",
         b: "false",
+        b: "false",
+        c: "not applicable",
+        d: "non of above",
         correct: "a"
     },
     {
@@ -20,6 +24,8 @@ const quizData = [
         code: `Select The Correct Answer`,
         a: "println",
         b: "print",
+        c: "scanf",
+        d: "non of above",
         correct: "a"
     },
     {
@@ -28,6 +34,8 @@ const quizData = [
         a: "1",
         b: "2",
         c: "0",
+        c: "not applicable",
+        d: "6",
         correct: "a"
     },
     {
@@ -36,6 +44,8 @@ const quizData = [
         a: "1",
         b: "2",
         c: "0",
+        c: "4",
+        d: "non of above",
         correct: "a"
     },
     {
@@ -43,6 +53,9 @@ const quizData = [
         code: `Select The Correct Answer`,
         a: "System.out.println();",
         b: "System.out.print();",
+        c: "System.in.print();",
+        d: "non of above",
+
         correct: "a"
     }
     
@@ -58,6 +71,9 @@ const questionEl = document.getElementById('question');
 const codeEl = document.getElementById('code');
 const a_text = document.getElementById('a_text');
 const b_text = document.getElementById('b_text');
+const c_text = document.getElementById('c_text');
+const d_text = document.getElementById('d_text');
+
 
 const submitBtn = document.getElementById('submit');
 
@@ -76,6 +92,8 @@ questionEl.innerText = currentQuizData.question;
 codeEl.innerHTML = `<pre><code class="language-java">${currentQuizData.code}</code></pre>`;
 a_text.innerHTML = currentQuizData.a;
 b_text.innerHTML = currentQuizData.b;
+c_text.innerHTML = currentQuizData.c;
+d_text.innerHTML = currentQuizData.d;
 
 hljs.highlightAll(); // Apply syntax highlighting
 }
