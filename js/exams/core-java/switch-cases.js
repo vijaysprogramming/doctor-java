@@ -26,7 +26,7 @@ const quizData = [
         b: 'Monday<br>Tuesday<br>Wednesday<br>Thursday<br>',
         c: 'Compile Time Error<br>',
         d: 'None<br>',
-        correct: 'b'
+        correct: 'b',
     },
     {
         question: "What will be the output of the above code if executed with grade as 'B'?",
@@ -52,7 +52,7 @@ const quizData = [
         b: 'Good',
         c: 'Average',
         d: 'Fail',
-        correct: 'b'
+        correct: 'b',
     },
     {
         question: "What will be the output of the above code if executed with num as 4?",
@@ -78,7 +78,7 @@ const quizData = [
         a: 'Odd',
         b: 'Even',
         c: 'Other',
-        correct: 'b'
+        correct: 'b',
     },
     {
         question: "What will be the output of the above code if executed with month as 'March'?",
@@ -104,7 +104,7 @@ const quizData = [
         b: 'Second month of the year',
         c: 'Third month of the year',
         d: 'Other month',
-        correct: 'c'
+        correct: 'c',
     },
     {
         question: 5,
@@ -775,7 +775,7 @@ public class SwitchExample {
         b: 'Five',
         c: 'Other',
         d: 'FiveFive',
-        correct: 'd'
+        correct: 'd',
     },
     {
         question: "What will be the output of the following code?",
@@ -802,7 +802,7 @@ public class SwitchExample {
         b: 'Seven',
         c: 'Less than or equal to 5',
         d: 'Other',
-        correct: 'b'
+        correct: 'b',
     },
     {
         question: "What will be the output of the following code?",
@@ -826,7 +826,7 @@ public class SwitchExample {
         b: 'Value is 10\nOutside switch',
         c: 'Value is 5',
         d: 'Compilation error',
-        correct: 'a'
+        correct: 'a',
     },
     {
         question: "What will be the output of the following code?",
@@ -873,7 +873,7 @@ public class SwitchExample {
         b: 'Value is 10',
         c: 'Compilation error',
         d: 'No output',
-        correct: 'c'
+        correct: 'c',
     },
     {
         question: "What will be the output of the following code?",
@@ -895,7 +895,7 @@ public class SwitchExample {
         b: 'Equal to 5',
         c: 'Equal to 10',
         d: 'Other value',
-        correct: 'a'
+        correct: 'a',
     },
     {
         question: "What will be the output of the following code?",
@@ -918,7 +918,7 @@ public class SwitchExample {
         b: 'Two',
         c: 'Default case',
         d: 'Compilation error',
-        correct: 'b'
+        correct: 'b',
     },
     {
         question: "What will be the output of the following code?",
@@ -939,7 +939,7 @@ public class SwitchExample {
         b: 'Two',
         c: 'OneTwo',
         d: 'OneTwoDefault case',
-        correct: 'd'
+        correct: 'd',
     },
     {
         question: "What will be the output of the following code?",
@@ -960,7 +960,7 @@ public class SwitchExample {
         b: 'Two',
         c: 'No output',
         d: 'Compilation error',
-        correct: 'c'
+        correct: 'c',
     },
     {
         question: "What will be the output of the following code?",
@@ -986,7 +986,7 @@ public class SwitchExample {
         b: 'Two',
         c: 'Three',
         d: 'Compilation error',
-        correct: 'b'
+        correct: 'b',
     },
     {
         question: "What will be the output of the following code?",
@@ -1013,7 +1013,7 @@ public class SwitchExample {
         b: 'Two',
         c: 'Three',
         d: 'ThreeFourDefault case',
-        correct: 'd'
+        correct: 'd',
     },
     {
         question: "What will be the output of the following code?",
@@ -1037,7 +1037,7 @@ public class SwitchExample {
         b: 'Five',
         c: 'FiveTenDefault case',
         d: 'Compilation error',
-        correct: 'c'
+        correct: 'c',
     }, 
     {
         question: "What will be the output of the following code?",
@@ -1064,7 +1064,7 @@ public class SwitchExample {
         b: 'Seven',
         c: 'Less than or equal to 5',
         d: 'Other',
-        correct: 'b'
+        correct: 'b',
     },
     {
         question: "What will be the output of the following code?",
@@ -1088,7 +1088,7 @@ public class SwitchExample {
         b: 'Value is 10\nOutside switch',
         c: 'Value is 5',
         d: 'Compilation error',
-        correct: 'a'
+        correct: 'a',
     },
     {
         question: "What will be the output of the following code?",
@@ -1112,7 +1112,7 @@ public class SwitchExample {
         b: 'FourSixDefault case',
         c: 'FourSix',
         d: 'Compilation error',
-        correct: 'b'
+        correct: 'b',
     },
     {
         question: "What will be the output of the following code?",
@@ -1135,7 +1135,7 @@ public class SwitchExample {
         b: 'Value is 10',
         c: 'Compilation error',
         d: 'No output',
-        correct: 'c'
+        correct: 'c',
     },
     {
         question: "What will be the output of the following code?",
@@ -1157,7 +1157,7 @@ public class SwitchExample {
         b: 'Equal to 5',
         c: 'Equal to 10',
         d: 'Other value',
-        correct: 'a'
+        correct: 'a',
     },
     {
         question: "What will be the output of the following code?",
@@ -1180,7 +1180,7 @@ public class SwitchExample {
         b: 'Two',
         c: 'Default case',
         d: 'Compilation error',
-        correct: 'b'
+        correct: 'b',
     },
     {
         question: "What will be the output of the following code?",
@@ -1201,7 +1201,7 @@ public class SwitchExample {
         b: 'Two',
         c: 'OneTwo',
         d: 'OneTwoDefault case',
-        correct: 'd'
+        correct: 'd',
     },
     {
         question: "What will be the output of the following code?",
@@ -1222,7 +1222,7 @@ public class SwitchExample {
         b: 'Two',
         c: 'No output',
         d: 'Compilation error',
-        correct: 'c'
+        correct: 'c',
     },
     {
         question: "What will be the output of the following code?",
@@ -1248,7 +1248,7 @@ public class SwitchExample {
         b: 'Two',
         c: 'Three',
         d: 'Compilation error',
-        correct: 'b'
+        correct: 'b',
     },
     {
         question: "What will be the output of the following code?",
@@ -1275,7 +1275,7 @@ public class SwitchExample {
         b: 'Two',
         c: 'Three',
         d: 'ThreeFourDefault case',
-        correct: 'd'
+        correct: 'd',
     },
     {
         question: "What will be the output of the following code?",
@@ -1299,7 +1299,7 @@ public class SwitchExample {
         b: 'Five',
         c: 'FiveTenDefault case',
         d: 'Compilation error',
-        correct: 'c'
+        correct: 'c',
     },
     {
         question: "What will be the output of the above code?",
@@ -1323,7 +1323,7 @@ public class SwitchExample {
         b: 'Default case',
         c: ' Two',
         d: 'Default caseTwo',
-        correct: 'd'
+        correct: 'd',
     },
     {
         question: "What will be the output of the above code?",
@@ -1349,7 +1349,7 @@ public class SwitchExample {
         b: 'Default case Two<br>Outside switch',
         c: 'one',
         d: 'Compilation error',
-        correct: 'c'
+        correct: 'c',
     },
     {
         question: "What will be the output of the above code?",
@@ -1374,7 +1374,7 @@ public class SwitchExample {
         b: 'Value is 10',
         c: 'Value is 7',
         d: 'Compilation error',
-        correct: 'c'
+        correct: 'c',
     },
     {
         question: "What will be the output of the above code?",
@@ -1399,7 +1399,7 @@ public class SwitchExample {
         b: 'Value is 10',
         c: 'Compilation error',
         d: 'No output',
-        correct: 'c'
+        correct: 'c',
     },
     {
         question: "What will be the output of the above code?",
@@ -1426,7 +1426,7 @@ public class SwitchExample {
         b: 'Value is 6',
         c: 'Value is 7',
         d: 'Value is 6Value is 7',
-        correct: 'd'
+        correct: 'd',
     },
     {
         question: "What will be the output of the above code?",
@@ -1453,7 +1453,7 @@ public class SwitchExample {
         b: 'Five',
         c: 'FiveTen',
         d: 'FiveTenOther value',
-        correct: 'c'
+        correct: 'c',
     },
     {
         question: "What will be the output of the above code?",
@@ -1477,7 +1477,7 @@ public class SwitchExample {
         b: 'Default case',
         c: 'Two',
         d: 'Default caseTwo',
-        correct: 'd'
+        correct: 'd',
     },
     {
         question: "What will be the output of the above code?",
@@ -1505,7 +1505,7 @@ public class SwitchExample {
         b: 'Five<br>Outside switch',
         c: 'FiveTen<br>Outside switch',
         d: 'Compilation error',
-        correct: 'c'
+        correct: 'c',
     },
     {
         question: "What will be the output of the above code?",
@@ -1532,8 +1532,99 @@ public class SwitchExample {
         b: 'Two<br>Three<br>Default case<br>Outside switch',
         c: 'Two<br>Three<br>Outside switch',
         d: 'Compilation error',
-        correct: 'c'
+        correct: 'c',
+    },
+    {
+        question: "What will be the output of the following code?",
+         code : "java\nimport java.util.Scanner;\n\npublic class ScannerExample {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(\"Hello World 123 3.14 true\");\n        while(scanner.hasNext()) {\n            if(scanner.hasNextInt()) {\n                System.out.println(scanner.nextInt());\n            } else if(scanner.hasNextDouble()) {\n                System.out.println(scanner.nextDouble());\n            } else if(scanner.hasNextBoolean()) {\n                System.out.println(scanner.nextBoolean());\n            } else {\n                System.out.println(scanner.next());\n            }\n        }\n        scanner.close();\n    }\n}",
+         a : "Compile-time error",
+         b : "Runtime error",
+         c : "Hello World 123 3.14 true",
+         d : "123 3.14 true",
+         correct : "c",
+    },
+    {
+         question : "What will be the output of the following code?",
+         code : "java\nimport java.util.Scanner;\n\npublic class ScannerExample {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        System.out.print(\"Enter a number: \");\n        int num = scanner.nextInt();\n        System.out.println(\"You entered: \" + num);\n        scanner.close();\n    }\n}",
+         a : "Compile-time error",
+         b : "Runtime error",
+         c : "Enter a number: [User Input] You entered: [User Input]",
+         d : "Enter a number: [User Input]<br>You entered: [User Input]",
+         correct : "c",
+    },
+    {
+         question: "What will be the output of the following code?",
+         code : "java\nimport java.util.Scanner;\n\npublic class ScannerExample {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(\"123 456 789\");\n        int sum = 0;\n        while(scanner.hasNextInt()) {\n            sum += scanner.nextInt();\n        }\n        System.out.println(\"Sum: \" + sum);\n        scanner.close();\n    }\n}",
+         a : "Compile-time error",
+         b : "Runtime error",
+         c : "Sum: 1368",
+         d : "Sum: 45",
+         correct : "d",
+    },
+    {
+         question : "What will be the output of the following code?",
+         code : "java\nimport java.util.Scanner;\n\npublic class ScannerExample {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(\"Hello\\nWorld\\n123\");\n        while(scanner.hasNextLine()) {\n            System.out.println(scanner.nextLine());\n        }\n        scanner.close();\n    }\n}",
+         a : "Compile-time error",
+         b : "Runtime error",
+         c : "Hello World 123",
+         d : "Hello\\nWorld\\n123",
+         correct : "c",
+    },
+    {
+         question : "What will be the output of the following code?",
+         code : "java\nimport java.util.Scanner;\n\npublic class ScannerExample {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(\"3.14 2.71 1.61\");\n        double product = 1.0;\n        while(scanner.hasNextDouble()) {\n            product *= scanner.nextDouble();\n        }\n        System.out.println(\"Product: \" + product);\n        scanner.close();\n    }\n}",
+         a : "Compile-time error",
+         b : "Runtime error",
+         c : "Product: 13.9286824",
+         d : "Product: 13.9286824 2.71 1.61",
+         correct : "c",
+    },
+    {
+         question : "What will be the output of the following code?",
+         code : "java\nimport java.util.Scanner;\n\npublic class ScannerExample {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        System.out.print(\"Enter a sentence: \");\n        String sentence = scanner.nextLine();\n        System.out.println(\"You entered: \" + sentence);\n        scanner.close();\n    }\n}",
+         a : "Compile-time error",
+         b : "Runtime error",
+         c : "Enter a sentence: [User Input] You entered: [User Input]",
+         d : "Enter a sentence: [User Input]<br>You entered: [User Input]",
+         correct : "c",
+    },
+    {
+         question : "What will be the output of the following code?",
+         code : "java\nimport java.util.Scanner;\n\npublic class ScannerExample {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(\"true false true\");\n        while(scanner.hasNextBoolean()) {\n            System.out.println(scanner.nextBoolean());\n        }\n        scanner.close();\n    }\n}",
+         a : "Compile-time error",
+         b : "Runtime error",
+         c : "true false true",
+         d : "true\\nfalse\\ntrue",
+         correct : "c",
+    },
+    {
+         question : "What will be the output of the following code?",
+         code : "java\nimport java.util.Scanner;\n\npublic class ScannerExample {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(\"Java Programming\\nIs Fun\");\n        System.out.println(scanner.next());\n        System.out.println(scanner.nextLine());\n        scanner.close();\n    }\n}",
+         a : "Compile-time error",
+         b : "Runtime error",
+         c : "Java Programming<br>Is Fun",
+         d : "Java\\nProgramming Is Fun",
+         correct : "c",
+    },
+    {
+         question : "What will be the output of the following code?",
+         code : "java\nimport java.util.Scanner;\n\npublic class ScannerExample {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        System.out.print(\"Enter a word: \");\n        String word = scanner.next();\n        System.out.println(\"You entered: \" + word);\n        scanner.close();\n    }\n}",
+         a : "Compile-time error",
+         b : "Runtime error",
+         c : "Enter a word: [User Input] You entered: [User Input]",
+         d : "Enter a word: [User Input]<br>You entered: [User Input]",
+        correct : "c",
+    },
+    {
+         question : "What will be the output of the following code?",
+         code : "java\nimport java.util.Scanner;\n\npublic class ScannerExample {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(\"A quick brown fox jumps\");\n        while(scanner.hasNext()) {\n            System.out.print(scanner.next().toUpperCase() + \" \");\n        }\n        scanner.close();\n    }\n}",
+         a : "Compile-time error",
+         b : "Runtime error",
+         c : "A QUICK BROWN FOX JUMPS",
+         d : "A quick brown fox jumps",
+         correct : "c",
     }
+    
 ];
 
 const quiz = document.getElementById('quiz');

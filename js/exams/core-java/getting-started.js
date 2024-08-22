@@ -196,7 +196,26 @@ const quizData = [
             "b": "cd ..",
             "c": "cd mv",
             "correct": "b"
-        }
+        },
+        {
+    "question": 43,
+    "code": "we can use any constructor to create an object even the same constructor not available in the same class",
+    "a": "Yes",
+    "b": "No",
+    "c": "None of the above",
+    "d": "Not applicable",
+    "correct": "b"
+},
+{
+    "question": 44,
+    "code": "default constructor from a compiler can be even with an arguments",
+    "a": "Yes",
+    "b": "No",
+    "c": "None of the above",
+    "d": "Not applicable",
+    "correct": "b"
+}
+
     
     
 ];
