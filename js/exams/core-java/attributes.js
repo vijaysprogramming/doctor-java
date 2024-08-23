@@ -1,6 +1,6 @@
 const quizData = [
         {
-            question: "1-",
+            question: "1.what is the output",
             code: "class A \n{\n    static int i;\n    public static void main(String[] args) \n    {\n        System.out.println(i);\n    }\n}",
             a: "0",
             b: "Compile Time Error",
@@ -8,7 +8,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "2-",
+            question: "2.what is the output",
             code: "class B \n{\n    static byte i;\n    static short j;\n    static int k;\n    static long m;\n    public static void main(String[] args) \n    {\n        System.out.println(i);\n        System.out.println(j);\n        System.out.println(k);\n        System.out.println(m);\n    }\n}",
             a: "0\n0\n0\n0",
             b: "1\n1\n1\n1",
@@ -17,7 +17,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "3-",
+            question: "3.what is the output",
             code: "class C \n{\n    static float i;\n    static double j;\n    public static void main(String[] args) \n    {\n        System.out.println(i);\n        System.out.println(j);\n    }\n}",
             a: "1.0\n1.0",
             b: "0.0\n0.0",
@@ -26,7 +26,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "4-",
+            question: "4.what is the output",
             code: "class D \n{\n    static boolean i;\n    public static void main(String[] args) \n    {\n        System.out.println(i);\n    }\n}",
             a: "true",
             b: "false",
@@ -35,7 +35,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "5-",
+            question: "5.what is the output",
             code: "class E \n{\n    static char i;\n    public static void main(String[] args) \n    {\n        System.out.println(i);\n    }\n}",
             a: "'\\u0000'",
             b: "No output",
@@ -44,7 +44,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "6-",
+            question: "6.what is the output",
             code: "class F \n{\n    static String i;\n    static int[] j;\n    static String[] k;\n    public static void main(String[] args) \n    {\n        System.out.println(i);\n        System.out.println(j);\n        System.out.println(k);\n    }\n}",
             a: "null\n0\nnull",
             b: "null\nnull\nnull",
@@ -53,7 +53,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "7-",
+            question: "7.what is the output",
             code: "class G \n{\n    static int i;\n    static int j;\n    static int k;\n    public static void main(String[] args) \n    {\n        System.out.println(i + \", \" + j + \",\" + k);\n    }\n}",
             a: "0, 0,0",
             b: "0,\n0,\n0",
@@ -62,7 +62,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "8-",
+            question: "8.what is the output",
             code: "class H \n{\n    static int i, j, k;\n    public static void main(String[] args) \n    {\n        System.out.println(i + \", \" + j + \",\" + k);\n    }\n}",
             a: "0, 0,0",
             b: "0,\n0,\n0",
@@ -71,7 +71,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "9-",
+            question: "9.what is the output",
             code: "class I \n{\n    static int m;\n    static double m;\n    public static void main(String[] args) \n    {\n        System.out.println(\"done\");\n    }\n}",
             a: "done",
             b: "No output",
@@ -80,7 +80,7 @@ const quizData = [
             correct: "c",
         },
         {
-            question: "10-",
+            question: "10.what is the output",
             code: "class J \n{\n    public static void main(String[] args) \n    {\n        int m = 10;\n        double m = 4.5;\n        System.out.println(\"done\");\n    }\n}",
             a: "done",
             b: "No output",
@@ -89,7 +89,7 @@ const quizData = [
             correct: "c",
         },
         {
-            question: "11-",
+            question: "11.what is the output",
             code: "class K \n{\n    static int m;\n    public static void main(String[] args) \n    {\n        int m = 4;\n        System.out.println(m);\n    }\n}",
             a: "m",
             b: "4",
@@ -98,7 +98,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "12-",
+            question: "12.what is the output",
             code: "class L \n{\n    static int m;\n    public static void main(String[] args) \n    {\n        boolean m = true;\n        System.out.println(m);\n    }\n}",
             a: "m",
             b: "true",
@@ -107,7 +107,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "13-",
+            question: "13.what is the output",
             code: "class M \n{\n    static int i;\n    public static void main(String[] args) \n    {\n        boolean i = true;\n        System.out.println(i);\n        System.out.println(M.i);\n    }\n}",
             a: "true\n0",
             b: "true\ntrue",
@@ -116,7 +116,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "14-",
+            question: "14.what is the output",
             code: "class N \n{\n    static int i;\n    public static void main(String[] args) \n    {\n        System.out.println(i);\n        System.out.println(N.i);\n    }\n}",
             a: "0\n0",
             b: "0 0",
@@ -125,7 +125,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "15-",
+            question: "15.what is the output",
             code: "class O \n{\n    static int i;\n    static double j;\n    public static void main(String[] args) \n    {\n        System.out.println(O.i);\n        System.out.println(O.j);\n    }\n}",
             a: "0\n0",
             b: "0\n0.0",
@@ -134,7 +134,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "16-",
+            question: "16.what is the output",
             code: "class P \n{\n    public static void main(String[] args) \n    {\n        static int i;\n        System.out.println(\"done\");\n    }\n}",
             a: "done",
             b: "Compile Time Error",
@@ -142,7 +142,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "17-",
+            question: "17.what is the output",
             code: "class Q \n{\n    static int i = 10;\n    static int j = 20;\n    static int k;\n    static int m = 30;\n    public static void main(String[] args) \n    {\n        System.out.println(i + \", \" + j + \", \" + k + \", \" + m);\n    }\n}",
             a: "10,\n20,\n0,\n30",
             b: "10, 20, k, 30",
@@ -151,7 +151,7 @@ const quizData = [
             correct: "c",
         },
         {
-            question: "18-",
+            question: "18.what is the output",
             code: "class R \n{\n    static int i = 10;\n    static int j = 20;\n    static int k;\n    static int m = 30;\n    public static void main(String[] args) \n    {\n        System.out.println(i + \", \" + j + \", \" + k + \", \" + m);\n        i = 50;\n        j = 510;\n        k = 40;\n        m = 140;\n        System.out.println(i + \", \" + j + \", \" + k + \", \" + m);\n    }\n}",
             a: "10, 20, 0, 30\n50, 510, 40, 140",
             b: "10, 20, 00, 30\n50, 51, 40, 140",
@@ -159,7 +159,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "19-",
+            question: "19.what is the output",
             code: "class S \n{\n    static int i = 10, j = 20, k, m = 30;\n    public static void main(String[] args) \n    {\n        System.out.println(i + \", \" + j + \", \" + k + \", \" + m);\n        i = 50;\n        j = 510;\n        k = 40;\n        m = 140;\n        System.out.println(i + \", \" + j + \", \" + k + \", \" + m);\n    }\n}",
             a: "10, 20, 00, 30\n50, 51, 40, 1400",
             b: "10, 20, 0, 30\n50, 510, 40, 140",
@@ -167,7 +167,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "20-",
+            question: "20.what is the output",
             code: "class T \n{\n    static int i;\n    public static void main(String[] args) \n    {\n        System.out.println(\"main:\" + i);\n    }\n    public static void test()\n    {\n        System.out.println(\"test:\" + i);\n    }\n}",
             a: "main:0",
             b: "main:0\ntest: 0",
@@ -175,7 +175,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "21-",
+            question: "21.what is the output",
             code: "class U \n{\n    static int i;\n    public static void main(String[] args) \n    {\n        System.out.println(\"main:\" + i);\n        test();\n        U.test();\n    }\n    public static void test()\n    {\n        System.out.println(\"test:\" + i);\n    }\n}",
             a: "main:0\ntest: 0",
             b: "main:0\ntest: 0\ntest: 0",
@@ -183,7 +183,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "22-",
+            question: "22.what is the output",
             code: "class V \n{\n    static int i;\n    public static void main(String[] args) \n    {\n        System.out.println(\"main1:\" + i);\n        i = 1;\n        test();\n        System.out.println(\"main2:\" + i);\n        i = 2;\n        V.test();\n        System.out.println(\"main3:\" + i);\n    }\n    public static void test()\n    {\n        System.out.println(\"test:\" + i);\n        i += 3;\n    }\n}",
             a: "main1:0\ntest:1\nmain2:4\ntest:2\nmain3:5",
             b: "main:0\ntest: 1\nmain1:4\ntest:2\nmain1:5",

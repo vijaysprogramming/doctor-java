@@ -1,6 +1,6 @@
 const quizData = [
     {
-        question: "1",
+        question: "1.what is the output",
         code: `class A
     {
         public static void main(String[] args) 
@@ -19,13 +19,13 @@ const quizData = [
     }`,
         a: "10",
         b: "20",
-        c: "Compile-time error",
+        c: "Compile.time error",
         d: "none",
         correct: "a",
     },
     
     {
-        question: "2",
+        question: "2.what is the output",
         code: `class B
     {
         public static void main(String[] args) 
@@ -50,7 +50,7 @@ const quizData = [
     },
     
     {
-        question: "3",
+        question: "3.what is the output",
         code: `class C
     {
         public static void main(String[] args) 
@@ -67,7 +67,7 @@ const quizData = [
     },
     
     {
-        question: "4",
+        question: "4.what is the output",
         code: `class D
     {
         public static void main(String[] args) 
@@ -84,7 +84,7 @@ const quizData = [
     },
     
     {
-        question: "5",
+        question: "5.what is the output",
         code: `class E
     {
         public static void main(String[] args) 
@@ -102,7 +102,7 @@ const quizData = [
     },
     
     {
-        question: "6",
+        question: "6.what is the output",
         code: `class F
     {
         public static void main(String[] args) 
@@ -120,7 +120,7 @@ const quizData = [
     },
     
     {
-        question: "7",
+        question: "7.what is the output",
         code: `class G
     {
         public static void main(String[] args) 
@@ -138,7 +138,7 @@ const quizData = [
     },
     
     {
-        question: "8",
+        question: "8.what is the output",
         code: `class H
     {
         public static void main(String[] args) 
@@ -156,7 +156,7 @@ const quizData = [
     },
     
     {
-        question: "9",
+        question: "9.what is the output",
         code: `class J 
     {
         public static void main(String[] args) 

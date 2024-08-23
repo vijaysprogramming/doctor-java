@@ -1,104 +1,74 @@
 const quizData = [
-    {
-        question: "01. every variable should have a data type?",
-        code: `select the correct option`,
-        a: "true",
-        b: "false",
-        c: "not applicable",
-        d: "none of above",
-        correct: "a",
-    },
-    {
-        question: "02. we can assign 4.5 to int variable??",
-        code: `select the correct option`,
-        a: "true",
-        b: "false",
-        c: "not applicable",
-        d: "none of above",
-        correct: "b",
-    },
-    {
-        question: "03. variable can have only one value at any time?",
-        code: `select the correct option`,
-        a: "true",
-        b: "false",
-        c: "not applicable",
-        d: "none of above",
-        correct: "a",
-    },
-    {
-        question: "04. we can declare multiple variables of same data type in the same statement by using comma as a separator?",
-        code: `select the correct option`,
-        a: "true",
-        b: "false",
-        c: "not applicable",
-        d: "none of above",
-        correct: "a",
-    },
-    {
-        question: "05. We can declare multiple variables of different data types in the same statement by using comma as a separator?",
-        code: `select the correct option`,
-        a: "true",
-        b: "false",
-        c: "not applicable",
-        d: "none of above",
-        correct: "b",
-    },
-    {
-        question: "06. we can assign same value to multiple variables of same data type in the same statement?",
-        code: `select the correct option`,
-        a: "true",
-        b: "false",
-        c: "not applicable",
-        d: "none of above",
-        correct: "a",
-    },
-    {
-        question: "07. we can assign same value to multiple variables of different data types in the same statement?",
-        code: `select the correct option`,
-        a: "true",
-        b: "false",
-        c: "not applicable",
-        d: "none of above",
-        correct: "b",
-    },
-    {
-        question: "08. we can use local variable without assignment?",
-        code: `select the correct option`,
-        a: "true",
-        b: "false",
-        c: "not applicable",
-        d: "none of above",
-        correct: "b",
-    },
-    {
-        question: "09. we cant use same name to more than one variable in the same method?",
-        code: `select the correct option`,
-        a: "true",
-        b: "false",
-        c: "not applicable",
-        d: "none of above",
-        correct: "a",
-    },
-    {
-        question: "10. first using and then declaring a variable is possible?",
-        code: `select the correct option`,
-        a: "true",
-        b: "false",
-        c: "not applicable",
-        d: "none of above",
-        correct: "b",
-    },
-    {
-        question: "11. + is used to add any thing to String?",
-        code: `select the correct option`,
-        a: "true",
-        b: "false",
-        c: "not applicable",
-        d: "none of above",
-        correct: "a",
-    },
+    
+        {
+            "question": "1.Can we define an empty array?",
+            "code": "Select The Correct Answer",
+            "a": "Yes",
+            "b": "No",
+            "c": "None of the above",
+            "d": "Not applicable",
+            "correct": "a"
+        },
+        {
+            "question": "2.Array size must be declared in which data type?",
+            "code": "Select The Correct Answer",
+            "a": "Boolean",
+            "b": "Double",
+            "c": "None of the above",
+            "d": "Int",
+            "correct": "d"
+        },
+        {
+            "question": "3.Array index must be declared in which data type?",
+            "code": "Select The Correct Answer",
+            "a": "Boolean",
+            "b": "Double",
+            "c": "None of the above",
+            "d": "Int",
+            "correct": "d"
+        },
+        {
+            "question": "4.Arrays are which datatype in case of Java?",
+            "code": "Select The Correct Answer",
+            "a": "Derived datatype",
+            "b": "Primitive datatype",
+            "c": "None of the above",
+            "d": "Not applicable",
+            "correct": "a"
+        },
+        {
+            "question": "5.To read the elements of an ArrayList which method is used?",
+            "code": "Select The Correct Answer",
+            "a": "Set()",
+            "b": "Get()",
+            "c": "Size()",
+            "d": "Read()",
+            "correct": "b"
+        },
+        {
+            "question": "6.In Java, arrays are what?",
+            "code": "Select The Correct Answer",
+            "a": "Object",
+            "b": "Object references",
+            "c": "Primitive data type",
+            "d": "None of the above",
+            "correct": "a"
+        },
+        {
+            "question": "7.Which one is a valid statement?",
+            "code": "Select The Correct Answer",
+            "a": "char[] c = new char();",
+            "b": "char[] c = new char[5];",
+            "c": "char[] c = new char(4);",
+            "d": "char[] c = new char[];",
+            "correct": "b"
+        }
+    
+    
 ];
+
+        
+
 
 const quiz = document.getElementById('quiz');
 const answerEls = document.querySelectorAll('.answer');

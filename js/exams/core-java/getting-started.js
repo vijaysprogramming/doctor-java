@@ -1,16 +1,37 @@
 const quizData = [
-    
+
+    {
+        question: "01.What will be the output of the following Java program?",
+        code: `class I
+{
+    public static void main(String[] args)
+    {
+        boolean flag = !(!(!false != !true)); 
+        if(flag)
         {
-            "question": "which command is used to set env variable in the command prompt?",
-            "code": "Select The Correct Answer",
-            "a": "echo",
-            "b": "path",
-            "c": "classpath",
-            "d": "set",
-            "correct": "d"
-        },
+            System.out.println("from if");
+        }
+        System.out.println("end of main");
+    }
+}`,
+        a: "from if<br>end of main",
+        b: "end of main",
+        c: "Compilation error",
+        d: "Runtime error",
+        correct: "b",
+    },
+    {
+        question: "02.What will be the output of the following Java program?",
+        code: `class J
+{
+    public static void main(String[] args)
+    {
+        int x = 5;
+        int y = 10;
+        if(x + y > 15)
+        
         {
-            "question": "which command is used to read env variable in the command prompt?",
+            "question": "2.which command is used to read env variable in the command prompt?",
             "code": "Select The Correct Answer",
             "a": "echo",
             "b": "path",
@@ -19,7 +40,7 @@ const quizData = [
             "correct": "a"
         },
         {
-            "question": "How many ways are there to set path env variable?",
+            "question": "3.How many ways are there to set path env variable?",
             "code": "Select The Correct Answer",
             "a": "1",
             "b": "2",
@@ -28,7 +49,7 @@ const quizData = [
             "correct": "b"
         },
         {
-            "question": "which way of setting a path will be local to the current command prompt?",
+            "question": "4.which way of setting a path will be local to the current command prompt?",
             "code": "Select The Correct Answer",
             "a": "through set command",
             "b": "in my computer under user level",
@@ -37,7 +58,7 @@ const quizData = [
             "correct": "a"
         },
         {
-            "question": "which way of setting a path will be to the current user and all of his every session?",
+            "question": "5.which way of setting a path will be to the current user and all of his every session?",
             "code": "Select The Correct Answer",
             "a": "through set command",
             "b": "in my computer under user level",
@@ -46,7 +67,7 @@ const quizData = [
             "correct": "b"
         },
         {
-            "question": "which way of setting a path will be to every user?",
+            "question": "6.which way of setting a path will be to every user?",
             "code": "Select The Correct Answer",
             "a": "through set command",
             "b": "in my computer under user level",
@@ -55,7 +76,7 @@ const quizData = [
             "correct": "c"
         },
         {
-            "question": "Why do we need to set the path?",
+            "question": "7.Why do we need to set the path?",
             "code": "Select The Correct Answer",
             "a": "to find out the java version",
             "b": "in order to specify the commands location",
@@ -64,7 +85,7 @@ const quizData = [
             "correct": "b"
         },
         {
-            "question": "how to know the version of JDK?",
+            "question": "8.how to know the version of JDK?",
             "code": "Select The Correct Answer",
             "a": "javac -version",
             "b": "javac -version",
@@ -73,7 +94,7 @@ const quizData = [
             "correct": "a"
         },
         {
-            "question": "which folder of JDK contains the commands?",
+            "question": "9.which folder of JDK contains the commands?",
             "code": "Select The Correct Answer",
             "a": "bin",
             "b": "lib",
@@ -82,7 +103,7 @@ const quizData = [
             "correct": "a"
         },
         {
-            "question": "which command is used to compile java program?",
+            "question": "10.which command is used to compile java program?",
             "code": "Select The Correct Answer",
             "a": "java",
             "b": "javac",
@@ -91,7 +112,7 @@ const quizData = [
             "correct": "b"
         },
         {
-            "question": "which command is used to run java program?",
+            "question": "11.which command is used to run java program?",
             "code": "Select The Correct Answer",
             "a": "java",
             "b": "javac",
@@ -100,7 +121,7 @@ const quizData = [
             "correct": "a"
         },
         {
-            "question": "what is the file extension to java program?",
+            "question": "12.what is the file extension to java program?",
             "code": "Select The Correct Answer",
             "a": "java",
             "b": "javac",
@@ -109,7 +130,7 @@ const quizData = [
             "correct": "a"
         },
         {
-            "question": "Which type of file will be developed by javac command?",
+            "question": "13.Which type of file will be developed by javac command?",
             "code": "Select The Correct Answer",
             "a": "java",
             "b": "class",
@@ -118,7 +139,7 @@ const quizData = [
             "correct": "b"
         },
         {
-            "question": "Which type of file will be used by java command to run?",
+            "question": "14.Which type of file will be used by java command to run?",
             "code": "Select The Correct Answer",
             "a": "java",
             "b": "class",
@@ -127,7 +148,7 @@ const quizData = [
             "correct": "b"
         },
         {
-            "question": "From which location we have to trigger javac command?",
+            "question": "15.rom which location we have to trigger javac command?",
             "code": "Select The Correct Answer",
             "a": "from the place where java file is saved",
             "b": "from the place where class file is generated",
@@ -136,7 +157,7 @@ const quizData = [
             "correct": "a"
         },
         {
-            "question": "From which location we have to trigger java command?",
+            "question": "16.From which location we have to trigger java command?",
             "code": "Select The Correct Answer",
             "a": "from the place where java file is saved",
             "b": "from the place where class file is generated",
@@ -145,28 +166,28 @@ const quizData = [
             "correct": "b"
         },
         {
-            "question": "what is the order of the commands to be triggered?",
+            "question": "17.what is the order of the commands to be triggered?",
             "code": "Select The Correct Answer",
             "a": "first javac and then java",
             "b": "first java and then javac",
             "correct": "a"
         },
         {
-            "question": "Which option of javac command is used to specify different location for class files?",
+            "question": "18.Which option of javac command is used to specify different location for class files?",
             "code": "Select The Correct Answer",
             "a": "d",
             "b": "cp",
             "correct": "a"
         },
         {
-            "question": "Which option of java command is used to specify class files location?",
+            "question": "19.Which option of java command is used to specify class files location?",
             "code": "Select The Correct Answer",
             "a": "d",
             "b": "cp",
             "correct": "b"
         },
         {
-            "question": "Which option of java command is used to find out version of JDK?",
+            "question": "20.Which option of java command is used to find out version of JDK?",
             "code": "Select The Correct Answer",
             "a": "version",
             "b": "java",
@@ -174,7 +195,7 @@ const quizData = [
             "correct": "a"
         },
         {
-            "question": "Which option of java command is used to find out all options and their description?",
+            "question": "21.Which option of java command is used to find out all options and their description?",
             "code": "Select The Correct Answer",
             "a": "all",
             "b": "help",
@@ -182,7 +203,7 @@ const quizData = [
             "correct": "b"
         },
         {
-            "question": "Which command is used to change the current directory in the command prompt?",
+            "question": "22.Which command is used to change the current directory in the command prompt?",
             "code": "Select The Correct Answer",
             "a": "cd",
             "b": "change",
@@ -190,7 +211,7 @@ const quizData = [
             "correct": "a"
         },
         {
-            "question": "Which command is used to move to parent of the current directory?",
+            "question": "23.Which command is used to move to parent of the current directory?",
             "code": "Select The Correct Answer",
             "a": "cd parent",
             "b": "cd ..",
@@ -198,8 +219,8 @@ const quizData = [
             "correct": "b"
         },
         {
-    "question": 43,
-    "code": "we can use any constructor to create an object even the same constructor not available in the same class",
+    "question":  "24.we can use any constructor to create an object even the same constructor not available in the same class",
+    "code":"Select the correct answer",
     "a": "Yes",
     "b": "No",
     "c": "None of the above",
@@ -207,8 +228,8 @@ const quizData = [
     "correct": "b"
 },
 {
-    "question": 44,
-    "code": "default constructor from a compiler can be even with an arguments",
+    "question": "25.What is the output for given code?",
+    "code": "Select the correct answer",
     "a": "Yes",
     "b": "No",
     "c": "None of the above",

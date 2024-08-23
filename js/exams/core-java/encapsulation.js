@@ -1,7 +1,7 @@
 const quizData = [
     
     {
-        question: 1,
+        question: "1.What is the output for given code?",
         code: `class A 
     {
         int i;
@@ -17,6 +17,30 @@ const quizData = [
         d: "Not applicable",
         correct: "b",
     },
+    {
+        "question":"2.What is the output for given code?",
+        "code": `public class Test {
+    public static void main(String[] args) {
+        int[] x = new int[3];
+        System.out.println("x[0] is " + x[0]);
+    }
+}`,
+        "a": "Compile time error",
+        "b": "Run time error",
+        "c": "x[0] is 0",
+        "d": "None of the above",
+        "correct": "c"
+    },
+    {
+        "question": "3.What is the output for given code?",
+        "code": `int[] arr = new int[5];
+arr = new int[6];`,
+        "a": "Compile time error",
+        "b": "Run time error",
+        "c": "No error",
+        "d": "None of the above",
+        "correct": "c"
+    }
 ];
 
 const quiz = document.getElementById('quiz');

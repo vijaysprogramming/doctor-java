@@ -1,6 +1,6 @@
 const quizData = [
     {
-        question: 1,
+        question: "1.What is the output for given code?",
         code: `class A 
 {
     A()
@@ -27,7 +27,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: 2,
+        question: "2-What is the output for given code?",
         code: `class B
 {
     int i;
@@ -58,7 +58,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: 3,
+        question: "3-What is the output for given code?",
         code: `class C
 {
     int i;
@@ -89,7 +89,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: 4,
+        question: "4-What is the output for given code?",
         code: `class D
 {
     int i;
@@ -120,7 +120,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: 5,
+        question: "5-What is the output for given code?",
         code: `class E 
 {
     static E()
@@ -140,7 +140,7 @@ const quizData = [
         correct: "c",
     },
     {
-        question: 6,
+        question: "6-What is the output for given code?",
         code: `class F 
 {
     void F()
@@ -162,7 +162,7 @@ const quizData = [
         correct: "c",
     },
     {
-        question: 7,
+        question: "What is the output for given code?",
         code: `class G 
 {
     public static void main(String[] args) 
@@ -182,7 +182,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: 8,
+        question: "What is the output for given code?",
         code: `class H 
     {
         public static void main(String[] args) 
@@ -199,7 +199,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: 9,
+        question: "What is the output for given code?",
         code: `class I
     {
         I(int i)
@@ -220,7 +220,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: 10,
+        question: "What is the output for given code?",
         code: `class J
     {
         J(int i) 
@@ -241,7 +241,7 @@ const quizData = [
         correct: "c",
     },
     {
-        question: 11,
+        question: "What is the output for given code?",
         code: `class K
     {
         K()
@@ -262,7 +262,7 @@ const quizData = [
         correct: "c",
     },
     {
-        question: 12,
+        question: "What is the output for given code?",
         code: `class L
     {
         int i;
@@ -291,7 +291,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: 13,
+        question: "What is the output for given code?",
         code: `package src;
     
     class M
@@ -322,7 +322,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: 14,
+        question: "What is the output for given code?",
         code: `package src;
     
     class N
@@ -353,7 +353,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: 15,
+        question: "What is the output for given code?",
         code: `package src;
     
     class O
@@ -384,7 +384,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: 16,
+        question: "What is the output for given code?",
         code: `package src;
     
     class Person 
@@ -413,8 +413,8 @@ const quizData = [
         correct: "a",
     },
     {
-        question: 17,
-        code: `It is not possible to develop multiple constructors in the same class`,
+        question: `It is not possible to develop multiple constructors in the same class`,
+        code: "Select the correct answer",
         a: "True",
         b: "False",
         c: "Not applicable",
@@ -422,8 +422,8 @@ const quizData = [
         correct: "b",
     },
     {
-        question: 18,
-        code: `While overloading a constructor, constructor arguments must be the same`,
+        question: `While overloading a constructor, constructor arguments must be the same`,
+        code: "Select the correct answer",
         a: "True",
         b: "False",
         c: "Not applicable",
@@ -431,8 +431,8 @@ const quizData = [
         correct: "b",
     },
     {
-        question: 19,
-        code: `While overloading a constructor, constructor signature must not be the same`,
+        question:  `We can create only one object by using one constructor`,
+        code: "Select the correct answer",
         a: "True",
         b: "False",
         c: "Not applicable",
@@ -440,8 +440,8 @@ const quizData = [
         correct: "a",
     },
     {
-        question: 20,
-        code: `We can create only one object by using one constructor`,
+        question: `We can create only one object by using one constructor`,
+        code: "Select the correct answer",
         a: "True",
         b: "False",
         c: "Not applicable",
@@ -449,8 +449,8 @@ const quizData = [
         correct: "b",
     },
     {
-        question: 21,
-        code: `We can call one constructor from another constructor by using this calling statement`,
+        question: `We can call one constructor from another constructor by using this calling statement`,
+        code: "Select the correct answer",
         a: "True",
         b: "False",
         c: "Not applicable",
@@ -458,8 +458,8 @@ const quizData = [
         correct: "a",
     },
     {
-        question : 22,
-        code : "we can use any constructor to create an object even the same constructor not available in the same class",
+        question : "we can use any constructor to create an object even the same constructor not available in the same class",
+        code : "Select the correct answer",
          a : "Yes",
          b : "No",
          c : "None of the above",
@@ -467,8 +467,8 @@ const quizData = [
          correct : "b"
     },
     {
-         question : 23,
-         code : "default constructor from a compiler can be even with an arguments",
+         question : "default constructor from a compiler can be even with an arguments",
+         code : "Select the correct answer",
          a : "Yes",
          b : "No",
          c : "None of the above",

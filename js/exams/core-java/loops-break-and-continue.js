@@ -1,7 +1,7 @@
 const quizData = [
     
         {
-            question: "1-",
+            question: "1.what is the output",
             code: "class A \n{\n    public static void main(String[] args) \n    {\n        System.out.println(\"main begin\");\n        for(int i = 1; i <= 5; i++)\n        {\n            System.out.println(\"loop body:\" + i);\n        }\n        System.out.println(\"main end\");\n    }\n}",
             a: "main begin\nloop body:1\nloop body:2\nloop body:3\nloop body:4\nmain end",
             b: "main begin\nloop body:1\nloop body:2\nloop body:3\nloop body:4\nloop body:5\nmain end",
@@ -10,7 +10,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "2-",
+            question: "2.what is the output",
             code: "class B \n{\n    public static void main(String[] args) \n    {\n        System.out.println(\"main begin\");\n        for(int i = 10; i <= 5; i++)\n        {\n            System.out.println(\"loop body:\" + i);\n        }\n        System.out.println(\"main end\");\n    }\n}",
             a: "main begin\nmain end",
             b: "main begin\nloop body:10\nloop body:11\nloop body:12\nloop body:13\nmain end",
@@ -18,7 +18,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "3-",
+            question: "3.what is the output",
             code: "class C \n{\n    public static void main(String[] args) \n    {\n        System.out.println(\"main begin\");\n        for(int i = 1; i <= 5; i++)\n        {\n            System.out.println(\"loop body:\" + i);\n            System.out.println(\"loop body:\" + i);\n            int j = 20;\n            j++;\n            j += 20;\n            System.out.println(\"--------------:\" + j);\n        }\n        System.out.println(\"main end\");\n    }\n}",
             a: "main begin\nloop body:1\nloop body:1\n--------------:41\nloop body:2\nloop body:2\n--------------:41\nloop body:3\nloop body:3\n--------------:41\nloop body:4\nloop body:4\n--------------:41\nloop body:5\nloop body:5\n--------------:41\nmain end",
             b: "main begin\nloop body:1\nloop body:1\n--------------:41\nloop body:2\nloop body:2\n--------------:41\nloop body:3\nloop body:3\n--------------:41\nloop body:4\nloop body:4\n--------------:41\nloop body:5\nloop body:5\n--------------:41\nmain end",
@@ -28,7 +28,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "4-",
+            question: "4.what is the output",
             code: "class D \n{\n    public static void main(String[] args) \n    {\n        System.out.println(\"main begin\");\n        for(int i = 1; i <= 5; i++)\n        {\n            System.out.println(\"loop body:\" + i);\n        }\n        System.out.println(\"main end:\" + i);\n    }\n}",
             a: "runtime error",
             b: "compile time error",
@@ -37,7 +37,7 @@ const quizData = [
             correct: "b",
         },
         {
-           question: "5-",
+           question: "5.what is the output",
             code: "class E \n{\n    public static void main(String[] args) \n    {\n        System.out.println(\"main begin\");\n        for(int i = 1; i <= 10; i = i + 2)\n        {\n            System.out.println(\"loop body:\" + i);\n        }\n        System.out.println(\"main end:\");\n    }\n}",
             a: "compile time error",
             b: "main begin\nloop body:1\nloop body:3\nloop body:5\nloop body:7\nloop body:9\nmain end:",
@@ -46,7 +46,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "6-",
+            question: "6.what is the output",
             code: "class G \n{\n    public static void main(String[] args) \n    {\n        System.out.println(\"main begin\");\n        for(int i = 10; i >= 1; i--)\n        {\n            System.out.println(\"loop body:\" + i);\n        }\n        System.out.println(\"main end:\");\n    }\n}",
             a: "run time error",
             b: "main begin\nloop body:1\nloop body:3\nloop body:5\nloop body:7\nloop body:9\nmain end:",
@@ -56,7 +56,7 @@ const quizData = [
             correct: "c",
         },
         {
-            question: "7-",
+            question: "7.what is the output",
             code: "class H \n{\n    public static void main(String[] args) \n    {\n        System.out.println(\"main begin\");\n        for(int i = 10; i >= 1; i = i - 3)\n        {\n            System.out.println(\"loop body:\" + i);\n        }\n        System.out.println(\"main end:\");\n    }\n}",
             a: "compile time error",
             b: "main begin\nloop body:10\nloop body:7\nloop body:4\nloop body:1\nmain end:",
@@ -66,7 +66,7 @@ const quizData = [
             "correct": "b",
         },
         {
-            question: "8-",
+            question: "8.what is the output",
             code: "class I \n{\n    public static void main(String[] args) \n    {\n        System.out.println(\"main begin\");\n        for(int i = 10; i >= 1; i -= 3)\n        {\n            System.out.println(\"loop body:\" + i);\n        }\n        System.out.println(\"main end:\");\n    }\n}",
             a: "main begin\nloop body:10\nloop body:7\nloop body:4\nloop body:1\nmain end:",
             b: "main begin\nloop body:10\nloop body:7\nloop body:1\nmain end:",
@@ -74,7 +74,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "9-",
+            question: "9.what is the output",
             code: "class J \n{\n    public static void main(String[] args) \n    {\n        System.out.println(\"main begin\");\n        for(int i = 1; i <= 50; i = i * 5)\n        {\n            System.out.println(\"loop body:\" + i);\n        }\n        System.out.println(\"main end:\");\n    }\n}",
             a: "main begin\nloop body:1\nloop body:5\nloop body:25\nmain end:",
             b: "main begin\nloop body:1\nloop body:5\nmain end:",
@@ -82,7 +82,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "10-",
+            question: "10.what is the output",
             code: "class K \n{\n    public static void main(String[] args) \n    {\n        System.out.println(\"main begin\");\n        for(int i = 1; i <= 500; i *= 3)\n        {\n            System.out.println(\"loop body:\" + i);\n        }\n        System.out.println(\"main end:\");\n    }\n}",
             a: "main begin\nloop body:1\nloop body:3\nloop body:9\nloop body:27\nloop body:81\nloop body:243\nmain end:",
             b: "main begin\nloop body:1\nloop body:3\nloop body:9\nloop body:27\nloop body:81\nmain end:",
@@ -90,7 +90,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "11-",
+            question: "11.what is the output",
             code: "class L \n{\n    public static void main(String[] args) \n    {\n        System.out.println(\"main begin\");\n        for(int i = 5000; i > 0; i = i / 10)\n        {\n            System.out.println(\"loop body:\" + i);\n        }\n        System.out.println(\"main end:\");\n    }\n}",
             a: "main begin\nloop body:5000\nloop body:500\nloop body:50\nloop body:5\nmain end:",
             b: "main begin\nloop body:5000\nloop body:500\nloop body:50\nmain end:",
@@ -98,7 +98,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "12-",
+            question: "12.what is the output",
             code: "class M \n{\n    public static void main(String[] args) \n    {\n        System.out.println(\"main begin\");\n        int i = 0;\n        for(; i <= 3; i++)\n        {\n            System.out.println(\"loop body:\" + i);\n        }\n        System.out.println(\"main end:\" + i);\n    }\n}",
             a: "main begin\nloop body:0\nloop body:1\nloop body:2\nloop body:3\nmain end:4",
             b: "main begin\nloop body:0\nloop body:1\nloop body:2\nloop body:3\nmain end:3",
@@ -106,7 +106,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "13-",
+            question: "13.what is the output",
             code: "class N \n{\n    public static void main(String[] args) \n    {\n        System.out.println(\"main begin\");\n        int i = 0;\n        for(int j = 0; j <= 2; j++)\n        {\n            i++;\n        }\n        System.out.println(\"main end:\" + i);\n    }\n}",
             a: "main begin\nmain end:2",
             b: "main begin\nmain end:3",
@@ -115,7 +115,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "14-",
+            question: "14.what is the output",
             code: "class O \n{\n    public static void main(String[] args) \n    {\n        System.out.println(\"main begin\");\n        int i = 0;\n        for(int j = 0; j < 3; j++)\n        {\n            i++;\n        }\n        System.out.println(\"main end:\" + i);\n    }\n}",
             a: "main begin\nmain end:2",
             b: "main begin\nmain end:3",
@@ -124,7 +124,7 @@ const quizData = [
             correct: "b",
         },
         {
-            "question": "15-",
+            "question": "15.what is the output",
             "code": "class P \n{\n    public static void main(String[] args) \n    {\n        System.out.println(\"main begin\");\n        int i = 0;\n        for(int j = 0; j <= 3; j++)\n        {\n            i++;\n        }\n        System.out.println(\"main end:\" + i);\n    }\n}",
             a: "main begin\nmain end:3",
             b: "main begin\nmain end:4",
@@ -133,7 +133,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "16-",
+            question: "16.what is the output",
             code: "class Q \n{\n    static int i = 10;\n    static int j = 20;\n    static int k;\n    static int m = 30;\n    public static void main(String[] args) \n    {\n        System.out.println(i + \", \" + j + \", \" + k + \", \" + m);\n    }\n}",
             a: "10,\n20,\n0,\n30",
             b: "10, 20, k, 30",
@@ -143,7 +143,7 @@ const quizData = [
         },
         
             {
-                question: "17-",
+                question: "17.what is the output",
                 code: "class R \n{\n    public static void main(String[] args) \n    {\n        System.out.println(\"main begin\");\n        int i = 1;\n        for( ; i <= 5; )\n        {\n            System.out.println(\"loop body:\" + i ++);\n        }\n        System.out.println(\"main end:\" + i);\n    }\n}",
                 a: "run time error",
                 b: "compile time error",
@@ -151,7 +151,7 @@ const quizData = [
                 correct: "c",
             },
             {
-                question: "18-",
+                question: "18.what is the output",
                 code: "class S \n{\n    public static void main(String[] args) \n    {\n        System.out.println(\"main begin\");\n        int i = 1;\n        for( ; i <= 5; )\n        {\n            System.out.println(\"loop body:\" + i);\n            i++;\n        }\n        System.out.println(\"main end:\" + i);\n    }\n}",
                 a: "main begin\nloop body:1\nloop body:2\nloop body:3\nloop body:4\nloop body:5\nmain end:6",
                 b: "main begin\nmain end:6",
@@ -159,7 +159,7 @@ const quizData = [
                 correct: "a",
             },
             {
-                question: "19-",
+                question: "19.what is the output",
                 code: "class T \n{\n    public static void main(String[] args) \n    {\n        System.out.println(\"main begin\");\n        int i = 1;\n        for( ; ; )\n        {\n            System.out.println(\"loop body:\" + i);\n            i++;\n        }\n        System.out.println(\"main end:\" + i);\n    }\n}",
                 a: "main begin\nloop body:1\nloop body:2\nloop body:3\nloop body:4\nloop body:5\nmain end:6",
                 b: "run time error",
@@ -167,7 +167,7 @@ const quizData = [
                 correct: "b",
             },
             {
-                question: "20-",
+                question: "20.what is the output",
                 code: "class U \n{\n    public static void main(String[] args) \n    {\n        System.out.println(\"main begin\");\n        int i = 1;\n        for( ; ; )\n        {\n            System.out.println(\"loop body:\" + i);\n            i++;\n        }\n    }\n}",
                 a: "compile time error",
                 b: "infinite loop",
@@ -176,7 +176,7 @@ const quizData = [
                 correct: "b",
             },
             {
-                question: "21-",
+                question: "21.what is the output",
                 code: "class V \n{\n    public static void main(String[] args) \n    {\n        System.out.println(\"main begin\");\n        for(int i = 1, j = 20 ; i <= 10; i++, j += 3)\n        {\n            System.out.println(\"loop body:\" + i + \", \" + j);\n        }\n    }\n}",
                 a: "infinite loop",
                 b: "main begin\nloop body:1, 20\nloop body:2, 23\nloop body:3, 26\nloop body:4, 29\nloop body:5, 32\nloop body:6, 35\nloop body:7, 38\nloop body:8, 41\nloop body:9, 44\nloop body:10, 47",
@@ -185,7 +185,7 @@ const quizData = [
                 correct: "b",
             },
             {
-                question: "22-",
+                question: "22.what is the output",
                 code: "class W \n{\n    public static void main(String[] args) \n    {\n        System.out.println(\"main begin\");\n        for(int i = 1, j = 20 ; j <= 60; i++, j += 3)\n        {\n            System.out.println(\"loop body:\" + i + \", \" + j);\n        }\n    }\n}",
                 a: "main begin\nloop body:1, 20\nloop body:2, 23\nloop body:3, 26\nloop body:4, 29\nloop body:5, 32\nloop body:6, 35\nloop body:7, 38\nloop body:8, 41\nloop body:9, 44\nloop body:10, 47\nloop body:11, 50\nloop body:12, 53\nloop body:13, 56\nloop body:14, 59",
                 b: "main begin\nloop body:1, 20\nloop body:2, 23\nloop body:3, 26\nloop body:4, 29\nloop body:5, 32\nloop body:6, 35\nloop body:8, 41\nloop body:9, 44\nloop body:10, 47\nloop body:11, 50\nloop body:12, 53\nloop body:13, 56\nloop body:14, 59",
@@ -194,7 +194,7 @@ const quizData = [
                 correct: "a",
             },
             {
-                question: "23-",
+                question: "23.what is the output",
                 code: "class X \n{\n    public static void main(String[] args) \n    {\n        System.out.println(\"main begin\");\n        for(int i = 1, j = 20 ; i <= 20 || j <= 60; i++, j += 3)\n        {\n            System.out.println(\"loop body:\" + i + \", \" + j);\n        }\n    }\n}",
                 a: "main begin\nloop body:1, 20\nloop body:2, 23\nloop body:3, 26\nloop body:4, 29\nloop body:5, 32\nloop body:6, 35\nloop body:7, 38\nloop body:8, 41\nloop body:9, 44\nloop body:10, 47\nloop body:11, 50\nloop body:12, 53\nloop body:13, 56\nloop body:14, 59\nloop body:15, 62\nloop body:16, 65\nloop body:17, 68\nloop body:18, 71\nloop body:19, 74\nloop body:20, 77",
                 b: "main begin\nloop body:1, 20\nloop body:2, 23\nloop body:3, 26\nloop body:4, 29\nloop body:5, 32\nloop body:6, 35\nloop body:7, 38\nloop body:8, 41\nloop body:9, 44\nloop body:10, 47\nloop body:11, 50\nloop body:12, 53\nloop body:13, 56",
@@ -204,7 +204,7 @@ const quizData = [
                 correct: "a",
             },
             {
-                question: "24-",
+                question: "24.what is the output",
                 code: "class Y \n{\n    public static void main(String[] args) \n    {\n        System.out.println(\"main begin\");\n        for(int i = 1, j = 20 ; i <= 20 && j <= 60; i++, j += 3)\n        {\n            System.out.println(\"loop body:\" + i + \", \" + j);\n        }\n    }\n}",
                 a: "infinite loop",
                 b: "compile time error",
@@ -213,7 +213,7 @@ const quizData = [
                 correct: "c",
             },
             {
-                question: "25-",
+                question: "25.what is the output",
                 code: "class Z \n{\n    public static void main(String[] args) \n    {\n        System.out.println(\"main begin\");\n        int i;\n        for(i = 1, System.out.println(\"init\"); \n        test(i); \n        System.out.println(\"before change:\" + i), i++, System.out.println(\"after change:\" + i))\n        {\n            System.out.println(\"loop body:\" + i);\n        }\n        System.out.println(\"main end\");\n    }\n\n    static boolean test(int i)\n    {\n        boolean flag = (i <= 5);\n        System.out.println(\"boolean status for \" + i + \" is \" + flag);\n        return flag;\n    }\n}",
                 a: "run time error",
                 b: "compile time error",
@@ -222,7 +222,7 @@ const quizData = [
                 correct: "c",
             },
             {
-                question: "26-",
+                question: "26.what is the output",
                 code: "class Z1 \n{\n    public static void main(String[] args) \n    {\n        System.out.println(\"main begin\");\n        //int m = 1, n = 10, o, p = 30, q, r = 40;\n        for(int i = 1, System.out.println(\"init\"); \n        test(i); \n        System.out.println(\"before change:\" + i), i++, System.out.println(\"after change:\" + i))\n        {\n            System.out.println(\"loop body:\" + i);\n        }\n        System.out.println(\"main end\");\n    }\n\n    static boolean test(int i)\n    {\n        boolean flag = (i <= 5);\n        System.out.println(\"boolean status for \" + i + \" is \" + flag);\n        return flag;\n    }\n}",
                 a: "compile time error",
                 b: "run time error",
@@ -231,7 +231,7 @@ const quizData = [
                 correct: "a",
             },
             {
-                question: "27-",
+                question: "27.what is the output",
                 code: "class Z2 \n{\n    public static void main(String[] args) \n    {\n        System.out.println(\"main begin\");\n        for(int i = 0; i <= 5; i++)\n        System.out.println(\"loop body:\" + i);\n        System.out.println(\"loop body:\" + i);\n        System.out.println(\"main end\");\n    }\n}",
                 a: "run time error",
                 b: "compile time error",
@@ -240,7 +240,7 @@ const quizData = [
                 correct: "d",
             },
             {
-                question: "28-",
+                question: "28.what is the output",
                 code: "class Z3 \n{\n    public static void main(String[] args) \n    {\n        System.out.println(\"main begin\");\n        int i;\n        for(i = 0; i <= 5; i++)\n        System.out.println(\"loop body stmt1:\" + i);\n        System.out.println(\"loop body stmt2:\" + i);\n        System.out.println(\"main end\");\n    }\n}",
                 a: "main begin\nloop body stmt1:0\nloop body stmt1:1\nloop body stmt1:2\nloop body stmt1:3\nloop body stmt1:4\nloop body stmt1:5\nloop body stmt2:6\nmain end",
                 b: "compile time error",
@@ -249,7 +249,7 @@ const quizData = [
                 correct: "a",
             },
             {
-                question: "29-",
+                question: "29.what is the output",
                 code: "class Z4 \n{\n    public static void main(String[] args) \n    {\n        System.out.println(\"main begin\");\n        int i;\n        for(i = 0; i <= 5; i++);\n        System.out.println(\"loop body stmt1:\" + i);\n        System.out.println(\"loop body stmt2:\" + i);\n        System.out.println(\"main end\");\n    }\n}",
                 a: "compile time error",
                 b: "run time error",
@@ -258,7 +258,7 @@ const quizData = [
                 correct: "d",
             },
             {
-                question: "30-",
+                question: "30.what is the output",
                 code: "class Z5 \n{\n    public static void main(String[] args) \n    {\n        System.out.println(\"main begin\");\n        for(int i = 0; i <= 5; i++);\n        System.out.println(\"loop body stmt1:\" + i);\n        System.out.println(\"main end\");\n    }\n}",
                 a: "runtime error",
                 b: "compile time error",
@@ -267,7 +267,7 @@ const quizData = [
                 correct: "b",
             },
             {
-                question: "31-",
+                question: "31.what is the output",
                 code: "class Z6 \n{\n    public static void main(String[] args) \n    {\n        System.out.println(\"main begin\");\n        for(int i = 0; i <= 5; i++);\n        {\n            System.out.println(\"loop body stmt1:\" + i);\n        }\n        System.out.println(\"main end\");\n    }\n}",
                 a: "compile time error",
                 b: "main begin",
@@ -275,7 +275,7 @@ const quizData = [
                 correct: "b",
             },
             {
-                question: "32-",
+                question: "32.what is the output",
                 code: "class A \n{\n    public static void main(String[] args) \n    {\n        System.out.println(\"main begin\");\n        for(int i = 1; i <= 10; i++)\n        {\n            System.out.println(\"loop begin:\" + i);\n            System.out.println(\"loop end:\" + i);\n        }\n        System.out.println(\"main end\");\n    }\n}",
                 a: "compile time error",
                 b: "main begin\nloop begin:1\nloop end:1\nloop begin:2\nloop end:2\nloop begin:3\nloop end:3\nloop begin:4\nloop end:4\nloop begin:5\nloop end:5\nloop begin:6\nloop end:6\nloop begin:7\nloop end:7\nloop begin:8\nloop end:8\nloop begin:9\nloop end:9\nloop begin:10\nloop end:10\nmain end",
@@ -283,7 +283,7 @@ const quizData = [
                 correct: "b",
             },
             {
-                question: "33-",
+                question: "33.what is the output",
                 code: "class B \n{\n    public static void main(String[] args) \n    {\n        System.out.println(\"main begin\");\n        for(int i = 1; i <= 10; i++)\n        {\n            System.out.println(\"loop begin:\" + i);\n            if(i == 7)\n            {\n                continue;\n            }\n            System.out.println(\"loop end:\" + i);\n        }\n        System.out.println(\"main end\");\n    }\n}",
                 a: "run time error",
                 b: "main begin\nloop begin:1\nloop end:1\nloop begin:2\nloop end:2\nloop begin:3\nloop end:3\nloop begin:4\nloop end:4\nloop begin:5\nloop end:5\nloop begin:6\nloop end:6\nloop begin:7\nloop begin:8\nloop end:8\nloop begin:9\nloop end:9\nloop begin:10\nloop end:10\nmain end",
@@ -292,7 +292,7 @@ const quizData = [
                 correct: "b",
             },    
             {
-                question: "34",
+                question: "34.what is the output",
                 code: "class C {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        for(int i = 1; i <= 10; i++) {\n            System.out.println(\"loop begin:\" + i);\n            if(i <= 4) {\n                continue;\n            }\n            System.out.println(\"loop end:\" + i);\n        }\n        System.out.println(\"main end\");\n    }\n}",
                 a: "main begin\nloop begin:1\nloop begin:2\nloop begin:3\nloop begin:4\nloop begin:5\nloop end:5\nloop begin:6\nloop end:6\nloop begin:7\nloop end:7\nloop begin:8\nloop end:8\nloop begin:9\nloop end:9\nloop begin:10\nloop end:10\nmain end",
                 b: "compile time error",
@@ -302,7 +302,7 @@ const quizData = [
             },
             
             {
-                question: "35",
+                question: "35.what is the output",
                 code: "class D {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        for(int i = 1; i <= 10; i++) {\n            System.out.println(\"loop begin:\" + i);\n            if(i <= 4) {\n                continue;\n                System.out.println(\"if end\");\n            }\n            System.out.println(\"loop end:\" + i);\n        }\n        System.out.println(\"main end\");\n    }\n}",
                 a: "run time error",
                 b: "main begin\nloop begin:1\nloop begin:2\nloop begin:3\nloop begin:4\nloop end:4\nloop begin:5\nloop end:5\nloop begin:6\nloop end:6\nloop begin:7\nloop end:7\nloop begin:8\nloop end:8\nloop begin:9\nloop end:9\nloop begin:10\nloop end:10\nmain end",
@@ -312,7 +312,7 @@ const quizData = [
             },
             
             {
-                question: "36",
+                question: "36.what is the output",
                 code: "class E {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        for(int i = 1; i <= 10; i++) {\n            System.out.println(\"loop begin:\" + i);\n            if(i <= 4) {\n                System.out.println(\"if begin\");\n                continue;\n            }\n            System.out.println(\"loop end:\" + i);\n        }\n        System.out.println(\"main end\");\n    }\n}",
                 a: "main begin\nloop begin:1\nif begin\nloop begin:2\nif begin\nloop begin:3\nif begin\nloop begin:4\nif begin\nloop begin:5\nloop end:5\nloop begin:6\nloop end:6\nloop begin:7\nloop end:7\nloop begin:8\nloop end:8\nloop begin:9\nloop end:9\nloop begin:10\nloop end:10\nmain end",
                 b: "main begin\nloop begin:1\nif begin\nloop begin:2\nif begin\nloop begin:3\nif begin\nloop begin:4\nif begin\nloop begin:5\nloop end:5\nloop begin:6\nloop end:6\nloop begin:7\nloop end:7\nloop begin:8\nloop end:8\nloop begin:9\nloop end:9\nmain end",
@@ -322,7 +322,7 @@ const quizData = [
             },
             
             {
-                question: "37",
+                question: "37.what is the output",
                 code: "class F {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        for(int i = 1; i <= 10; i++) {\n            System.out.println(\"loop begin:\" + i);\n            if(i == 4) {\n                System.out.println(\"if begin\");\n                break;\n            }\n            System.out.println(\"loop end:\" + i);\n        }\n        System.out.println(\"main end\");\n    }\n}",
                 a: "compile time error",
                 b: "main begin\nloop begin:1\nloop end:1\nloop begin:2\nloop end:2\nloop begin:3\nloop end:3\nloop begin:4\nif begin\nmain end",
@@ -332,7 +332,7 @@ const quizData = [
             },
             
             {
-                question: "38",
+                question: "38.what is the output",
                 code: "class G {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        for(int i = 1; i <= 10; i++) {\n            System.out.println(\"outer loop begin:\" + i);\n            for(int j = 101; j <= 105; j++) {\n                System.out.println(\"inner loop begin:\" + i + \",\" + j);\n            }\n            System.out.println(\"outer loop end:\" + i);\n        }\n        System.out.println(\"main end\");\n    }\n}",
                 a: "main begin\nouter loop begin:1\ninner loop begin:1,101\ninner loop begin:1,102\ninner loop begin:1,103\ninner loop begin:1,104\ninner loop begin:1,105\nouter loop end:1\nouter loop begin:2\ninner loop begin:2,101\ninner loop begin:2,102\ninner loop begin:2,103\ninner loop begin:2,104\ninner loop begin:2,105\nouter loop end:2\nouter loop begin:3\ninner loop begin:3,101\ninner loop begin:3,102\ninner loop begin:3,103\ninner loop begin:3,104\ninner loop begin:3,105\nouter loop end:3\nouter loop begin:4\ninner loop begin:4,101\ninner loop begin:4,102\ninner loop begin:4,103\ninner loop begin:4,104\ninner loop begin:4,105\nouter loop end:4\nouter loop begin:5\ninner loop begin:5,101\ninner loop begin:5,102\ninner loop begin:5,103\ninner loop begin:5,104\ninner loop begin:5,105\nouter loop end:5\nouter loop begin:6\ninner loop begin:6,101\ninner loop begin:6,102\ninner loop begin:6,103\ninner loop begin:6,104\ninner loop begin:6,105\nouter loop end:6\nouter loop begin:7\ninner loop begin:7,101\ninner loop begin:7,102\ninner loop begin:7,103\ninner loop begin:7,104\ninner loop begin:7,105\nouter loop end:7\nouter loop begin:8\ninner loop begin:8,101\ninner loop begin:8,102\ninner loop begin:8,103\ninner loop begin:8,104\ninner loop begin:8,105\nouter loop end:8\nouter loop begin:9\ninner loop begin:9,101\ninner loop begin:9,102\ninner loop begin:9,103\ninner loop begin:9,104\ninner loop begin:9,105\nouter loop end:9\nouter loop begin:10\ninner loop begin:10,101\ninner loop begin:10,102\ninner loop begin:10,103\ninner loop begin:10,104\ninner loop begin:10,105\nouter loop end:10\nmain end",
                 b: "main begin\nouter loop begin:1\ninner loop begin:1,101\ninner loop begin:1,102\ninner loop begin:1,103\ninner loop begin:1,104\ninner loop begin:1,105\nouter loop end:1\nouter loop begin:2\ninner loop begin:2,101\ninner loop begin:2,102\ninner loop begin:2,103\ninner loop begin:2,104\ninner loop begin:2,105\nouter loop end:2\nouter loop begin:3\ninner loop begin:3,101\ninner loop begin:3,102\ninner loop begin:3,103\ninner loop begin:3,104\ninner loop begin:3,105\nouter loop end:3\nouter loop begin:4\ninner loop begin:4,101\ninner loop begin:4,102\ninner loop begin:4,103\ninner loop begin:4,104\ninner loop begin:4,105\nouter loop end:4\nouter loop begin:5\ninner loop begin:5,101\ninner loop begin:5,102\ninner loop begin:5,103\ninner loop begin:5,104\ninner loop begin:5,105\nouter loop end:5\nouter loop begin:6\ninner loop begin:6,101\ninner loop begin:6,102\ninner loop begin:6,103\ninner loop begin:6,104\ninner loop begin:6,105\nouter loop end:6\nouter loop begin:7\ninner loop begin:7,101\ninner loop begin:7,102\ninner loop begin:7,103\ninner loop begin:7,104\ninner loop begin:7,105\nouter loop end:7\nouter loop begin:8\ninner loop begin:8,101\ninner loop begin:8,102\ninner loop begin:8,103\ninner loop begin:8,104\ninner loop begin:8,105\nouter loop end:8\nouter loop begin:9\ninner loop begin:9,101\ninner loop begin:9,102\ninner loop begin:9,103\ninner loop begin:9,104\ninner loop begin:9,105\nouter loop end:9\nouter loop begin:10\ninner loop begin:10,101\ninner loop begin:10,102\ninner loop begin:10,103\ninner loop begin:10,104\nouter loop end:10\nmain end",
@@ -342,7 +342,7 @@ const quizData = [
             },
             
             {
-                question: "39",
+                question: "39.what is the output",
                 code: "class H {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        for(int i = 1; i <= 10; i++) {\n            System.out.println(\"loop begin:\" + i);\n            if(i == 4) {\n                System.out.println(\"if begin\");\n                break;continue;\n            }\n            System.out.println(\"loop end:\" + i);\n        }\n        System.out.println(\"main end\");\n    }\n}",
                 a: "compile time error",
                 b: "main begin\nloop begin:1\nloop end:1\nloop begin:2\nloop end:2\nloop begin:3\nloop end:3\nloop begin:4\nif begin\nmain end",
@@ -352,7 +352,7 @@ const quizData = [
             },
             
             {
-                question: "40",
+                question: "40.what is the output",
                 code: "class I {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        for(int i = 1; i <= 10; i++) {\n            System.out.println(\"outer loop begin:\" + i);\n            for(int j = 101; j <= 105; j++) {\n                System.out.println(\"inner loop begin:\" + i + \",\" + j);\n            }\n            System.out.println(\"outer loop end:\" + i);\n        }\n        System.out.println(\"main end\");\n    }\n}",
                 a: "main begin\nouter loop begin:1\ninner loop begin:1,101\ninner loop begin:1,102\ninner loop begin:1,103\ninner loop begin:1,104\ninner loop begin:1,105\nouter loop end:1\nouter loop begin:2\ninner loop begin:2,101\ninner loop begin:2,102\ninner loop begin:2,103\ninner loop begin:2,104\ninner loop begin:2,105\nouter loop end:2\nouter loop begin:3\ninner loop begin:3,101\ninner loop begin:3,102\ninner loop begin:3,103\ninner loop begin:3,104\ninner loop begin:3,105\nouter loop end:3\nouter loop begin:4\ninner loop begin:4,101\ninner loop begin:4,102\ninner loop begin:4,103\ninner loop begin:4,104\ninner loop begin:4,105\nouter loop end:4\nouter loop begin:5\ninner loop begin:5,101\ninner loop begin:5,102\ninner loop begin:5,103\ninner loop begin:5,104\ninner loop begin:5,105\nouter loop end:5\nouter loop begin:6\ninner loop begin:6,101\ninner loop begin:6,102\ninner loop begin:6,103\ninner loop begin:6,104\ninner loop begin:6,105\nouter loop end:6\nouter loop begin:7\ninner loop begin:7,101\ninner loop begin:7,102\ninner loop begin:7,103\ninner loop begin:7,104\ninner loop begin:7,105\nouter loop end:7\nouter loop begin:8\ninner loop begin:8,101\ninner loop begin:8,102\ninner loop begin:8,103\ninner loop begin:8,104\ninner loop begin:8,105\nouter loop end:8\nouter loop begin:9\ninner loop begin:9,101\ninner loop begin:9,102\ninner loop begin:9,103\ninner loop begin:9,104\ninner loop begin:9,105\nouter loop end:9\nouter loop begin:10\ninner loop begin:10,101\ninner loop begin:10,102\ninner loop begin:10,103\ninner loop begin:10,104\ninner loop begin:10,105\nouter loop end:10\nmain end",
                 b: "main begin\nouter loop begin:1\ninner loop begin:1,101\ninner loop begin:1,102\ninner loop begin:1,103\ninner loop begin:1,104\ninner loop begin:1,105\nouter loop end:1\nouter loop begin:2\ninner loop begin:2,101\ninner loop begin:2,102\ninner loop begin:2,103\ninner loop begin:2,104\ninner loop begin:2,105\nouter loop end:2\nouter loop begin:3\ninner loop begin:3,101\ninner loop begin:3,102\ninner loop begin:3,103\ninner loop begin:3,104\ninner loop begin:3,105\nouter loop end:3\nouter loop begin:4\ninner loop begin:4,101\ninner loop begin:4,102\ninner loop begin:4,103\ninner loop begin:4,104\ninner loop begin:4,105\nouter loop end:4\nouter loop begin:5\ninner loop begin:5,101\ninner loop begin:5,102\ninner loop begin:5,103\ninner loop begin:5,104\ninner loop begin:5,105\nouter loop end:5\nouter loop begin:6\ninner loop begin:6,101\ninner loop begin:6,102\ninner loop begin:6,103\ninner loop begin:6,104\ninner loop begin:6,105\nouter loop end:6\nouter loop begin:7\ninner loop begin:7,101\ninner loop begin:7,102\ninner loop begin:7,103\ninner loop begin:7,104\ninner loop begin:7,105\nouter loop end:7\nouter loop begin:8\ninner loop begin:8,101\ninner loop begin:8,102\ninner loop begin:8,103\ninner loop begin:8,104\ninner loop begin:8,105\nouter loop end:8\nouter loop begin:9\ninner loop begin:9,101\ninner loop begin:9,102\ninner loop begin:9,103\ninner loop begin:9,104\ninner loop begin:9,105\nouter loop end:9\nouter loop begin:10\ninner loop begin:10,101\ninner loop begin:10,102\ninner loop begin:10,103\ninner loop begin:10,104\ninner loop begin:10,105\nouter loop end:10\nmain end",

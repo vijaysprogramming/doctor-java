@@ -1,6 +1,6 @@
 const quizData = [
     {
-        question: "01- What is the output of any Logical operation in Java?",
+        question: "01. What is the output of any Logical operation in Java?",
         code: `select the correct option`,
         a: "1 and 0",
         b: "true / false",
@@ -9,7 +9,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "02- boolean b=false; b=!b; System.out.println(b); what is the output?",
+        question: "02. boolean b=false; b=!b; System.out.println(b); what is the output?",
         code: `select the correct option`,
         a: "true",
         b: "false",
@@ -18,7 +18,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "03- What is the output of Logical AND (&) operation if one of the inputs/operands is false?",
+        question: "03. What is the output of Logical AND (&) operation if one of the inputs/operands is false?",
         code: `select the correct option`,
         a: "true",
         b: "false",
@@ -27,7 +27,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "04- What is the output of Logical OR operation if one of the inputs/operands is false?",
+        question: "04. What is the output of Logical OR operation if one of the inputs/operands is false?",
         code: `select the correct option`,
         a: "true",
         b: "false",

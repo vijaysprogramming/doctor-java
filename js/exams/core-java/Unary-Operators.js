@@ -1,7 +1,7 @@
 const quizData = [
     
     {
-        question: "1",
+        question:  "1.What is the output for given code?",
         code: `class A 
 
 {
@@ -31,7 +31,7 @@ System.out.println(i);
 
     
     {
-        question: "2",
+        question: "2.What is the output for given code?",
         code: `class B 
     {
         public static void main(String[] args) 
@@ -52,7 +52,7 @@ System.out.println(i);
     },
     
     {
-        question: "3",
+        question: "3.What is the output for given code?",
         code: `class C 
     {
         public static void main(String[] args) 
@@ -74,7 +74,7 @@ System.out.println(i);
     },
     
     {
-        question: "4",
+        question: "4.What is the output for given code?",
         code: `class D 
     {
         public static void main(String[] args) 
@@ -93,7 +93,7 @@ System.out.println(i);
     },
     
     {
-        question: "5",
+        question: "5.What is the output for given code?",
         code: `class E 
     {
         public static void main(String[] args) 
@@ -112,7 +112,7 @@ System.out.println(i);
     },
     
     {
-        question: "6",
+        question: "6.What is the output for given code?",
         code: `class F 
     {
         public static void main(String[] args) 
@@ -130,7 +130,7 @@ System.out.println(i);
         correct: "c",
     },
     {
-        question: "7",
+        question: "7.What is the output for given code?",
         code: `class G 
     {
         public static void main(String[] args) 
@@ -148,7 +148,7 @@ System.out.println(i);
         correct : "a"
     },
     {
-         question : "8",
+         question : "8.What is the output for given code?",
           code : `class H 
     {
         public static void main(String[] args) 
@@ -166,7 +166,7 @@ System.out.println(i);
           correct : "b"
     },
     {
-        question : "9",
+        question : "9.What is the output for given code?",
         code : `class I 
     {
         public static void main(String[] args) 
@@ -184,7 +184,7 @@ System.out.println(i);
         correct : "a"
     },
     {
-         question : "10",
+         question : "10.What is the output for given code?",
           code : `class J 
     {
         public static void main(String[] args) 
@@ -202,7 +202,7 @@ System.out.println(i);
         correct : "b"
     },
     {
-         question : "11",
+         question : "11.What is the output for given code?",
          code : `class K 
     {
         public static void main(String[] args) 
@@ -220,7 +220,7 @@ System.out.println(i);
          correct : "a"
     },
     {
-         question : "12",
+         question : "12.What is the output for given code?",
          code: `class L 
     {
         public static void main(String[] args) 
@@ -238,7 +238,7 @@ System.out.println(i);
         correct : "c"
     },
     {
-        question : "13",
+        question : "13.What is the output for given code?",
         code : `class M 
     {
         public static void main(String[] args) 
@@ -252,10 +252,10 @@ System.out.println(i);
          b : "2",
          c : "0",
          d : "5",
-         correct : "c"
+         correct : "c.What is the output for given code?"
     },
     {
-         question : "14",
+         question : "14.What is the output for given code?",
          code : `class N 
     {
         public static void main(String[] args) 
@@ -272,7 +272,7 @@ System.out.println(i);
          correct : "b"
     },
     {
-        question : "15",
+        question : "15.What is the output for given code?",
         code : `class O 
     {
         public static void main(String[] args) 
@@ -292,7 +292,7 @@ System.out.println(i);
         "correct": "b"
     },
     {
-         question : "16",
+         question : "16.What is the output for given code?",
          code : `class P 
     {
         public static void main(String[] args) 
@@ -312,7 +312,7 @@ System.out.println(i);
         "correct": "b"
     },
     {
-         question : "17",
+         question : "17.What is the output for given code?",
          code : `class Q 
     {
         public static void main(String[] args) 
@@ -330,7 +330,7 @@ System.out.println(i);
         "correct": "b"
     },
     {
-         question : "18",
+         question : "18.What is the output for given code?",
          code : `class R 
     {
         public static void main(String[] args) 
@@ -348,7 +348,7 @@ System.out.println(i);
          correct : "a"
     },
     {
-         question : "19",
+         question : "19.What is the output for given code?",
          code : `class S 
     {
         public static void main(String[] args) 
@@ -366,7 +366,7 @@ System.out.println(i);
          correct : "c"
     },
     {
-         question : "20",
+         question : "20.What is the output for given code?",
          code : `class T
     {
         public static void main(String[] args) 
@@ -380,8 +380,7 @@ System.out.println(i);
          a : "1<br>6",
          b : "2<br>6",
          c : "2<br>5",
-         correct : "b"
-    }
+    },
     
 ];
 
@@ -409,7 +408,7 @@ deselectAnswers();
 const currentQuizData = quizData[currentQuiz];
 
 questionEl.innerText = currentQuizData.question;
-codeEl.innerHTML = `<pre><code class="language-java">${currentQuizData.code}</code></pre>`;
+codeEl.innerHTML = `<pre><code class="language.java">${currentQuizData.code}</code></pre>`;
 a_text.innerHTML = currentQuizData.a;
 b_text.innerHTML = currentQuizData.b;
 c_text.innerHTML = currentQuizData.c;
@@ -471,23 +470,23 @@ if (answer) {
 
 function showResults() {
 quiz.innerHTML = `
-    <h2 style="text-align: center; font-size: 2rem;">Quiz Results</h2>
-    <p style="font-size: 1.5rem; text-align: center;">You answered ${score}/${quizData.length} questions correctly</p>
-    <div style="margin-top: 2rem; max-height: 400px; overflow-y: auto; padding: 1rem; border: 1px solid #ccc; border-radius: 10px;">
-        <h3 style="text-align: center; margin-bottom: 2rem;">Detailed Summary</h3>
-        <ul style="list-style-type: none; padding: 0; font-size: 1.2rem;">
+    <h2 style="text.align: center; font.size: 2rem;">Quiz Results</h2>
+    <p style="font.size: 1.5rem; text.align: center;">You answered ${score}/${quizData.length} questions correctly</p>
+    <div style="margin.top: 2rem; max.height: 400px; overflow.y: auto; padding: 1rem; border: 1px solid #ccc; border.radius: 10px;">
+        <h3 style="text.align: center; margin.bottom: 2rem;">Detailed Summary</h3>
+        <ul style="list.style.type: none; padding: 0; font.size: 1.2rem;">
             ${selectedAnswers.map((result, index) => `
-                <li style="margin-bottom: 1.5rem;">
+                <li style="margin.bottom: 1.5rem;">
                     <strong>Question ${index + 1}:</strong> ${result.question}<br>
-                    <pre><code class="language-java">${result.code}</code></pre>
+                    <pre><code class="language.java">${result.code}</code></pre>
                     <strong>Your Answer:</strong> ${result.selected} (${result.isCorrect ? '<span style="color: green;">Correct</span>' : '<span style="color: red;">Incorrect</span>'})<br>
                     ${!result.isCorrect ? `<strong>Correct Answer:</strong> ${result.correct}` : ''}
                 </li>
             `).join('')}
         </ul>
     </div>
-    <div style="text-align: center; margin-top: 2rem;">
-        <button onclick="location.reload()" style="font-size: 1.2rem; padding: 0.8rem 1.5rem; background-color: #8e44ad; color: #fff; border: none; cursor: pointer;">Reload Quiz</button>
+    <div style="text.align: center; margin.top: 2rem;">
+        <button onclick="location.reload()" style="font.size: 1.2rem; padding: 0.8rem 1.5rem; background.color: #8e44ad; color: #fff; border: none; cursor: pointer;">Reload Quiz</button>
     </div>
 `;
 
