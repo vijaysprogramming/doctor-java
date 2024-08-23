@@ -1,6 +1,6 @@
 const quizData = [
     {
-        question: "1- 'this' is the default reference in a main method?",
+        question: "1.'this' is the default reference in a main method?",
         code: "select the correct option",
         a: "Yes",
         b: "No",
@@ -10,7 +10,7 @@ const quizData = [
     },
     
     {
-        question: "2- 'this' is the default reference in a constructor?",
+        question: "2.'this' is the default reference in a constructor?",
         code: "select the correct option",
         a: "Yes",
         b: "No",
@@ -20,7 +20,7 @@ const quizData = [
     },
     
     {
-        question: "3- Which keyword is used to differentiate a local variable and a global non-static variable that have the same name?",
+        question: "3. Which keyword is used to differentiate a local variable and a global non-static variable that have the same name?",
         code: "select the correct option",
         a: "public",
         b: "int",

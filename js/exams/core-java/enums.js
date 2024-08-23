@@ -1,6 +1,6 @@
 const quizData = [
     {
-        question: "1- In which version of JDK are enums introduced?",
+        question: "1. In which version of JDK are enums introduced?",
         code: `select the correct option`,
         a: "JDK 1.0",
         b: "JDK 1.4",
@@ -10,7 +10,7 @@ const quizData = [
     },
     
     {
-        question: "2- Enums are mainly used for grouping similar kind of and fixed number of constants. True/False?",
+        question: "2. Enums are mainly used for grouping similar kind of and fixed number of constants. True/False?",
         code: `select the correct option`,
         a: "true",
         b: "false",
@@ -20,7 +20,7 @@ const quizData = [
     },
     
     {
-        question: "3- In which scenario enums can't be used?",
+        question: "3. In which scenario enums can't be used?",
         code: `select the correct option`,
         a: "to represent day names",
         b: "to represent month names",
@@ -30,7 +30,7 @@ const quizData = [
     },
     
     {
-        question: "4- Enum can't become a member of a Java file?",
+        question: "4. Enum can't become a member of a Java file?",
         code: `select the correct option`,
         a: "true",
         b: "false",
@@ -40,7 +40,7 @@ const quizData = [
     },
     
     {
-        question: "5- For enum also class file is generating while compiling?",
+        question: "5. For enum also class file is generating while compiling?",
         code: `select the correct option`,
         a: "true",
         b: "false",
@@ -50,7 +50,7 @@ const quizData = [
     },
     
     {
-        question: "6- Enum constants can be duplicate",
+        question: "6. Enum constants can be duplicate",
         code: `select the correct option`,
         a: "true",
         b: "false",
@@ -60,7 +60,7 @@ const quizData = [
     },
     
     {
-        question: "7- All enum constants are static by default",
+        question: "7. All enum constants are static by default",
         code: `select the correct option`,
         a: "true",
         b: "false",
@@ -70,7 +70,7 @@ const quizData = [
     },
     
     {
-        question: "8- We can develop an enum inside a class as a member of the class",
+        question: "8. We can develop an enum inside a class as a member of the class",
         code: `select the correct option`,
         a: "true",
         b: "false",
@@ -80,7 +80,7 @@ const quizData = [
     },
     
     {
-        question: "9- Which method of enum is used for reading all constants?",
+        question: "9. Which method of enum is used for reading all constants?",
         code: `select the correct option`,
         a: "values()",
         b: "ordinal()",
@@ -90,7 +90,7 @@ const quizData = [
     },
     
     {
-        question: "10- Which method of enum is used for reading the index of a constant?",
+        question: "10. Which method of enum is used for reading the index of a constant?",
         code: `select the correct option`,
         a: "values()",
         b: "ordinal()",
@@ -100,7 +100,7 @@ const quizData = [
     },
     
     {
-        question: "11- Which method of enum is used for referring a specified constant?",
+        question: "11. Which method of enum is used for referring a specified constant?",
         code: `select the correct option`,
         a: "values()",
         b: "ordinal()",
@@ -110,7 +110,7 @@ const quizData = [
     },
     
     {
-        question: "12- We can achieve uniformity among the developers with enums.",
+        question: "12. We can achieve uniformity among the developers with enums.",
         code: `select the correct option`,
         a: "yes",
         b: "no",
@@ -120,7 +120,7 @@ const quizData = [
     },
     
     {
-        question: "13- Every enum should have a minimum of one constructor. If we are not developing any constructors, then the compiler will provide a default constructor",
+        question: "13. Every enum should have a minimum of one constructor. If we are not developing any constructors, then the compiler will provide a default constructor",
         code: `select the correct option`,
         a: "yes",
         b: "no",
@@ -130,7 +130,7 @@ const quizData = [
     },
     
     {
-        question: "14- What is the need of 'constant specific class body' (CSCB)?",
+        question: "14. What is the need of 'constant specific class body' (CSCB)?",
         code: `select the correct option`,
         a: "to provide a constructor",
         b: "to provide a method specific to constant",
@@ -140,7 +140,7 @@ const quizData = [
     },
     
     {
-        question: "15- Is it possible to choose enum constant as an argument to a switch block?",
+        question: "15. Is it possible to choose enum constant as an argument to a switch block?",
         code: `select the correct option`,
         a: "yes",
         b: "no",
@@ -150,7 +150,7 @@ const quizData = [
     },
     
     {
-        question: "16- EnumSet is used to group few or all constants of multiple enums.",
+        question: "16. EnumSet is used to group few or all constants of multiple enums.",
         code: `select the correct option`,
         a: "yes",
         b: "no",
@@ -160,7 +160,7 @@ const quizData = [
     },
     
     {
-        question: "17- Enum should have a minimum of one constant to provide an attribute or a method, or at least there should be a semicolon before starting an attribute or a method.",
+        question: "17. Enum should have a minimum of one constant to provide an attribute or a method, or at least there should be a semicolon before starting an attribute or a method.",
         code: `select the correct option`,
         a: "yes",
         b: "no",
@@ -170,7 +170,7 @@ const quizData = [
     },
     
     {
-        question: "18- Which access level is allowed for constructors of an enum?",
+        question: "18. Which access level is allowed for constructors of an enum?",
         code: `select the correct option`,
         a: "private",
         b: "protected",
@@ -180,7 +180,7 @@ const quizData = [
     },
     
     {
-        question: "19- Is it possible to develop a main method along with the list of constants in the enum?",
+        question: "19. Is it possible to develop a main method along with the list of constants in the enum?",
         code: `select the correct option`,
         a: "yes",
         b: "no",
@@ -190,7 +190,7 @@ const quizData = [
     },
     
     {
-        question: "20- Abstract enum is possible.",
+        question: "20. Abstract enum is possible.",
         code: `select the correct option`,
         a: "yes",
         b: "no",
@@ -200,7 +200,7 @@ const quizData = [
     },
     
     {
-        question: "21- java.lang.Enum is the superclass to all enums.",
+        question: "21. java.lang.Enum is the superclass to all enums.",
         code: `select the correct option`,
         a: "yes",
         b: "no",

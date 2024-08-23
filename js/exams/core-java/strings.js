@@ -1,6 +1,6 @@
 const quizData = [
     {
-        question: "1-",
+        question: "1.what is the output",
         code: `class M1
 {
     public static void main(String[] args)
@@ -18,7 +18,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "2-",
+        question: "2.what is the output",
         code: `class M2
 {
     public static void main(String[] args)
@@ -35,7 +35,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "3-",
+        question: "3.what is the output",
         code: `class M3
 {
     public static void main(String[] args)
@@ -52,7 +52,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "4-",
+        question: "4.what is the output",
         code: `class M4
 {
     public static void main(String[] args)
@@ -71,7 +71,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "5-",
+        question: "5.what is the output",
         code: `class M5
 {
     public static void main(String[] args)
@@ -89,7 +89,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "6-",
+        question: "6.what is the output",
         code: `class M6
 {
     public static void main(String[] args)
@@ -107,7 +107,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "7-",
+        question: "7.what is the output",
         code: `class M7
 {
     public static void main(String[] args)
@@ -125,7 +125,7 @@ const quizData = [
         correct: "c",
     },
     {
-        question: "8-",
+        question: "8.what is the output",
         code: `class M8
 {
     public static void main(String[] args)
@@ -143,7 +143,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "9-",
+        question: "9.what is the output",
         code: `class M9
 {
     public static void main(String[] args)
@@ -161,7 +161,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "10-",
+        question: "10.what is the output",
         code: `class M10
 {
     public static void main(String[] args)
@@ -177,7 +177,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "11-",
+        question: "11.what is the output",
         code: `class M11
 {
     public static void main(String[] args)
@@ -193,7 +193,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "12-",
+        question: "12.what is the output",
         code: `class M12
 {
     public static void main(String[] args)
@@ -209,7 +209,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "13-",
+        question: "13.what is the output",
         code: `class M13
 {
     public static void main(String[] args)
@@ -225,7 +225,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "14-",
+        question: "14.what is the output",
         code: `class M14
 {
     public static void main(String[] args)
@@ -241,7 +241,7 @@ const quizData = [
         correct: "c",
     },
     {
-        question: "15-",
+        question: "15.what is the output",
         code: `class M15
 {
     public static void main(String[] args)
@@ -258,7 +258,7 @@ const quizData = [
         correct: "c",
     },
     {
-        question: "16-",
+        question: "16.what is the output",
         code: `class M16
 {
     public static void main(String[] args)
@@ -280,7 +280,7 @@ const quizData = [
         correct: "a"
     },
     {
-        question: "17-",
+        question: "17.what is the output",
         code: `class M17
 {
     public static void main(String[] args)
@@ -300,7 +300,7 @@ const quizData = [
         correct: "a"
     },
     {
-        question: "18-",
+        question: "18.what is the output..",
         code: `class M18
 {
     public static void main(String[] args)
@@ -316,7 +316,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "19-",
+        question: "19.what is the output",
         code: `class M19
 {
     public static void main(String[] args)
@@ -336,7 +336,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "20-",
+        question: "20.what is the output",
         code: `class M20
 {
     public static void main(String[] args)
@@ -358,7 +358,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "21-",
+        question: "21.what is the output",
         code: `class M21
 {
     public static void main(String[] args)
@@ -374,7 +374,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "22-",
+        question: "22.what is the output",
         code: `class M22
 {
     public static void main(String[] args)
@@ -390,7 +390,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "23-",
+        question: "23.what is the output",
         code: `class M23
 {
     public static void main(String[] args)
@@ -406,7 +406,7 @@ const quizData = [
         correct: "a"
     },
     {
-        question: "24-",
+        question: "24.what is the output",
         code: `class M24
 {
     public static void main(String[] args)
@@ -424,7 +424,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "25-",
+        question: "25.what is the output",
         code: `class M25
 {
     public static void main(String[] args)
@@ -444,7 +444,7 @@ const quizData = [
     },
     
         {
-            question: "26-",
+            question: "26.what is the output",
             code: `package StringBuffer;
     
     public class S1 {
@@ -471,7 +471,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "27-",
+            question: "27.what is the output",
             code: `package StringBuffer;
     
     public class S13 {
@@ -492,7 +492,7 @@ const quizData = [
             correct: "d",
         },
         {
-            question: "28-",
+            question: "28.what is the output",
             code: `package StringBuffer;
     
     public class S3 {
@@ -517,7 +517,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "29-",
+            question: "29.what is the output",
             code: `package StringBuffer;
     
     public class S4 {
@@ -548,7 +548,7 @@ const quizData = [
             correct: "d",
         },
         {
-            question: "30-",
+            question: "30.what is the output",
             code: `package StringBuffer;
     
     public class S5 {
@@ -579,7 +579,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "31-",
+            question: "31.what is the output",
             code: `package StringBuffer;
     
     public class S6 {
@@ -618,7 +618,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "32-",
+            question: "32.what is the output",
             code: `package StringBuffer;
     
     public class S7 {
@@ -657,7 +657,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "33-",
+            question: "33.what is the output",
             code: `package StringBuffer;
     
     public class S8 {
@@ -682,7 +682,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "34-",
+            question: "34.what is the output",
             code: `package StringBuffer;
     
     public class S9 {
@@ -707,7 +707,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "35-",
+            question: "35.what is the output",
             code: `package StringBuffer;
     
     public class S10 {
@@ -732,7 +732,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "36-",
+            question: "36.what is the output",
             code: `package StringBuffer;
     
     public class S11 {
@@ -757,7 +757,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "37-",
+            question: "37.what is the output",
             code: `package StringBuffer;
     
     public class S12 {
@@ -782,7 +782,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "38-",
+            question: "38.vwhat is the output",
             code: `package StringBuffer;
     
     public class S13 {
@@ -803,7 +803,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "39-",
+            question: "39.what is the output",
             code: `package formatter;
     
     public class S1 {
@@ -828,7 +828,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "40-",
+            question: "40.what is the output",
             code: `package formatter;
     
     public class S2 {
@@ -854,7 +854,7 @@ const quizData = [
         },
 
         {
-            question: "41-",
+            question: "41.what is the output",
             code: `package formatter;
     
     public class S3 {
@@ -878,7 +878,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "42-",
+            question: "42.what is the output",
             code: `package formatter;
     
     public class S4 {
@@ -914,7 +914,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "43-",
+            question: "43.what is the output",
             code: `package formatter;
     
     public class S5 {
@@ -950,7 +950,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "44-",
+            question: "44.what is the output",
             code: `package formatter;
     
     public class S6 {
@@ -986,7 +986,7 @@ const quizData = [
             correct: "c",
         },
         {
-            question: "45-",
+            question: "45.what is the output",
             code: `package formatter;
     
     public class S7 {
@@ -1005,7 +1005,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "46-",
+            question: "46.what is the output",
             code: `package formatter;
     
     public class S8 {
@@ -1027,7 +1027,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "47-",
+            question: "47.what is the output",
             code: `package formatter;
     
     public class S9 {
@@ -1050,7 +1050,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "48-",
+            question: "48.what is the output",
             code: `package formatter;
     
     public class S10 {
@@ -1073,7 +1073,7 @@ const quizData = [
             correct: "c",
         },
         {
-            question: "49-",
+            question: "49.what is the output",
             code: `package formatter;
     
     public class S11 {
@@ -1096,7 +1096,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "50-",
+            question: "50.what is the output",
             code: `package formatter;
     
     public class S12 {
@@ -1118,7 +1118,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "51-",
+            question: "51-what is the output",
             code: `package formatter;
     
     public class S13 {
@@ -1139,7 +1139,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "52-",
+            question: "52.what is the output",
             code: `package formatter;
     
     public class S14 {
@@ -1162,7 +1162,7 @@ const quizData = [
             correct: "d",
         },
         {
-            question: "53-",
+            question: "53.what is the output",
             code: `package formatter;
     
     public class S15 {
@@ -1184,7 +1184,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "54-",
+            question: "54.what is the output",
             code: `package formatter;
     
     public class S16 {
@@ -1206,7 +1206,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "55-",
+            question: "55.what is the output",
             code: `package regularExpression;
     
     import java.util.regex.Matcher;
@@ -1241,7 +1241,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "56-",
+            question: "56.what is the output",
             code: `package regularExpression;
     
     import java.util.regex.Matcher;
@@ -1276,7 +1276,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "57-",
+            question: "57.what is the output",
             code: `package regularExpression;
     
     import java.util.regex.Matcher;
@@ -1310,7 +1310,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "58-",
+            question: "58.what is the output",
             code: `package regularExpression;
     
     import java.util.regex.Matcher;
@@ -1344,7 +1344,7 @@ const quizData = [
             correct: "c",
         },
         {
-            question: "59-",
+            question: "59.what is the output",
             code: `package regularExpression;
     
     import java.util.regex.Matcher;
@@ -1379,7 +1379,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "60-",
+            question: "60.what is the output",
             code: `package regularExpression;
     
     import java.util.regex.Matcher;
@@ -1415,7 +1415,7 @@ const quizData = [
         },
         
             {
-                question: "61-",
+                question: "61.what is the output",
                 code: `package regularExpression;
         
         import java.util.regex.Matcher;
@@ -1450,7 +1450,7 @@ const quizData = [
                 correct: "a",
             },
             {
-                question: "62-",
+                question: "62.what is the output",
                 code: `package regularExpression;
         
         import java.util.regex.Matcher;
@@ -1485,7 +1485,7 @@ const quizData = [
                 correct: "a",
             },
             {
-                question: "63-",
+                question: "63.what is the output",
                 code: `package regularExpression;
         
         import java.util.regex.Matcher;
@@ -1520,7 +1520,7 @@ const quizData = [
                 correct: "b",
             },
             {
-                question: "64-",
+                question: "64.what is the output",
                 code: `package regularExpression;
         
         import java.util.regex.Matcher;
@@ -1553,7 +1553,7 @@ const quizData = [
                 correct: "a",
             },
             {
-                question: "65-",
+                question: "65.what is the output",
                 code: `package regularExpression;
         
         import java.util.Date;
@@ -1576,7 +1576,7 @@ const quizData = [
                 correct: "a",
             },
             {
-                question: "66-",
+                question: "66.what is the output",
                 code: `package regularExpression;
         
         import java.util.Date;
@@ -1599,7 +1599,7 @@ const quizData = [
                 correct: "b",
             },
             {
-                question: "67-",
+                question: "67.what is the output",
                 code: `package regularExpression;
         
         import java.util.Date;
@@ -1621,7 +1621,7 @@ const quizData = [
                 correct: "c",
             },
             {
-                question: "68-",
+                question: "68.what is the output",
                 code: `package regularExpression;
         
         import java.util.Date;
@@ -1643,7 +1643,7 @@ const quizData = [
                 correct: "a",
             },
             {
-                question: "69-",
+                question: "69.what is the output",
                 code: `package regularExpression;
         
         import java.util.Calendar;
@@ -1669,7 +1669,7 @@ const quizData = [
                 correct: "b",
             },
             {
-                question: "70-",
+                question: "70.what is the output",
                 code: `package regularExpression;
         
         import java.util.Calendar;
@@ -1698,7 +1698,7 @@ const quizData = [
                 correct: "a",
             },
             {
-                question: "71-",
+                question: "71.what is the output",
                 code: `package regularExpression;
         
         import java.util.Calendar;
@@ -1727,7 +1727,7 @@ const quizData = [
                 correct: "c",
             },
             {
-                question: "72-",
+                question: "72.what is the output",
                 code: `package regularExpression;
         
         import java.util.Calendar;
@@ -1756,7 +1756,7 @@ const quizData = [
                 correct: "a",
             },
             {
-                question: "73-",
+                question: "73.what is the output",
                 code: `package regularExpression;
         
         import java.text.DateFormat;
@@ -1791,7 +1791,7 @@ const quizData = [
                 correct: "a",
             },
             {
-                question: "74-",
+                question: "74.what is the output",
                 code: `package regularExpression;
         
         import java.text.DateFormat;
@@ -1826,7 +1826,7 @@ const quizData = [
                 correct: "b",
             },
             {
-                question: "75-",
+                question: "75.what is the output",
                 code: `package regularExpression;
         
         import java.text.DateFormat;
@@ -1861,7 +1861,7 @@ const quizData = [
                 correct: "a",
             },
             {
-                question: "76-",
+                question: "76.what is the output",
                 code: `package regularExpression;
         
         import java.text.DateFormat;
@@ -1914,7 +1914,7 @@ const quizData = [
                 correct: "a",
             },
             {
-                question: "77-",
+                question: "77.what is the output",
                 code: `package regularExpression;
         
         import java.text.DateFormat;
@@ -1951,7 +1951,7 @@ const quizData = [
                 correct: "a",
             },
             {
-                question: "78-",
+                question: "78.what is the output",
                 code: `package regularExpression;
         
         import java.text.DateFormat;
@@ -1988,7 +1988,7 @@ const quizData = [
                 correct: "c",
             },
             {
-                question: "79-",
+                question: "79.what is the output",
                 code: `package regularExpression;
         
         import java.text.DateFormat;
@@ -2027,7 +2027,7 @@ const quizData = [
                 correct: "a",
             },
             {
-                question: "80-",
+                question: "80.what is the output",
                 code: `package regularExpression;
         
         import java.text.DateFormat;
@@ -2068,85 +2068,85 @@ const quizData = [
                 correct: "b",
             },
             {
-                question: 81,
+                question: "81.what is the output",
                 code: "package regularExpression;\n\nimport java.text.DateFormat;\nimport java.util.Calendar;\nimport java.util.Date;\nimport java.util.Locale;\n\npublic class S7 {\n\n    public static void main(String[] args) {\n\n        Calendar cal = Calendar.getInstance();\n        Date date = cal.getTime();\n        System.out.println(date);\n        DateFormat df = DateFormat.getDateInstance(DateFormat.FULL, Locale.FRANCE);\n        String s1 = df.format(date);\n        System.out.println(s1);\n\n    }\n}\n",
                 a: "Tue Dec 17 14:49:54 IST 2019\nmardi 17 décembre 2019",
                 b: "Tue Dec 17 14:49:54 IST 2019\n 17 décembre 2019",
                 c: "Compilation error",
                 d: "None",
-                correct: "a"
+                correct: "a",
             },
             {
-                question: 82,
+                question: "82.what is the output",
                 code: "package dateAndNumberFormats;\n\nimport java.util.Date;\n\npublic class S1 {\n\n    public static void main(String[] args) {\n\n        Date date = new Date();\n        System.out.println(date);\n\n    }\n}\n",
                 a: "Today's date",
                 b: "Tomorrow's date",
                 c: "Yesterday's date",
                 d: "None",
-                correct: "a"
+                correct: "a",
             },
             {
-                question: 83,
+                question: "83.what is the output",
                 code: "package dateAndNumberFormats;\n\nimport java.text.DateFormat;\nimport java.text.ParseException;\nimport java.util.Date;\n\npublic class S2 {\n\n    public static void main(String[] args) throws ParseException {\n\n        Date date = new Date();\n        System.out.println(date);\n        DateFormat df = DateFormat.getDateInstance();\n        String s1 = df.format(date);\n        System.out.println(s1);\n        Date d2 = df.parse(s1);\n        System.out.println(d2);\n\n    }\n}\n",
                 a: "Tue Dec 17 15:24:16 IST 2019\nDec 17, 2019\nTue Dec 17 00:00:00 IST 2019",
                 b: "Tue Dec 17 15:24:16 IST 2019\n17-Dec-2019\nTue Dec 17 00:00:00 IST 2019",
                 c: "Compilation error",
                 d: "None",
-                correct: "a"
+                correct: "a",
             },
             {
-                question: 84,
+                question: "84.what is the output",
                 code: "package dateAndNumberFormats;\n\nimport java.text.DateFormat;\nimport java.text.ParseException;\nimport java.util.Date;\n\npublic class S3 {\n\n    public static void main(String[] args) throws ParseException {\n\n        Date date = new Date();\n        System.out.println(date);\n        DateFormat df = DateFormat.getDateInstance(DateFormat.SHORT);\n        String s1 = df.format(date);\n        System.out.println(s1);\n        Date d2 = df.parse(s1);\n        System.out.println(d2);\n\n    }\n}\n",
                 a: "Tue Dec 17 16:28:12 IST 2019\n12/17/2019\nTue Dec 17 00:00:00 IST 2019",
                 b: "Tue Dec 17 16:28:12 IST 2019\nDec/17/19\nTue Dec 17 00:00:00 IST 2019",
                 c: "Tue Dec 17 16:28:12 IST 2019\n12/17/19\nTue Dec 17 00:00:00 IST 2019",
                 d: "None",
-                correct: "c"
+                correct: "c",
             },
             {
-                question: 85,
+                question: "85.what is the output",
                 code: "package dateAndNumberFormats;\n\nimport java.text.DateFormat;\nimport java.text.ParseException;\nimport java.util.Date;\n\npublic class S4 {\n\n    public static void main(String[] args) throws ParseException {\n\n        Date date = new Date();\n        System.out.println(date);\n        DateFormat df = DateFormat.getDateInstance(DateFormat.MEDIUM);\n        String s1 = df.format(date);\n        System.out.println(s1);\n        Date d2 = df.parse(s1);\n        System.out.println(d2);\n\n    }\n}\n",
                 a: "Tue Dec 17 16:24:52 IST 2019\nDecember 17, 2019\nTue Dec 17 00:00:00 IST 2019",
                 b: "Tue Dec 17 16:27:28 IST 2019\nDec 17, 2019\nTue Dec 17 00:00:00 IST 2019",
                 c: "Compilation error",
                 d: "None",
-                correct: "a"
+                correct: "a",
             },
             {
-                question: 86,
+                question: "86.what is the output",
                 code: "package dateAndNumberFormats;\n\nimport java.text.DateFormat;\nimport java.text.ParseException;\nimport java.util.Date;\n\npublic class S5 {\n\n    public static void main(String[] args) throws ParseException {\n\n        Date date = new Date();\n        System.out.println(date);\n        DateFormat df = DateFormat.getDateInstance(DateFormat.LONG);\n        String s1 = df.format(date);\n        System.out.println(s1);\n        Date d2 = df.parse(s1);\n        System.out.println(d2);\n\n    }\n}\n",
                 a: "Tue Dec 17 16:24:52 IST 2019\nDecember 17, 2019\nTue Dec 17 00:00:00 IST 2019",
                 b: "Tue Dec 17 16:24:52 IST 2019\n17, December, 2019\nTue Dec 17 00:00:00 IST 2019",
                 c: "Compilation error",
                 d: "None",
-                correct: "a"
+                correct: "a",
             },
             {
-                question: 87,
+                question: "87.what is the output",
                 code: "package dateAndNumberFormats;\n\nimport java.text.DateFormat;\nimport java.text.ParseException;\nimport java.util.Date;\n\npublic class S6 {\n\n    public static void main(String[] args) throws ParseException {\n\n        Date date = new Date();\n        System.out.println(date);\n        DateFormat df = DateFormat.getDateInstance(DateFormat.FULL);\n        String s1 = df.format(date);\n        System.out.println(s1);\n        Date d2 = df.parse(s1);\n        System.out.println(d2);\n\n    }\n}\n",
                 a: "Tue Dec 17 16:23:37 IST 2019\nDecember 17, 2019, Tuesday\nTue Dec 17 00:00:00 IST 2019",
                 b: "Tue Dec 17 16:23:37 IST 2019\nTuesday, December 17, 2019\nTue Dec 17 00:00:00 IST 2019",
                 c: "Compilation error",
                 d: "None",
-                correct: "b"
+                correct: "b",
             },
             {
-                question: 88,
+                question: "88.what is the output",
                 code: "package dateAndNumberFormats;\n\nimport java.text.ParseException;\nimport java.text.SimpleDateFormat;\nimport java.util.Date;\n\npublic class S7 {\n\n    public static void main(String[] args) throws ParseException {\n\n        Date date = new Date();\n        System.out.println(date);\n        SimpleDateFormat df = new SimpleDateFormat(\"dd-MM-yyyy\");\n        String s1 = df.format(date);\n        System.out.println(s1);\n        Date d2 = df.parse(s1);\n        System.out.println(d2);\n\n    }\n}\n",
                 a: "Tue Dec 17 15:35:54 IST 2019\n17-12-2019\nTue Dec 17 00:00:00 IST 2019",
                 b: "Tue Dec 17 15:35:54 IST 2019\n17-Dec--2019\nTue Dec 17 00:00:00 IST 2019",
                 c: "Tue Dec 17 15:35:54 IST 2019\n17-Dec--19Tue Dec 17 00:00:00 IST 2019",
                 d: "None",
-                correct: "a"
+                correct: "a",
             },
             {
-                question: 89,
+                question: "89.what is the output",
                 code: "package dateAndNumberFormats;\n\nimport java.text.ParseException;\nimport java.text.SimpleDateFormat;\nimport java.util.Date;\n\npublic class S8 {\n\n    public static void main(String[] args) throws ParseException {\n\n        Date date = new Date();\n        System.out.println(date);\n        SimpleDateFormat df = new SimpleDateFormat(\"yyyy.MM.dd G 'at' HH:mm:ss z\");\n        String s1 = df.format(date);\n        System.out.println(s1);\n        Date d2 = df.parse(s1);\n        System.out.println(d2);\n\n    }\n}\n",
                 a: "Tue Dec 17 15:39:38 IST 2019\n2019.12.17 AD at 15:39:38 IST\nTue Dec 17 15:39:38 IST 2019",
                 b: "Tue Dec 17 15:39:38 IST 2019\n2019.12.17 AD at 15:39:38 GMT\nTue Dec 17 15:39:38 IST 2019",
                 c: "Compilation error",
                 d: "None",
-                correct: "a"
+                correct: "a",
             },
    
     

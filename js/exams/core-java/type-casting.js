@@ -47,7 +47,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "6-",
+        question: "6-what is the output",
         code: `class A
 {
     public static void main(String[] args)
@@ -65,7 +65,7 @@ s = b;
         correct: "a",
     },
     {
-        question: "7-",
+        question: "7.what is the output",
         code: `class B
 {
     public static void main(String[] args)
@@ -83,7 +83,7 @@ s = (short) b;
         correct: "b",
     },
     {
-        question: "8-",
+        question: "8.what is the output",
         code: `class C
 {
     public static void main(String[] args)
@@ -113,7 +113,7 @@ d = s;
         correct: "b",
     },
 {
-    question: "9-",
+    question: "9.what is the output",
     code: `class D 
 {
 public static void main(String[] args) 
@@ -135,7 +135,7 @@ System.out.println("test");
     correct: "c",
 },
 {
-    question: "10-",
+    question: "10.what is the output",
     code: `class E
 class E 
 { 
@@ -164,7 +164,7 @@ public static void test(double i)
     correct: "b",
 },
 {
-    question: "11- Which data type is wider?",
+    question: "11. Which data type is wider?",
     code: "Select the correct option",
     a: "short",
     b: "float",
@@ -173,7 +173,7 @@ public static void test(double i)
     correct: "b",
 },
 {
-    question: "12- Which data type is wider?",
+    question: "12. Which data type is wider?",
     code: "Select the correct option",
     a: "long",
     b: "float",
@@ -182,7 +182,7 @@ public static void test(double i)
     correct: "c"
 },
 {
-    question: "13- Which one is an explicit conversion?",
+    question: "13. Which one is an explicit conversion?",
     code: "Select the correct option",
     a: "widening",
     b: "narrowing",
@@ -191,7 +191,7 @@ public static void test(double i)
     correct: "b"
 },
 {
-    question: "14- Assigning long to int is?",
+    question: "14. Assigning long to int is?",
     code: "Select the correct option",
     a: "widening",
     b: "narrowing",
@@ -200,7 +200,7 @@ public static void test(double i)
     correct: "b"
 },
 {
-    question: "15- Assigning double to byte is?",
+    question: "15. Assigning double to byte is?",
     code: "Select the correct option",
     a: "widening",
     b: "narrowing",
@@ -209,7 +209,7 @@ public static void test(double i)
     correct: "b",
 },
 {
-    question: "16- Which data type is the widest?",
+    question: "16. Which data type is the widest?",
     code: "Select the correct option",
     a: "long",
     b: "float",
@@ -218,7 +218,7 @@ public static void test(double i)
     correct: "c"
 },
 {
-    question: "17- Which data type is the narrowest?",
+    question: "17. Which data type is the narrowest?",
     code: "Select the correct option",
     a: "long",
     b: "byte",
@@ -227,7 +227,7 @@ public static void test(double i)
     correct: "b"
 },
 {
-    question: "18",
+    question: "18.what is the output",
     code: `class I 
 {
     public static void main(String[] args) 
@@ -245,7 +245,7 @@ public static void test(double i)
     correct: "a",
 },
 {
-    question: "19",
+    question: "19.what is the output",
     code: `class I 
 {
     public static void main(String[] args) 
@@ -263,7 +263,7 @@ public static void test(double i)
     correct: "a",
 },
 {
-    question: "20",
+    question: "20.what is the output",
     code: `class J 
 {
     public static void main(String[] args) 
@@ -279,7 +279,7 @@ public static void test(double i)
     "correct": "b"
 },
 {
-    question: "21",
+    question: "21.what is the output",
     code: `class K 
 { 
     public static void main(String[] args) 
@@ -298,7 +298,7 @@ public static void test(double i)
     correct: "b",
 },
 {
-    question: "22",
+    question: "22.what is the output",
     code: `class L
 {
     public static void main(String[] args) 
@@ -317,7 +317,7 @@ public static void test(double i)
     correct: "c",
 },
 {
-    question: "23",
+    question: "23.what is the output",
     code: `class M 
 {
     public static void main(String[] args) 
@@ -334,7 +334,7 @@ public static void test(double i)
     correct: "a",
 },
 {
-    question: "24",
+    question: "24.what is the output",
     code: `class N 
 {
     public static void main(String[] args) 
@@ -351,7 +351,7 @@ public static void test(double i)
     correct: "c",
 },
 {
-    question: "25",
+    question: "25.what is the output",
     code: `class O 
 { 
     public static void main(String[] args) 
@@ -368,7 +368,7 @@ public static void test(double i)
     correct: "b",
 },
 {
-    question: "26- In case of derived data type, upcasting is automatic.",
+    question: "26. In case of derived data type, upcasting is automatic.",
     code: "Select the correct option",
     a: "yes",
     b: "no",
@@ -377,7 +377,7 @@ public static void test(double i)
     correct: "a",
 },
 {
-    question: "27- In case of derived data type, upcasting should be explicit.",
+    question: "27.In case of derived data type, upcasting should be explicit.",
     code: "Select the correct option",
     a: "yes",
     b: "no",
@@ -386,7 +386,7 @@ public static void test(double i)
     correct: "b",
 },
 {
-    question: "28- In case of derived data type, downcasting is automatic.",
+    question: "28. In case of derived data type, downcasting is automatic.",
     code: "Select the correct option",
     a: "yes",
     b: "no",
@@ -395,7 +395,7 @@ public static void test(double i)
     correct: "b",
 },
 {
-    question: "29- In case of derived data type, upcasting should be explicit.",
+    question: "29. In case of derived data type, upcasting should be explicit.",
     code: "Select the correct option",
     a: "yes",
     b: "no",
@@ -404,7 +404,7 @@ public static void test(double i)
     "correct": "b",
 },
 {
-    question: "30- Method argument is superclass type and while calling the same method supplying subclass type is proper syntax.",
+    question: "30. Method argument is superclass type and while calling the same method supplying subclass type is proper syntax.",
     code: "Select the correct option",
     a: "yes",
     b: "no",
@@ -413,7 +413,7 @@ public static void test(double i)
     correct: "a",
 },
 {
-    question: "31- Method argument is subclass type and while calling the same method supplying superclass type is proper syntax.",
+    question: "31. Method argument is subclass type and while calling the same method supplying superclass type is proper syntax.",
     code: "Select the correct option",
     a: "yes",
     b: "no",
@@ -422,7 +422,7 @@ public static void test(double i)
     correct: "b",
 },
 {
-    question: "32- Method return type is Object type and while calling the same, is it possible to take the return value into a String type variable?",
+    question: "32. Method return type is Object type and while calling the same, is it possible to take the return value into a String type variable?",
     code: "Select the correct option",
     a: "yes",
     b: "no",
@@ -431,7 +431,7 @@ public static void test(double i)
     correct: "a",
 },
 {
-    question: "33- Method return type is String type and while calling the same, is it possible to take the return value into an Object type variable?",
+    question: "33. Method return type is String type and while calling the same, is it possible to take the return value into an Object type variable?",
     code: "Select the correct option",
     a: "yes",
     b: "no",
@@ -440,7 +440,7 @@ public static void test(double i)
     correct: "a",
 },
 {
-    question: "34- Method return type is String type and while calling the same, is it possible to take the return value into an Object type variable?",
+    question: "34. Method return type is String type and while calling the same, is it possible to take the return value into an Object type variable?",
     code: "Select the correct option",
     a: "yes",
     b: "no",
@@ -449,7 +449,7 @@ public static void test(double i)
     correct: "a",
 },
 {
-    question: "35- Object obj = new String(); // Will it compile?",
+    question: "35. Object obj = new String(); // Will it compile?",
     code: "Select the correct option",
     a: "yes",
     b: "no",
@@ -458,7 +458,7 @@ public static void test(double i)
     correct: "a",
 },
 {
-    question: "36- String obj = new Object(); // Will it compile?",
+    question: "36. String obj = new Object(); // Will it compile?",
     code: "Select the correct option",
     a: "yes",
     b: "no",
@@ -467,7 +467,7 @@ public static void test(double i)
     correct: "b",
 },
 {
-    question: "37- Object obj = (Object) new String(); // Will it compile?",
+    question: "37. Object obj = (Object) new String(); // Will it compile?",
     code: "Select the correct option",
     a: "yes",
     b: "no",
@@ -476,7 +476,7 @@ public static void test(double i)
     correct: "a",
 },
 {
-    question: "38- String obj = (String) new Object(); // Will it compile?",
+    question: "38. String obj = (String) new Object(); // Will it compile?",
     code: "Select the correct option",
     a: "yes",
     b: "no",
@@ -485,7 +485,7 @@ public static void test(double i)
     correct: "b",
 },
 {
-    question: "39- Which option gives a runtime exception?",
+    question: "39. Which option gives a runtime exception?",
     code: "Select the correct option",
     a: "Object obj = new Object()",
     b: "Object obj = new String()",
@@ -494,7 +494,7 @@ public static void test(double i)
     correct: "c",
 },
 {
-    question: "40- What is the output?",
+    question: "40. What is the output?",
     code: "String s1 = new String();\nSystem.out.print(s1 instanceof Object);\nSystem.out.print(s1 instanceof String);",
     a: "compilation error",
     b: "runtime error",
@@ -503,7 +503,7 @@ public static void test(double i)
     correct: "c",
 },
 {
-    question: "41- What is the output?",
+    question: "41. What is the output?",
     code: "Object s1 = new String();\nSystem.out.print(s1 instanceof Object);\nSystem.out.print(s1 instanceof String);",
     a: "compilation error",
     b: "runtime error",
@@ -512,7 +512,7 @@ public static void test(double i)
     correct: "c",
 },
 {
-    question: "42- What is the output?",
+    question: "42. What is the output?",
     code: "String s1 = new Object();\nSystem.out.print(s1 instanceof Object);\nSystem.out.print(s1 instanceof String);",
     a: "compilation error",
     b: "runtime error",
@@ -521,7 +521,7 @@ public static void test(double i)
     correct: "a",
 },
 {
-    question: "43- What is the output?",
+    question: "43. What is the output?",
     code: "String s1 = (String) new Object();\nSystem.out.print(s1 instanceof Object);\nSystem.out.print(s1 instanceof String);",
     a: "compilation error",
     b: "runtime error",
@@ -531,7 +531,7 @@ public static void test(double i)
     correct: "b",
 },
 {
-    question: "44- What is the output?",
+    question: "44. What is the output?",
     code: "Object s1 = new Object();\nSystem.out.print(s1 instanceof Object);\nSystem.out.print(s1 instanceof String);",
     a: "compilation error",
     b: "runtime error",
@@ -540,7 +540,7 @@ public static void test(double i)
     correct: "d",
 },
 {
-    question: "45- What is the output?",
+    question: "45. What is the output?",
     code: "String s1 = new String(\"4.5\");\nSystem.out.print(s1 instanceof Integer);\nSystem.out.print(s1 instanceof Double);",
     a: "compilation error",
     b: "runtime error",
@@ -549,7 +549,7 @@ public static void test(double i)
     correct: "d",
 },
 {
-    question: "46- What is the output?",
+    question: "46. What is the output?",
     code: "class A\n{\n     int i = 10;\n}\nclass B extends A\n{\n     int j = 20;\n}\nclass C\n{\n     public static void main(String[] args)\n     {\n           A a1 = new A();\n          System.out.print(a1.i);\n          System.out.print(a1.j);\n     }\n}",
     a: "compilation error",
     b: "runtime error",
@@ -558,7 +558,7 @@ public static void test(double i)
     correct: "a",
 },
 {
-    question: "47- What is the output?",
+    question: "47. What is the output?",
     code: "class A\n{\n     int i = 10;\n}\nclass B extends A\n{\n     int j = 20;\n}\nclass C\n{\n     public static void main(String[] args)\n     {\n           A a1 = (B)new A();\n          System.out.print(a1.i);\n          System.out.print(a1.j);\n     }\n}",
     a: "compilation error",
     b: "runtime error",
@@ -567,7 +567,7 @@ public static void test(double i)
     correct: "b",
 },
 {
-    question: "48- What is the output?",
+    question: "48. What is the output?",
     code: "class A\n{\n     int i = 10;\n}\nclass B extends A\n{\n     int j = 20;\n}\nclass C\n{\n     public static void main(String[] args)\n     {\n           A a1 = new B();\n          System.out.print(a1.i);\n          System.out.print(a1.j);\n     }\n}",
     a: "compilation error",
     b: "runtime error",
@@ -576,7 +576,7 @@ public static void test(double i)
     correct: "a",
 },
 {
-    question: "49- What is the output?",
+    question: "49. What is the output?",
     code: "class A\n{\n     int i = 10;\n}\nclass B extends A\n{\n     int j = 20;\n}\nclass C\n{\n     public static void main(String[] args)\n     {\n           A a1 = (B) new B();\n          System.out.print(a1.i);\n          System.out.print(a1.j);\n     }\n}",
     a: "compilation error",
     b: "runtime error",
@@ -585,7 +585,7 @@ public static void test(double i)
     correct: "d",
 },
 {
-    question: "50- What is the output?",
+    question: "50. What is the output?",
     code: "class A\n{\n     int i = 10;\n}\nclass B extends A\n{\n     int j = 20;\n}\nclass C\n{\n     public static void main(String[] args)\n     {\n           B b1 = new B();\n          System.out.print(b1.i);\n          System.out.print(b1.j);\n     }\n}",
     a: "compilation error",
     b: "runtime error",
@@ -595,7 +595,7 @@ public static void test(double i)
     correct: "c",
 },
 {
-    question: "51- What is the output?",
+    question: "51. What is the output?",
     code: "class A\n{\n     int i = 10;\n}\nclass B extends A\n{\n     int j = 20;\n}\nclass C\n{\n     public static void main(String[] args)\n     {\n           B b1 = new A();\n          System.out.print(b1.i);\n          System.out.print(b1.j);\n     }\n}",
     a: "compilation error",
     b: "runtime error",
@@ -605,7 +605,7 @@ public static void test(double i)
     correct: "a",
 },
 {
-    question: "52- What is the output?",
+    question: "52. What is the output?",
     code: "class A\n{\n     int i = 10;\n}\nclass B extends A\n{\n     int j = 20;\n}\nclass C\n{\n     public static void main(String[] args)\n     {\n           B b1 = (B) new A();\n          System.out.print(b1.i);\n          System.out.print(b1.j);\n     }\n}",
     a: "compilation error",
     b: "runtime error",
@@ -614,7 +614,7 @@ public static void test(double i)
     correct: "b",
 },
 {
-    question: "53- Which of the following is a derived data type?",
+    question: "53. Which of the following is a derived data type?",
     code: "Select the correct option",
     a: "class",
     b: "interface",
@@ -623,7 +623,7 @@ public static void test(double i)
     correct: "d",
 },
 {
-    question: "54- The members which are under one inheritance are involved in derived casting",
+    question: "54. The members which are under one inheritance are involved in derived casting",
     code: "Select the correct option",
     a: "True",
     b: "False",
@@ -632,7 +632,7 @@ public static void test(double i)
     correct: "b",
 },
 {
-    question: "55- Is it possible to use a subclass wherever a superclass is required?",
+    question: "55. Is it possible to use a subclass wherever a superclass is required?",
     code: "Select the correct option",
     a: "True",
     b: "False",
@@ -641,7 +641,7 @@ public static void test(double i)
     correct: "a",
 },
 {
-    question: "56- Which type of casting is automatic?",
+    question: "56. Which type of casting is automatic?",
     code: "Select the correct option",
     a: "Down casting",
     b: "Up casting",
@@ -650,7 +650,7 @@ public static void test(double i)
     correct: "b",
 },
 {
-    question: "57- Object class is the super most class",
+    question: "57. Object class is the super most class",
     code: "Select the correct option",
     a: "True",
     b: "False",
@@ -659,16 +659,7 @@ public static void test(double i)
     correct: "a",
 },
 {
-    question: "58- We need to do up casting explicitly",
-    code: "Select the correct option",
-    a: "True",
-    b: "False",
-    c: "not applicable",
-    d: "none of the above",
-    correct: "b",
-},
-{
-    question: "59- Compiler only does the down casting automatically",
+    question: "58. We need to do up casting explicitly",
     code: "Select the correct option",
     a: "True",
     b: "False",
@@ -677,7 +668,16 @@ public static void test(double i)
     correct: "b",
 },
 {
-    question: "60- Every class is a subclass to Object class",
+    question: "59. Compiler only does the down casting automatically",
+    code: "Select the correct option",
+    a: "True",
+    b: "False",
+    c: "not applicable",
+    d: "none of the above",
+    correct: "b",
+},
+{
+    question: "60. Every class is a subclass to Object class",
     code: "Select the correct option",
     a: "True",
     b: "False",
@@ -686,7 +686,7 @@ public static void test(double i)
     correct: "a",
 },
 {
-    question: "61- Is it possible to inject variables once after an object is created?",
+    question: "61. Is it possible to inject variables once after an object is created?",
     code: "Select the correct option",
     a: "Yes",
     b: "No",
@@ -695,7 +695,7 @@ public static void test(double i)
     correct: "a",
 },
 {
-    question: "62- To avoid getting a ClassCastException we can use the instanceof operator",
+    question: "62. To avoid getting a ClassCastException we can use the instanceof operator",
     code: "Select the correct option",
     a: "Yes",
     b: "No",
@@ -704,7 +704,7 @@ public static void test(double i)
     correct: "a",
 },
 {
-    question: "63- If the object type is a specific class type, instanceof operator returns",
+    question: "63. If the object type is a specific class type, instanceof operator returns",
     code: "Select the correct option",
     a: "True",
     b: "False",
@@ -713,7 +713,7 @@ public static void test(double i)
     correct: "a",
 },
 {
-    question: "64- Is it possible to use instanceof across classes?",
+    question: "64. Is it possible to use instanceof across classes?",
     code: "Select the correct option",
     a: "Yes",
     b: "No",

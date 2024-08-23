@@ -1,7 +1,7 @@
 const quizData = [
     
         {
-            question: "01- package is used for grouping similar kind of classes",
+            question: "01. package is used for grouping similar kind of classes",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -10,7 +10,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "02- package keyword can be anywhere in the file",
+            question: "02. package keyword can be anywhere in the file",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -19,7 +19,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "03- package keyword should be as a first statement in the java file",
+            question: "03. package keyword should be as a first statement in the java file",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -28,7 +28,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "04- how to compile if A.java file which is in pack1 folder with a package as pack1 declaration.",
+            question: "04. how to compile if A.java file which is in pack1 folder with a package as pack1 declaration.",
             code: "select the correct option",
             a: "javac pack1/A.java",
             b: "javac pack1.A.java",
@@ -37,7 +37,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "05- how to run class file(A.class) which is in pack1 package",
+            question: "05. how to run class file(A.class) which is in pack1 package",
             code: "select the correct option",
             a: "java pack1/A",
             b: "java pack1.A",
@@ -46,7 +46,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "06- package is used for avoiding naming conflicts to the classes",
+            question: "06. package is used for avoiding naming conflicts to the classes",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -55,7 +55,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "07- private member of any class should be used in the same class.",
+            question: "07. private member of any class should be used in the same class.",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -64,7 +64,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "08- we can't use private member of one class in another class.",
+            question: "08. we can't use private member of one class in another class.",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -73,7 +73,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "09- we can use private method of A class inside a B class",
+            question: "09. we can use private method of A class inside a B class",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -82,7 +82,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "10- we can use private method of A class inside a B class, if both the classes are in the same java file.",
+            question: "10. we can use private method of A class inside a B class, if both the classes are in the same java file.",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -91,7 +91,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "11- constructor can be private.",
+            question: "11. constructor can be private.",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -100,7 +100,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "12- if class containing private constructor, then object should be created within the same class.",
+            question: "12. if class containing private constructor, then object should be created within the same class.",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -109,7 +109,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "13- if class containing only private constructor/constructors, then we can't develop a subclass.",
+            question: "13. if class containing only private constructor/constructors, then we can't develop a subclass.",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -118,7 +118,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "14- private member of a class can be accessed from its subclass.",
+            question: "14. private member of a class can be accessed from its subclass.",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -127,7 +127,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "15- subclass constructor always should call only superclass non-private constructor.",
+            question: "15. subclass constructor always should call only superclass non.private constructor.",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -136,7 +136,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "16- private static methods of superclass can be accessed from its subclass",
+            question: "16. private static methods of superclass can be accessed from its subclass",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -145,7 +145,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "17- outer classes can be private",
+            question: "17. outer classes can be private",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -154,7 +154,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "18- inner classes can be private",
+            question: "18. inner classes can be private",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -163,7 +163,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "19- outer classes can't be static",
+            question: "19. outer classes can't be static",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -172,7 +172,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "20- inner classes can't be static",
+            question: "20. inner classes can't be static",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -181,7 +181,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "21- static initialization block can be private",
+            question: "21. static initialization block can be private",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -190,7 +190,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "22- instance initialization block can't be private",
+            question: "22. instance initialization block can't be private",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -199,7 +199,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "23- private members of superclass inheriting to subclass",
+            question: "23. private members of superclass inheriting to subclass",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -208,7 +208,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "24- private members are surviving in the inheritance",
+            question: "24. private members are surviving in the inheritance",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -217,7 +217,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "25- default scope also considered as a package",
+            question: "25. default scope also considered as a package",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -226,7 +226,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "26- default scoped members are allowed to use in the same package.",
+            question: "26. default scoped members are allowed to use in the same package.",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -235,7 +235,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "27- default scoped members are allowed to use in the other packages also.",
+            question: "27. default scoped members are allowed to use in the other packages also.",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -244,7 +244,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "28- default scoped members are inheriting to the subclasses of same package.",
+            question: "28. default scoped members are inheriting to the subclasses of same package.",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -253,7 +253,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "29- default scoped members are inheriting to subclasses of any package.",
+            question: "29. default scoped members are inheriting to subclasses of any package.",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -262,7 +262,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "30- protected scoped members are allowed to use in the same package.",
+            question: "30. protected scoped members are allowed to use in the same package.",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -271,7 +271,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "31- protected scoped members are allowed to use in the other packages also.",
+            question: "31. protected scoped members are allowed to use in the other packages also.",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -280,7 +280,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "32- protected and default both are one and the same in case of usage",
+            question: "32. protected and default both are one and the same in case of usage",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -289,7 +289,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "33- protected scoped member can be inherited to every subclass including subclass of another package",
+            question: "33. protected scoped member can be inherited to every subclass including subclass of another package",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -298,7 +298,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "34- protected scoped member can be inherited to subclass of another package",
+            question: "34. protected scoped member can be inherited to subclass of another package",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -307,7 +307,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "35- if protected member is inheriting to subclass of another package, then it should be used in the within that subclass by using subclass reference type.",
+            question: "35. if protected member is inheriting to subclass of another package, then it should be used in the within that subclass by using subclass reference type.",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -316,7 +316,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "36- if protected member is inheriting to subclass of another package, then it should be used in the within that subclass by using superclass reference type.",
+            question: "36. if protected member is inheriting to subclass of another package, then it should be used in the within that subclass by using superclass reference type.",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -325,7 +325,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "37- if protected member is inheriting to subclass of another package, then it can be used in outside a subclass",
+            question: "37. if protected member is inheriting to subclass of another package, then it can be used in outside a subclass",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -334,7 +334,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "38- if protected member is inheriting to subclass of another package, then it should be used in the same subclass",
+            question: "38. if protected member is inheriting to subclass of another package, then it should be used in the same subclass",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -343,7 +343,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "39- public scoped members are allowed to use only in the same package.",
+            question: "39. public scoped members are allowed to use only in the same package.",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -352,7 +352,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "40- public scoped members are allowed to use in the other packages also.",
+            question: "40. public scoped members are allowed to use in the other packages also.",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -361,7 +361,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "41- public and protected both are one and the same in case of usage",
+            question: "41. public and protected both are one and the same in case of usage",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -370,7 +370,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "42- public scoped member can be inherited to every subclass including subclass of another package",
+            question: "42. public scoped member can be inherited to every subclass including subclass of another package",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -379,7 +379,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "43- public scoped member can be inherited to subclass of another package",
+            question: "43. public scoped member can be inherited to subclass of another package",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -388,7 +388,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "44- if public member is inheriting to subclass of another package, then it should be used only in the within that subclass by using subclass reference type.",
+            question: "44. if public member is inheriting to subclass of another package, then it should be used only in the within that subclass by using subclass reference type.",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -397,7 +397,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "45- if public member is inheriting to subclass of another package, then it should be used only in the within that subclass by using superclass reference type.",
+            question: "45. if public member is inheriting to subclass of another package, then it should be used only in the within that subclass by using superclass reference type.",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -406,7 +406,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "46- if public member is inheriting to subclass of another package, then it can be used in outside a subclass",
+            question: "46. if public member is inheriting to subclass of another package, then it can be used in outside a subclass",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -415,7 +415,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "47- if public member is inheriting to subclass of another package, then it should be used only in the same subclass",
+            question: "47. if public member is inheriting to subclass of another package, then it should be used only in the same subclass",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -424,7 +424,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "48- only public classes can be used in another packages.",
+            question: "48. only public classes can be used in another packages.",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -433,7 +433,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "49- we can use one class in another class of the same package without import.",
+            question: "49. we can use one class in another class of the same package without import.",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -442,7 +442,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "50- we can use another package class without import",
+            question: "50. we can use another package class without import",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -451,27 +451,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "51- package is used for grouping similar kind of classes",
-            code: "select the correct option",
-            a: "true",
-            b: "false",
-            c: "not applicable",
-            d: "none of above",
-            correct: "a",
-        },
-        
-        {
-            question: "52- package keyword can be anywhere in the file",
-            code: "select the correct option",
-            a: "true",
-            b: "false",
-            c: "not applicable",
-            d: "none of above",
-            correct: "b",
-        },
-        
-        {
-            question: "53- package keyword should be as a first statement in the java file",
+            question: "51. package is used for grouping similar kind of classes",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -481,7 +461,27 @@ const quizData = [
         },
         
         {
-            question: "54- how to compile if A.java file which is in pack1 folder with a package as pack1 declaration",
+            question: "52. package keyword can be anywhere in the file",
+            code: "select the correct option",
+            a: "true",
+            b: "false",
+            c: "not applicable",
+            d: "none of above",
+            correct: "b",
+        },
+        
+        {
+            question: "53. package keyword should be as a first statement in the java file",
+            code: "select the correct option",
+            a: "true",
+            b: "false",
+            c: "not applicable",
+            d: "none of above",
+            correct: "a",
+        },
+        
+        {
+            question: "54. how to compile if A.java file which is in pack1 folder with a package as pack1 declaration",
             code: "select the correct option",
             a: "javac pack1/A.java",
             b: "javac pack1.A.java",
@@ -491,7 +491,7 @@ const quizData = [
         },
         
         {
-            question: "55- how to run class file(A.class) which is in pack1 package",
+            question: "55. how to run class file(A.class) which is in pack1 package",
             code: "select the correct option",
             a: "java pack1/A",
             b: "java pack1.A",
@@ -501,7 +501,7 @@ const quizData = [
         },
         
         {
-            question: "56- package is used for avoiding naming conflicts to the classes",
+            question: "56. package is used for avoiding naming conflicts to the classes",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -511,7 +511,7 @@ const quizData = [
         },
         
         {
-            question: "57- private member of any class should be used in the same class",
+            question: "57. private member of any class should be used in the same class",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -521,7 +521,7 @@ const quizData = [
         },
         
         {
-            question: "58- we can't use private member of one class in another class",
+            question: "58. we can't use private member of one class in another class",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -531,7 +531,7 @@ const quizData = [
         },
         
         {
-            question: "59- we can use private method of A class inside a B class",
+            question: "59. we can use private method of A class inside a B class",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -541,7 +541,7 @@ const quizData = [
         },
         
         {
-            question: "60- we can use private method of A class inside a B class, if both the classes are in the same java file",
+            question: "60. we can use private method of A class inside a B class, if both the classes are in the same java file",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -551,7 +551,7 @@ const quizData = [
         },
         
         {
-            question: "61- constructor can be private",
+            question: "61. constructor can be private",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -561,7 +561,7 @@ const quizData = [
         },
         
         {
-            question: "62- if class containing private constructor, then object should be created within the same class",
+            question: "62. if class containing private constructor, then object should be created within the same class",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -571,7 +571,7 @@ const quizData = [
         },
         
         {
-            question: "63- if class containing only private constructor/constructors, then we can't develop a subclass",
+            question: "63. if class containing only private constructor/constructors, then we can't develop a subclass",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -581,7 +581,7 @@ const quizData = [
         },
         
         {
-            question: "64- private member of a class can be accessed from its subclass",
+            question: "64. private member of a class can be accessed from its subclass",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -591,7 +591,7 @@ const quizData = [
         },
         
         {
-            question: "65- Sub class constructor always should call only super class non-private constructor",
+            question: "65. Sub class constructor always should call only super class non.private constructor",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -601,7 +601,7 @@ const quizData = [
         },
         
         {
-            question: "66- private static methods of super class can be accessed from its subclass",
+            question: "66. private static methods of super class can be accessed from its subclass",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -611,7 +611,7 @@ const quizData = [
         },
         
         {
-            question: "67- outer classes can be private",
+            question: "67. outer classes can be private",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -621,7 +621,7 @@ const quizData = [
         },
         
         {
-            question: "68- inner classes can be private",
+            question: "68. inner classes can be private",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -631,7 +631,7 @@ const quizData = [
         },
         
         {
-            question: "69- outer classes can't be static",
+            question: "69. outer classes can't be static",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -641,7 +641,7 @@ const quizData = [
         },
         
         {
-            question: "70- inner classes can't be static",
+            question: "70. inner classes can't be static",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -651,7 +651,7 @@ const quizData = [
         },
         
         {
-            question: "71- static initialization block can be private",
+            question: "71. static initialization block can be private",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -661,7 +661,7 @@ const quizData = [
         },
         
         {
-            question: "72- instance initialization block can't be private",
+            question: "72. instance initialization block can't be private",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -671,7 +671,7 @@ const quizData = [
         },
         
         {
-            question: "73- private members of super class inheriting to subclass",
+            question: "73. private members of super class inheriting to subclass",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -681,7 +681,7 @@ const quizData = [
         },
         
         {
-            question: "74- private members are surviving in the inheritance",
+            question: "74. private members are surviving in the inheritance",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -691,7 +691,7 @@ const quizData = [
         },
         
         {
-            question: "75- default scope also considered as a package",
+            question: "75. default scope also considered as a package",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -701,7 +701,7 @@ const quizData = [
         },
         
         {
-            question: "76- default scoped members are allowed to use in the same package",
+            question: "76. default scoped members are allowed to use in the same package",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -711,7 +711,7 @@ const quizData = [
         },
         
         {
-            question: "77- default scoped members are allowed to use in the other packages also",
+            question: "77. default scoped members are allowed to use in the other packages also",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -721,7 +721,7 @@ const quizData = [
         },
         
         {
-            question: "78- default scoped members are inheriting to the subclasses of same package",
+            question: "78. default scoped members are inheriting to the subclasses of same package",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -731,7 +731,7 @@ const quizData = [
         },
         
         {
-            question: "79- default scoped members are inheriting to the subclasses of any package",
+            question: "79. default scoped members are inheriting to the subclasses of any package",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -741,7 +741,7 @@ const quizData = [
         },
         
         {
-            question: "80- protected scoped members are allowed to use in the same package",
+            question: "80. protected scoped members are allowed to use in the same package",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -751,7 +751,7 @@ const quizData = [
         },
         
         {
-            question: "81- protected scoped members are allowed to use in the other packages also",
+            question: "81. protected scoped members are allowed to use in the other packages also",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -761,7 +761,7 @@ const quizData = [
         },
         
         {
-            question: "82- protected and default both are one and the same in case of usage",
+            question: "82. protected and default both are one and the same in case of usage",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -771,7 +771,7 @@ const quizData = [
         },
         
         {
-            question: "83- protected scoped member can be inherited to every subclass including subclass of another package",
+            question: "83. protected scoped member can be inherited to every subclass including subclass of another package",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -781,7 +781,7 @@ const quizData = [
         },
         
         {
-            question: "84- protected scoped member can be inherited to subclass of another package",
+            question: "84. protected scoped member can be inherited to subclass of another package",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -791,7 +791,7 @@ const quizData = [
         },
         
         {
-            question: "85- if protected member is inheriting to subclass of another package, then it should be used in the within that subclass by using subclass reference type",
+            question: "85. if protected member is inheriting to subclass of another package, then it should be used in the within that subclass by using subclass reference type",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -801,7 +801,7 @@ const quizData = [
         },
         
         {
-            question: "86- if protected member is inheriting to subclass of another package, then it should be used in the within that subclass by using super class reference type",
+            question: "86. if protected member is inheriting to subclass of another package, then it should be used in the within that subclass by using super class reference type",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -811,7 +811,7 @@ const quizData = [
         },
         
         {
-            question: "87- if protected member is inheriting to subclass of another package, then it can be used in outside a subclass",
+            question: "87. if protected member is inheriting to subclass of another package, then it can be used in outside a subclass",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -821,7 +821,7 @@ const quizData = [
         },
         
         {
-            question: "88- if protected member is inheriting to subclass of another package, then it should be used in the same subclass",
+            question: "88. if protected member is inheriting to subclass of another package, then it should be used in the same subclass",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -831,7 +831,7 @@ const quizData = [
         },
         
         {
-            question: "89- public scoped members are allowed to use only in the same package",
+            question: "89. public scoped members are allowed to use only in the same package",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -841,7 +841,7 @@ const quizData = [
         },
         
         {
-            question: "90- public scoped members are allowed to use in the other packages also",
+            question: "90. public scoped members are allowed to use in the other packages also",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -851,7 +851,7 @@ const quizData = [
         },
         
         {
-            question: "91- public and protected both are one and the same in case of usage",
+            question: "91. public and protected both are one and the same in case of usage",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -861,7 +861,7 @@ const quizData = [
         },
         
         {
-            question: "92- public scoped member can be inherited to every subclass including subclass of another package",
+            question: "92. public scoped member can be inherited to every subclass including subclass of another package",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -871,7 +871,7 @@ const quizData = [
         },
         
         {
-            question: "93- public scoped member can be inherited to subclass of another package",
+            question: "93. public scoped member can be inherited to subclass of another package",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -881,7 +881,7 @@ const quizData = [
         },
         
         {
-            question: "94- if public member is inheriting to subclass of another package, then it should be used only in the within that subclass by using subclass reference type",
+            question: "94. if public member is inheriting to subclass of another package, then it should be used only in the within that subclass by using subclass reference type",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -891,7 +891,7 @@ const quizData = [
         },
         
         {
-            question: "95- if public member is inheriting to subclass of another package, then it should be used only in the within that subclass by using super class reference type",
+            question: "95. if public member is inheriting to subclass of another package, then it should be used only in the within that subclass by using super class reference type",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -901,7 +901,7 @@ const quizData = [
         },
         
         {
-            question: "96- if public member is inheriting to subclass of another package, then it can be used in outside a subclass",
+            question: "96. if public member is inheriting to subclass of another package, then it can be used in outside a subclass",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -911,7 +911,7 @@ const quizData = [
         },
         
         {
-            question: "97- if public member is inheriting to subclass of another package, then it should be used only in the same subclass",
+            question: "97. if public member is inheriting to subclass of another package, then it should be used only in the same subclass",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -921,7 +921,7 @@ const quizData = [
         },
         
         {
-            question: "98- only public classes can be used in another packages",
+            question: "98. only public classes can be used in another packages",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -931,7 +931,7 @@ const quizData = [
         },
         
         {
-            question: "99- we can use one class in another class of the same package without import",
+            question: "99. we can use one class in another class of the same package without import",
             code: "select the correct option",
             a: "true",
             b: "false",
@@ -941,7 +941,7 @@ const quizData = [
         },
         
         {
-            question: "100- we can use another package class without import",
+            question: "100. we can use another package class without import",
             code: "select the correct option",
             a: "true",
             b: "false",

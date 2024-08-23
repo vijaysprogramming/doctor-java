@@ -1,6 +1,6 @@
 const quizData = [
     {
-        question: "What will be the output of the following Java program?",
+        question: "01.What will be the output of the following Java program?",
         code: `class I
 {
     public static void main(String[] args)
@@ -20,7 +20,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "What will be the output of the following Java program?",
+        question: "02.What will be the output of the following Java program?",
         code: `class J
 {
     public static void main(String[] args)

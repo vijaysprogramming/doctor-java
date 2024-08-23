@@ -1,6 +1,6 @@
 const quizData = [
     {
-        question: "1- IIB is a member of what?",
+        question: "1. IIB is a member of what?",
         code: "select the correct option",
         a: "object",
         b: "method",
@@ -10,7 +10,7 @@ const quizData = [
     },
     
     {
-        question: "2- IIB stands for what?",
+        question: "2. IIB stands for what?",
         code: "select the correct option",
         a: "instance initialization block",
         b: "instance interpreted block",
@@ -20,7 +20,7 @@ const quizData = [
     },
     
     {
-        question: "3- The block which has no name, identifier, keyword is called as what?",
+        question: "3. The block which has no name, identifier, keyword is called as what?",
         code: "select the correct option",
         a: "SIB",
         b: "IIB",
@@ -30,7 +30,7 @@ const quizData = [
     },
     
     {
-        question: "4- For one object creation how many times 1 IIB will get executed?",
+        question: "4. For one object creation how many times 1 IIB will get executed?",
         code: "select the correct option",
         a: "1",
         b: "2",
@@ -40,7 +40,7 @@ const quizData = [
     },
     
     {
-        question: "5- The block which has executed each time for every object creation known as what?",
+        question: "5. The block which has executed each time for every object creation known as what?",
         code: "select the correct option",
         a: "SIB",
         b: "interface",
@@ -50,7 +50,7 @@ const quizData = [
     },
     
     {
-        question: "6- Can we keep the IIB anywhere in the program?",
+        question: "6. Can we keep the IIB anywhere in the program?",
         code: "select the correct option",
         a: "yes",
         b: "no",
@@ -60,7 +60,7 @@ const quizData = [
     },
     
     {
-        question: "7- Can we define more than 1 IIB in a single program?",
+        question: "7. Can we define more than 1 IIB in a single program?",
         code: "select the correct option",
         a: "no",
         b: "yes",
@@ -70,7 +70,7 @@ const quizData = [
     },
     
     {
-        question: "8- Did the user require to specify explicitly for the execution of IIB's?",
+        question: "8. Did the user require to specify explicitly for the execution of IIB's?",
         code: "select the correct option",
         a: "yes",
         b: "no",
@@ -80,7 +80,7 @@ const quizData = [
     },
     
     {
-        question: "9- IIB's are independent of constructor or not?",
+        question: "9. IIB's are independent of constructor or not?",
         code: "select the correct option",
         a: "yes",
         b: "no",

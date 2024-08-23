@@ -1,6 +1,6 @@
 const quizData = [
     {
-        question: "01- every variable should have a data type?",
+        question: "01. every variable should have a data type?",
         code: `select the correct option`,
         a: "true",
         b: "false",
@@ -9,7 +9,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "02- we can assign 4.5 to int variable??",
+        question: "02. we can assign 4.5 to int variable??",
         code: `select the correct option`,
         a: "true",
         b: "false",
@@ -18,7 +18,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "03- variable can have only one value at any time?",
+        question: "03. variable can have only one value at any time?",
         code: `select the correct option`,
         a: "true",
         b: "false",
@@ -27,7 +27,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "04- we can declare multiple variables of same data type in the same statement by using comma as a separator?",
+        question: "04. we can declare multiple variables of same data type in the same statement by using comma as a separator?",
         code: `select the correct option`,
         a: "true",
         b: "false",
@@ -36,7 +36,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "05- We can declare multiple variables of different data types in the same statement by using comma as a separator?",
+        question: "05. We can declare multiple variables of different data types in the same statement by using comma as a separator?",
         code: `select the correct option`,
         a: "true",
         b: "false",
@@ -45,7 +45,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "06- we can assign same value to multiple variables of same data type in the same statement?",
+        question: "06. we can assign same value to multiple variables of same data type in the same statement?",
         code: `select the correct option`,
         a: "true",
         b: "false",
@@ -54,7 +54,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "07- we can assign same value to multiple variables of different data types in the same statement?",
+        question: "07. we can assign same value to multiple variables of different data types in the same statement?",
         code: `select the correct option`,
         a: "true",
         b: "false",
@@ -63,7 +63,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "08- we can use local variable without assignment?",
+        question: "08. we can use local variable without assignment?",
         code: `select the correct option`,
         a: "true",
         b: "false",
@@ -72,7 +72,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "09- we cant use same name to more than one variable in the same method?",
+        question: "09. we cant use same name to more than one variable in the same method?",
         code: `select the correct option`,
         a: "true",
         b: "false",
@@ -81,7 +81,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "10- first using and then declaring a variable is possible?",
+        question: "10. first using and then declaring a variable is possible?",
         code: `select the correct option`,
         a: "true",
         b: "false",
@@ -90,7 +90,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "11- + is used to add any thing to String?",
+        question: "11. + is used to add any thing to String?",
         code: `select the correct option`,
         a: "true",
         b: "false",
