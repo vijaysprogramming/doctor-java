@@ -1,7 +1,7 @@
 const quizData = [
     
     {
-        question: "1",
+        question:  "1.What is the output for given code?",
         code: `class A 
 {
 
@@ -33,7 +33,7 @@ System.out.println("main:" + i);
     },
 
     {
-        question: 2,
+        question:  "2.What is the output for given code?",
         code: `class B 
     {
         public static void main(String[] args) 
@@ -54,7 +54,7 @@ System.out.println("main:" + i);
         correct: "a",
     },
     {
-        question: 3,
+        question:  "3.What is the output for given code?",
         code: `class C
     {
         public static void main(String[] args) 
@@ -75,7 +75,7 @@ System.out.println("main:" + i);
         correct: "b",
     },
     {
-        question: 4,
+        question:  "4.What is the output for given code?",
         code: `class D
     {
         public static void main(String[] args)
@@ -96,7 +96,7 @@ System.out.println("main:" + i);
         correct: "a",
     },
     {
-        question: 5,
+        question:  "5.What is the output for given code?",
         code: `class E
     {
         public static void main(String[] args)
@@ -117,7 +117,7 @@ System.out.println("main:" + i);
         correct: "a",
     },
     {
-        question: 6,
+        question:  "6.What is the output for given code?",
         code: `class F
     {
         public static void main(String[] args)
@@ -138,7 +138,7 @@ System.out.println("main:" + i);
         correct: "b",
     },
     {
-        question: 7,
+        question:  "7.What is the output for given code?",
         code: `class G
     {
         public static void main(String[] args)
@@ -159,7 +159,7 @@ System.out.println("main:" + i);
         correct: "c",
     },
     {
-        question: 8,
+        question:  "8.What is the output for given code?",
         code: `class H
     {
         public static void main(String[] args)
@@ -180,7 +180,7 @@ System.out.println("main:" + i);
         correct: "b",
     },
     {
-        question: 9,
+        question:  "9.What is the output for given code?",
         code: `class I
     {
         public static void main(String[] args)
@@ -201,7 +201,7 @@ System.out.println("main:" + i);
         correct: "c",
     },
     {
-        question: 10,
+        question:  "10.What is the output for given code?",
         code: `class J
     {
         public static void main(String[] args)
@@ -222,7 +222,7 @@ System.out.println("main:" + i);
         correct: "a",
     },
     {
-        question: 11,
+        question:  "11.What is the output for given code?",
         code: `class K 
     {
         public static void main(String[] args) 
@@ -246,7 +246,7 @@ System.out.println("main:" + i);
         correct: "a",
     },
     {
-        question: 12,
+        question:  "12.What is the output for given code?",
         code: `class L 
     {
         public static void main(String[] args) 
@@ -263,7 +263,7 @@ System.out.println("main:" + i);
         correct: "a",
     },
     {
-        question: 13,
+        question:  "13.What is the output for given code?",
         code: `class M
     {
         public static void main(String[] args) 
@@ -280,7 +280,7 @@ System.out.println("main:" + i);
         correct: "b",
     },
     {
-        question: 14,
+        question:  "14.What is the output for given code?",
         code: `class N
     {
         public static void main(String[] args) 
@@ -297,7 +297,7 @@ System.out.println("main:" + i);
         correct: "a",
     },
     {
-        question: 15,
+        question:  "15.What is the output for given code?",
         code: `class O
     {
         public static void main(String[] args) 
@@ -314,7 +314,7 @@ System.out.println("main:" + i);
         correct: "c",
     },
     {
-        question: 16,
+        question:  "16.What is the output for given code?",
         code: `class A 
     {
         public static void main(String[] args) 
@@ -338,7 +338,7 @@ System.out.println("main:" + i);
         correct: "a",
     },
     {
-        question: 17,
+        question:  "17.What is the output for given code?",
         code: `class B
     {
         public static void main(String[] args) 
@@ -362,7 +362,7 @@ System.out.println("main:" + i);
         correct: "b",
     },
     {
-        question: 18,
+        question:  "18.What is the output for given code?",
         code: `class C
     {
         public static void main(String[] args) 
@@ -384,7 +384,7 @@ System.out.println("main:" + i);
         correct: "a",
     },
     {
-        question: 19,
+        question:  "19.What is the output for given code?",
         code: `class D
     {
         public static void main(String[] args) 
@@ -408,7 +408,7 @@ System.out.println("main:" + i);
         correct: "c",
     },
     {
-        question: 20,
+        question:  "20.What is the output for given code?",
         code: `class E
     {
         public static void main(String[] args) 
@@ -432,7 +432,7 @@ System.out.println("main:" + i);
         correct: "a",
     },,
     {
-        question: 21,
+        question:  "21.What is the output for given code?",
         code: `class F
     {
         public static void main(String[] args) 
@@ -454,7 +454,7 @@ System.out.println("main:" + i);
         correct: "a",
     },
     {
-        question: 22,
+        question:  "22.What is the output for given code?",
         code: `class G
     {
         public static void main(String[] args) 
@@ -482,7 +482,7 @@ System.out.println("main:" + i);
         correct: "b",
     },
     {
-        question: 23,
+        question:  "23.What is the output for given code?",
         code: `class H
     {
         public static void main(String[] args) 
@@ -510,7 +510,7 @@ System.out.println("main:" + i);
         correct: "a",
     },
     {
-        question: 24,
+        question:  "24.What is the output for given code?",
         code: `class I
     {
         public static void main(String[] args) 
@@ -538,7 +538,7 @@ System.out.println("main:" + i);
         correct: "b",
     },
     {
-        question: 25,
+        question:  "25.What is the output for given code?",
         code: `class J
     {
         public static void main(String[] args) 
@@ -566,7 +566,7 @@ System.out.println("main:" + i);
         correct: "a",
     },
     {
-        question: 26,
+        question: "26.What is the output for given code?",
         code: `class K
     {
         public static void main(String[] args) 
@@ -589,7 +589,7 @@ System.out.println("main:" + i);
     },
     
         {
-            question: 27,
+            question:  "27.What is the output for given code?",
             code: `class L
     {
         public static void main(String[] args) 
@@ -616,7 +616,7 @@ System.out.println("main:" + i);
             correct: "b",
         },
         {
-            question: 28,
+            question:  "28.What is the output for given code?",
             code: `class M
     {
         public static void main(String[] args) 
@@ -636,7 +636,7 @@ System.out.println("main:" + i);
             correct: "c",
         },
         {
-            question: 29,
+            question:  "29.What is the output for given code?",
             code: `class N
     {
         public static void main(String[] args) 
@@ -662,7 +662,7 @@ System.out.println("main:" + i);
             correct: "c",
         },
         {
-            question: 30,
+            question:  "30.What is the output for given code?",
             code: `class O
     {
         public static void main(String[] args) 
@@ -691,7 +691,7 @@ System.out.println("main:" + i);
             correct: "a",
         },
         {
-            question: 31,
+            question:  "31.What is the output for given code?",
             code: `class P
     {
         public static void main(String[] args) 
@@ -721,7 +721,7 @@ System.out.println("main:" + i);
             correct: "b",
         },
         {
-            question: 32,
+            question:  "32.What is the output for given code?",
             code: `class Q
     {
         public static void main(String[] args) 
@@ -753,7 +753,7 @@ System.out.println("main:" + i);
             correct: "c",
         },
         {
-            question: 33,
+            question:  "33.What is the output for given code?",
             code: `class A 
     {
         public static void main(String[] args) 
@@ -782,7 +782,7 @@ System.out.println("main:" + i);
             correct: "b",
         },
         {
-            question: 34,
+            question:  "34.What is the output for given code?",
             code: `class B
     {
         public static void main(String[] args) 
@@ -811,7 +811,7 @@ System.out.println("main:" + i);
             correct: "a",
         },
         {
-            question: 35,
+            question:  "35.What is the output for given code?",
             code: `class C
     {
         public static void main(String[] args) 
@@ -840,7 +840,7 @@ System.out.println("main:" + i);
             correct: "c",
         },
         {
-            question: 36,
+            question:  "36.What is the output for given code?",
             code: `class D
     {
         public static void main(String[] args) 
@@ -867,7 +867,7 @@ System.out.println("main:" + i);
             correct: "a",
         },
         {
-            question: 37,
+            question:  "37.What is the output for given code?",
             code: `class E
     {
         public static void main(String[] args) 
@@ -892,7 +892,7 @@ System.out.println("main:" + i);
             correct: "a",
         },
         {
-            question: 38,
+            question:  "38.What is the output for given code?",
             code: `class F
     {
         public static void main(String[] args) 
@@ -913,7 +913,7 @@ System.out.println("main:" + i);
             correct: "c",
         },
         {
-            question: 39,
+            question:  "39.What is the output for given code?",
             code: `class G
     {
         public static void main(String[] args) 
@@ -934,7 +934,7 @@ System.out.println("main:" + i);
             correct: "b",
         },
         {
-            question: 40,
+            question:  "40.What is the output for given code?",
             code: `class H
     {
         public static void main(String[] args) 
@@ -955,7 +955,7 @@ System.out.println("main:" + i);
             correct: "a",
         },
         {
-            question: 41,
+            question:  "41.What is the output for given code?",
             code: `class I
     {
         public static void main(String[] args) 
@@ -988,7 +988,7 @@ System.out.println("main:" + i);
             correct: "c",
         },
         {
-            question: 42,
+            question:  "42.What is the output for given code?",
             code: `class J
     {
         public static void main(String[] args) 
@@ -1021,7 +1021,7 @@ System.out.println("main:" + i);
             correct: "b",
         },
         {
-            question: 43,
+            question:  "43.What is the output for given code?",
             code: `class K
     {
         public static void main(String[] args) 
@@ -1048,7 +1048,7 @@ System.out.println("main:" + i);
             correct: "b",
         },
         {
-            question: 44,
+            question:  "44.What is the output for given code?",
             code: `class L
     {
         public static void main(String[] args) 
@@ -1073,7 +1073,7 @@ System.out.println("main:" + i);
             correct: "c",
         },
         {
-            question: 45,
+            question:  "45.What is the output for given code?",
             code: `class M
     {
         public static void main(String[] args) 
@@ -1096,7 +1096,7 @@ System.out.println("main:" + i);
             correct: "c",
         },
         {
-            question: 46,
+            question:  "46.What is the output for given code?",
             code: `class N
     {
         public static void main(String[] args) 
@@ -1119,7 +1119,7 @@ System.out.println("main:" + i);
             correct: "b",
         },
         {
-            question: 47,
+            question:  "47.What is the output for given code?",
             code: `class O
     {
         public static void main(String[] args) 
@@ -1142,7 +1142,7 @@ System.out.println("main:" + i);
             correct: "a",
         },
         {
-            question: 48,
+            question:  "48.What is the output for given code?",
             code: `class P
     {
         public static void main(String[] args) 
@@ -1165,7 +1165,7 @@ System.out.println("main:" + i);
             correct: "b",
         },
         {
-            question: 49,
+            question:  "49.What is the output for given code?",
             code: `class Q 
     {
         public static void main(String[] args) 
@@ -1207,7 +1207,7 @@ System.out.println("main:" + i);
             correct: "c",
         },
         {
-            question: 50,
+            question:  "50.What is the output for given code?",
             code: `class R 
     {
         public static void main(String[] args) 
@@ -1243,7 +1243,7 @@ System.out.println("main:" + i);
             correct: "c",
         },
         {
-            question: 51,
+            question:  "51.What is the output for given code?",
             code: `class S
     {
         public static void main(String[] args) 
@@ -1277,7 +1277,7 @@ System.out.println("main:" + i);
             correct: "b",
         },
         {
-            question: 52,
+            question:  "52.What is the output for given code?",
             code: `class T
     {
         public static void main(String[] args) 
@@ -1309,7 +1309,7 @@ System.out.println("main:" + i);
             correct: "b",
         },
         {
-            question: 53,
+            question: "52.What is the output for given code?",
             code: `class U
     {
         public static void main(String[] args) 
@@ -1339,7 +1339,7 @@ System.out.println("main:" + i);
             correct: "c",
         },
         {
-            question: 54,
+            question:  "53.What is the output for given code?",
             code: `class V
     {
         public static void main(String[] args) 
@@ -1367,7 +1367,7 @@ System.out.println("main:" + i);
             correct: "a",
         },
         {
-            question: 55,
+            question:  "54.What is the output for given code?",
             code: `class W
     {
         public static void main(String[] args) 
@@ -1393,7 +1393,7 @@ System.out.println("main:" + i);
             correct: "a",
         },
         {
-            question: 56,
+            question:  "55.What is the output for given code?",
             code: `class X
     {
         public static void main(String[] args) 
@@ -1419,7 +1419,7 @@ System.out.println("main:" + i);
             correct: "a",
         },
         {
-            question: 57,
+            question:  "56.What is the output for given code?",
             code: `class Y
     {
         public static void main(String[] args) 
@@ -1445,7 +1445,7 @@ System.out.println("main:" + i);
             correct: "a",
         },
         {
-            question: 58,
+            question:  "57.What is the output for given code?",
             code: `class Z
     {
         public static void main(String[] args) 
@@ -1471,7 +1471,7 @@ System.out.println("main:" + i);
             correct: "c",
         },
         {
-            question: 59,
+            question:  "58.What is the output for given code?",
             code: `class A 
     {
         public static void main(String[] args) 
@@ -1500,7 +1500,7 @@ System.out.println("main:" + i);
             correct: "a",
         },
         {
-            question: 60,
+            question:  "59.What is the output for given code?",
             code: `class B
     {
         public static void main(String[] args) 
