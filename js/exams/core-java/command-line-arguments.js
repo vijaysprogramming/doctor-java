@@ -1,7 +1,7 @@
 const quizData = [
     
         {
-            question: "1- what is the separator while sending multiple command line arguments?",
+            question: "1. what is the separator while sending multiple command line arguments?",
             code: "select the correct option",
             a: "comma",
             b: "space",
@@ -10,7 +10,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "2- how to specify space in the command line argument?",
+            question: "2. how to specify space in the command line argument?",
             code: "select the correct option",
             a: "enclose under single quote",
             b: "enclose under double quote",
@@ -19,7 +19,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "3- all command line arguments are storing in the String array and sending as an argument to main method.",
+            question: "3. all command line arguments are storing in the String array and sending as an argument to main method.",
             code: "select the correct option",
             a: "yes",
             b: "no",
@@ -28,7 +28,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "4- we can supply any data type values as command line arguments",
+            question: "4. we can supply any data type values as command line arguments",
             code: "select the correct option",
             a: "yes",
             b: "no",
@@ -37,7 +37,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "5- what could be the main method argument if we are not supplying command line arguments?",
+            question: "5. what could be the main method argument if we are not supplying command line arguments?",
             code: "select the correct option",
             a: "null",
             b: "empty",
@@ -46,7 +46,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "6- in C++ programing language how many minimum command line arguments will be?",
+            question: "6. in C++ programing language how many minimum command line arguments will be?",
             code: "select the correct option",
             a: "0",
             b: "1",

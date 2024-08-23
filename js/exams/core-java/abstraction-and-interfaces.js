@@ -1,6 +1,6 @@
 const quizData = [
         {
-            question: "1- Defined method should not have an abstract keyword.",
+            question: "1. Defined method should not have an abstract keyword.",
             code: `select the correct option`,
             a: "yes",
             b: "no",
@@ -10,7 +10,7 @@ const quizData = [
         },
         
         {
-            question: "2- Method without a body should not have an abstract keyword.",
+            question: "2. Method without a body should not have an abstract keyword.",
             code: `select the correct option`,
             a: "yes",
             b: "no",
@@ -20,7 +20,7 @@ const quizData = [
         },
         
         {
-            question: "3- Method should have both definition (body) and also an abstract keyword.",
+            question: "3. Method should have both definition (body) and also an abstract keyword.",
             code: `select the correct option`,
             a: "yes",
             b: "no",
@@ -30,7 +30,7 @@ const quizData = [
         },
         
         {
-            question: "4- Any class can be declared as an abstract.",
+            question: "4. Any class can be declared as an abstract.",
             code: `select the correct option`,
             a: "yes",
             b: "no",
@@ -40,7 +40,7 @@ const quizData = [
         },
         
         {
-            question: "5- If a class contains at least one abstract method, then it should be declared as an abstract.",
+            question: "5. If a class contains at least one abstract method, then it should be declared as an abstract.",
             code: `select the correct option`,
             a: "yes",
             b: "no",
@@ -50,7 +50,7 @@ const quizData = [
         },
         
         {
-            question: "6- An abstract class can become a member of a Java file.",
+            question: "6. An abstract class can become a member of a Java file.",
             code: `select the correct option`,
             a: "yes",
             b: "no",
@@ -60,7 +60,7 @@ const quizData = [
         },
         
         {
-            question: "7- A class file is generated while compiling an abstract class.",
+            question: "7. A class file is generated while compiling an abstract class.",
             code: `select the correct option`,
             a: "yes",
             b: "no",
@@ -70,7 +70,7 @@ const quizData = [
         },
         
         {
-            question: "8- We can create an object for an abstract class.",
+            question: "8. We can create an object for an abstract class.",
             code: `select the correct option`,
             a: "yes",
             b: "no",
@@ -80,7 +80,7 @@ const quizData = [
         },
         
         {
-            question: "9- We can create a reference to an abstract class.",
+            question: "9. We can create a reference to an abstract class.",
             code: `select the correct option`,
             a: "yes",
             b: "no",
@@ -90,7 +90,7 @@ const quizData = [
         },
         
         {
-            question: "10- We can use an abstract class for data type purposes.",
+            question: "10. We can use an abstract class for data type purposes.",
             code: `select the correct option`,
             a: "yes",
             b: "no",
@@ -100,7 +100,7 @@ const quizData = [
         },
         
         {
-            question: "11- An attribute can be of an abstract class type.",
+            question: "11. An attribute can be of an abstract class type.",
             code: `select the correct option`,
             a: "yes",
             b: "no",
@@ -110,7 +110,7 @@ const quizData = [
         },
         
         {
-            question: "12- A method argument can't be of an abstract class type.",
+            question: "12. A method argument can't be of an abstract class type.",
             code: `select the correct option`,
             a: "yes",
             b: "no",
@@ -120,7 +120,7 @@ const quizData = [
         },
         
         {
-            question: "13- If a superclass abstract method is inherited by a subclass and the subclass does not implement it, then...",
+            question: "13. If a superclass abstract method is inherited by a subclass and the subclass does not implement it, then...",
             code: `select the correct option`,
             a: "The subclass should be declared as abstract",
             b: "no",
@@ -130,7 +130,7 @@ const quizData = [
         },
         
         {
-            question: "14- Is it possible to declare a class as abstract if that class doesn't have any abstract methods?",
+            question: "14. Is it possible to declare a class as abstract if that class doesn't have any abstract methods?",
             code: `select the correct option`,
             a: "yes",
             b: "no",
@@ -140,7 +140,7 @@ const quizData = [
         },
         
         {
-            question: "15- Is it possible to declare a constructor as abstract?",
+            question: "15. Is it possible to declare a constructor as abstract?",
             code: `select the correct option`,
             a: "yes",
             b: "no",
@@ -150,7 +150,7 @@ const quizData = [
         },
         
         {
-            question: "16- Are constructors inherited by subclasses?",
+            question: "16. Are constructors inherited by subclasses?",
             code: `select the correct option`,
             a: "yes",
             b: "no",
@@ -160,7 +160,7 @@ const quizData = [
         },
         
         {
-            question: "17- Is it possible to define a constructor in an abstract class?",
+            question: "17. Is it possible to define a constructor in an abstract class?",
             code: `select the correct option`,
             a: "yes",
             b: "no",
@@ -170,7 +170,7 @@ const quizData = [
         },
         
         {
-            question: "18- When does the constructor of an abstract class execute?",
+            question: "18. When does the constructor of an abstract class execute?",
             code: `select the correct option`,
             a: "While creating an object for the abstract class.",
             b: "While creating an object for a subclass which is concrete.",
@@ -180,7 +180,7 @@ const quizData = [
         },
         
         {
-            question: "19- By default, is an interface abstract?",
+            question: "19. By default, is an interface abstract?",
             code: `select the correct option`,
             a: "yes",
             b: "no",
@@ -190,7 +190,7 @@ const quizData = [
         },
         
         {
-            question: "20- Can we develop defined methods in an interface?",
+            question: "20. Can we develop defined methods in an interface?",
             code: `select the correct option`,
             a: "yes",
             b: "no",
@@ -200,7 +200,7 @@ const quizData = [
         },
         
         {
-            question: "21- Interface attributes should be initialized while declaring them.",
+            question: "21. Interface attributes should be initialized while declaring them.",
             code: `select the correct option`,
             a: "yes",
             b: "no",
@@ -210,7 +210,7 @@ const quizData = [
         },
         
         {
-            question: "22- The abstract keyword is optional while declaring a method in an interface.",
+            question: "22. The abstract keyword is optional while declaring a method in an interface.",
             code: `select the correct option`,
             a: "yes",
             b: "no",
@@ -220,7 +220,7 @@ const quizData = [
         },
         
         {
-            question: "23- Which access specifier is allowed for interface members?",
+            question: "23. Which access specifier is allowed for interface members?",
             code: `select the correct option`,
             a: "private",
             b: "protected",
@@ -230,7 +230,7 @@ const quizData = [
         },
         
         {
-            question: "24- What is the default access specifier for members of an interface?",
+            question: "24. What is the default access specifier for members of an interface?",
             code: `select the correct option`,
             a: "private",
             b: "protected",
@@ -240,7 +240,7 @@ const quizData = [
         },
         
         {
-            question: "25- By default, is an interface public?",
+            question: "25. By default, is an interface public?",
             code: `select the correct option`,
             a: "yes",
             b: "no",
@@ -250,7 +250,7 @@ const quizData = [
         },
         
         {
-            question: "26- Can we develop a constructor inside an interface?",
+            question: "26. Can we develop a constructor inside an interface?",
             code: `select the correct option`,
             a: "yes",
             b: "no",
@@ -260,7 +260,7 @@ const quizData = [
         },
         
         {
-            question: "27- Interface attributes are:",
+            question: "27. Interface attributes are:",
             code: `select the correct option`,
             a: "private",
             b: "static",
@@ -270,7 +270,7 @@ const quizData = [
         },
         
         {
-            question: "28- We can't create an object for an interface.",
+            question: "28. We can't create an object for an interface.",
             code: `select the correct option`,
             a: "yes",
             b: "no",
@@ -280,7 +280,7 @@ const quizData = [
         },
         
         {
-            question: "29- We can't create a reference to an interface.",
+            question: "29. We can't create a reference to an interface.",
             code: `select the correct option`,
             a: "yes",
             b: "no",
@@ -290,7 +290,7 @@ const quizData = [
         },
         
         {
-            question: "30- We can use an interface for data type purposes.",
+            question: "30. We can use an interface for data type purposes.",
             code: `select the correct option`,
             a: "yes",
             b: "no",
@@ -300,7 +300,7 @@ const quizData = [
         },
         
         {
-            question: "31- We can access attributes of an interface through the interface name.",
+            question: "31. We can access attributes of an interface through the interface name.",
             code: `select the correct option`,
             a: "yes",
             b: "no",
@@ -310,7 +310,7 @@ const quizData = [
         },
         
         {
-            question: "32- An interface can become a member of a Java file.",
+            question: "32. An interface can become a member of a Java file.",
             code: `select the correct option`,
             a: "yes",
             b: "no",
@@ -320,7 +320,7 @@ const quizData = [
         },
         
         {
-            question: "33- While compiling a Java file, a class file is not created for an interface.",
+            question: "33. While compiling a Java file, a class file is not created for an interface.",
             code: `select the correct option`,
             a: "yes",
             b: "no",
@@ -330,7 +330,7 @@ const quizData = [
         },
         
         {
-            question: "34- Which keyword is used to develop a class by using a super interface?",
+            question: "34. Which keyword is used to develop a class by using a super interface?",
             code: `select the correct option`,
             a: "extends",
             b: "implements",
@@ -340,7 +340,7 @@ const quizData = [
         },
         
         {
-            question: "35- Which keyword is used to develop an interface by using a super interface?",
+            question: "35. Which keyword is used to develop an interface by using a super interface?",
             code: `select the correct option`,
             a: "extends",
             b: "implements",
@@ -350,7 +350,7 @@ const quizData = [
         },
         
         {
-            question: "36- Is it possible to implement an interface method in a subclass with a protected access specifier?",
+            question: "36. Is it possible to implement an interface method in a subclass with a protected access specifier?",
             code: `select the correct option`,
             a: "yes",
             b: "no",
@@ -360,7 +360,7 @@ const quizData = [
         },
         
         {
-            question: "37- Is it required to implement all methods of a super interface inside a subclass in order to create an object for the subclass?",
+            question: "37. Is it required to implement all methods of a super interface inside a subclass in order to create an object for the subclass?",
             code: `select the correct option`,
             a: "yes",
             b: "no",
@@ -370,7 +370,7 @@ const quizData = [
         },
         
         {
-            question: "38- If any method of a super interface is not implemented in a subclass, which keyword should be used for the subclass?",
+            question: "38. If any method of a super interface is not implemented in a subclass, which keyword should be used for the subclass?",
             code: `select the correct option`,
             a: "public",
             b: "abstract",
@@ -380,7 +380,7 @@ const quizData = [
         },
         
         {
-            question: "39- Which is the correct order?",
+            question: "39. Which is the correct order?",
             code: `select the correct option`,
             a: "First extends, then implements.",
             b: "First implements, then extends.",
@@ -390,7 +390,7 @@ const quizData = [
         },
         
         {
-            question: "40- Can a class implement any number of super interfaces?",
+            question: "40. Can a class implement any number of super interfaces?",
             code: `select the correct option`,
             a: "yes",
             b: "no",
@@ -400,7 +400,7 @@ const quizData = [
         },
         
         {
-            question: "41- Can a class extend one superclass and also implement any number of super interfaces?",
+            question: "41. Can a class extend one superclass and also implement any number of super interfaces?",
             code: `select the correct option`,
             a: "yes",
             b: "no",
@@ -410,7 +410,7 @@ const quizData = [
         },
         
         {
-            question: "42- Can an interface extend any number of super interfaces?",
+            question: "42. Can an interface extend any number of super interfaces?",
             code: `select the correct option`,
             a: "yes",
             b: "no",
@@ -420,7 +420,7 @@ const quizData = [
         },
         
         {
-            question: "43- Is multiple inheritance possible only through super interfaces?",
+            question: "43. Is multiple inheritance possible only through super interfaces?",
             code: `select the correct option`,
             a: "yes",
             b: "no",

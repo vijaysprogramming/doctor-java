@@ -1,6 +1,6 @@
 const quizData = [
         {
-            question: "01- which is a key word?",
+            question: "01. which is a key word?",
             code: `select the correct option`,
             a: "class",
             b: "main",
@@ -9,7 +9,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "02- which is a literal?",
+            question: "02. which is a literal?",
             code: `select the correct option`,
             a: "class",
             b: "main",
@@ -18,7 +18,7 @@ const quizData = [
             correct: "c",
         },
         {
-            question: "03- which is an identifier?",
+            question: "03. which is an identifier?",
             code: `select the correct option`,
             a: "class",
             b: "main",
@@ -27,7 +27,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "04- which is an identifier?",
+            question: "04. which is an identifier?",
             code: `select the correct option`,
             a: "class",
             b: "main",
@@ -36,7 +36,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "05- which is not a literal?",
+            question: "05. which is not a literal?",
             code: `select the correct option`,
             a: "class",
             b: "\"class\"",
@@ -45,7 +45,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "06- which is not a boolean literal?",
+            question: "06. which is not a boolean literal?",
             code: `select the correct option`,
             a: "\"true\"",
             b: "false",
@@ -54,7 +54,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "07- which is not a key word?",
+            question: "07. which is not a key word?",
             code: `select the correct option`,
             a: "class",
             b: "Class",
@@ -63,7 +63,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "08- which is not an int literal?",
+            question: "08. which is not an int literal?",
             code: `select the correct option`,
             a: "0",
             b: "-10",
@@ -90,7 +90,7 @@ const quizData = [
             correct: "c",
         },
         {
-            question: "11- which is not a String literal?",
+            question: "11. which is not a String literal?",
             code: `select the correct option`,
             a: "'4'",
             b: "\"8\"",
@@ -99,7 +99,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "12- all key words are in lowercase alphabets?",
+            question: "12. all key words are in lowercase alphabets?",
             code: `select the correct option`,
             a: "true",
             b: "false",
@@ -108,7 +108,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "13- identifier can start with any alphabet?",
+            question: "13. identifier can start with any alphabet?",
             code: `select the correct option`,
             a: "true",
             b: "false",
@@ -117,7 +117,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "14- identifier can start with $?",
+            question: "14. identifier can start with $?",
             code: `select the correct option`,
             a: "true",
             b: "false",
@@ -126,7 +126,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "15- identifier can't start with _?",
+            question: "15. identifier can't start with _?",
             code: `select the correct option`,
             a: "true",
             b: "false",
@@ -135,7 +135,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "16- identifier can start with any digit?",
+            question: "16. identifier can start with any digit?",
             code: `select the correct option`,
             a: "true",
             b: "false",
@@ -144,7 +144,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "17- identifier can have a digit from 2nd char onwards?",
+            question: "17. identifier can have a digit from 2nd char onwards?",
             code: `select the correct option`,
             a: "true",
             b: "false",
@@ -153,7 +153,7 @@ const quizData = [
             correct: "a",
         },
         {
-            question: "18- which special characters are allowed in an identifier?",
+            question: "18. which special characters are allowed in an identifier?",
             code: `select the correct option`,
             a: "%",
             b: "#",
@@ -162,7 +162,7 @@ const quizData = [
             correct: "c",
         },
         {
-            question: "19- identifier can be any key word?",
+            question: "19. identifier can be any key word?",
             code: `select the correct option`,
             a: "true",
             b: "false",
@@ -171,7 +171,7 @@ const quizData = [
             correct: "b",
         },
         {
-            question: "20- identifier can have a space in the middle?",
+            question: "20. identifier can have a space in the middle?",
             code: `select the correct option`,
             a: "true",
             b: "false",
