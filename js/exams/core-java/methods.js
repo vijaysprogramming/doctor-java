@@ -1,7 +1,7 @@
 const quizData = [
     
     {
-        question: 1,
+        question:  "1.What is the output for given code?",
         code: `class A 
     {
         public static void main(String[] args) 
@@ -22,7 +22,7 @@ const quizData = [
     },
     
     {
-        question: 2,
+        question:  "What is the output for given code?",
         code: `class B
     {
         public static void test() 
@@ -43,7 +43,7 @@ const quizData = [
     },
     
     {
-        question: 3,
+        question:  "2.What is the output for given code?",
         code: `class C
     {
         public static void test1() 
@@ -69,7 +69,7 @@ const quizData = [
     },
     
     {
-        question: 4,
+        question:  "3.What is the output for given code?",
         code: `class D 
     {
         public static void main(String[] args) 
@@ -92,7 +92,7 @@ const quizData = [
     },
     
     {
-        question: 5,
+        question:  "4.What is the output for given code?",
         code: `class E 
     {
         public static void main(String[] args) 
@@ -121,7 +121,7 @@ const quizData = [
     },
     
     {
-        question: 6,
+        question:  "5.What is the output for given code?",
         code: `class F 
     {
         public static void main(String[] args) 
@@ -150,7 +150,7 @@ const quizData = [
     },
     
     {
-        question: 7,
+        question:  "6.What is the output for given code?",
         code: `class F 
     {
         public static void main(String[] args) 
@@ -179,7 +179,7 @@ const quizData = [
     },
     
     {
-        question: 8,
+        question:  "7.What is the output for given code?",
         code: `class G
     {
         public static void main(String[] args) 
@@ -204,7 +204,7 @@ const quizData = [
     },
     
     {
-        question: 9,
+        question:  "8.What is the output for given code?",
         code: `class H
     {
         public static void main(String[] args) 
@@ -227,7 +227,7 @@ const quizData = [
     },
     
     {
-        question: 10,
+        question:  "9.What is the output for given code?",
         code: `class I 
     {
         public static void main(String[] args) 
@@ -257,7 +257,7 @@ const quizData = [
     },
     
     {
-        question: 11,
+        question:  "10.What is the output for given code?",
         code: `class J
     {
         public static void main(String[] args) 
@@ -289,7 +289,7 @@ const quizData = [
     },
     
     {
-        question: 12,
+        question:  "11.What is the output for given code?",
         code: `class K
     {
         public static void main(String[] args) 
@@ -323,7 +323,7 @@ const quizData = [
     },
     
     {
-        question: 13,
+        question:  "12.What is the output for given code?",
         code: `class L 
     {
         public static void main(String[] args) 
@@ -340,7 +340,7 @@ const quizData = [
     },
     
     {
-        question: 14,
+        question:  "13.What is the output for given code?",
         code: `class M
     {
         public static void main(String[] args) 
@@ -357,7 +357,7 @@ const quizData = [
     },
     
     {
-        question: 15,
+        question:  "14.What is the output for given code?",
         code: `class N
     {
         public static void main(String[] args) 
@@ -374,7 +374,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: 16,
+        question:  "15.What is the output for given code?",
         code: `class O
     {
         public static void main(String[] args) 
@@ -396,7 +396,7 @@ const quizData = [
     },
     
     {
-        question: 17,
+        question:  "16.What is the output for given code?",
         code: `class P
     {
         public static void main(String[] args) 
@@ -425,7 +425,7 @@ const quizData = [
     },
     
     {
-        question: 18,
+        question:  "17.What is the output for given code?",
         code: `class Q 
     {
         public static void main(String[] args) 
@@ -442,7 +442,7 @@ const quizData = [
     },
     
     {
-        question: 19,
+        question:  "18.What is the output for given code?",
         code: `class R 
     {
         static public void main(String[] args) 
@@ -458,7 +458,7 @@ const quizData = [
     },
     
     {
-        question: 20,
+        question:  "19.What is the output for given code?",
         code: `class S 
     {
         public void static main(String[] args) 
@@ -474,7 +474,7 @@ const quizData = [
     },
     
     {
-        question: 21,
+        question:  "20.What is the output for given code?",
         code: `class T 
     {
         public static void main(String[] args) 
@@ -495,7 +495,7 @@ const quizData = [
     },
     
     {
-        question: 22,
+        question:  "21.What is the output for given code?",
         code: `class U
     {
         public static void main(String[] args) 
@@ -517,7 +517,7 @@ const quizData = [
     },
     
     {
-        question: 23,
+        question:  "22.What is the output for given code?",
         code: `class V
     {
         public static void main(String[] args) 
@@ -539,7 +539,7 @@ const quizData = [
     },
     
     {
-        question: 24,
+        question:  "23.What is the output for given code?",
         code: `class W
     {
         public static void main(String[] args) 
@@ -561,7 +561,7 @@ const quizData = [
     },
     
     {
-        question: 25,
+        question:  "24.What is the output for given code?",
         code: `class X
     {
         public static void main(String[] args) 
@@ -585,7 +585,7 @@ const quizData = [
     },
     
     {
-        question: 26,
+        question:  "25.What is the output for given code?",
         code: `class Y
     {
         public static void main(String[] args) 
@@ -610,7 +610,7 @@ const quizData = [
     },
     
     {
-        question: 27,
+        question:  "26.What is the output for given code?",
         code: `class Z
     {
         public static void main(String[] args) 
@@ -635,7 +635,7 @@ const quizData = [
     },
     
     {
-        question: 28,
+        question:  "27.What is the output for given code?",
         code: `class Z1
     {
         public static void main(String[] args) 
@@ -659,7 +659,7 @@ const quizData = [
     },
     
     {
-        question: 29,
+        question:  "28.What is the output for given code?",
         code: `class Z2
     {
         public static void main(String[] args) 
@@ -683,7 +683,7 @@ const quizData = [
     },
     
     {
-        question: 30,
+        question: "23.What is the output for given code?",
         code: `class Z3
     {
         public static void main(String[] args) 
@@ -714,7 +714,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question : 31,
+        question : "24.What is the output for given code?",
         code : "class Z4 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        byte b1 = test();\n        System.out.println(\"main end:\" + b1);\n    }\n    public static byte test() {\n        System.out.println(\"from test\");\n        return 100;\n    }\n}",
          a : "main begin\nfrom test\nmain end:100",
          b : "main begin\nfrom test\nmain end:0",
@@ -723,7 +723,7 @@ const quizData = [
          correct : "a"
     },
     {
-         question : 32,
+         question : "25.What is the output for given code?",
          code : "class Z5 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        double b1 = test();\n        System.out.println(\"main end:\" + b1);\n    }\n    public static double test() {\n        System.out.println(\"from test\");\n        return 1.5;\n    }\n}",
          a : "main begin\nfrom test\nmain end:15",
          b : "main begin\nfrom test\nmain end:1.5",
@@ -732,7 +732,7 @@ const quizData = [
          correct : "b"
     },
     {
-         question : 33,
+         question : "26.What is the output for given code?",
          code : "class Z6 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        boolean b1 = test();\n        System.out.println(\"main end:\" + b1);\n    }\n    public static boolean test() {\n        System.out.println(\"from test\");\n        return true;\n    }\n}",
          a : "main begin\nfrom test\nmain end:true",
          b : "main begin\nfrom test\nmain end:false",
@@ -741,7 +741,7 @@ const quizData = [
          correct : "a"
     },
     {
-         question: 34,
+         question: "27.What is the output for given code?",
          code : "class Z7 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        char b1 = test();\n        System.out.println(\"main end:\" + b1);\n    }\n    public static char test() {\n        System.out.println(\"from test\");\n        return '$';\n    }\n}",
          a : "Compile time error",
          b : "Run Time Error",
@@ -750,7 +750,7 @@ const quizData = [
          correct : "c"
     },
     {
-         question : 35,
+         question : "28.What is the output for given code?",
          code : "class Z8 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        int b1 = test1();\n        System.out.println(\"main end:\" + b1);\n    }\n    public static int test1() {\n        System.out.println(\"from test1\");\n        int i;\n        return i;\n    }\n}",
          a : "Compile time error",
          b : "Run Time Error",
@@ -759,7 +759,7 @@ const quizData = [
          correct : "a"
     },
     {
-         question : 36,
+         question : "29.What is the output for given code?",
          code : "class Z9 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        int b1 = test1();\n        System.out.println(\"main end:\" + b1);\n    }\n    public static int test1() {\n        System.out.println(\"from test1\");\n        int i = 100;\n        return i;\n    }\n}",
          a : "Compile time error",
          b : "main begin\nfrom test\nmain end:100",
@@ -768,7 +768,7 @@ const quizData = [
          correct : "b"
     },
     {
-        question: 37,
+        question: "30.What is the output for given code?",
          code : "class Z10 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        int b1 = test1();\n        System.out.println(\"main end:\" + b1);\n    }\n    public static int test1() {\n        System.out.println(\"from test1\");\n        return test2();\n    }\n    public static int test2() {\n        System.out.println(\"from test2\");\n        return 200;\n    }\n}",
          a : "main begin\nfrom test1\nfrom test2\nmain end:200",
          b : "main begin\nfrom test1\nfrom test2\nmain end:0",
@@ -777,7 +777,7 @@ const quizData = [
          correct : "a"
     },
     {
-         question: 38,
+         question: "31.What is the output for given code?",
          code : "class Z11 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        int b1 = test1();\n        System.out.println(\"main end:\" + b1);\n    }\n    public static int test1() {\n        System.out.println(\"from test1\");\n        return 100 + 300;\n    }\n}",
          a : "main begin\nfrom test1\nmain end:100 + 300",
          b : "main begin\nfrom test1\nmain end:400",
@@ -786,7 +786,7 @@ const quizData = [
          correct : "b"
     },
     {
-         question : 39,
+         question : "32.What is the output for given code?",
          code : "class Z12 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        String b1 = test1();\n        System.out.println(\"main end:\" + b1);\n    }\n    public static String test1() {\n        System.out.println(\"from test1\");\n        return \"Hello\";\n    }\n}",
          a : "main begin\nfrom test1\nmain end:Hello",
          b : "main begin\nfrom test1\nmain end:",
@@ -795,7 +795,7 @@ const quizData = [
          correct : "a"
     },
     {
-         question : 40,
+         question : "33.What is the output for given code?",
          code : "class Z13 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        String b1 = test1();\n        System.out.println(\"main end:\" + b1);\n    }\n    public static String test1() {\n        System.out.println(\"from test1\");\n        String str = \"hello to all\";\n        return str;\n    }\n}",
          a : "main begin\nfrom test1\nmain end:hello to all",
          b : "main begin\nfrom test1\nmain end: hello to all",
@@ -804,7 +804,7 @@ const quizData = [
          correct : "a"
     },
     {
-         question : 41,
+         question : "34.What is the output for given code?",
          code : "class Z14 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        System.out.println(\"main end\");\n    }\n    public static void test(int i) {\n        System.out.println(\"from test\");\n    }\n}",
          a : "Compile time error",
          b : "main begin\nmain end\nfrom test",
@@ -813,7 +813,7 @@ const quizData = [
          correct : "c"
     },
     {
-         question : 42,
+         question : "35.What is the output for given code?",
          code : "class Z15 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        test();\n        System.out.println(\"main end\");\n    }\n    public static void test(int i) {\n        System.out.println(\"from test\");\n    }\n}",
          a : "Compile time error",
          b : "main begin\nmain end\nfrom test",
@@ -822,7 +822,7 @@ const quizData = [
          correct : "a"
     },
     {
-         question : 43,
+         question : "36.What is the output for given code?",
          code : "class Z16 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        test(true);\n        System.out.println(\"main end\");\n    }\n    public static void test(int i) {\n        System.out.println(\"from test\");\n    }\n}",
          a : "Compile time error",
          b : "main begin\nmain end\nfrom test",
@@ -831,7 +831,7 @@ const quizData = [
          correct : "a"
     },
     {
-         question : 44,
+         question : "37.What is the output for given code?",
          code : "class Z17 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        test(200);\n        System.out.println(\"main end\");\n    }\n    public static void test(int i) {\n        System.out.println(\"from test\");\n    }\n}",
          a : "Compile time error",
          b : "main begin\nmain end\nfrom test",
@@ -840,7 +840,7 @@ const quizData = [
         correct : "b"
     },
     {
-         question : 45,
+         question : "38.What is the output for given code?",
          code : "class Z18 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        test(200);\n        System.out.println(\"main end:\");\n    }\n    public static void test(int i) {\n        System.out.println(\"from test:\" + i);\n        i = 30;\n        System.out.println(\"from test:\" + i);\n    }\n}",
          a : "Compile time error",
          b : "main begin\nfrom test:200\nfrom test:30\nmain end:",
@@ -849,7 +849,7 @@ const quizData = [
          correct : "b"
     },
     {
-         question : 46,
+         question : "39.What is the output for given code?",
          code : "class Z19 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        test(200);\n        System.out.println(\"main end:\" + i);\n    }\n    public static void test(int i) {\n        System.out.println(\"from test:\" + i);\n    }\n}",
          a : "Compile time error",
          b : "main begin\nmain end:200\nfrom test:200",
@@ -858,7 +858,7 @@ const quizData = [
          correct : "a"
     },
     {
-         question: 47,
+         question: "40.What is the output for given code?",
          code : "class Z20 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        test(200);\n        System.out.println(\"main end:\");\n    }\n    public static void test(int i) {\n        System.out.println(\"from test:\" + i);\n        i = 30;\n        System.out.println(\"from test:\" + i);\n    }\n}",
          a : "Compile time error",
          b : "main begin\nfrom test:200\nfrom test:30\nmain end:",
@@ -867,7 +867,7 @@ const quizData = [
          correct : "b"
     },
     {
-         question : 48,
+         question : "41.What is the output for given code?",
          code : "class Z21 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        test(200);\n        System.out.println(\"main end:\");\n    }\n    public static void test(int i, int j) {\n        System.out.println(\"from test:\" + i);\n    }\n}",
          a : "Compile time error",
          b : "main begin\nfrom test:200\nmain end:",
@@ -876,7 +876,7 @@ const quizData = [
          correct : "a"
     },
     {
-         question : 49,
+         question : "42.What is the output for given code?",
          code : "class Z22 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        test(200, 4.5);\n        System.out.println(\"main end:\");\n    }\n    public static void test(int i, int j) {\n        System.out.println(\"from test:\" + i);\n    }\n}",
          a : "Compile time error",
          b : "main begin\nfrom test:200\nmain end:",
@@ -885,7 +885,7 @@ const quizData = [
          correct : "a"
     },
     {
-         question: 50,
+         question: "43.What is the output for given code?",
          code : "class Z23 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        test(200, 4);\n        System.out.println(\"main end:\");\n    }\n    public static void test(int i, int j) {\n        System.out.println(\"from test:\" + i);\n    }\n}",
          a : "Compile time error",
          b : "main begin\nfrom test:200\nmain end:",
@@ -895,7 +895,7 @@ const quizData = [
     },
     
         {
-             question : 51,
+             question : "44.What is the output for given code?",
              code : "class Z24 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        test(200, 4);\n        System.out.println(\"main end:\");\n    }\n    public static void test(int i, int j) {\n        System.out.println(\"from test:\" + i + \", \" + j);\n    }\n}",
              a : "main begin\nfrom test:200, 4\nmain end:",
              b : "main begin\nfrom test:200\nmain end:",
@@ -904,7 +904,7 @@ const quizData = [
              correct : "a"
         },
         {
-             question : 52,
+             question : "45.What is the output for given code?",
              code : "class Z25 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        System.out.println(\"main end:\");\n    }\n    public static void test(int i, int i) {\n        System.out.println(\"from test:\");\n    }\n}",
              a : "main begin\nmain end\nfrom test",
              b : "Compile time error",
@@ -913,7 +913,7 @@ const quizData = [
              correct : "b"
         },
         {
-             question : 53,
+             question : "46.What is the output for given code?",
              code : "class Z26 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        System.out.println(\"main end:\");\n    }\n    public static void test(int i, double i) {\n        System.out.println(\"from test:\");\n    }\n}",
              a : "main begin\nmain end\nfrom test",
              b : "Compile time error",
@@ -922,7 +922,7 @@ const quizData = [
              correct : "b"
         },
         {
-             question : 54,
+             question : "47.What is the output for given code?",
              code : "class Z27 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        System.out.println(\"main end:\");\n    }\n    public static void test(int i) {\n        double i;\n        System.out.println(\"from test:\");\n    }\n}",
              a : "main begin\nmain end\nfrom test",
              b : "Compile time error",
@@ -931,7 +931,7 @@ const quizData = [
              correct : "b"
         },
         {
-             question : 55,
+             question : "48.What is the output for given code?",
              code : "class Z28 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        test(10, 20, 30);\n        System.out.println(\"main end:\");\n    }\n    public static void test(int i, boolean j, int k) {\n        System.out.println(\"from test:\");\n    }\n}",
              a : "main begin\nmain end\nfrom test",
              b : "Compile time error",
@@ -940,7 +940,7 @@ const quizData = [
              correct : "b"
         },
         {
-             question : 56,
+             question : "49.What is the output for given code?",
              code : "class Z29 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        test(10, false, 30);\n        System.out.println(\"main end:\");\n    }\n    public static void test(int i, boolean j, int k) {\n        System.out.println(\"from test:\");\n    }\n}",
              a : "main begin\nmain end\nfrom test",
              b : "Compile time error",
@@ -949,7 +949,7 @@ const quizData = [
              correct : "a"
         },
         {
-             question : 57,
+             question : "50.What is the output for given code?",
              code : "class Z30 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        test(10, false, 30);\n        System.out.println(\"main end:\");\n    }\n    public static void test(int i, boolean j, int k) {\n        System.out.println(\"from test:\" + i);\n        System.out.println(\"from test:\" + j);\n        System.out.println(\"from test:\" + k);\n    }\n}",
              a : "main begin\nfrom test:10\nfrom test:false\nfrom test:30\nmain end:",
              b : "Compile time error",
@@ -958,7 +958,7 @@ const quizData = [
              correct : "a"
         },
         {
-             question : 58,
+             question : "51.What is the output for given code?",
              code : "class Z31 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        int x;\n        test(x);\n        System.out.println(\"main end:\");\n    }\n    public static void test(int i) {\n        System.out.println(\"from test:\" + i);\n    }\n}",
              a : "main begin\nfrom test:0\nmain end:",
              b : "Compile time error",
@@ -967,7 +967,7 @@ const quizData = [
              correct : "b"
         },
         {
-             question : 59,
+             question : "52.What is the output for given code?",
              code : "class Z32 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        int x = 30;\n        test(x);\n        System.out.println(\"main end:\");\n    }\n    public static void test(int i) {\n        System.out.println(\"from test:\" + i);\n    }\n}",
              a : "main begin\nfrom test:30\nmain end:",
              b : "Compile time error",
@@ -976,7 +976,7 @@ const quizData = [
              correct : "a"
         },
         {
-             question : 60,
+             question :"53.What is the output for given code?",
              code : "class Z33 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        int x;\n        test(x = 10);\n        System.out.println(\"main end:\" + x);\n    }\n    public static void test(int i) {\n        System.out.println(\"from test:\" + i);\n    }\n}",
              a : "main begin\nfrom test:10\nmain end:",
              b : "Compile time error",
@@ -985,7 +985,7 @@ const quizData = [
              correct : "a"
         },
         {
-             question : 61,
+             question : "54.What is the output for given code?",
              code : "class Z34 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        int i;\n        test(i = 10);\n        System.out.println(\"main end:\" + i);\n    }\n    public static void test(int i) {\n        System.out.println(\"from test:\" + i);\n        i = 30;\n    }\n}",
              a : "main begin\nfrom test:10\nmain end:10",
              b : "Compile time error",
@@ -994,7 +994,7 @@ const quizData = [
              correct : "a"
         },
         {
-             question : 62,
+             question : "55.What is the output for given code?",
              code : "class Z35 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        int i = 1;\n        test(i + 20);\n        System.out.println(\"main end:\" + i);\n    }\n    public static void test(int i) {\n        System.out.println(\"from test:\" + i);\n        i = 30;\n    }\n}",
              a : "main begin\nfrom test:21\nmain end:1",
              b : "Compile time error",
@@ -1003,7 +1003,7 @@ const quizData = [
              correct : "a"
         },
         {
-             question : 63,
+             question : "56.What is the output for given code?",
              code : "class Z36 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        int x = 1;\n        test(x + 20);\n        System.out.println(\"main end:\" + x);\n    }\n    public static void test(int i) {\n        System.out.println(\"from test:\" + i);\n        i = 30;\n    }\n}",
              a : "main begin\nfrom test:21\nmain end:1",
              b : "Compile time error",
@@ -1012,7 +1012,7 @@ const quizData = [
              correct : "a"
         },
         {
-             question : 64,
+             question : "57.What is the output for given code?",
              code : "class Z37 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        int i = 1;\n        test(i);\n        System.out.println(\"main end:\" + i);\n    }\n    public static void test(int i) {\n        System.out.println(\"from test:\" + i);\n        i = 30;\n    }\n}",
              a : "main begin\nfrom test:1\nmain end:30",
              b : "Compile time error",
@@ -1021,7 +1021,7 @@ const quizData = [
              correct : "c"
         },
         {
-             question : 65,
+             question : "58.What is the output for given code?",
              code : "class Z38 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        test(10, 20, 30);\n        System.out.println(\"main end:\");\n    }\n    public static void test(int i, int j) {\n        System.out.println(\"from test:\" + i + \", \" + j);\n    }\n}",
              a : "main begin\nfrom test:10, 20\nmain end:",
              b : "Compile time error",

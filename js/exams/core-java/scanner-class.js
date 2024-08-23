@@ -2,7 +2,7 @@ const quizData =
     
     [
         {
-            question: "What is the purpose of the Scanner class in Java?",
+            question: "1.What is the purpose of the Scanner class in Java?",
             code: "Select The Correct Answer",
             a: "To read input from the console",
             b: "To print output to the console",
@@ -11,7 +11,7 @@ const quizData =
             correct: "a",
         },
         {
-            question: "Which package contains the Scanner class in Java?",
+            question: "2.Which package contains the Scanner class in Java?",
             code: "Select The Correct Answer",
             a: "java.lang",
             b: "java.util",
@@ -20,7 +20,7 @@ const quizData =
             correct: "b",
         },
         {
-            question: "Which method is used to read an integer from the console using Scanner?",
+            question: "3.Which method is used to read an integer from the console using Scanner?",
             code: "Select The Correct Answer",
             a: "nextInt()",
             b: "nextDouble()",
@@ -29,7 +29,7 @@ const quizData =
             correct: "a",
         },
         {
-            question: "What will happen if you use `nextInt()` to read a non-integer input?",
+            question: "4.What will happen if you use `nextInt()` to read a non-integer input?",
             code: "Select The Correct Answer",
             a: "It will throw a compile-time error",
             b: "It will throw a runtime exception",
@@ -38,7 +38,7 @@ const quizData =
             correct: "b",
         },
         {
-            question: "How can you read a double value from the console using Scanner?",
+            question: "5.How can you read a double value from the console using Scanner?",
             code: "Select The Correct Answer",
             a: "nextDouble()",
             b: "next()",
@@ -47,7 +47,7 @@ const quizData =
             correct: "a",
         },
         {
-            question: "Which method is used to read a line of text from the console using Scanner?",
+            question: "6.Which method is used to read a line of text from the console using Scanner?",
             code: "Select The Correct Answer",
             a: "nextLine()",
             b: "next()",
@@ -56,7 +56,7 @@ const quizData =
             correct: "a",
         },
         {
-            question: "What does the `next()` method of Scanner do?",
+            question: "7.What does the `next()` method of Scanner do?",
             code: "Select The Correct Answer",
             a: "Reads the next character",
             b: "Reads the next word (sequence of non-space characters)",
@@ -65,7 +65,7 @@ const quizData =
             correct: "b",
         },
         {
-            question: "Which method reads a byte value from the console using Scanner?",
+            question: "8.Which method reads a byte value from the console using Scanner?",
             code: "Select The Correct Answer",
             a: "nextByte()",
             b: "next()",
@@ -74,7 +74,7 @@ const quizData =
             correct: "a",
         },
         {
-            question: "How can you read a short value from the console using Scanner?",
+            question: "9.How can you read a short value from the console using Scanner?",
             code: "Select The Correct Answer",
             a: "nextShort()",
             b: "next()",
@@ -83,7 +83,7 @@ const quizData =
             correct: "a",
         },
         {
-            question: "Which method reads a long value from the console using Scanner?",
+            question: "10.Which method reads a long value from the console using Scanner?",
             code: "Select The Correct Answer",
             a: "nextLong()",
             b: "next()",
@@ -92,7 +92,7 @@ const quizData =
             correct: "a",
         },
         {
-            question: "What is the purpose of the `useDelimiter()` method in Scanner?",
+            question: "11.What is the purpose of the `useDelimiter()` method in Scanner?",
             code: "Select The Correct Answer",
             a: "It sets the delimiter for reading numbers",
             b: "It sets the delimiter for reading characters",
@@ -101,7 +101,7 @@ const quizData =
             correct: "c",
         },
         {
-            question: "Which method is used to check if there is another token available in the input?",
+            question: "12.Which method is used to check if there is another token available in the input?",
             code: "Select The Correct Answer",
             a: "hasNext()",
             b: "hasToken()",
@@ -110,7 +110,7 @@ const quizData =
             correct: "a",
         },
         {
-            question: "What happens if you call `nextLine()` after calling `nextInt()` without consuming the newline character?",
+            question: "13.What happens if you call `nextLine()` after calling `nextInt()` without consuming the newline character?",
             code: "Select The Correct Answer",
             a: "It reads the next line properly",
             b: "It skips the next line",
@@ -119,7 +119,7 @@ const quizData =
             correct: "b",
         },
         {
-            question: "Which method is used to close the Scanner object?",
+            question: "14.Which method is used to close the Scanner object?",
             code: "Select The Correct Answer",
             a: "close()",
             b: "shutdown()",
@@ -128,7 +128,7 @@ const quizData =
             correct: "a",
         },
         {
-            question: "What will happen if you call `nextDouble()` and the next token is not a valid double?",
+            question: "15.What will happen if you call `nextDouble()` and the next token is not a valid double?",
             code: "Select The Correct Answer",
             a: "It will return 0.0",
             b: "It will throw a NoSuchElementException",
@@ -137,7 +137,7 @@ const quizData =
             correct: "c",
         },
         {
-            question: "Which method reads a boolean value from the console using Scanner?",
+            question: "16.Which method reads a boolean value from the console using Scanner?",
             code: "Select The Correct Answer",
             a: "nextBoolean()",
             b: "next()",
@@ -146,7 +146,7 @@ const quizData =
             correct: "a",
         },
         {
-            question: "How can you read a float value from the console using Scanner?",
+            question: "17.How can you read a float value from the console using Scanner?",
             code: "Select The Correct Answer",
             a: "nextFloat()",
             b: "next()",
@@ -155,7 +155,7 @@ const quizData =
             correct: "a",
         },
         {
-            question: "What is the default delimiter used by Scanner?",
+            question: "18.What is the default delimiter used by Scanner?",
             code: "Select The Correct Answer",
             a: "Space",
             b: "Comma",
@@ -164,7 +164,7 @@ const quizData =
             correct: "a",
         },
         {
-            question: "How can you change the delimiter used by Scanner to a comma?",
+            question: "19.How can you change the delimiter used by Scanner to a comma?",
             code: "Select The Correct Answer",
             a: "scanner.useDelimiter(\",\")",
             b: "scanner.setDelimiter(\",\")",
@@ -173,7 +173,7 @@ const quizData =
             correct: "a",
         },
         {
-            question: "Which method can be used to read an unsigned integer from the console using Scanner?",
+            question: "20.Which method can be used to read an unsigned integer from the console using Scanner?",
             code: "Select The Correct Answer",
             a: "nextUnsignedInt()",
             b: "nextInt()",
@@ -182,7 +182,7 @@ const quizData =
             correct: "b",
         },
         {
-            question: "What happens if you call `next()` when there are no more tokens in the input?",
+            question: "21.What happens if you call `next()` when there are no more tokens in the input?",
             code: "Select The Correct Answer",
             a: "It throws a NoSuchElementException",
             b: "It returns an empty string",
@@ -191,7 +191,7 @@ const quizData =
             correct: "a",
         },
         {
-            question: "How can you read a hexadecimal integer from the console using Scanner?",
+            question: "22.How can you read a hexadecimal integer from the console using Scanner?",
             code: "Select The Correct Answer",
             a: "scanner.nextInt(16)",
             b: "scanner.nextHexInt()",
@@ -200,7 +200,7 @@ const quizData =
             correct: "a",
         },
         {
-            question: "What method is used to read a string with spaces from the console using Scanner?",
+            question: "23.What method is used to read a string with spaces from the console using Scanner?",
             code: "Select The Correct Answer",
             a: "nextLine()",
             b: "next()",
@@ -209,7 +209,7 @@ const quizData =
             correct: "b",
         },
         {
-            question: "Which method is used to read a byte array from the console using Scanner?",
+            question: "24.Which method is used to read a byte array from the console using Scanner?",
             code: "Select The Correct Answer",
             a: "nextBytes()",
             b: "next()",
@@ -218,7 +218,7 @@ const quizData =
             correct: "a",
         },
         {
-            question: "How can you set the radix (base) for reading integers using Scanner?",
+            question: "25.How can you set the radix (base) for reading integers using Scanner?",
             code: "Select The Correct Answer",
             a: "scanner.useRadix()",
             b: "scanner.setRadix()",
@@ -227,7 +227,7 @@ const quizData =
             correct: "a",
         },
         {
-            question: "What does the `skip()` method of Scanner do?",
+            question: "26.What does the `skip()` method of Scanner do?",
             code: "Select The Correct Answer",
             a: "Skips a specified pattern",
             b: "Skips a specified number of tokens",
@@ -236,7 +236,7 @@ const quizData =
             correct: "a",
         },
         {
-            question: "Which method is used to read a formatted string from the console using Scanner?",
+            question: "27.Which method is used to read a formatted string from the console using Scanner?",
             code: "Select The Correct Answer",
             a: "nextFormatted()",
             b: "next()",
@@ -245,7 +245,7 @@ const quizData =
             correct: "b",
         },
         {
-            question: "What happens if you call `nextBoolean()` when the next token is not a valid boolean value?",
+            question: "28.What happens if you call `nextBoolean()` when the next token is not a valid boolean value?",
             code: "Select The Correct Answer",
             a: "It throws an InputMismatchException",
             b: "It throws a NoSuchElementException",
@@ -254,7 +254,7 @@ const quizData =
             correct: "a",
         },
         {
-            question: "How can you read a single word (sequence of non-space characters) from the console using Scanner?",
+            question: "29.How can you read a single word (sequence of non-space characters) from the console using Scanner?",
             code: "Select The Correct Answer",
             a: "next()",
             b: "nextLine()",
@@ -263,7 +263,7 @@ const quizData =
             correct: "a",
         },
         {
-            question: "What is the purpose of the `hasNextLine()` method in Scanner?",
+            question: "30.What is the purpose of the `hasNextLine()` method in Scanner?",
             code: "Select The Correct Answer",
             a: "Checks if there is another line available",
             b: "Checks if there is another token available",
@@ -272,7 +272,7 @@ const quizData =
             correct: "a",
         },
         {
-            question: "Which method is used to read a pattern from the console using Scanner?",
+            question: "31.Which method is used to read a pattern from the console using Scanner?",
             code: "Select The Correct Answer",
             a: "next()",
             b: "nextPattern()",
@@ -281,7 +281,7 @@ const quizData =
             correct: "b",
         },
         {
-            question: "What is the purpose of the `hasNextInt(int radix)` method in Scanner?",
+            question: "32.What is the purpose of the `hasNextInt(int radix)` method in Scanner?",
             code: "Select The Correct Answer",
             a: "Checks if there is another integer available in the specified radix",
             b: "Checks if there is another line available",
@@ -290,7 +290,7 @@ const quizData =
             correct: "a",
         },
         {
-            question: "How can you read a file path from the console using Scanner?",
+            question: "33.How can you read a file path from the console using Scanner?",
             code: "Select The Correct Answer",
             a: "nextLine()",
             b: "nextPath()",
@@ -299,7 +299,7 @@ const quizData =
             correct: "a",
         },
         {
-            question: "What is the return type of the `hasNext()` method in Scanner?",
+            question: "34.What is the return type of the `hasNext()` method in Scanner?",
             code: "Select The Correct Answer",
             a: "boolean",
             b: "int",
@@ -308,7 +308,7 @@ const quizData =
             correct: "a",
         },
         {
-            question: "How can you read a date in a specific format from the console using Scanner?",
+            question: "35.How can you read a date in a specific format from the console using Scanner?",
             code: "Select The Correct Answer",
             a: "nextLine()",
             b: "next()",
@@ -317,7 +317,7 @@ const quizData =
             correct: "d",
         },
         {
-            question: "Which method can be used to read a token until a specific pattern is encountered?",
+            question: "36.Which method can be used to read a token until a specific pattern is encountered?",
             code: "Select The Correct Answer",
             a: "next()",
             b: "nextUntil()",
@@ -326,7 +326,7 @@ const quizData =
             correct: "b",
         },
         {
-            question: "What is the purpose of the `reset()` method in Scanner?",
+            question: "37.What is the purpose of the `reset()` method in Scanner?",
             code: "Select The Correct Answer",
             a: "Resets the scanner's state",
             b: "Clears the current token",
@@ -335,7 +335,7 @@ const quizData =
             correct: "a",
         },
         {
-            question: "How can you read an unsigned long from the console using Scanner?",
+            question: "38.How can you read an unsigned long from the console using Scanner?",
             code: "Select The Correct Answer",
             a: "nextLong()",
             b: "nextUnsignedLong()",
@@ -344,7 +344,7 @@ const quizData =
             correct: "a",
         },
         {
-            question: "What is the purpose of the `ioException()` method in Scanner?",
+            question: "39.What is the purpose of the `ioException()` method in Scanner?",
             code: "Select The Correct Answer",
             a: "Checks if an IOException occurred",
             b: "Throws an IOException",
@@ -353,7 +353,7 @@ const quizData =
             correct: "a",
         },
         {
-            question: "What is the output of the following Java program?",
+            question: "40.What is the output of the following Java program?",
             code: `import java.util.Scanner;
         
         public class ScannerExample {
@@ -372,7 +372,7 @@ const quizData =
             correct: "c",
         },
         {
-            question: "What is the output of the following Java program?",
+            question: "41.What is the output of the following Java program?",
             code: `import java.util.Scanner;
         
         public class ScannerExample {
@@ -399,7 +399,7 @@ const quizData =
             correct: "d",
         },
         {
-            question: "What is the output of the following Java program?",
+            question: "42.What is the output of the following Java program?",
             code: `import java.util.Scanner;
         
         public class ScannerExample {
@@ -418,7 +418,7 @@ const quizData =
             correct: "c",
         },
         {
-            question: "What is the output of the following Java program?",
+            question: "43.What is the output of the following Java program?",
             code: `import java.util.Scanner;
         
         public class ScannerExample {
@@ -437,7 +437,7 @@ const quizData =
             correct: "c",
         },
         {
-            question: "What is the output of the following Java program?",
+            question: "44.What is the output of the following Java program?",
             code: `import java.util.Scanner;
         
         public class ScannerExample {
@@ -458,7 +458,7 @@ const quizData =
             correct: "c",
         },
         {
-            question: "What is the output of the following Java program?",
+            question: "45.What is the output of the following Java program?",
             code: `import java.util.Scanner;
         
         public class ScannerExample {
@@ -477,7 +477,7 @@ const quizData =
             correct: "c",
         },
         {
-            question: "What is the output of the following Java program?",
+            question: "46.What is the output of the following Java program?",
             code: `import java.util.Scanner;
         
         public class ScannerExample {
@@ -496,7 +496,7 @@ const quizData =
             correct: "d",
         },
         {
-            question: "What is the output of the following Java program?",
+            question: "47.What is the output of the following Java program?",
             code: `import java.util.Scanner;
         
         public class ScannerExample {
@@ -517,7 +517,7 @@ const quizData =
             correct: "c",
         },
         {
-            question: "What is the output of the following Java program?",
+            question: "48.What is the output of the following Java program?",
             code: `import java.util.Scanner;
         
         public class ScannerExample {
@@ -536,7 +536,7 @@ const quizData =
             correct: "c",
         },
         {
-            question: "What is the output of the following Java program?",
+            question: "49.What is the output of the following Java program?",
             code: `import java.util.Scanner;
         
         public class ScannerExample {
@@ -555,7 +555,7 @@ const quizData =
             correct: "c",
         },
         {
-            question: "What is the output of the following Java program?",
+            question: "50.What is the output of the following Java program?",
             code: `import java.util.Scanner;
         
         public class ScannerExample {
@@ -574,7 +574,7 @@ const quizData =
             correct: "c",
         },
         {
-            question: "What is the output of the following Java program?",
+            question: "51.What is the output of the following Java program?",
             code: `import java.util.Scanner;
         
         public class ScannerExample {
@@ -593,7 +593,7 @@ const quizData =
             correct: "c",
         },
         {
-            question: "What is the output of the following Java program?",
+            question: "52.What is the output of the following Java program?",
             code: `import java.util.Scanner;
         
         public class ScannerExample {
@@ -612,7 +612,7 @@ const quizData =
             correct: "c",
         },
         {
-            question: "What is the output of the following Java program?",
+            question: "53.What is the output of the following Java program?",
             code: `import java.util.Scanner;
         
         public class ScannerExample {
@@ -633,7 +633,7 @@ const quizData =
             correct: "c",
         },
         {
-            question: "What is the output of the following Java program?",
+            question: "54.What is the output of the following Java program?",
             code: `import java.util.Scanner;
         
         public class ScannerExample {
@@ -652,7 +652,7 @@ const quizData =
             correct: "c",
         },
         {
-            question: "What is the output of the following Java program?",
+            question: "55.What is the output of the following Java program?",
             code: `import java.util.Scanner;
         
         public class ScannerExample {
@@ -673,7 +673,7 @@ const quizData =
             correct: "c",
         },
         {
-            question: "What is the output of the following Java program?",
+            question: "56.What is the output of the following Java program?",
             code: `import java.util.Scanner;
         
         public class ScannerExample {
@@ -692,7 +692,7 @@ const quizData =
             correct: "c",
         },
         {
-            question: "What is the output of the following Java program?",
+            question: "57.What is the output of the following Java program?",
             code: `import java.util.Scanner;
         
         public class ScannerExample {
@@ -711,7 +711,7 @@ const quizData =
             correct: "c",
         },
         {
-            question: "What is the output of the following Java program?",
+            question: "58.What is the output of the following Java program?",
             code: `import java.util.Scanner;
         
         public class ScannerExample {
@@ -738,7 +738,7 @@ const quizData =
             correct: "d",
         },
         {
-            question: "What is the output of the following Java program?",
+            question: "59.What is the output of the following Java program?",
             code: `import java.util.Scanner;
         
         public class ScannerExample {
@@ -759,7 +759,7 @@ const quizData =
             correct: "c",
         },
         {
-            question: "What is the output of the following Java program?",
+            question: "60.What is the output of the following Java program?",
             code: `import java.util.Scanner;
         
         public class ScannerExample {
@@ -778,7 +778,7 @@ const quizData =
             correct: "c",
         },
         {
-            question: "What is the output of the following Java program?",
+            question: "61.What is the output of the following Java program?",
             code: `import java.util.Scanner;
         
         public class ScannerExample {
@@ -799,7 +799,7 @@ const quizData =
             correct: "c",
         },
         {
-            question: "What is the output of the following Java program?",
+            question: "62.What is the output of the following Java program?",
             code: `import java.util.Scanner;
         
         public class ScannerExample {
@@ -818,7 +818,7 @@ const quizData =
             correct: "c",
         },
         {
-            question: "What is the output of the following Java program?",
+            question: "63.What is the output of the following Java program?",
             code: `import java.util.Scanner;
         
         public class ScannerExample {
@@ -837,7 +837,7 @@ const quizData =
             correct: "c",
         },
         {
-            question: "What is the output of the following Java program?",
+            question: "67.What is the output of the following Java program?",
             code: `import java.util.Scanner;
         
         public class ScannerExample {
@@ -856,7 +856,7 @@ const quizData =
             correct: "c",
         },
         {
-            question: "What is the output of the following Java program?",
+            question: "68.What is the output of the following Java program?",
             code: `import java.util.Scanner;
         
         public class ScannerExample {
@@ -875,7 +875,7 @@ const quizData =
             correct: "c",
         },
         {
-            question: "What is the output of the following Java program?",
+            question: "69.What is the output of the following Java program?",
             code: `import java.util.Scanner;
         
         public class ScannerExample {
@@ -894,7 +894,7 @@ const quizData =
             correct: "c",
         },
         {
-            question: "What is the output of the following Java program?",
+            question: "70.What is the output of the following Java program?",
             code: `import java.util.Scanner;
         
         public class ScannerExample {
@@ -913,7 +913,7 @@ const quizData =
             correct: "c",
         },
         {
-            question: "What is the output of the following Java program?",
+            question: "71.What is the output of the following Java program?",
             code: `import java.util.Scanner;
         
         public class ScannerExample {
@@ -934,7 +934,7 @@ const quizData =
             correct: "c",
         },
         {
-            question: "What is the output of the following Java program?",
+            question: "72.What is the output of the following Java program?",
             code: `import java.util.Scanner;
         
         public class ScannerExample {
@@ -953,7 +953,7 @@ const quizData =
             correct: "c",
         },
         {
-            question: "What is the output of the following Java program?",
+            question: "73.What is the output of the following Java program?",
             code: `import java.util.Scanner;
         
         public class ScannerExample {
@@ -972,7 +972,7 @@ const quizData =
             correct: "c",
         },
         {
-            question: "What is the output of the following Java program?",
+            question: "74.What is the output of the following Java program?",
             code: `import java.util.Scanner;
         
         public class ScannerExample {
@@ -991,7 +991,7 @@ const quizData =
             correct: "c",
         },
         {
-            question: "What is the output of the following Java program?",
+            question: "75.What is the output of the following Java program?",
             code: `import java.util.Scanner;
         
         public class ScannerExample {
@@ -1010,7 +1010,7 @@ const quizData =
             correct: "c",
         },
         {
-            question: "What is the output of the following Java program?",
+            question: "76.What is the output of the following Java program?",
             code: `import java.util.Scanner;
         
         public class ScannerExample {
@@ -1027,7 +1027,7 @@ const quizData =
             c: "O T T F",
             d: "One Two Three Four",
             correct: "c",
-        }
+        },
         
         
         

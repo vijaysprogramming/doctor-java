@@ -1,47 +1,74 @@
 const quizData = [
     
-    {
-        question: "1.What is the output for given code?",
-        code: `class A 
-    {
-        int i;
-    
-        public static void main(String[] args) 
         {
-            System.out.println(i);
+            "question": "1.Can we define an empty array?",
+            "code": "Select The Correct Answer",
+            "a": "Yes",
+            "b": "No",
+            "c": "None of the above",
+            "d": "Not applicable",
+            "correct": "a"
+        },
+        {
+            "question": "2.Array size must be declared in which data type?",
+            "code": "Select The Correct Answer",
+            "a": "Boolean",
+            "b": "Double",
+            "c": "None of the above",
+            "d": "Int",
+            "correct": "d"
+        },
+        {
+            "question": "3.Array index must be declared in which data type?",
+            "code": "Select The Correct Answer",
+            "a": "Boolean",
+            "b": "Double",
+            "c": "None of the above",
+            "d": "Int",
+            "correct": "d"
+        },
+        {
+            "question": "4.Arrays are which datatype in case of Java?",
+            "code": "Select The Correct Answer",
+            "a": "Derived datatype",
+            "b": "Primitive datatype",
+            "c": "None of the above",
+            "d": "Not applicable",
+            "correct": "a"
+        },
+        {
+            "question": "5.To read the elements of an ArrayList which method is used?",
+            "code": "Select The Correct Answer",
+            "a": "Set()",
+            "b": "Get()",
+            "c": "Size()",
+            "d": "Read()",
+            "correct": "b"
+        },
+        {
+            "question": "6.In Java, arrays are what?",
+            "code": "Select The Correct Answer",
+            "a": "Object",
+            "b": "Object references",
+            "c": "Primitive data type",
+            "d": "None of the above",
+            "correct": "a"
+        },
+        {
+            "question": "7.Which one is a valid statement?",
+            "code": "Select The Correct Answer",
+            "a": "char[] c = new char();",
+            "b": "char[] c = new char[5];",
+            "c": "char[] c = new char(4);",
+            "d": "char[] c = new char[];",
+            "correct": "b"
         }
-    }`,
-        a: "0",
-        b: "Compile time error",
-        c: "None of the above",
-        d: "Not applicable",
-        correct: "b",
-    },
-    {
-        "question":"2.What is the output for given code?",
-        "code": `public class Test {
-    public static void main(String[] args) {
-        int[] x = new int[3];
-        System.out.println("x[0] is " + x[0]);
-    }
-}`,
-        "a": "Compile time error",
-        "b": "Run time error",
-        "c": "x[0] is 0",
-        "d": "None of the above",
-        "correct": "c"
-    },
-    {
-        "question": "3.What is the output for given code?",
-        "code": `int[] arr = new int[5];
-arr = new int[6];`,
-        "a": "Compile time error",
-        "b": "Run time error",
-        "c": "No error",
-        "d": "None of the above",
-        "correct": "c"
-    }
+    
+    
 ];
+
+        
+
 
 const quiz = document.getElementById('quiz');
 const answerEls = document.querySelectorAll('.answer');

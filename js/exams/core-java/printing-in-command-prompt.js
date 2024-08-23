@@ -1,7 +1,7 @@
 const quizData = [
     
     {
-        question: "println method automatically goes to the next line after printing?",
+        question: "1-println method automatically goes to the next line after printing?",
         code: "Select The Correct Answer",
         a: " true",
         b: "false",
@@ -10,7 +10,7 @@ const quizData = [
         correct: "d"
     },
     {
-        question: "print method automatically goes to the next line after printing?",
+        question: "2-print method automatically goes to the next line after printing?",
         code: `Select The Correct Answer`,
         a: "true",
         b: "false",
@@ -20,7 +20,7 @@ const quizData = [
         correct: "a"
     },
     {
-        question: "which method goes to the next line after printing?",
+        question: "3-which method goes to the next line after printing?",
         code: `Select The Correct Answer`,
         a: "println",
         b: "print",
@@ -29,7 +29,7 @@ const quizData = [
         correct: "a"
     },
     {
-        question: "System.out.println(Hello) // how many lines of output?",
+        question: "4-System.out.println(Hello) // how many lines of output?",
         code: `Select The Correct Answer`,
         a: "1",
         b: "2",
@@ -39,7 +39,7 @@ const quizData = [
         correct: "a"
     },
     {
-        question: "System.out.print(Hello); // how many lines of output?",
+        question: "5-System.out.print(Hello); // how many lines of output?",
         code: `Select The Correct Answer`,
         a: "1",
         b: "2",
@@ -49,7 +49,7 @@ const quizData = [
         correct: "a"
     },
     {
-        question: "which is correct syntactically?",
+        question: "6-which is correct syntactically?",
         code: `Select The Correct Answer`,
         a: "System.out.println();",
         b: "System.out.print();",
