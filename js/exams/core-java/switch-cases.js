@@ -1,6 +1,6 @@
 const quizData = [
     {
-        question: "1.What will be the output of the following code if executed?",
+        question: "1. What will be the output of the following code if executed?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int day = 3;
@@ -29,7 +29,7 @@ const quizData = [
         correct: 'b',
     },
     {
-        question: "2.What will be the output of the above code if executed with grade as 'B'?",
+        question: "2. What will be the output of the above code if executed with grade as 'B'?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         char grade = 'B';
@@ -55,7 +55,7 @@ const quizData = [
         correct: 'b',
     },
     {
-        question: "3.What will be the output of the above code if executed with num as 4?",
+        question: "3. What will be the output of the above code if executed with num as 4?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int num = 5;
@@ -78,10 +78,11 @@ const quizData = [
         a: 'Odd',
         b: 'Even',
         c: 'Other',
+        d: "not applicable",
         correct: 'b',
     },
     {
-        question: "4.What will be the output of the above code if executed with month as 'March'?",
+        question: "4. What will be the output of the above code if executed with month as 'March'?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         String month = "January";
@@ -107,7 +108,7 @@ const quizData = [
         correct: 'c',
     },
     {
-        question:  "5.What is the output for given code?",
+        question:  "5. What is the output for given code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int x = 10;
@@ -128,7 +129,7 @@ const quizData = [
         correct: 'd',
     },
     {
-        question:  "6.What is the output for given code?",
+        question:  "6. What is the output for given code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int choice = 3;
@@ -157,7 +158,7 @@ const quizData = [
         correct: 'd',
     },
     {
-        question:  "7.What is the output for given code?",
+        question:  "7. What is the output for given code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int number = 10;
@@ -180,7 +181,7 @@ const quizData = [
         correct: 'b',
     },
     {
-        question:  "8.What is the output for given code?",
+        question:  "8. What is the output for given code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int choice = 2;
@@ -205,7 +206,7 @@ const quizData = [
         correct: 'd',
     },
     {
-        question:  "9.What is the output for given code?",
+        question:  "9. What is the output for given code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int num = 2;
@@ -224,10 +225,11 @@ const quizData = [
         a: 'Value is 1<br>',
         b: 'Value is 2<br>',
         c: 'Value is not recognized<br>',
+        d: "not applicable",
         correct: 'b',
     },
     {
-        question:  "10.What is the output for given code?",
+        question:  "10. What is the output for given code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int value = 7;
@@ -253,7 +255,7 @@ const quizData = [
         correct: 'b',
     },
     {
-    question:  "11.What is the output for given code?",
+    question:  "11. What is the output for given code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int day = 5;
@@ -282,7 +284,7 @@ const quizData = [
         correct: 'c',
     },
     {
-        question:  "12.What is the output for given code?",
+        question:  "12. What is the output for given code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         double number = 3.14;
@@ -305,7 +307,7 @@ const quizData = [
         correct: 'b',
     },
     {
-        question:  "13.What is the output for given code?",
+        question:  "13. What is the output for given code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         String fruit = "Apple";
@@ -328,7 +330,7 @@ const quizData = [
         correct: 'a',
     },
     {
-        question:  "14.What is the output for given code?",
+        question:  "14. What is the output for given code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int x = 10;
@@ -351,7 +353,7 @@ const quizData = [
         correct: 'c',
     },
     {
-        question:  "15.What is the output for given code?",
+        question:  "15. What is the output for given code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int num = 3;
@@ -376,7 +378,7 @@ const quizData = [
         correct: 'd',
     },
     {
-        question:  "16.What is the output for given code?",
+        question:  "16. What is the output for given code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         char grade = 'A';
@@ -399,7 +401,7 @@ const quizData = [
         correct: 'b',
     },
     {
-        question:  "17.What is the output for given code?",
+        question:  "17. What is the output for given code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int value = 4;
@@ -423,7 +425,7 @@ const quizData = [
         correct: 'd',
     },
     {
-        question:  "18.What is the output for given code?",
+        question:  "18 .What is the output for given code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int x = 10;
@@ -445,7 +447,7 @@ const quizData = [
         correct: 'c',
     },
     {
-        question:  "19.What is the output for given code?",
+        question:  "19. What is the output for given code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         String day = "Monday";
@@ -466,7 +468,7 @@ const quizData = [
         correct: 'a',
     },
     {
-        question:  "20.What is the output for given code?",
+        question:  "20. What is the output for given code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int x = 1;
@@ -488,7 +490,7 @@ const quizData = [
         correct: 'c',
     },
     {
-        question:  "21.What is the output for given code?",
+        question:  "21. What is the output for given code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int x = 1;
@@ -509,7 +511,7 @@ const quizData = [
         correct: 'c',
     },
     {
-        question:  "22.What is the output for given code?",
+        question:  "22. What is the output for given code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int num = 5;
@@ -532,7 +534,7 @@ const quizData = [
         correct: 'd',
     },
     {
-        question:  "23.What is the output for given code?",
+        question:  "23. What is the output for given code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int x = 5;
@@ -553,7 +555,7 @@ const quizData = [
         correct: 'c',
     },
     {
-        question:  "24.What is the output for given code?",
+        question:  "24. What is the output for given code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int num = 10;
@@ -577,7 +579,7 @@ const quizData = [
         correct: 'c',
     },
     {
-        question:  "25.What is the output for given code?",
+        question:  "25. What is the output for given code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int value = 4;
@@ -601,7 +603,7 @@ const quizData = [
         correct: 'd',
     },
     {
-        question:  "26.What is the output for given code?",
+        question:  "26. What is the output for given code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int num = 10;
@@ -626,7 +628,7 @@ const quizData = [
         correct: 'd',
     },
     {
-        question:  "27.What is the output for given code?",
+        question:  "27. What is the output for given code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         char grade = 'B';
@@ -649,7 +651,7 @@ const quizData = [
         correct: 'c',
     },
     {
-        question:  "28.What is the output for given code?",
+        question:  "28. What is the output for given code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int x = 3;
@@ -676,7 +678,7 @@ const quizData = [
         correct: 'd',
     },
     {
-        question:  "29.What is the output for given code?",
+        question:  "29. What is the output for given code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int num = 10;
@@ -697,7 +699,7 @@ const quizData = [
         correct: 'a',
     },
     {
-        question:  "30.What is the output for given code?",
+        question:  "30. What is the output for given code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int x = 10;
@@ -722,7 +724,7 @@ const quizData = [
         correct: 'd',
     },
     {
-        question:  "31.What is the output for given code?",
+        question:  "31. What is the output for given code?",
         code: `java
 public class SwitchExample {
     public static void main(String[] args) {
@@ -751,7 +753,7 @@ public class SwitchExample {
         correct: 'C',
     },
     {
-        question: "32.What will be the output of the following code if executed?",
+        question: "32. What will be the output of the following code if executed?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int i = 0;
@@ -778,7 +780,7 @@ public class SwitchExample {
         correct: 'd',
     },
     {
-        question: "33.What will be the output of the following code?",
+        question: "33. What will be the output of the following code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int num = 7;
@@ -805,7 +807,7 @@ public class SwitchExample {
         correct: 'b',
     },
     {
-        question: "34.What will be the output of the following code?",
+        question: "34. What will be the output of the following code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int x = 5;
@@ -829,7 +831,7 @@ public class SwitchExample {
         correct: 'a',
     },
     {
-        question: "36.What will be the output of the following code?",
+        question: "36. What will be the output of the following code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int num = 4;
@@ -853,7 +855,7 @@ public class SwitchExample {
         correct: 'b'
     },
     {
-        question: "37.What will be the output of the following code?",
+        question: "37. What will be the output of the following code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int x = 10;
@@ -876,7 +878,7 @@ public class SwitchExample {
         correct: 'c',
     },
     {
-        question: "38.What will be the output of the following code?",
+        question: "38. What will be the output of the following code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int x = 10;
@@ -898,7 +900,7 @@ public class SwitchExample {
         correct: 'a',
     },
     {
-        question: "39.What will be the output of the following code?",
+        question: "39. What will be the output of the following code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int num = 2;
@@ -921,7 +923,7 @@ public class SwitchExample {
         correct: 'b',
     },
     {
-        question: "40.What will be the output of the following code?",
+        question: "40. What will be the output of the following code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int x = 1;
@@ -942,7 +944,7 @@ public class SwitchExample {
         correct: 'd',
     },
     {
-        question: "41.What will be the output of the following code?",
+        question: "41. What will be the output of the following code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int num = 3;
@@ -963,7 +965,7 @@ public class SwitchExample {
         correct: 'c',
     },
     {
-        question: "42.What will be the output of the following code?",
+        question: "42. What will be the output of the following code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int num = 2;
@@ -989,7 +991,7 @@ public class SwitchExample {
         correct: 'b',
     },
     {
-        question: "43.What will be the output of the following code?",
+        question: "43. What will be the output of the following code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int x = 3;
@@ -1016,7 +1018,7 @@ public class SwitchExample {
         correct: 'd',
     },
     {
-        question: "44.What will be the output of the following code?",
+        question: "44. What will be the output of the following code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int value = 5;
@@ -1040,7 +1042,7 @@ public class SwitchExample {
         correct: 'c',
     }, 
     {
-        question: "45.What will be the output of the following code?",
+        question: "45. What will be the output of the following code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int num = 7;
@@ -1067,7 +1069,7 @@ public class SwitchExample {
         correct: 'b',
     },
     {
-        question: "46.What will be the output of the following code?",
+        question: "46. What will be the output of the following code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int x = 5;
@@ -1091,7 +1093,7 @@ public class SwitchExample {
         correct: 'a',
     },
     {
-        question: "47.What will be the output of the following code?",
+        question: "47. What will be the output of the following code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int num = 4;
@@ -1115,7 +1117,7 @@ public class SwitchExample {
         correct: 'b',
     },
     {
-        question: "48.What will be the output of the following code?",
+        question: "48. What will be the output of the following code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int x = 10;
@@ -1138,7 +1140,7 @@ public class SwitchExample {
         correct: 'c',
     },
     {
-        question: "49.What will be the output of the following code?",
+        question: "49. What will be the output of the following code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int x = 10;
@@ -1160,7 +1162,7 @@ public class SwitchExample {
         correct: 'a',
     },
     {
-        question: "50.What will be the output of the following code?",
+        question: "50. What will be the output of the following code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int num = 2;
@@ -1183,7 +1185,7 @@ public class SwitchExample {
         correct: 'b',
     },
     {
-        question: "51.What will be the output of the following code?",
+        question: "51. What will be the output of the following code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int x = 1;
@@ -1204,7 +1206,7 @@ public class SwitchExample {
         correct: 'd',
     },
     {
-        question: "52.What will be the output of the following code?",
+        question: "52. What will be the output of the following code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int num = 3;
@@ -1225,7 +1227,7 @@ public class SwitchExample {
         correct: 'c',
     },
     {
-        question: "53.What will be the output of the following code?",
+        question: "53. What will be the output of the following code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int num = 2;
@@ -1251,7 +1253,7 @@ public class SwitchExample {
         correct: 'b',
     },
     {
-        question: "54.What will be the output of the following code?",
+        question: "54. What will be the output of the following code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int x = 3;
@@ -1278,7 +1280,7 @@ public class SwitchExample {
         correct: 'd',
     },
     {
-        question: "55.What will be the output of the following code?",
+        question: "55. What will be the output of the following code?",
         code: `public class SwitchExample {
     public static void main(String[] args) {
         int value = 5;
@@ -1302,7 +1304,7 @@ public class SwitchExample {
         correct: 'c',
     },
     {
-        question: "56.What will be the output of the above code?",
+        question: "56. What will be the output of the above code?",
         code: `java
 public class SwitchExample {
     public static void main(String[] args) {
@@ -1326,7 +1328,7 @@ public class SwitchExample {
         correct: 'd',
     },
     {
-        question: "57.What will be the output of the above code?",
+        question: "57. What will be the output of the above code?",
         code: `java
 public class SwitchExample {
     public static void main(String[] args) {
@@ -1352,7 +1354,7 @@ public class SwitchExample {
         correct: 'c',
     },
     {
-        question: "58.What will be the output of the above code?",
+        question: "58. What will be the output of the above code?",
         code: `java
 public class SwitchExample {
     public static void main(String[] args) {
@@ -1377,7 +1379,7 @@ public class SwitchExample {
         correct: 'c',
     },
     {
-        question: "59.What will be the output of the above code?",
+        question: "59. What will be the output of the above code?",
         code: `java
 public class SwitchExample {
     public static void main(String[] args) {
@@ -1402,7 +1404,7 @@ public class SwitchExample {
         correct: 'c',
     },
     {
-        question: "60.What will be the output of the above code?",
+        question: "60. What will be the output of the above code?",
         code: `java
 public class SwitchExample {
     public static void main(String[] args) {
@@ -1429,7 +1431,7 @@ public class SwitchExample {
         correct: 'd',
     },
     {
-        question: "61.What will be the output of the above code?",
+        question: "61. What will be the output of the above code?",
         code: `java
 public class SwitchExample {
     public static void main(String[] args) {
@@ -1456,7 +1458,7 @@ public class SwitchExample {
         correct: 'c',
     },
     {
-        question: "62.What will be the output of the above code?",
+        question: "62. What will be the output of the above code?",
         code: `java
 public class SwitchExample {
     public static void main(String[] args) {
@@ -1480,7 +1482,7 @@ public class SwitchExample {
         correct: 'd',
     },
     {
-        question: "63.What will be the output of the above code?",
+        question: "63. What will be the output of the above code?",
         code: `java
 public class SwitchExample {
     public static void main(String[] args) {
@@ -1508,7 +1510,7 @@ public class SwitchExample {
         correct: 'c',
     },
     {
-        question: "64.What will be the output of the above code?",
+        question: "64. What will be the output of the above code?",
         code: `java
 public class SwitchExample {
     public static void main(String[] args) {
@@ -1535,7 +1537,7 @@ public class SwitchExample {
         correct: 'c',
     },
     {
-        question: "66.What will be the output of the following code?",
+        question: "66. What will be the output of the following code?",
          code : "java\nimport java.util.Scanner;\n\npublic class ScannerExample {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(\"Hello World 123 3.14 true\");\n        while(scanner.hasNext()) {\n            if(scanner.hasNextInt()) {\n                System.out.println(scanner.nextInt());\n            } else if(scanner.hasNextDouble()) {\n                System.out.println(scanner.nextDouble());\n            } else if(scanner.hasNextBoolean()) {\n                System.out.println(scanner.nextBoolean());\n            } else {\n                System.out.println(scanner.next());\n            }\n        }\n        scanner.close();\n    }\n}",
          a : "Compile-time error",
          b : "Runtime error",
@@ -1544,7 +1546,7 @@ public class SwitchExample {
          correct : "c",
     },
     {
-         question : "67.What will be the output of the following code?",
+         question : "67. What will be the output of the following code?",
          code : "java\nimport java.util.Scanner;\n\npublic class ScannerExample {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        System.out.print(\"Enter a number: \");\n        int num = scanner.nextInt();\n        System.out.println(\"You entered: \" + num);\n        scanner.close();\n    }\n}",
          a : "Compile-time error",
          b : "Runtime error",
@@ -1553,7 +1555,7 @@ public class SwitchExample {
          correct : "c",
     },
     {
-         question: "What will be the output of the following code?",
+         question: "68. What will be the output of the following code?",
          code : "java\nimport java.util.Scanner;\n\npublic class ScannerExample {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(\"123 456 789\");\n        int sum = 0;\n        while(scanner.hasNextInt()) {\n            sum += scanner.nextInt();\n        }\n        System.out.println(\"Sum: \" + sum);\n        scanner.close();\n    }\n}",
          a : "Compile-time error",
          b : "Runtime error",
@@ -1562,7 +1564,7 @@ public class SwitchExample {
          correct : "d",
     },
     {
-         question : "68.What will be the output of the following code?",
+         question : "69. What will be the output of the following code?",
          code : "java\nimport java.util.Scanner;\n\npublic class ScannerExample {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(\"Hello\\nWorld\\n123\");\n        while(scanner.hasNextLine()) {\n            System.out.println(scanner.nextLine());\n        }\n        scanner.close();\n    }\n}",
          a : "Compile-time error",
          b : "Runtime error",
@@ -1571,7 +1573,7 @@ public class SwitchExample {
          correct : "c",
     },
     {
-         question : "69.What will be the output of the following code?",
+         question : "70. What will be the output of the following code?",
          code : "java\nimport java.util.Scanner;\n\npublic class ScannerExample {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(\"3.14 2.71 1.61\");\n        double product = 1.0;\n        while(scanner.hasNextDouble()) {\n            product *= scanner.nextDouble();\n        }\n        System.out.println(\"Product: \" + product);\n        scanner.close();\n    }\n}",
          a : "Compile-time error",
          b : "Runtime error",
@@ -1580,7 +1582,7 @@ public class SwitchExample {
          correct : "c",
     },
     {
-         question : "70.What will be the output of the following code?",
+         question : "71. What will be the output of the following code?",
          code : "java\nimport java.util.Scanner;\n\npublic class ScannerExample {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        System.out.print(\"Enter a sentence: \");\n        String sentence = scanner.nextLine();\n        System.out.println(\"You entered: \" + sentence);\n        scanner.close();\n    }\n}",
          a : "Compile-time error",
          b : "Runtime error",
@@ -1589,7 +1591,7 @@ public class SwitchExample {
          correct : "c",
     },
     {
-         question : "71.What will be the output of the following code?",
+         question : "72. What will be the output of the following code?",
          code : "java\nimport java.util.Scanner;\n\npublic class ScannerExample {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(\"true false true\");\n        while(scanner.hasNextBoolean()) {\n            System.out.println(scanner.nextBoolean());\n        }\n        scanner.close();\n    }\n}",
          a : "Compile-time error",
          b : "Runtime error",
@@ -1598,7 +1600,7 @@ public class SwitchExample {
          correct : "c",
     },
     {
-         question : "72.What will be the output of the following code?",
+         question : "73. What will be the output of the following code?",
          code : "java\nimport java.util.Scanner;\n\npublic class ScannerExample {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(\"Java Programming\\nIs Fun\");\n        System.out.println(scanner.next());\n        System.out.println(scanner.nextLine());\n        scanner.close();\n    }\n}",
          a : "Compile-time error",
          b : "Runtime error",
@@ -1607,7 +1609,7 @@ public class SwitchExample {
          correct : "c",
     },
     {
-         question : "73.What will be the output of the following code?",
+         question : "74. What will be the output of the following code?",
          code : "java\nimport java.util.Scanner;\n\npublic class ScannerExample {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        System.out.print(\"Enter a word: \");\n        String word = scanner.next();\n        System.out.println(\"You entered: \" + word);\n        scanner.close();\n    }\n}",
          a : "Compile-time error",
          b : "Runtime error",
@@ -1616,7 +1618,7 @@ public class SwitchExample {
         correct : "c",
     },
     {
-         question : "74.What will be the output of the following code?",
+         question : "75. What will be the output of the following code?",
          code : "java\nimport java.util.Scanner;\n\npublic class ScannerExample {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(\"A quick brown fox jumps\");\n        while(scanner.hasNext()) {\n            System.out.print(scanner.next().toUpperCase() + \" \");\n        }\n        scanner.close();\n    }\n}",
          a : "Compile-time error",
          b : "Runtime error",

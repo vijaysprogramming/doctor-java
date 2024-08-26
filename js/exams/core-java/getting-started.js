@@ -21,16 +21,6 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "02.What will be the output of the following Java program?",
-        code: `class J
-{
-    public static void main(String[] args)
-    {
-        int x = 5;
-        int y = 10;
-        if(x + y > 15)
-        
-        {
             "question": "2.which command is used to read env variable in the command prompt?",
             "code": "Select The Correct Answer",
             "a": "echo",
@@ -235,7 +225,7 @@ const quizData = [
     "c": "None of the above",
     "d": "Not applicable",
     "correct": "b"
-}
+},
 
     
     

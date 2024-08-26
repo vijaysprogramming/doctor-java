@@ -62,7 +62,7 @@ const quizData = [
             "c": "char[] c = new char(4);",
             "d": "char[] c = new char[];",
             "correct": "b"
-        }
+        },
     
     
 ];

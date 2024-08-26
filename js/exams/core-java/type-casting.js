@@ -1,6 +1,6 @@
 const quizData = [
     {
-        question: "1- which data type is narrower among??",
+        question: "1. which data type is narrower among??",
         code: "select the correct option",
         a: "short",
         b: "float",
@@ -10,7 +10,7 @@ const quizData = [
     },
     
     {
-        question: "2- which data type is narrower among?",
+        question: "2. which data type is narrower among?",
         code: "select the correct option",
         a: "long",
         b: "float",
@@ -20,7 +20,7 @@ const quizData = [
     },
     
     {
-        question: "3- which one is automatic?",
+        question: "3. which one is automatic?",
         code: "select the correct option",
         a: "widening",
         b: "narrowing",
@@ -29,7 +29,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "4- short assigning to int is",
+        question: "4. short assigning to int is",
         code: "select the correct option",
         a: "widening",
         b: "narrowing",
@@ -38,7 +38,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "5- long assigning to double is?",
+        question: "5. long assigning to double is?",
         code: "select the correct option",
         a: "widening",
         b: "narrowing",
@@ -47,7 +47,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "6-what is the output",
+        question: "6. what is the output",
         code: `class A
 {
     public static void main(String[] args)
@@ -65,7 +65,7 @@ s = b;
         correct: "a",
     },
     {
-        question: "7.what is the output",
+        question: "7. what is the output",
         code: `class B
 {
     public static void main(String[] args)
@@ -83,7 +83,7 @@ s = (short) b;
         correct: "b",
     },
     {
-        question: "8.what is the output",
+        question: "8. what is the output",
         code: `class C
 {
     public static void main(String[] args)
@@ -113,7 +113,7 @@ d = s;
         correct: "b",
     },
 {
-    question: "9.what is the output",
+    question: "9. what is the output",
     code: `class D 
 {
 public static void main(String[] args) 
@@ -135,7 +135,7 @@ System.out.println("test");
     correct: "c",
 },
 {
-    question: "10.what is the output",
+    question: "10. what is the output",
     code: `class E
 class E 
 { 
@@ -245,7 +245,7 @@ public static void test(double i)
     correct: "a",
 },
 {
-    question: "19.what is the output",
+    question: "19. what is the output",
     code: `class I 
 {
     public static void main(String[] args) 
@@ -263,7 +263,7 @@ public static void test(double i)
     correct: "a",
 },
 {
-    question: "20.what is the output",
+    question: "20. what is the output",
     code: `class J 
 {
     public static void main(String[] args) 
@@ -279,7 +279,7 @@ public static void test(double i)
     "correct": "b"
 },
 {
-    question: "21.what is the output",
+    question: "21. what is the output",
     code: `class K 
 { 
     public static void main(String[] args) 
@@ -298,7 +298,7 @@ public static void test(double i)
     correct: "b",
 },
 {
-    question: "22.what is the output",
+    question: "22. what is the output",
     code: `class L
 {
     public static void main(String[] args) 
@@ -317,7 +317,7 @@ public static void test(double i)
     correct: "c",
 },
 {
-    question: "23.what is the output",
+    question: "23. what is the output",
     code: `class M 
 {
     public static void main(String[] args) 
@@ -334,7 +334,7 @@ public static void test(double i)
     correct: "a",
 },
 {
-    question: "24.what is the output",
+    question: "24. what is the output",
     code: `class N 
 {
     public static void main(String[] args) 
@@ -351,7 +351,7 @@ public static void test(double i)
     correct: "c",
 },
 {
-    question: "25.what is the output",
+    question: "25. what is the output",
     code: `class O 
 { 
     public static void main(String[] args) 
@@ -377,7 +377,7 @@ public static void test(double i)
     correct: "a",
 },
 {
-    question: "27.In case of derived data type, upcasting should be explicit.",
+    question: "27. In case of derived data type, upcasting should be explicit.",
     code: "Select the correct option",
     a: "yes",
     b: "no",
