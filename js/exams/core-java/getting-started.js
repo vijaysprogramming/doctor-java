@@ -160,6 +160,8 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "first javac and then java",
             "b": "first java and then javac",
+            "c": "compile",
+            "d": "txt",
             "correct": "a"
         },
         {
@@ -167,13 +169,17 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "d",
             "b": "cp",
-            "correct": "a"
+            "c": "compile",
+            "d": "txt",
+             "correct": "a"
         },
         {
             "question": "19.Which option of java command is used to specify class files location?",
             "code": "Select The Correct Answer",
             "a": "d",
             "b": "cp",
+            "c": "compile",
+            "d": "txt",
             "correct": "b"
         },
         {
@@ -182,6 +188,7 @@ const quizData = [
             "a": "version",
             "b": "java",
             "c": "JDK",
+            "d": "txt",
             "correct": "a"
         },
         {
@@ -190,6 +197,8 @@ const quizData = [
             "a": "all",
             "b": "help",
             "c": "total",
+            "c": "compile",
+            "d": "txt",
             "correct": "b"
         },
         {
@@ -198,6 +207,7 @@ const quizData = [
             "a": "cd",
             "b": "change",
             "c": "move",
+            "d": "txt",
             "correct": "a"
         },
         {
@@ -206,6 +216,7 @@ const quizData = [
             "a": "cd parent",
             "b": "cd ..",
             "c": "cd mv",
+            "d": "txt",
             "correct": "b"
         },
         {

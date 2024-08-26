@@ -514,7 +514,7 @@ const quizData = [
                         "code": "package com.lara;\n\npublic class M11 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        main(args);\n        System.out.println(\"main end\");\n    }\n}",
                         "a": "main begin\nmain end",
                         "b": "StackOverFlowError",
-                        "c": "OutOfMemoryError",
+                        "c": "OutOfMemoryError",    
                         "d": "NullPointerException",
                         "correct": "b"
                     },

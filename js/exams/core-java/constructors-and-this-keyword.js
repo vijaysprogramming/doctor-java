@@ -1,6 +1,6 @@
 const quizData = [
     {
-        question: "1.What is the output for given code?",
+        question: "1. What is the output for given code?",
         code: `class A 
 {
     A()
@@ -27,7 +27,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "2-What is the output for given code?",
+        question: "2. What is the output for given code?",
         code: `class B
 {
     int i;
@@ -58,7 +58,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "3-What is the output for given code?",
+        question: "3. What is the output for given code?",
         code: `class C
 {
     int i;
@@ -89,7 +89,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "4-What is the output for given code?",
+        question: "4.What is the output for given code?",
         code: `class D
 {
     int i;
@@ -120,7 +120,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "5-What is the output for given code?",
+        question: "5. What is the output for given code?",
         code: `class E 
 {
     static E()
@@ -140,7 +140,7 @@ const quizData = [
         correct: "c",
     },
     {
-        question: "6-What is the output for given code?",
+        question: "6. What is the output for given code?",
         code: `class F 
 {
     void F()
@@ -162,7 +162,7 @@ const quizData = [
         correct: "c",
     },
     {
-        question: "What is the output for given code?",
+        question: "7. What is the output for given code?",
         code: `class G 
 {
     public static void main(String[] args) 
@@ -182,7 +182,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "What is the output for given code?",
+        question: "8. What is the output for given code?",
         code: `class H 
     {
         public static void main(String[] args) 
@@ -199,7 +199,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "What is the output for given code?",
+        question: "9. What is the output for given code?",
         code: `class I
     {
         I(int i)
@@ -220,7 +220,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "What is the output for given code?",
+        question: "10. What is the output for given code?",
         code: `class J
     {
         J(int i) 
@@ -241,7 +241,7 @@ const quizData = [
         correct: "c",
     },
     {
-        question: "What is the output for given code?",
+        question: "11. What is the output for given code?",
         code: `class K
     {
         K()
@@ -262,7 +262,7 @@ const quizData = [
         correct: "c",
     },
     {
-        question: "What is the output for given code?",
+        question: "12. What is the output for given code?",
         code: `class L
     {
         int i;
@@ -291,7 +291,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "What is the output for given code?",
+        question: "13. What is the output for given code?",
         code: `package src;
     
     class M
@@ -322,7 +322,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "What is the output for given code?",
+        question: "14. What is the output for given code?",
         code: `package src;
     
     class N
@@ -353,7 +353,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "What is the output for given code?",
+        question: "15. What is the output for given code?",
         code: `package src;
     
     class O
@@ -384,7 +384,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "What is the output for given code?",
+        question: "16. What is the output for given code?",
         code: `package src;
     
     class Person 
@@ -413,7 +413,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: `It is not possible to develop multiple constructors in the same class`,
+        question: `17. It is not possible to develop multiple constructors in the same class`,
         code: "Select the correct answer",
         a: "True",
         b: "False",
@@ -422,7 +422,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: `While overloading a constructor, constructor arguments must be the same`,
+        question: `18. While overloading a constructor, constructor arguments must be the same`,
         code: "Select the correct answer",
         a: "True",
         b: "False",
@@ -431,7 +431,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question:  `We can create only one object by using one constructor`,
+        question:  `19. We can create only one object by using one constructor`,
         code: "Select the correct answer",
         a: "True",
         b: "False",
@@ -440,7 +440,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: `We can create only one object by using one constructor`,
+        question: `20. We can create only one object by using one constructor`,
         code: "Select the correct answer",
         a: "True",
         b: "False",
@@ -449,7 +449,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: `We can call one constructor from another constructor by using this calling statement`,
+        question: `21. We can call one constructor from another constructor by using this calling statement`,
         code: "Select the correct answer",
         a: "True",
         b: "False",
@@ -458,7 +458,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question : "we can use any constructor to create an object even the same constructor not available in the same class",
+        question : "22. we can use any constructor to create an object even the same constructor not available in the same class",
         code : "Select the correct answer",
          a : "Yes",
          b : "No",
@@ -467,7 +467,7 @@ const quizData = [
          correct : "b"
     },
     {
-         question : "default constructor from a compiler can be even with an arguments",
+         question : "23. default constructor from a compiler can be even with an arguments",
          code : "Select the correct answer",
          a : "Yes",
          b : "No",

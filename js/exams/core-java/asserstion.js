@@ -6,6 +6,8 @@ const quizData = [
         "code": "package pack1;\n\nclass A {\n    public static void main(String[] args) {\n        System.out.println(1);\n        assert false;\n        System.out.println(2);\n    }\n}",
         "a": "1<br>2<br>",
         "b": "1<br>",
+        "c": "none",
+        "d": "not applicable",
         "correct": "b"
     },
     {
@@ -14,6 +16,7 @@ const quizData = [
         "a": "1<br>2<br>",
         "b": "1<br>",
         "c": "Compile Time Error<br>",
+        "d": "not applicable",
         "correct": "a"
     },
     {
@@ -22,6 +25,7 @@ const quizData = [
         "a": "1<br>2<br>",
         "b": "1<br>",
         "c": "Compile Time Error<br>",
+        "d": "not applicable",
         "correct": "b"
     },
     {
@@ -30,6 +34,7 @@ const quizData = [
         "a": "1<br>2<br>",
         "b": "1<br>",
         "c": "Compile Time Error<br>",
+        "d": "not applicable",
         "correct": "a"
     },
     {
@@ -38,6 +43,7 @@ const quizData = [
         "a": "1<br>2<br>",
         "b": "1<br>",
         "c": "Compile Time Error<br>",
+        "d": "not applicable",
         "correct": "a"
     },
     {
@@ -46,6 +52,7 @@ const quizData = [
         "a": "1<br>2<br>",
         "b": "1<br>",
         "c": "Compile Time Error<br>",
+        "d": "not applicable",
         "correct": "a"
     },
     {
@@ -54,6 +61,7 @@ const quizData = [
         "a": "1<br>2<br>",
         "b": "1<br>",
         "c": "Compile Time Error<br>",
+        "d": "not applicable",
         "correct": "a"
     },
     {
@@ -62,6 +70,7 @@ const quizData = [
         "a": "1<br>2<br>",
         "b": "1<br>",
         "c": "Compile Time Error<br>",
+        "d": "not applicable",
         "correct": "c"
     },
     {
@@ -70,6 +79,7 @@ const quizData = [
         "a": "1<br>2<br>",
         "b": "1<br>",
         "c": "Compile Time Error<br>",
+        "d": "not applicable",
         "correct": "b"
     },
     {
@@ -78,6 +88,7 @@ const quizData = [
         "a": "1<br>2<br>",
         "b": "1<br>",
         "c": "Compile Time Error<br>",
+        "d": "not applicable",
         "correct": "a"
     },
     {
@@ -85,6 +96,8 @@ const quizData = [
         "code": "package pack1;\n\npublic class K {\n    public static void main(String[] args) {\n        int assert = 10;     //jdk 1.3\n        System.out.println(assert);\n    }\n}",
         "a": "10<br>",
         "b": "Compile Time Error<br>",
+        "c": "1<br>",
+        "d": "not applicable",
         "correct": "b"
     },
     {
@@ -93,6 +106,7 @@ const quizData = [
         "a": "1<br>2<br>3<br>pack2.pack22.O.test4 begin<br>pack2.pack22.O.test4 end<br>4<br>pack2.N.test3 begin<br>pack2.N.test3 end<br>5<br>",
         "b": "Compile Time Error<br>",
         "c": "1<br>2<br>pack1.pack11.M.test2 begin<br>pack1.pack11.M.test2 end<br>3<br>pack2.pack22.O.test4 begin<br>pack2.pack22.O.test4 end<br>4<br>pack2.N.test3 begin<br>pack2.N.test3 end<br>5<br>",
+        "d": "not applicable",
         "correct": "a"
     },
     {
@@ -101,6 +115,7 @@ const quizData = [
         "a": "1<br>2<br>pack1.pack11.M.test2 begin<br>pack1.pack11.M.test2 end<br>3<br>4<br>5<br>",
         "b": "Compile Time Error<br>",
         "c": "1<br>2<br>pack1.pack11.M.test2 begin<br>pack1.pack11.M.test2 end<br>3<br>pack2.pack22.O.test4 begin<br>pack2.pack22.O.test4 end<br>4<br>pack2.N.test3 begin<br>pack2.N.test3 end<br>5<br>",
+        "d": "not applicable",
         "correct": "a"
     },
     {
@@ -109,6 +124,7 @@ const quizData = [
         "a": "1<br>2<br>pack1.pack11.M.test2 begin<br>pack1.pack11.M.test2 end<br>3<br>4<br>5<br>",
         "b": "Compile Time Error<br>",
         "c": "1<br>2<br>pack1.pack11.M.test2 begin<br>pack1.pack11.M.test2 end<br>3<br>pack2.pack22.O.test4 begin<br>pack2.pack22.O.test4 end<br>4<br>pack2.N.test3 begin<br>pack2.N.test3 end<br>5<br>",
+        "d": "not applicable",
         "correct": "a"
     },
     {
@@ -228,7 +244,7 @@ const quizData = [
             "c": "Compile Time Error<br>",
             "d": "1<br>AssertionError<br>",
             "correct": "c"
-        }
+        },
     
     
 
