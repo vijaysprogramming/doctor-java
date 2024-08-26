@@ -2,7 +2,7 @@ const quizData = [
     
     
         {
-            "question": 1,
+            "question": "1. What will be the output of the program?",
             "code": `public class M1 {
         public static void main(String[] args) {
             int i = 10 / 0;
@@ -24,7 +24,7 @@ const quizData = [
             "correct": "d"
         },
         {
-            "question": 2,
+            "question": "2. What will be the output of the program?",
             "code": `public class M2 {
         public static void main(String[] args) {
             try {
@@ -41,7 +41,7 @@ const quizData = [
             "correct": "b"
         },
         {
-            "question": 3,
+            "question": "3. What will be the output of the program?",
             "code": `import java.io.FileReader;
     import java.io.IOException;
     public class M4 {
@@ -56,11 +56,10 @@ const quizData = [
             "b": "ClassNotFoundException",
             "c": "ClassCastException",
             "d": "NullPointerException",
-            "e": "None of the above",
             "correct": "e"
         },
         {
-            "question": 4,
+            "question": "4. What will be the output of the program?",
             "code": `import java.sql.DriverManager;
     import java.sql.SQLException;
     public class M5 {
@@ -75,11 +74,10 @@ const quizData = [
             "b": "ClassNotFoundException",
             "c": "ClassCastException",
             "d": "No output",
-            "e": "None of the above",
             "correct": "e"
         },
         {
-            "question": 5,
+            "question": "5. What will be the output of the program?",
             "code": `public class M6 {
         public static void main(String[] args) {
             try {
@@ -92,11 +90,10 @@ const quizData = [
             "b": "ClassNotFoundException",
             "c": "ClassCastException",
             "d": "No output",
-            "e": "None of the above",
             "correct": "e"
         },
         {
-            "question": 6,
+            "question": "6. What will be the output of the program?",
             "code": `import java.text.ParseException;
     import java.text.SimpleDateFormat;
     public class M7 {
@@ -112,11 +109,10 @@ const quizData = [
             "b": "ClassNotFoundException",
             "c": "NullPointerException",
             "d": "ClassCastException",
-            "e": "None of the above",
             "correct": "c"
         },
         {
-            "question": 7,
+            "question": "7. What will be the output of the program?",
             "code": `package com.lara2;
     public class M1 {
         public static void main(String[] args) {
@@ -132,10 +128,11 @@ const quizData = [
             "a": "main begin<br>-------<br>---------<br>main end",
             "b": "NullPointerException",
             "c": "Compile Time Error",
+            "d": "No output",
             "correct": "a"
         },
         {
-            "question": 8,
+            "question": "8. What will be the output of the program?",
             "code": `package com.lara2;
     public class M2 {
         public static void main(String[] args) {
@@ -150,11 +147,10 @@ const quizData = [
             "b": "NullPointerException",
             "c": "ArrayIndexOutOfBoundsException",
             "d": "StackOverFlowError",
-            "e": "None of the above",
             "correct": "e"
         },
         {
-            "question": 9,
+            "question": "9. What will be the output of the program?",
             "code": `package com.lara2;
     public class M3 {
         public static void main(String[] args) {
@@ -170,11 +166,14 @@ const quizData = [
         }
     }`,
             "a": "yes",
-            "b": "no",
+            "b": "no","d": "No output",
+            "c": "None of the above",
+            "d": "No output",
+            
             "correct": "a"
         },
         {
-            "question": 10,
+            "question": "10. What will be the output of the program?",
             "code": `package com.lara2;
     public class M4 {
         public static void main(String[] args) {
@@ -192,10 +191,12 @@ const quizData = [
             "a": "OutOfMemoryError",
             "b": "main begin<br>1<br>3<br>main end",
             "c": "ArrayIndexOutOfBoundsException",
+            "d": "No output",
+            
             "correct": "b"
         },
         {
-            "question": 11,
+            "question": "11. What will be the output of the program?",
             "code": `package com.lara1;
     public class M1 {
         int test1() {
@@ -234,10 +235,12 @@ const quizData = [
     }`,
             "a": "yes",
             "b": "no",
+            "c": "No output",
+            "d": "None of the above",
             "correct": "a"
         },
         {
-            "question": 12,
+            "question": "12. What will be the output of the program?",
             "code": `package com.lara1;
     public class M2 {
         int test1() {
@@ -260,10 +263,12 @@ const quizData = [
     }`,
             "a": "no",
             "b": "yes",
+            "c": "No output",
+            "d": "None of the above",
             "correct": "b"
         },
         {
-            "question": 13,
+            "question": "13. What will be the output of the program?",
             "code": `package com.lara1;
     public class M3 {
         int test1() {
@@ -324,10 +329,12 @@ const quizData = [
     }`,
             "a": "yes",
             "b": "no",
+            "c": "No output",
+            "d": "None of the above",
             "correct": "a",
         },
         {
-            "question": 14,
+            "question": "14. What will be the output of the program?",
             "code": `package com.lara1;
     public class M4 {
         int test1() {
@@ -370,7 +377,7 @@ const quizData = [
             "correct": "a"
         },
         {
-            "question": 15,
+            "question": "15. What will be the output of the program?",
             "code": `class H {
         void test1() throws NullPointerException {
         }
@@ -386,7 +393,7 @@ const quizData = [
             "correct": "b"
         },
         {
-            "question": 16,
+            "question": "16. What will be the output of the program?",
             "code": `public class AgeIsNegativeException extends ArithmeticException {
         public AgeIsNegativeException() {
         }
@@ -401,7 +408,7 @@ const quizData = [
             "correct": "a"
         },
         {
-            "question": 17,
+            "question": "17. What will be the output of the program?",
             "code": `public class B {
         public static void main(String[] args) {
             System.out.println(1);
@@ -418,7 +425,7 @@ const quizData = [
             "correct": "b"
         },
         {
-            "question": 18,
+            "question": "18. What will be the output of the program?",
             "code": `public class C {
         public static void main(String[] args) {
             System.out.println(1);
@@ -435,7 +442,7 @@ const quizData = [
             "correct": "b"
         },
         {
-            "question": 19,
+            "question": "19. What will be the output of the program?",
             "code": `import java.util.Scanner;
     public class D {
         public static void main(String[] args) {
@@ -456,7 +463,7 @@ const quizData = [
             "correct": "b"
         },
         {
-            "question": 20,
+            "question": "20. What will be the output of the program?",
             "code": `import java.util.Scanner;
     public class E {
         public static void main(String[] args) {
@@ -485,7 +492,7 @@ const quizData = [
         },
         
             {
-                "question": 21,
+                "question": "21. What will be the output of the program?",
                 "code": `public class F {
             public static void main(String[] args) {
                 System.out.println(1);
@@ -508,7 +515,7 @@ const quizData = [
                 "correct": "a"
             },
             {
-                "question": 22,
+                "question": "22. What will be the output of the program?",
                 "code": `public class G {
             public static void main(String[] args) {
                 System.out.println(1);
@@ -530,8 +537,8 @@ const quizData = [
                 "correct": "b"
             },
             {
-                "question": 23,
-                "code": `class H {
+                "question": "23. What will be the output of the program?",
+               "code": `class H {
             void test() throws RuntimeException {
             }
         }
@@ -546,8 +553,8 @@ const quizData = [
                 "correct": "b"
             },
             {
-                "question": 24,
-                "code": `class H {
+                "question": "24. What will be the output of the program?",
+               "code": `class H {
             void test() {
             }
         }
@@ -562,8 +569,8 @@ const quizData = [
                 "correct": "b"
             },
             {
-                "question": 25,
-                "code": `class H {
+                "question": "25. What will be the output of the program?",
+                "code": `c'lass H {
             void test() throws Throwable {
             }
         }
@@ -578,7 +585,7 @@ const quizData = [
                 "correct": "b"
             },
             {
-                "question": 26,
+                "question": "26. What will be the output of the program?",
                 "code": `class H {
             void test() throws RuntimeException {
             }
@@ -594,7 +601,7 @@ const quizData = [
                 "correct": "a"
             },
             {
-                "question": 27,
+                "question": "27. What will be the output of the program?",
                 "code": `public class M1 {
             public static void main(String[] args) throws ClassNotFoundException {
                 Class.forName("");
@@ -607,8 +614,8 @@ const quizData = [
                 "correct": "a"
             },
             {
-                "question": 28,
-                "code": `public class M2 {
+                "question": "28. What will be the output of the program?",
+                         "code": `public class M2 {
             public static void main(String[] args) {
                 try {
                     test();
@@ -626,7 +633,7 @@ const quizData = [
                 "correct": "a"
             },
             {
-                "question": 29,
+                "question": "29. What will be the output of the program?",
                 "code": `public class M3 {
             public static void main(String[] args) throws ClassNotFoundException {
                 test();
@@ -642,7 +649,7 @@ const quizData = [
                 "correct": "a"
             },
             {
-                "question": 30,
+                "question": "30. What will be the output of the program?",
                 "code": `public class M4 {
             public static void main(String[] args) throws ClassNotFoundException {
                 test1();
@@ -663,7 +670,7 @@ const quizData = [
             
                     {
                 
-                        "question": "21",
+                        "question": "21. What will be the output of the program?",
                         "code": "public class F {\n    public static void main(String[] args) {\n        System.out.println(1);\n        try {\n            System.out.println(2);\n            if (true) {\n                throw new ArithmeticException();\n            }\n            System.out.println(3);\n        } catch (ArithmeticException ex) {\n            System.out.println(4);\n        }\n        System.out.println(5);\n    }\n}",
                         "a": "yes<br>",
                         "b": "no<br>",
@@ -672,7 +679,7 @@ const quizData = [
                         "correct": "a"
                     },
                     {
-                        "question": "22",
+                        "question": "22. What will be the output of the program?",
                         "code": "public class G {\n    public static void main(String[] args) {\n        System.out.println(1);\n        try {\n            System.out.println(2);\n            int i = 10 / 0;\n            System.out.println(3);\n        } catch (ArithmeticException ex) {\n            System.out.println(4);\n            throw new ArithmeticException(ex.getMessage());\n        }\n        System.out.println(5);\n    }\n}",
                         "a": "1<br>2<br>4<br>ArithmeticException: / by zero<br>",
                         "b": "1<br>2<br>4<br>Exception in thread \"main\" java.lang.ArithmeticException: / by zero<br>at com.lara5.G.main(G.java:15)<br>",
@@ -681,7 +688,7 @@ const quizData = [
                         "correct": "b"
                     },
                     {
-                        "question": "23",
+                        "question": "23. What will be the output of the program?",
                         "code": "class H {\n    void test() throws RuntimeException {\n    }\n}\n\nclass I extends H {\n    void test() throws Exception {\n    }\n}",
                         "a": "yes<br>",
                         "b": "no<br>",
@@ -690,7 +697,7 @@ const quizData = [
                         "correct": "b"
                     },
                     {
-                        "question": "24",
+                        "question": "24. What will be the output of the program?",
                         "code": "class H {\n    void test() {\n    }\n}\n\nclass I extends H {\n    void test() throws IOException {\n    }\n}",
                         "a": "yes<br>",
                         "b": "no<br>",
@@ -699,7 +706,7 @@ const quizData = [
                         "correct": "b"
                     },
                     {
-                        "question": "25",
+                        "question": "25. What will be the output of the program?",
                         "code": "class H {\n    void test() throws Throwable {\n    }\n}\n\nclass I extends H {\n    void test() throws Exception {\n    }\n}",
                         "a": "yes<br>",
                         "b": "no<br>",
@@ -708,7 +715,7 @@ const quizData = [
                         "correct": "b"
                     },
                     {
-                        "question": "26",
+                        "question": "26. What will be the output of the program?",
                         "code": "class H {\n    void test() throws RuntimeException {\n    }\n}\n\nclass I extends H {\n    void test() throws NullPointerException {\n    }\n}",
                         "a": "yes<br>",
                         "b": "no<br>",
@@ -717,7 +724,7 @@ const quizData = [
                         "correct": "a"
                     },
                     {
-                        "question": "27",
+                        "question": "27. What will be the output of the program?",
                         "code": "public class M1 {\n    public static void main(String[] args) throws ClassNotFoundException {\n        Class.forName(\"\");\n    }\n}",
                         "a": "yes<br>",
                         "b": "no<br>",
@@ -726,7 +733,7 @@ const quizData = [
                         "correct": "a"
                     },
                     {
-                        "question": "28",
+                        "question": "28. What will be the output of the program?",
                         "code": "public class M2 {\n    public static void main(String[] args) {\n        try {\n            test();\n        } catch (ClassNotFoundException ex) {\n        }\n    }\n    static void test() throws ClassNotFoundException {\n        Class.forName(\"\");\n    }\n}",
                         "a": "yes<br>",
                         "b": "no<br>",
@@ -735,7 +742,7 @@ const quizData = [
                         "correct": "a"
                     },
                     {
-                        "question": "29",
+                        "question": "29. What will be the output of the program?",
                         "code": "public class M3 {\n    public static void main(String[] args) throws ClassNotFoundException {\n        test();\n    }\n    static void test() throws ClassNotFoundException {\n        Class.forName(\"\");\n    }\n}",
                         "a": "yes<br>",
                         "b": "no<br>",
@@ -744,7 +751,7 @@ const quizData = [
                         "correct": "a"
                     },
                     {
-                        "question": "30",
+                        "question": "30. What will be the output of the program?",
                         "code": "public class M4 {\n    public static void main(String[] args) throws ClassNotFoundException {\n        test1();\n    }\n    static void test1() throws ClassNotFoundException {\n        test2();\n    }\n    static void test2() throws ClassNotFoundException {\n        Class.forName(\"\");\n    }\n}",
                         "a": "yes<br>",
                         "b": "no<br>",
@@ -755,7 +762,7 @@ const quizData = [
                     {
     
         
-            "question": "31",
+            "question": "31. What will be the output of the program?",
             "code": "public class M5 {\n    public static void main(String[] args) {\n        test1();\n    }\n    static void test1() {\n        test2();\n    }\n    static void test2() {\n        int i = 10 / 0;\n    }\n}",
             "a": "yes<br>",
             "b": "no<br>",
@@ -764,7 +771,7 @@ const quizData = [
             "correct": "b"
         },
         {
-            "question": "32",
+            "question": "32. What will be the output of the program?",
             "code": "public class M6 {\n    public static void main(String[] args) throws ArithmeticException {\n        test1();\n    }\n    static void test1() throws ArithmeticException {\n        test2();\n    }\n    static void test2() throws ArithmeticException {\n        int i = 10 / 0;\n    }\n}",
             "a": "yes<br>",
             "b": "no<br>",
@@ -773,7 +780,7 @@ const quizData = [
             "correct": "b"
         },
         {
-            "question": "33",
+            "question": "33. What will be the output of the program?",
             "code": "import java.sql.DriverManager;\n\npublic class M7 {\n    public static void main(String[] args) throws Exception {\n        test1();\n    }\n    static void test1() throws Exception {\n        test2();\n    }\n    static void test2() throws Exception {\n        Class.forName(\"\");\n        DriverManager.getConnection(\"\");\n        Thread.sleep(230);\n    }\n}",
             "a": "yes<br>",
             "b": "no<br>",
@@ -782,7 +789,7 @@ const quizData = [
             "correct": "b"
         },
         {
-            "question": "34",
+            "question": "34. What will be the output of the program?",
             "code": "import java.sql.DriverManager;\nimport java.sql.SQLException;\n\npublic class M8 {\n    public static void main(String[] args) {\n        test1();\n    }\n    static void test1() {\n        test2();\n    }\n    static void test2() {\n        try {\n            Class.forName(\"\");\n            DriverManager.getConnection(\"\");\n            Thread.sleep(230);\n        } catch (SQLException ex) {\n        } catch (ClassNotFoundException ex) {\n        } catch (InterruptedException ex) {\n        }\n    }\n}",
             "a": "yes<br>",
             "b": "no<br>",
@@ -791,7 +798,7 @@ const quizData = [
             "correct": "a"
         },
         {
-            "question": "35",
+            "question": "35. What will be the output of the program?",
             "code": "import java.sql.DriverManager;\nimport java.sql.SQLException;\n\npublic class M9 {\n    public static void main(String[] args) {\n        test1();\n    }\n    static void test1() {\n        test2();\n    }\n    static void test2() {\n        try {\n            Class.forName(\"\");\n            DriverManager.getConnection(\"\");\n            Thread.sleep(230);\n        } catch (Exception ex) {\n        }\n    }\n}",
             "a": "yes<br>",
             "b": "no<br>",
@@ -800,7 +807,7 @@ const quizData = [
             "correct": "a"
         },
         {
-            "question": "36",
+            "question": "36. What will be the output of the program?",
             "code": "import java.sql.DriverManager;\nimport java.sql.SQLException;\n\npublic class M10 {\n    public static void main(String[] args) {\n        test1();\n    }\n    static void test1() {\n        try {\n            test2();\n        } catch (ClassNotFoundException ex) {\n        } catch (SQLException ex) {\n        } catch (InterruptedException ex) {\n        }\n    }\n    static void test2() throws ClassNotFoundException, SQLException, InterruptedException {\n        Class.forName(\"\");\n        DriverManager.getConnection(\"\");\n        Thread.sleep(230);\n    }\n}",
             "a": "yes<br>",
             "b": "no<br>",
@@ -809,7 +816,7 @@ const quizData = [
             "correct": "a"
         },
         {
-            "question": "37",
+            "question": "37. What will be the output of the program?",
             "code": "import java.sql.DriverManager;\nimport java.sql.SQLException;\n\npublic class M11 {\n    public static void main(String[] args) {\n        test1();\n    }\n    static void test1() {\n        try {\n            test2();\n        } catch (Exception ex) {\n        }\n    }\n    static void test2() throws ClassNotFoundException, SQLException, InterruptedException {\n        Class.forName(\"\");\n        DriverManager.getConnection(\"\");\n        Thread.sleep(230);\n    }\n}",
             "a": "yes<br>",
             "b": "no<br>",
@@ -818,7 +825,7 @@ const quizData = [
             "correct": "a"
         },
         {
-            "question": "38",
+            "question": "38. What will be the output of the program?",
             "code": "import java.sql.DriverManager;\nimport java.sql.SQLException;\n\npublic class M12 {\n    public static void main(String[] args) throws ClassNotFoundException, SQLException, InterruptedException {\n        test1();\n    }\n    static void test1() throws ClassNotFoundException, SQLException, InterruptedException {\n        test1();\n    }\n    static void test2() throws ClassNotFoundException, SQLException, InterruptedException {\n        Class.forName(\"\");\n        DriverManager.getConnection(\"\");\n        Thread.sleep(230);\n    }\n}",
             "a": "yes<br>",
             "b": "no<br>",
@@ -827,7 +834,7 @@ const quizData = [
             "correct": "b"
         },
         {
-            "question": "39",
+            "question": "39. What will be the output of the program?",
             "code": "public class M13 {\n    public static void main(String[] args) {\n        try {\n            System.out.println(\"done\");\n            int i = 10;\n            i++;\n            i += 2000;\n        } catch (ArithmeticException ex) {\n        }\n    }\n}",
             "a": "yes<br>",
             "b": "no<br>",
@@ -836,7 +843,7 @@ const quizData = [
             "correct": "a"
         },
         {
-            "question": "40",
+            "question": "40. What will be the output of the program?",
             "code": "public class M14 {\n    public static void main(String[] args) {\n        try {\n            System.out.println(\"done\");\n            int i = 10;\n            i++;\n            i += 2000;\n        } catch (ClassNotFoundException ex) {\n        }\n    }\n}",
             "a": "yes<br>",
             "b": "no<br>",
@@ -845,7 +852,7 @@ const quizData = [
             "correct": "a"
         },
         {
-            "question": "41",
+            "question": "41. What will be the output of the program?",
             "code": "package com.lara;\nimport java.util.Scanner;\n\npublic class M26 {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.println(\"enter some thing\");\n        String s1 = sc.next();\n        try {\n            System.out.println(1);\n            int i = Integer.parseInt(s1);\n            System.out.println(2);\n            int k = i / (i - 9);\n            System.out.println(3);\n        } catch (ArithmeticException ex) {\n            System.out.println(4);\n        } catch (NumberFormatException ex) {\n            System.out.println(5);\n        }\n        System.out.println(6);\n    }\n}",
             "a": "1<br>NumberFormatException<br>",
             "b": "1<br>2<br>3<br>5<br>",
@@ -856,7 +863,7 @@ const quizData = [
         {
             
             
-                    "question": "42",
+                    "question": "42. What will be the output of the program?",
                     "code": "package com.lara;\n\nimport java.util.Scanner;\n\npublic class M27 {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.println(\"enter some thing\");\n        String s1 = sc.next();\n        try {\n            System.out.println(1);\n            int i = Integer.parseInt(s1);\n            System.out.println(2);\n            int k = i / (i - 9);\n            System.out.println(3);\n        } catch (ArithmeticException ex) {\n            System.out.println(4);\n        }\n        System.out.println(6);\n    }\n}",
                     "a": "1<br>NumberFormatException<br>",
                     "b": "1<br>AithmeticException<br>",
@@ -865,7 +872,7 @@ const quizData = [
                     "correct": "b"
                 },
                 {
-                    "question": "43",
+                    "question": "43. What will be the output of the program?",
                     "code": "package com.lara;\n\nimport java.util.Scanner;\n\npublic class M28 {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.println(\"enter some thing\");\n        String s1 = sc.next();\n        try {\n            System.out.println(1);\n            int i = Integer.parseInt(s1);\n            System.out.println(2);\n            int k = i / (i - 9);  ////risky 2\n            System.out.println(3);\n            int[] elements = new int[10];\n            int m = elements[i];\n            System.out.println(4);\n        } catch (ArithmeticException ex) {\n            System.out.println(5);\n        } catch (NumberFormatException ex1) {\n            System.out.println(6);\n        } catch (ArrayIndexOutOfBoundsException ex1) {\n            System.out.println(7);\n        }\n        System.out.println(8);\n    }\n}",
                     "a": "1<br>6<br>8<br>",
                     "b": "1<br>2<br>3<br>7<br>8<br>",
@@ -874,7 +881,7 @@ const quizData = [
                     "correct": "a"
                 },
                 {
-                    "question": "44",
+                    "question": "44. What will be the output of the program?",
                     "code": "package com.lara;\n\npublic class M29 {\n    public static void main(String[] args) {\n        try {\n        } catch (NumberFormatException ex) {\n        }\n        try {\n        } catch (NumberFormatException ex) {\n        }\n    }\n}",
                     "a": "NumberFormatException<br>",
                     "b": "NullPointerException<br>",
@@ -883,7 +890,7 @@ const quizData = [
                     "correct": "d"
                 },
                 {
-                    "question": "45",
+                    "question": "45. What will be the output of the program?",
                     "code": "package com.lara;\n\npublic class M30 {\n    public static void main(String[] args) {\n        try {\n        } catch (ArrayIndexOutOfBoundsException ex) {\n        } catch (NullPointerException ex) {\n        }\n    }\n}",
                     "a": "ArrayIndexOutOfBoundsException<br>",
                     "b": "NullPointerException<br>",
@@ -892,7 +899,7 @@ const quizData = [
                     "correct": "d"
                 },
                 {
-                    "question": "46",
+                    "question": "46. What will be the output of the program?",
                     "code": "package com.lara;\n\nimport java.util.Scanner;\n\npublic class M31 {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.println(\"enter some thing\");\n        String s1 = sc.next();\n        try {\n            System.out.println(1);\n            int i = Integer.parseInt(s1);\n            System.out.println(2);\n            int k = i / (i - 9);\n            System.out.println(3);\n        } catch (NumberFormatException ex) {\n            System.out.println(4);\n        } finally {\n            System.out.println(5);\n        }\n        System.out.println(6);\n    }\n}",
                     "a": "1<br>2<br>3<br>5<br>6<br>",
                     "b": "1<br>4<br>5<br>6<br>",
@@ -901,7 +908,7 @@ const quizData = [
                     "correct": "a"
                 },
                 {
-                    "question": "47",
+                    "question": "47. What will be the output of the program?",
                     "code": "package com.lara;\n\npublic class M32 {\n    public static void main(String[] args) {\n        System.out.println(1);\n        int i = 10 / 0;\n        try {\n            System.out.println(2);\n        } catch (ArithmeticException ex) {\n            System.out.println(3);\n        } finally {\n            System.out.println(4);\n        }\n    }\n}",
                     "a": "1<br>4<br>",
                     "b": "1<br>AithmeticException<br>",
@@ -910,7 +917,7 @@ const quizData = [
                     "correct": "c"
                 },
                 {
-                    "question": "48",
+                    "question": "48. What will be the output of the program?",
                     "code": "package com.lara;\n\npublic class M33 {\n    public static void main(String[] args) {\n        System.out.println(1);\n        try {\n            System.out.println(2);\n            return;\n        } catch (ArithmeticException ex) {\n            System.out.println(3);\n        } finally {\n            System.out.println(4);\n        }\n        System.out.println(5);\n    }\n}",
                     "a": "1<br>2<br>",
                     "b": "1<br>2<br>5<br>",
@@ -919,7 +926,7 @@ const quizData = [
                     "correct": "d"
                 },
                 {
-                    "question": "49",
+                    "question": "49. What will be the output of the program?",
                     "code": "package com.lara;\n\npublic class M34 {\n    public static void main(String[] args) {\n        System.out.println(1);\n        try {\n            System.out.println(2);\n            int i = 10 / 0;\n        } catch (ArithmeticException ex) {\n            System.out.println(3);\n            return;\n        } finally {\n            System.out.println(4);\n        }\n        System.out.println(5);\n    }\n}",
                     "a": "1<br>2<br>3<br>4<br>",
                     "b": "1<br>2<br>3<br>",
@@ -928,7 +935,7 @@ const quizData = [
                     "correct": "b"
                 },
                 {
-                    "question": "50",
+                    "question": "50. What will be the output of the program?",
                     "code": "package com.lara;\n\npublic class M35 {\n    public static void main(String[] args) {\n        System.out.println(1);\n        if (true) {\n            return;\n        }\n        try {\n            System.out.println(2);\n        } catch (ArithmeticException ex) {\n            System.out.println(3);\n        } finally {\n            System.out.println(4);\n        }\n        System.out.println(5);\n    }\n}",
                     "a": "1<br>4<br>",
                     "b": "1<br>2<br>4<br>5<br>",
@@ -938,7 +945,7 @@ const quizData = [
                 },
                 
                         {
-                            "question": "51",
+                            "question": "51. What will be the output of the program?",
                             "code": "package com.lara;\n\npublic class M36 {\n    public static void main(String[] args) {\n        System.out.println(1);\n        try {\n            System.out.println(2);\n            System.exit(0);\n        } catch (ArithmeticException ex) {\n            System.out.println(3);\n        } finally {\n            System.out.println(4);\n        }\n        System.out.println(5);\n    }\n}",
                             "a": "Compile Time Error<br>",
                             "b": "1<br>2<br>",
@@ -947,7 +954,7 @@ const quizData = [
                             "correct": "c"
                         },
                         {
-                            "question": "52",
+                            "question": "52. What will be the output of the program?",
                             "code": "package com.lara;\n\npublic class M37 {\n    public static void main(String[] args) {\n        System.out.println(1);\n        try {\n            System.out.println(1);\n            int i = 10 / 0;\n        } catch (ArithmeticException ex) {\n            System.out.println(3);\n            System.exit(0);\n        } finally {\n            System.out.println(4);\n        }\n        System.out.println(5);\n    }\n}",
                             "a": "1<br>1<br>3<br>",
                             "b": "1<br>1<br>3<br>4<br>",
@@ -956,7 +963,7 @@ const quizData = [
                             "correct": "a"
                         },
                         {
-                            "question": "53",
+                            "question": "53. What will be the output of the program?",
                             "code": "package com.lara;\n\npublic class M1 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        int i = 10 / 0;\n        System.out.println(\"main end\");\n    }\n}",
                             "a": "main begin<br>main end<br>",
                             "b": "Compile Time Error<br>",
@@ -965,7 +972,7 @@ const quizData = [
                             "correct": "c"
                         },
                         {
-                            "question": "54",
+                            "question": "54. What will be the output of the program?",
                             "code": "package com.lara;\n\npublic class M1 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        int i = 10 / 0;\n        System.out.println(\"main end\");\n    }\n}",
                             "a": "main begin<br>main end<br>",
                             "b": "Compile Time Error<br>",
@@ -974,27 +981,27 @@ const quizData = [
                             "correct": "c"
                         },
                         {
-                            "question": "55",
+                            "question": "55. What will be the output of the program?",
                             "code": "package com.lara;\n\npublic class M2 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        int i = Integer.parseInt(\"90R\");\n        System.out.println(\"main end\");\n    }\n}",
                             "a": "main begin<br>main end<br>",
                             "b": "NumberFormatException<br>",
                             "c": "ArithmeticException<br>",
                             "d": "Compile Time Error<br>",
-                            "e": "None<br>",
+                            
                             "correct": "b"
                         },
                         {
-                            "question": "56",
+                            "question": "56. What will be the output of the program?",
                             "code": "package com.lara;\n\npublic class M3 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        String s1 = null;\n        int i = s1.length();\n        System.out.println(\"main end\");\n    }\n}",
                             "a": "main begin<br>main end<br>",
                             "b": "NumberFormatException<br>",
                             "c": "Compile Time Error<br>",
                             "d": "NullPointerException<br>",
-                            "e": "None<br>",
+                           
                             "correct": "d"
                         },
                         {
-                            "question": "57",
+                            "question": "57. What will be the output of the program?",
                             "code": "package com.lara;\n\npublic class M4 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        int[] elements = new int[5];\n        int i = elements[10];\n        System.out.println(\"main end\");\n    }\n}",
                             "a": "main begin<br>main end<br>",
                             "b": "NumberFormatException<br>",
@@ -1004,33 +1011,33 @@ const quizData = [
                             "correct": "e"
                         },
                         {
-                            "question": "58",
+                            "question": "58. What will be the output of the program?",
                             "code": "package com.lara;\n\npublic class M5 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        Object obj = new Object();\n        String s1 = (String) obj;\n        System.out.println(\"main end\");\n    }\n}",
                             "a": "main begin<br>main end<br>",
                             "b": "NumberFormatException<br>",
                             "c": "ClassCastException<br>",
                             "d": "NullPointerException<br>",
-                            "e": "None<br>",
+                            
                             "correct": "c"
                         },
                         {
-                            "question": "59",
+                            "question": "59. What will be the output of the program?",
                             "code": "package com.lara;\n\npublic class M6 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        Object obj = \"abc\";\n        String s1 = (String) obj;\n        System.out.println(\"main end\");\n    }\n}",
                             "a": "main begin<br>main end<br>",
                             "b": "NumberFormatException<br>",
                             "c": "ClassCastException<br>",
                             "d": "NullPointerException<br>",
-                            "e": "None<br>",
+                            
                             "correct": "e"
                         },
                         {
-                            "question": "60",
+                            "question": "60. What will be the output of the program?",
                             "code": "package com.lara;\n\npublic class M7 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        Object obj = new Integer(\"90\");\n        String s1 = (String) obj;\n        System.out.println(\"main end\");\n    }\n}",
                             "a": "main begin<br>main end<br>",
                             "b": "NumberFormatException<br>",
                             "c": "ClassCastException<br>",
                             "d": "NullPointerException<br>",
-                            "e": "None<br>",
+                            
                             "correct": "c"
                         },
                         
@@ -1202,6 +1209,8 @@ const quizData = [
                                 "a": "Compilation Error",
                                 "b": "compiles and runs fine",
                                 "c": "Compiles fine but throws ArithmeticException",
+                                "d": "No output",
+            
                                 "correct": "c"
                             },
                             {

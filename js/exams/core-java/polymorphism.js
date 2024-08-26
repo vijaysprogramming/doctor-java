@@ -5,6 +5,8 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "Yes",
             "b": "No",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "a"
         },
         {
@@ -12,6 +14,8 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "Yes",
             "b": "No",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "b"
         },
         {
@@ -19,6 +23,8 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "Yes",
             "b": "No",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "a"
         },
         {
@@ -26,6 +32,8 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "Yes",
             "b": "No",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "b"
         },
         {
@@ -33,6 +41,8 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "Yes",
             "b": "No",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "b"
         },
         {
@@ -40,6 +50,8 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "Yes",
             "b": "No",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "a"
         },
         {
@@ -47,6 +59,8 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "Yes",
             "b": "No",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "a"
         },
         {
@@ -54,6 +68,8 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "Yes",
             "b": "No",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "a"
         },
         {
@@ -61,6 +77,8 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "Yes",
             "b": "No",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "b"
         },
         {
@@ -68,6 +86,8 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "Yes",
             "b": "No",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "b"
         },
         {
@@ -75,6 +95,8 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "Yes",
             "b": "No",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "b"
         },
         {
@@ -82,6 +104,8 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "Yes",
             "b": "No",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "a"
         },
         {
@@ -89,6 +113,8 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "Yes",
             "b": "No",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "b"
         },
         {
@@ -103,6 +129,8 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "Yes",
             "b": "No",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "a"
         },
         {
@@ -110,6 +138,8 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "Yes",
             "b": "No",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "a"
         },
         {
@@ -117,6 +147,8 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "Yes",
             "b": "No",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "a"
         },
         {
@@ -124,6 +156,8 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "Yes",
             "b": "No",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "a"
         },
         {
@@ -131,6 +165,8 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "Yes",
             "b": "No",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "a"
         },
         {
@@ -138,6 +174,8 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "Yes",
             "b": "No",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "b"
         },
         {
@@ -145,6 +183,8 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "Yes",
             "b": "No",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "b"
         },
         {
@@ -152,6 +192,8 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "Yes",
             "b": "No",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "a"
         },
         {
@@ -159,6 +201,8 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "Void only",
             "b": "Any return type",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "a"
         },
         {
@@ -166,6 +210,8 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "Byte or int",
             "b": "Int only",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "b"
         },
         {
@@ -173,6 +219,8 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "A",
             "b": "B",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "b"
         },
         {
@@ -180,6 +228,8 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "A",
             "b": "B",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "a"
         },
         {
@@ -188,6 +238,7 @@ const quizData = [
             "a": "Private",
             "b": "Protected",
             "c": "Public",
+            "d": "none",
             "correct": "c"
         },
         {
@@ -196,6 +247,8 @@ const quizData = [
             "a": "Private",
             "b": "Protected",
             "c": "Public",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "c"
         },
         {
@@ -203,6 +256,8 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "Yes",
             "b": "No",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "b"
         },
         {
@@ -210,6 +265,8 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "Super",
             "b": "Extends",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "a"
         },
         {
@@ -217,6 +274,8 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "Yes",
             "b": "No",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "a"
         },
         {
@@ -224,6 +283,8 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "Yes",
             "b": "No",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "b"
         },
         {
@@ -231,6 +292,8 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "Yes",
             "b": "No",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "a"
         },
         {
@@ -238,6 +301,8 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "Yes",
             "b": "No",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "b"
         },
         {
@@ -254,6 +319,8 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "Yes",
             "b": "No",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "a"
         },
         {
@@ -261,6 +328,8 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "Yes",
             "b": "No",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "b"
         },
         {
@@ -268,15 +337,18 @@ const quizData = [
             "code": "Select The Correct Answer",
             "a": "Yes",
             "b": "No",
+            "c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "b"
         },
         {
             "question": "39.The subclass doesn't need to be loaded while accessing a superclass static member with a subclass name.",
             "code": "Select The Correct Answer",
             "a": "Yes",
-            "b": "No",
+            "b": "No","c": "Constructor overriding",
+            "d": "Method overriding",
             "correct": "a"
-        }
+        },
     
     
 ];
