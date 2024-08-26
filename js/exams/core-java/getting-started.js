@@ -1,15 +1,26 @@
 const quizData = [
-    
+
+    {
+        question: "01.What will be the output of the following Java program?",
+        code: `class I
+{
+    public static void main(String[] args)
+    {
+        boolean flag = !(!(!false != !true)); 
+        if(flag)
         {
-            "question": "1.which command is used to set env variable in the command prompt?",
-            "code": "Select The Correct Answer",
-            "a": "echo",
-            "b": "path",
-            "c": "classpath",
-            "d": "set",
-            "correct": "d"
-        },
-        {
+            System.out.println("from if");
+        }
+        System.out.println("end of main");
+    }
+}`,
+        a: "from if<br>end of main",
+        b: "end of main",
+        c: "Compilation error",
+        d: "Runtime error",
+        correct: "b",
+    },
+    {
             "question": "2.which command is used to read env variable in the command prompt?",
             "code": "Select The Correct Answer",
             "a": "echo",
@@ -225,7 +236,7 @@ const quizData = [
     "c": "None of the above",
     "d": "Not applicable",
     "correct": "b"
-}
+},
 
     
     

@@ -58,11 +58,6 @@ const quizData = [
 
         correct: "a"
     }
-    
-    
-    
-   
-
 ];
 
 const quiz = document.getElementById('quiz');
@@ -95,8 +90,10 @@ b_text.innerHTML = currentQuizData.b;
 c_text.innerHTML = currentQuizData.c;
 d_text.innerHTML = currentQuizData.d;
 
-hljs.highlightAll(); // Apply syntax highlighting
+hljs.highlightAll(); 
 }
+
+
 
 function deselectAnswers() {
 answerEls.forEach(answerEl => answerEl.checked = false);
