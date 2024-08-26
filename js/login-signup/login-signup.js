@@ -1,3 +1,17 @@
+//nav-menu begin
+// Hamburger Menu Toggle
+const hamburger = document.querySelector(".hamburger");
+const navLinks = document.querySelector(".nav-links");
+
+hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+});
+
+// Existing JS code...
+
+//nav-menu end
+
+// login-sign-up begin
 const loginForm = document.querySelector("form.login");
 const signupForm = document.querySelector("form.signup");
 const loginBtn = document.querySelector("label.login");
@@ -20,3 +34,4 @@ signupLink.addEventListener("click", () => {
     signupBtn.click();
     return false;
 })
+// login-sign-up end
