@@ -1,6 +1,6 @@
 const quizData = [
     {
-        question: "01.What is machine-level language also known as?",
+        question: "01. What is machine-level language also known as?",
         code: `select the correct option`,
    
         a: "Binary code",
@@ -10,7 +10,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "02.What consists of instructions directly executed by a computer's hardware?",
+        question: "02. What consists of instructions directly executed by a computer's hardware?",
         code: `select the correct option`,
         a: "Machine code",
         b: "Assembly code",
@@ -19,7 +19,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "03.What is an advantage of machine-level programming language?",
+        question: "03. What is an advantage of machine-level programming language?",
         code: `select the correct option`,
         a: " Portability",
         b: "Direct control over hardware",
@@ -28,7 +28,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "04.What is a disadvantage of machine-level programming language?",
+        question: "04. What is a disadvantage of machine-level programming language?",
         code: `select the correct option`,
         a: "Easy for humans to read and write",
         b: "Tied to specific hardware architecture",
@@ -37,7 +37,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "05.What is one step above machine code in programming languages?",
+        question: "05. What is one step above machine code in programming languages?",
         code: `select the correct option`,
         a: " Machine-level language",
         b: "Assembly language",
@@ -46,7 +46,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "06.What do low-level programming languages use to represent operations and memory addresses?",
+        question: "06. What do low-level programming languages use to represent operations and memory addresses?",
         code: `select the correct option`,
         a: " Binary digits",
         b: " Mnemonics and symbols",
@@ -55,7 +55,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "07.Which type of programming language provides a balance between low-level and high-level languages?",
+        question: "07. Which type of programming language provides a balance between low-level and high-level languages?",
         code: `select the correct option`,
         a: " Machine-level language",
         b: "Low-level language",
@@ -64,7 +64,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: " 08.In which language are instructions represented using mnemonics like MOV for move and ADD for addition?",
+        question: " 08. In which language are instructions represented using mnemonics like MOV for move and ADD for addition?",
         code: `select the correct option`,
         a: " java",
         b: "python",
@@ -73,7 +73,7 @@ const quizData = [
         correct: "c",
     },
     {
-        question: "09.What type of programming languages provide powerful constructs for solving complex problems?",
+        question: "09. What type of programming languages provide powerful constructs for solving complex problems?",
         code: `select the correct option`,
         a: " Machine-level language",
         b: "Low-level language",
@@ -82,7 +82,7 @@ const quizData = [
         correct: "c",
     },
     {
-        question: "10.What is an advantage of high-level programming languages?",
+        question: "10. What is an advantage of high-level programming languages?",
         code: `select the correct option`,
         a: " Direct control over hardware",
         b: "Portability across platforms",
@@ -91,7 +91,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "11.Which language introduced structured programming concepts like loops and blocks?",
+        question: "11. Which language introduced structured programming concepts like loops and blocks?",
         code: `select the correct option`,
         a: "Fortran",
         b: "COBOL",
@@ -100,7 +100,7 @@ const quizData = [
         correct: "c",
     },
     {
-        question: "12.Which programming language is known for its readability and English like syntax?",
+        question: "12. Which programming language is known for its readability and English like syntax?",
         code: `select the correct option`,
         a: "Fortran",
         b: "COBOL",
@@ -109,7 +109,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "13.Who were the creators of the Java programming language?",
+        question: "13. Who were the creators of the Java programming language?",
         code: `select the correct option`,
         a: "Bill Gates and Paul Allen",
         b: "Steve Jobs and Steve Wozniak",
@@ -118,7 +118,7 @@ const quizData = [
         correct: "c",
     },
     {
-        question: "14.When was Java officially announced to the public?",
+        question: "14. When was Java officially announced to the public?",
         code: `select the correct option`,
         a: " 1985",
         b: "1995",
@@ -127,7 +127,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "15.What was the original name of the language before it was renamed to Java?",
+        question: "15. What was the original name of the language before it was renamed to Java?",
         code: `select the correct option`,
         a: "Oak",
         b: "Pine",
@@ -136,7 +136,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "16.What is the slogan that highlights Java's platform independence?",
+        question: "16. What is the slogan that highlights Java's platform independence?",
         code: `select the correct option`,
         a: " Write Once, Run Anywhere (WORA)",
         b: "Code Once, Execute Anywhere (COEA)",
@@ -145,7 +145,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "17.What component is required to execute Java bytecode on a specific platform?",
+        question: "17. What component is required to execute Java bytecode on a specific platform?",
         code: `select the correct option`,
         a: " Java Compiler",
         b: "Java Development Kit (JDK)",
@@ -154,7 +154,7 @@ const quizData = [
         correct: "c",
     },
     {
-        question: "18.What feature of Java allows it to be platform independent?",
+        question: "18. What feature of Java allows it to be platform independent?",
         code: `select the correct option`,
         a: "  Just In Time (JIT) Compilation",
         b: "Write Once, Run Anywhere (WORA)",
@@ -163,7 +163,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "19.Which company acquired Sun Microsystems, taking over the development of Java?",
+        question: "19. Which company acquired Sun Microsystems, taking over the development of Java?",
         code: `select the correct option`,
         a: " IBM",
         b: "Microsoft",
@@ -172,7 +172,7 @@ const quizData = [
         correct: "c",
     },
     {
-        question: "20.What consists of sequences of binary digits (0s and 1s) that directly control the computer's hardware?",
+        question: "20. What consists of sequences of binary digits (0s and 1s) that directly control the computer's hardware?",
         code: `select the correct option`,
         a: " Assembly language",
         b: "High-level language",
@@ -181,7 +181,7 @@ const quizData = [
         correct: "c",
     },
     {
-        question: "21.Which programming language is one step above machine code?",
+        question: "21. Which programming language is one step above machine code?",
         code: `select the correct option`,
         a: " High-level language",
         b: "Assembly language",
@@ -190,7 +190,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "22.What is a major disadvantage of machine-level programming language?",
+        question: "22. What is a major disadvantage of machine-level programming language?",
         code: `select the correct option`,
         a: " Direct control over hardware",
         b: "Easy readability",
@@ -199,7 +199,7 @@ const quizData = [
         correct: "c",
     },
     {
-        question: "23.Which programming language provides more human-readable representation of computer instructions using mnemonics and symbols?",
+        question: "23. Which programming language provides more human-readable representation of computer instructions using mnemonics and symbols?",
         code: `select the correct option`,
         a: " Machine code",
         b: "Assembly language",
@@ -208,7 +208,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: " 24.Which type of programming language is closer to hardware compared to high-level languages?",
+        question: " 24. Which type of programming language is closer to hardware compared to high-level languages?",
         code: `select the correct option`,
         a: " High-level language",
         b: "Machine code",
@@ -217,7 +217,7 @@ const quizData = [
         correct: "c",
     },
     {
-        question: "25.What do low-level programming languages like assembly use to represent operations and memory addresses?",
+        question: "25. What do low-level programming languages like assembly use to represent operations and memory addresses?",
         code: `select the correct option`,
         a: " Binary digits",
         b: "Mnemonics and symbols",
@@ -226,7 +226,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "26.Which type of language offers higher-level abstractions while still allowing direct access to system resources?",
+        question: "26. Which type of language offers higher-level abstractions while still allowing direct access to system resources?",
         code: `select the correct option`,
         a: " High-level language",
         b: "Machine code",
@@ -235,7 +235,7 @@ const quizData = [
         correct: "c",
     },
     {
-        question: "27.Which language is known for its use of mnemonics like MOV for move and ADD for addition?",
+        question: "27. Which language is known for its use of mnemonics like MOV for move and ADD for addition?",
         code: `select the correct option`,
         a: " Java",
         b: "Python",
@@ -244,7 +244,7 @@ const quizData = [
         correct: "c",
     },
     {
-        question: "28.Which type of programming languages are designed to be more abstract and user-friendly?",
+        question: "28. Which type of programming languages are designed to be more abstract and user-friendly?",
         code: `select the correct option`,
         a: " High-level language",
         b: "Low-level language",
@@ -253,7 +253,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "29.What is a key advantage of high-level programming languages?",
+        question: "29. What is a key advantage of high-level programming languages?",
         code: `select the correct option`,
         a: "Direct control over hardware",
         b: "Portability across platforms",
@@ -262,7 +262,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "30.Which language introduced structured programming concepts like loops and blocks?",
+        question: "30. Which language introduced structured programming concepts like loops and blocks?",
         code: `select the correct option`,
         a: " Fortran",
         b: " COBOL",
@@ -271,7 +271,7 @@ const quizData = [
         correct: "c",
     },
     {
-        question: "31.What is one of the characteristics of COBOL programming language?",
+        question: "31. What is one of the characteristics of COBOL programming language?",
         code: `select the correct option`,
         a: " Readability and English-like syntax",
         b: "Designed for artificial intelligence research",
@@ -280,7 +280,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "32.What was the original purpose of the 'Green Project' initiated by Sun Microsystems?",
+        question: "32.bWhat was the original purpose of the 'Green Project' initiated by Sun Microsystems?",
         code: `select the correct option`,
         a: " To develop a programming language for interactive television",
         b: "To create a new operating system",
@@ -289,7 +289,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "33.Which type of language offers higher-level abstractions while still allowing direct access to system resources?",
+        question: "33. Which type of language offers higher-level abstractions while still allowing direct access to system resources?",
         code: `select the correct option`,
         a: "High-level language",
         b: "Machine code",
