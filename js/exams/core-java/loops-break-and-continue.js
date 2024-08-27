@@ -1827,7 +1827,7 @@ const quizData = [
                                 "correct": "c"
                             },
                             {
-                                "question": "168. What does the following code print?",
+                                "question": "204. What does the following code print?",
                                 "code": "class P {\n    public static void main(String[] args) {\n        for (int i = 1; i <= 4; i++) {\n            for (int j = 4; j >= i; j--) {\n                System.out.print(j + \" \");\n            }\n            System.out.println();\n        }\n    }\n}",
                                 "a": "4 3 2 1\n4 3 2\n4 3\n4",
                                 "b": "1 2 3 4\n1 2 3\n1 2\n1",
@@ -1836,7 +1836,7 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
-                                "question": "169. What is the purpose of the outer loop in the code provided?",
+                                "question": "205. What is the purpose of the outer loop in the code provided?",
                                 "code": "class P {\n    public static void main(String[] args) {\n        for (int i = 1; i <= 4; i++) {\n            for (int j = 4; j >= i; j--) {\n                System.out.print(j + \" \");\n            }\n            System.out.println();\n        }\n    }\n}",
                                 "a": "To generate the row values for a triangular pattern.",
                                 "b": "To increment the value of `j` for each iteration.",
