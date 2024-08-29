@@ -1845,7 +1845,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "206. What will be the output of the following code?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        for (int i = 1; i <= 3; i++) {\n            for (int j = 1; j <= 3; j++) {\n                if (i + j == 4) {\n                    System.out.print(\"* \");\n                }\n            }\n        }\n    }\n}",
                                 "a": "* * * *",
                                 "b": "* * *",
@@ -1854,7 +1856,9 @@ const quizData = [
                                 "correct": "b"
                             },
                             {
+
                                 "question": "207. What will be the output of the following code?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int x = 10;\n        int y = 15;\n        \n        for (int i = 0; i < 3; i++) {\n            if (x < y) {\n                System.out.print(++x + \" \");\n            } else {\n                System.out.print(--y + \" \");\n            }\n        }\n    }\n}",
                                 "a": "11 12 13",
                                 "b": "14 13 12",
@@ -1863,7 +1867,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "208. What is the purpose of the `++x` and `--y` statements in the code provided?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int x = 10;\n        int y = 15;\n        \n        for (int i = 0; i < 3; i++) {\n            if (x < y) {\n                System.out.print(++x + \" \");\n            } else {\n                System.out.print(--y + \" \");\n            }\n        }\n    }\n}",
                                 "a": "To increment `x` and `y` by 1 before using them.",
                                 "b": "To increment `x` by 1 and decrement `y` by 1 before using them.",
@@ -1872,7 +1878,9 @@ const quizData = [
                                 "correct": "b"
                             },
                             {
+
                                 "question": "209. In the code provided, how many times will the loop iterate?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int x = 10;\n        int y = 15;\n        \n        for (int i = 0; i < 3; i++) {\n            if (x < y) {\n                System.out.print(++x + \" \");\n            } else {\n                System.out.print(--y + \" \");\n            }\n        }\n    }\n}",
                                 "a": "2 times",
                                 "b": "3 times",
@@ -1881,7 +1889,9 @@ const quizData = [
                                 "correct": "b"
                             },
                             {
+
                                 "question": "210. What does the following code print?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int num = 5;\n        \n        for (int i = 0; i < 3; i++) {\n            if (i % 2 == 0) {\n                num++;\n            } else {\n                num--;\n            }\n        }\n        \n        System.out.println(num);\n    }\n}",
                                 "a": "4",
                                 "b": "5",
@@ -1890,7 +1900,9 @@ const quizData = [
                                 "correct": "d"
                             },
                             {
+
                                 "question": "211. What is the purpose of the `i % 2 == 0` condition in the code provided?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int num = 5;\n        \n        for (int i = 0; i < 3; i++) {\n            if (i % 2 == 0) {\n                num++;\n            } else {\n                num--;\n            }\n        }\n        \n        System.out.println(num);\n    }\n}",
                                 "a": "To check if `i` is an even number.",
                                 "b": "To check if `i` is an odd number.",
@@ -1899,7 +1911,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "212. In the code provided, how many times will the `if` block be executed?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int num = 5;\n        \n        for (int i = 0; i < 3; i++) {\n            if (i % 2 == 0) {\n                num++;\n            } else {\n                num--;\n            }\n        }\n        \n        System.out.println(num);\n    }\n}",
                                 "a": "1 time",
                                 "b": "2 times",
@@ -1908,7 +1922,9 @@ const quizData = [
                                 "correct": "b"
                             },
                             {
+
                                 "question": "213. What does the following code print?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int a = 5;\n        int b = 3;\n        \n        for (int i = 0; i < 4; i++) {\n            if (a > b) {\n                System.out.print(a++ + \" \");\n            } else {\n                System.out.print(b-- + \" \");\n            }\n        }\n    }\n}",
                                 "a": "5 4 3 2",
                                 "b": "6 5 4 3",
@@ -1917,7 +1933,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "214. What is the purpose of the `a > b` condition in the code provided?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int a = 5;\n        int b = 3;\n        \n        for (int i = 0; i < 4; i++) {\n            if (a > b) {\n                System.out.print(a++ + \" \");\n            } else {\n                System.out.print(b-- + \" \");\n            }\n        }\n    }\n}",
                                 "a": "To check if `a` is greater than `b`.",
                                 "b": "To check if `b` is greater than `a`.",
@@ -1926,7 +1944,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "215. In the code provided, how many times will the loop iterate?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int a = 5;\n        int b = 3;\n        \n        for (int i = 0; i < 4; i++) {\n            if (a > b) {\n                System.out.print(a++ + \" \");\n            } else {\n                System.out.print(b-- + \" \");\n            }\n        }\n    }\n}",
                                 "a": "1 time",
                                 "b": "2 times",
@@ -1935,7 +1955,9 @@ const quizData = [
                                 "correct": "d"
                             },
                             {
+
                                 "question": "216. What does the following code print?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int x = 2;\n        int y = 6;\n        \n        for (int i = 0; i < 4; i++) {\n            if (x < y) {\n                x *= 2;\n            } else {\n                y /= 2;\n            }\n        }\n        \n        System.out.println(x + \" \" + y);\n    }\n}",
                                 "a": "16 6",
                                 "b": "2 3",
@@ -1944,7 +1966,9 @@ const quizData = [
                                 "correct": "c"
                             },
                             {
+
                                 "question": "217. What will be the output of the following code?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int i = 0;\n        for (; i < 5; i++) {\n            System.out.print(i + \" \");\n        }\n        System.out.println(i);\n    }\n}",
                                 "a": "0 1 2 3 4 5",
                                 "b": "0 1 2 3 4",
@@ -1953,7 +1977,9 @@ const quizData = [
                                 "correct": "b"
                             },
                             {
+
                                 "question": "218. What is the purpose of the `i++` statement inside the loop in the code provided?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int i = 0;\n        for (; i < 5; i++) {\n            System.out.print(i + \" \");\n        }\n        System.out.println(i);\n    }\n}",
                                 "a": "To increment `i` by 1 before using it.",
                                 "b": "To increment `i` by 1 after using it.",
@@ -1962,7 +1988,9 @@ const quizData = [
                                 "correct": "b"
                             },
                             {
+
                                 "question": "219. In the code provided, how many times will the loop iterate?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int i = 0;\n        for (; i < 5; i++) {\n            System.out.print(i + \" \");\n        }\n        System.out.println(i);\n    }\n}",
                                 "a": "5 times",
                                 "b": "6 times",
@@ -1971,7 +1999,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "220. What does the following code print?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int a = 10;\n        int b = 20;\n        \n        for (int i = 0; i < 3; i++) {\n            if (a++ > 10 || b-- < 20) {\n                System.out.print(a + \" \" + b + \" \");\n            }\n        }\n    }\n}",
                                 "a": "11 19 12 18 13 17",
                                 "b": "11 20 12 19 13 18",
@@ -1980,7 +2010,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "220. What is the purpose of the `a++ > 10 || b-- < 20` condition in the code provided?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int a = 10;\n        int b = 20;\n        \n        for (int i = 0; i < 3; i++) {\n            if (a++ > 10 || b-- < 20) {\n                System.out.print(a + \" \" + b + \" \");\n            }\n        }\n    }\n}",
                                 "a": "To check if `a` is greater than 10 or `b` is less than 20.",
                                 "b": "To check if `a` is less than or equal to 10 and `b` is greater than or equal to 20.",
@@ -1989,7 +2021,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "221. In the code provided, how many times will the `if` block be executed?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int a = 10;\n        int b = 20;\n        \n        for (int i = 0; i < 3; i++) {\n            if (a++ > 10 || b-- < 20) {\n                System.out.print(a + \" \" + b + \" \");\n            }\n        }\n    }\n}",
                                 "a": "1 time",
                                 "b": "2 times",
@@ -1998,7 +2032,9 @@ const quizData = [
                                 "correct": "c"
                             },
                             {
+
                                 "question": "222. What does the following code print?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int p = 15;\n        int q = 7;\n        \n        for (int i = 0; i < 3; i++) {\n            if (p > 10 && q < 5) {\n                System.out.print(p-- + \" \");\n            } else {\n                System.out.print(q++ + \" \");\n            }\n        }\n    }\n}",
                                 "a": "7 8 9",
                                 "b": "6 7 8",
@@ -2007,7 +2043,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "223. What is the purpose of the `p > 10 && q < 5` condition in the code provided?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int p = 15;\n        int q = 7;\n        \n        for (int i = 0; i < 3; i++) {\n            if (p > 10 && q < 5) {\n                System.out.print(p-- + \" \");\n            } else {\n                System.out.print(q++ + \" \");\n            }\n        }\n    }\n}",
                                 "a": "To check if `p` is greater than 10 and `q` is less than 5.",
                                 "b": "To check if `p` is less than or equal to 10 and `q` is greater than or equal to 5.",
@@ -2016,7 +2054,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "224. In the code provided, how many times will the loop iterate?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int p = 15;\n        int q = 7;\n        \n        for (int i = 0; i < 3; i++) {\n            if (p > 10 && q < 5) {\n                System.out.print(p-- + \" \");\n            } else {\n                System.out.print(q++ + \" \");\n            }\n        }\n    }\n}",
                                 "a": "1 time",
                                 "b": "2 times",
@@ -2025,7 +2065,9 @@ const quizData = [
                                 "correct": "c"
                             },
                             {
+
                                 "question": "225. What does the following code print?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int r = 20;\n        int s = 30;\n        \n        for (int i = 0; i < 4; i++) {\n            if (r > 15 || s > 40) {\n                System.out.print(r-- + \" \");\n            } else {\n                System.out.print(s++ + \" \");\n            }\n        }\n    }\n}",
                                 "a": "19 18 17 16",
                                 "b": "20 19 18 17",
@@ -2034,7 +2076,9 @@ const quizData = [
                                 "correct": "b"
                             },
                             {
+
                                 "question": "226. What will be the output of the following code?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int i = 10;\n        for (; i > 5; ) {\n            System.out.print(i-- + \" \");\n        }\n        System.out.println(i);\n    }\n}",
                                 "a": "10 9 8 7 6 5",
                                 "b": "10 9 8 7 6",
@@ -2043,7 +2087,9 @@ const quizData = [
                                 "correct": "b"
                             },
                             {
+
                                 "question": "227. What is the purpose of the `i--` statement inside the loop in the code provided?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int i = 10;\n        for (; i > 5; ) {\n            System.out.print(i-- + \" \");\n        }\n        System.out.println(i);\n    }\n}",
                                 "a": "To increment `i` by 1 after using it.",
                                 "b": "To decrement `i` by 1 before using it.",
@@ -2052,7 +2098,9 @@ const quizData = [
                                 "correct": "d"
                             },
                             {
+
                                 "question": "228. In the code provided, how many times will the loop iterate?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int i = 10;\n        for (; i > 5; ) {\n            System.out.print(i-- + \" \");\n        }\n        System.out.println(i);\n    }\n}",
                                 "a": "5 times",
                                 "b": "6 times",
@@ -2061,7 +2109,9 @@ const quizData = [
                                 "correct": "b"
                             },
                             {
+
                                 "question": "229. What does the following code print?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int a = 7;\n        int b = 10;\n        \n        for (int i = 0; i < 3; i++) {\n            if (a > b) {\n                System.out.print(a-- + \" \");\n            } else {\n                System.out.print(b++ + \" \");\n            }\n        }\n    }\n}",
                                 "a": "10 11 12",
                                 "b": "9 10 11",
@@ -2070,7 +2120,9 @@ const quizData = [
                                 "correct": "d"
                             },
                             {
+
                                 "question": "230. What is the purpose of the `a > b` condition in the code provided?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int a = 7;\n        int b = 10;\n        \n        for (int i = 0; i < 3; i++) {\n            if (a > b) {\n                System.out.print(a-- + \" \");\n            } else {\n                System.out.print(b++ + \" \");\n            }\n        }\n    }\n}",
                                 "a": "To check if `a` is greater than `b`.",
                                 "b": "To check if `b` is greater than `a`.",
@@ -2079,7 +2131,9 @@ const quizData = [
                                 "correct": "b"
                             },
                             {
+
                                 "question": "231. In the code provided, how many times will the `if` block be executed?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int a = 7;\n        int b = 10;\n        \n        for (int i = 0; i < 3; i++) {\n            if (a > b) {\n                System.out.print(a-- + \" \");\n            } else {\n                System.out.print(b++ + \" \");\n            }\n        }\n    }\n}",
                                 "a": "1 time",
                                 "b": "2 times",
@@ -2088,7 +2142,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "232. What does the following code print?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int p = 15;\n        int q = 7;\n        \n        for (int i = 0; i < 3; i++) {\n            if (p > 10 && q < 5) {\n                System.out.print(p-- + \" \");\n            } else {\n                System.out.print(q++ + \" \");\n            }\n        }\n    }\n}",
                                 "a": "7 8 9",
                                 "b": "6 7 8",
@@ -2097,7 +2153,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "233. What is the purpose of the `p > 10 && q < 5` condition in the code provided?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int p = 15;\n        int q = 7;\n        \n        for (int i = 0; i < 3; i++) {\n            if (p > 10 && q < 5) {\n                System.out.print(p-- + \" \");\n            } else {\n                System.out.print(q++ + \" \");\n            }\n        }\n    }\n}",
                                 "a": "To check if `p` is greater than 10 and `q` is less than 5.",
                                 "b": "To check if `a` is less than or equal to 10 and `q` is greater than or equal to 5.",
@@ -2106,7 +2164,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "234. In the code provided, how many times will the loop iterate?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int p = 15;\n        int q = 7;\n        \n        for (int i = 0; i < 3; i++) {\n            if (p > 10 && q < 5) {\n                System.out.print(p-- + \" \");\n            } else {\n                System.out.print(q++ + \" \");\n            }\n        }\n    }\n}",
                                 "a": "1 time",
                                 "b": "2 times",
@@ -2115,7 +2175,9 @@ const quizData = [
                                 "correct": "c"
                             },
                             {
+
                                 "question": "235. What does the following code print?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int r = 20;\n        int s = 30;\n        \n        for (int i = 0; i < 4; i++) {\n            if (r > 15 || s > 40) {\n                System.out.print(r-- + \" \");\n            } else {\n                System.out.print(s++ + \" \");\n            }\n        }\n    }\n}",
                                 "a": "19 18 17 16",
                                 "b": "20 19 18 17",
@@ -2124,7 +2186,9 @@ const quizData = [
                                 "correct": "b"
                             },
                             {
+
                                 "question": "236. What will be the output of the following code?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int x = 2;\n        for (; x < 5; ) {\n            System.out.print(x * x + \" \");\n            x++;\n        }\n        System.out.println(x);\n    }\n}",
                                 "a": "4 9 16 5",
                                 "b": "4 9 5",
@@ -2133,7 +2197,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "237. What is the purpose of the `x * x` statement inside the loop in the code provided?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int x = 2;\n        for (; x < 5; ) {\n            System.out.print(x * x + \" \");\n            x++;\n        }\n        System.out.println(x);\n    }\n}",
                                 "a": "To print the square of `x`.",
                                 "b": "To print the value of `x`.",
@@ -2142,7 +2208,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "238. In the code provided, how many times will the loop iterate?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int x = 2;\n        for (; x < 5; ) {\n            System.out.print(x * x + \" \");\n            x++;\n        }\n        System.out.println(x);\n    }\n}",
                                 "a": "2 times",
                                 "b": "3 times",
@@ -2151,7 +2219,9 @@ const quizData = [
                                 "correct": "b"
                             },
                             {
+
                                 "question": "239. What does the following code print?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int a = 5;\n        int b = 8;\n        \n        while (a < 10) {\n            if (b > 10) {\n                System.out.print(a++ + \" \");\n            } else {\n                System.out.print(b-- + \" \");\n            }\n        }\n    }\n}",
                                 "a": "8 7 6",
                                 "b": "5 6 7 8",
@@ -2160,7 +2230,9 @@ const quizData = [
                                 "correct": "b"
                             },
                             {
+
                                 "question": "240. What is the purpose of the `b > 10` condition in the code provided?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int a = 5;\n        int b = 8;\n        \n        while (a < 10) {\n            if (b > 10) {\n                System.out.print(a++ + \" \");\n            } else {\n                System.out.print(b-- + \" \");\n            }\n        }\n    }\n}",
                                 "a": "To check if `b` is greater than 10.",
                                 "b": "To check if `a` is greater than 10.",
@@ -2169,7 +2241,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "241. In the code provided, how many times will the `else` block be executed?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int a = 5;\n        int b = 8;\n        \n        while (a < 10) {\n            if (b > 10) {\n                System.out.print(a++ + \" \");\n            } else {\n                System.out.print(b-- + \" \");\n            }\n        }\n    }\n}",
                                 "a": "2 times",
                                 "b": "3 times",
@@ -2178,7 +2252,9 @@ const quizData = [
                                 "correct": "b"
                             },
                             {
+
                                 "question": "242. What does the following code print?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int p = 3;\n        int q = 6;\n        \n        for (int i = 0; i < 2; i++) {\n            if (p < 5 || q > 5) {\n                System.out.print(p++ + \" \");\n            } else {\n                System.out.print(q-- + \" \");\n            }\n        }\n    }\n}",
                                 "a": "3 4",
                                 "b": "6 5",
@@ -2187,7 +2263,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "243. What is the purpose of the `p < 5 || q > 5` condition in the code provided?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int p = 3;\n        int q = 6;\n        \n        for (int i = 0; i < 2; i++) {\n            if (p < 5 || q > 5) {\n                System.out.print(p++ + \" \");\n            } else {\n                System.out.print(q-- + \" \");\n            }\n        }\n    }\n}",
                                 "a": "To check if `p` is less than 5 or `q` is greater than 5.",
                                 "b": "To check if `p` is greater than 5 or `q` is less than 5.",
@@ -2196,7 +2274,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "244. In the code provided, how many times will the loop iterate?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int p = 3;\n        int q = 6;\n        \n        for (int i = 0; i < 2; i++) {\n            if (p < 5 || q > 5) {\n                System.out.print(p++ + \" \");\n            } else {\n                System.out.print(q-- + \" \");\n            }\n        }\n    }\n}",
                                 "a": "1 time",
                                 "b": "2 times",
@@ -2205,7 +2285,9 @@ const quizData = [
                                 "correct": "b"
                             },
                             {
+
                                 "question": "245. What does the following code print?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int a = 8;\n        int b = 5;\n        \n        for (int i = 0; i < 3; i++) {\n            if (a % 2 == 0 && b % 2 != 0) {\n                System.out.print(a-- + \" \");\n            } else {\n                System.out.print(b++ + \" \");\n            }\n        }\n    }\n}",
                                 "a": "8 7 6",
                                 "b": "5 6 7",
@@ -2214,7 +2296,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "246. What is the purpose of the `a % 2 == 0 && b % 2 != 0` condition in the code provided?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int a = 8;\n        int b = 5;\n        \n        for (int i = 0; i < 3; i++) {\n            if (a % 2 == 0 && b % 2 != 0) {\n                System.out.print(a-- + \" \");\n            } else {\n                System.out.print(b++ + \" \");\n            }\n        }\n    }\n}",
                                 "a": "To check if `a` is even and `b` is odd.",
                                 "b": "To check if `a` is odd and `b` is even.",
@@ -2223,8 +2307,10 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "247. In the code provided, how many times will the `if` block be executed?",
                                 "code": "class P {\n    public static void main(String[] args) {\n        int a = 8;\n        int b = 5;\n        \n        for (int i = 0; i < 3; i++) {\n            if (a % 2 == 0 && b % 2 != 0) {\n                System.out.print(a-- + \" \");\n            } else {\n                System.out.print(b++ + \" \");\n            }\n        }\n    }\n}",
+
                                 "a": "1 time",
                                 "b": "2 times",
                                 "c": "3 times",
@@ -2232,7 +2318,9 @@ const quizData = [
                                 "correct": "b"
                             },
                             {
+
                                 "question": "248. In the code provided, how many times will the loop iterate?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int i = 0;\n        while (i < 5) {\n            i++;\n        }\n    }\n}",
                                 "a": "5 times",
                                 "b": "6 times",
@@ -2241,7 +2329,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "249. What does the following code print?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int a = 7;\n        int b = 3;\n        \n        for (int i = 0; i < 3; i++) {\n            if (a > b) {\n                System.out.print(a-- + \" \");\n            } else {\n                System.out.print(b++ + \" \");\n            }\n        }\n    }\n}",
                                 "a": "7 6 5",
                                 "b": "8 7 6",
@@ -2250,7 +2340,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "250. What is the purpose of the `a > b` condition in the code provided?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int a = 7;\n        int b = 3;\n        \n        for (int i = 0; i < 3; i++) {\n            if (a > b) {\n                System.out.print(a-- + \" \");\n            } else {\n                System.out.print(b++ + \" \");\n            }\n        }\n    }\n}",
                                 "a": "To check if `a` is greater than `b`.",
                                 "b": "To check if `b` is greater than `a`.",
@@ -2259,7 +2351,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "251. In the code provided, how many times will the `if` block be executed?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int a = 7;\n        int b = 3;\n        \n        for (int i = 0; i < 3; i++) {\n            if (a > b) {\n                System.out.print(a-- + \" \");\n            } else {\n                System.out.print(b++ + \" \");\n            }\n        }\n    }\n}",
                                 "a": "1 time",
                                 "b": "2 times",
@@ -2268,7 +2362,9 @@ const quizData = [
                                 "correct": "c"
                             },
                             {
+
                                 "question": "252. What does the following code print?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int p = 10;\n        int q = 7;\n        \n        for (int i = 0; i < 3; i++) {\n            if (p-- > 5 && q++ < 8) {\n                System.out.print(p + \" \" + q + \" \");\n            }\n        }\n    }\n}",
                                 "a": "9 8 8 9",
                                 "b": "8 8 9 9",
@@ -2277,7 +2373,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "253. What is the purpose of the `p-- > 5 && q++ < 8` condition in the code provided?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int p = 10;\n        int q = 7;\n        \n        for (int i = 0; i < 3; i++) {\n            if (p-- > 5 && q++ < 8) {\n                System.out.print(p + \" \" + q + \" \");\n            }\n        }\n    }\n}",
                                 "a": "To check if `p` is greater than 5 and `q` is less than 8.",
                                 "b": "To check if `p` is less than 5 or `q` is greater than 8.",
@@ -2286,7 +2384,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "254. In the code provided, how many times will the loop iterate?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int i = 0;\n        while (i < 3) {\n            i++;\n        }\n    }\n}",
                                 "a": "1 time",
                                 "b": "2 times",
@@ -2295,7 +2395,9 @@ const quizData = [
                                 "correct": "c"
                             },
                             {
+
                                 "question": "255. What does the following code print?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int r = 5;\n        int s = 8;\n        \n        for (int i = 0; i < 4; i++) {\n            if (r++ > 5 || s-- < 7) {\n                System.out.print(r + \" \" + s + \" \");\n            }\n        }\n    }\n}",
                                 "a": "7 7 7 7",
                                 "b": "7 6 7 6",
@@ -2304,7 +2406,9 @@ const quizData = [
                                 "correct": "b"
                             },
                             {
+
                                 "question": "256. What will be the output of the following code?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int i = 3;\n        for (; i <= 6; i++) {\n            System.out.print(i * i + \" \");\n        }\n        System.out.println(i);\n    }\n}",
                                 "a": "9 16 25 36 7",
                                 "b": "9 16 25 36 8",
@@ -2313,7 +2417,9 @@ const quizData = [
                                 "correct": "b"
                             },
                             {
+
                                 "question": "257. What is the purpose of the `i++` statement inside the loop in the code provided?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int i = 3;\n        for (; i <= 6; i++) {\n            System.out.print(i * i + \" \");\n        }\n        System.out.println(i);\n    }\n}",
                                 "a": "To increment `i` by 1 before using it.",
                                 "b": "To increment `i` by 1 after using it.",
@@ -2322,7 +2428,9 @@ const quizData = [
                                 "correct": "b"
                             },
                             {
+
                                 "question": "258. In the code provided, how many times will the loop iterate?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int i = 0;\n        while (i < 4) {\n            i++;\n        }\n    }\n}",
                                 "a": "3 times",
                                 "b": "4 times",
@@ -2331,7 +2439,9 @@ const quizData = [
                                 "correct": "b"
                             },
                             {
+
                                 "question": "259. What does the following code print?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int a = 4;\n        int b = 7;\n        \n        for (int i = 0; i < 3; i++) {\n            if (a > b) {\n                System.out.print(a-- + \" \");\n            } else {\n                System.out.print(b++ + \" \");\n            }\n        }\n    }\n}",
                                 "a": "7 8 9",
                                 "b": "8 7 6",
@@ -2340,7 +2450,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "260. What is the purpose of the `a > b` condition in the code provided?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int a = 4;\n        int b = 7;\n        \n        for (int i = 0; i < 3; i++) {\n            if (a > b) {\n                System.out.print(a-- + \" \");\n            } else {\n                System.out.print(b++ + \" \");\n            }\n        }\n    }\n}",
                                 "a": "To check if `a` is greater than `b`.",
                                 "b": "To check if `b` is greater than `a`.",
@@ -2349,7 +2461,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "261. In the code provided, how many times will the `if` block be executed?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int a = 4;\n        int b = 7;\n        \n        for (int i = 0; i < 3; i++) {\n            if (a > b) {\n                System.out.print(a-- + \" \");\n            } else {\n                System.out.print(b++ + \" \");\n            }\n        }\n    }\n}",
                                 "a": "1 time",
                                 "b": "2 times",
@@ -2358,7 +2472,9 @@ const quizData = [
                                 "correct": "c"
                             },
                             {
+
                                 "question": "262. What does the following code print?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int p = 9;\n        int q = 5;\n        \n        for (int i = 0; i < 3; i++) {\n            if (p-- > 5 && q++ < 8) {\n                System.out.print(p + \" \" + q + \" \");\n            }\n        }\n    }\n}",
                                 "a": "8 6 7 7",
                                 "b": "8 5 7 6",
@@ -2367,7 +2483,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "263. What is the purpose of the `p-- > 5 && q++ < 8` condition in the code provided?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int p = 9;\n        int q = 5;\n        \n        for (int i = 0; i < 3; i++) {\n            if (p-- > 5 && q++ < 8) {\n                System.out.print(p + \" \" + q + \" \");\n            }\n        }\n    }\n}",
                                 "a": "To check if `p` is greater than 5 and `q` is less than 8.",
                                 "b": "To check if `p` is less than 5 or `q` is greater than 8.",
@@ -2376,7 +2494,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "264. In the code provided, how many times will the loop iterate?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int i = 0;\n        while (i < 4) {\n            i++;\n        }\n    }\n}",
                                 "a": "1 time",
                                 "b": "2 times",
@@ -2385,7 +2505,9 @@ const quizData = [
                                 "correct": "d"
                             },
                             {
+
                                 "question": "265. What does the following code print?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int r = 4;\n        int s = 7;\n        \n        for (int i = 0; i < 4; i++) {\n            if (r++ > 5 || s-- < 7) {\n                System.out.print(r + \" \" + s + \" \");\n            }\n        }\n    }\n}",
                                 "a": "6 7 5 6",
                                 "b": "6 6 4 6",
@@ -2394,7 +2516,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "267. What will be the output of the following code?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int i = 1;\n        for (; i <= 4; ) {\n            System.out.print(i * i + \" \");\n            i++;\n        }\n        System.out.println(i);\n    }\n}",
                                 "a": "1 4 9 16 5",
                                 "b": "1 4 9 16 6",
@@ -2403,7 +2527,9 @@ const quizData = [
                                 "correct": "b"
                             },
                             {
+
                                 "question": "268. What is the purpose of the `i++` statement inside the loop in the code provided?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int i = 1;\n        for (; i <= 4; ) {\n            System.out.print(i * i + \" \");\n            i++;\n        }\n        System.out.println(i);\n    }\n}",
                                 "a": "To increment `i` by 1 after using it.",
                                 "b": "To increment `i` by 1 before using it.",
@@ -2412,7 +2538,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "269. In the code provided, how many times will the loop iterate?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int i = 2;\n        while (i < 5) {\n            i++;\n        }\n    }\n}",
                                 "a": "2 times",
                                 "b": "3 times",
@@ -2421,7 +2549,9 @@ const quizData = [
                                 "correct": "b"
                             },
                             {
+
                                 "question": "270. What does the following code print?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int a = 3;\n        int b = 6;\n        \n        for (int i = 0; i < 3; i++) {\n            if (a > b) {\n                System.out.print(a-- + \" \");\n            } else {\n                System.out.print(b++ + \" \");\n            }\n        }\n    }\n}",
                                 "a": "6 7 8",
                                 "b": "5 6 7",
@@ -2430,7 +2560,9 @@ const quizData = [
                                 "correct": "b"
                             },
                             {
+
                                 "question": "271. What is the purpose of the `a > b` condition in the code provided?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int a = 3;\n        int b = 6;\n        \n        for (int i = 0; i < 3; i++) {\n            if (a > b) {\n                System.out.print(a-- + \" \");\n            } else {\n                System.out.print(b++ + \" \");\n            }\n        }\n    }\n}",
                                 "a": "To check if `a` is greater than `b`.",
                                 "b": "To check if `b` is greater than `a`.",
@@ -2439,7 +2571,9 @@ const quizData = [
                                 "correct": "b"
                             },
                             {
+
                                 "question": "272. In the code provided, how many times will the `if` block be executed?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int a = 3;\n        int b = 6;\n        \n        for (int i = 0; i < 3; i++) {\n            if (a > b) {\n                System.out.print(a-- + \" \");\n            } else {\n                System.out.print(b++ + \" \");\n            }\n        }\n    }\n}",
                                 "a": "1 time",
                                 "b": "2 times",
@@ -2448,7 +2582,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "273. What does the following code print?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int p = 6;\n        int q = 3;\n        \n        for (int i = 0; i < 3; i++) {\n            if (p-- > 5 && q++ < 4) {\n                System.out.print(p + \" \" + q + \" \");\n            }\n        }\n    }\n}",
                                 "a": "5 4 4 5",
                                 "b": "5 4 5 4",
@@ -2457,7 +2593,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "274. What is the purpose of the `p-- > 5 && q++ < 4` condition in the code provided?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int p = 6;\n        int q = 3;\n        \n        for (int i = 0; i < 3; i++) {\n            if (p-- > 5 && q++ < 4) {\n                System.out.print(p + \" \" + q + \" \");\n            }\n        }\n    }\n}",
                                 "a": "To check if `p` is greater than 5 and `q` is less than 4.",
                                 "b": "To check if `p` is less than 5 or `q` is greater than 4.",
@@ -2466,7 +2604,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "275. In the code provided, how many times will the loop iterate?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int i = 0;\n        while (i < 4) {\n            i++;\n        }\n    }\n}",
                                 "a": "1 time",
                                 "b": "2 times",
@@ -2475,7 +2615,9 @@ const quizData = [
                                 "correct": "d"
                             },
                             {
+
                                 "question": "276. What does the following code print?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int r = 3;\n        int s = 8;\n        \n        for (int i = 0; i < 4; i++) {\n            if (r++ > 5 || s-- < 6) {\n                System.out.print(r + \" \" + s + \" \");\n            }\n        }\n    }\n}",
                                 "a": "6 7 5 6",
                                 "b": "6 8 4 7",
@@ -2484,7 +2626,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "278. What will be the output of the following code?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int i = 2;\n        for (; i <= 3; ) {\n            System.out.print(i * i + \" \");\n            i++;\n        }\n        System.out.println(i);\n    }\n}",
                                 "a": "4 9 4",
                                 "b": "4 9 5",
@@ -2493,7 +2637,9 @@ const quizData = [
                                 "correct": "b"
                             },
                             {
+
                                 "question": "279. What is the purpose of the `i++` statement inside the loop in the code provided?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int i = 2;\n        for (; i <= 3; ) {\n            System.out.print(i * i + \" \");\n            i++;\n        }\n        System.out.println(i);\n    }\n}",
                                 "a": "To increment `i` by 1 after using it.",
                                 "b": "To increment `i` by 1 before using it.",
@@ -2502,7 +2648,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "280. In the code provided, how many times will the loop iterate?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int i = 1;\n        while (i < 4) {\n            i++;\n        }\n    }\n}",
                                 "a": "2 times",
                                 "b": "3 times",
@@ -2511,7 +2659,9 @@ const quizData = [
                                 "correct": "b"
                             },
                             {
+
                                 "question": "281. What does the following code print?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int a = 3;\n        int b = 6;\n        \n        for (int i = 0; i < 3; i++) {\n            if (a > b) {\n                System.out.print(a-- + \" \");\n            } else {\n                System.out.print(b++ + \" \");\n            }\n        }\n    }\n}",
                                 "a": "6 7 8",
                                 "b": "5 6 7",
@@ -2520,7 +2670,9 @@ const quizData = [
                                 "correct": "b"
                             },
                             {
+
                                 "question": "282. What is the purpose of the `a > b` condition in the code provided?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int a = 3;\n        int b = 6;\n        \n        for (int i = 0; i < 3; i++) {\n            if (a > b) {\n                System.out.print(a-- + \" \");\n            } else {\n                System.out.print(b++ + \" \");\n            }\n        }\n    }\n}",
                                 "a": "To check if `a` is greater than `b`.",
                                 "b": "To check if `b` is greater than `a`.",
@@ -2529,7 +2681,9 @@ const quizData = [
                                 "correct": "b"
                             },
                             {
+
                                 "question": "283. In the code provided, how many times will the `if` block be executed?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int a = 3;\n        int b = 6;\n        \n        for (int i = 0; i < 3; i++) {\n            if (a > b) {\n                System.out.print(a-- + \" \");\n            } else {\n                System.out.print(b++ + \" \");\n            }\n        }\n    }\n}",
                                 "a": "1 time",
                                 "b": "2 times",
@@ -2538,7 +2692,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "284. What does the following code print?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int p = 5;\n        int q = 4;\n        \n        for (int i = 0; i < 3; i++) {\n            if (p-- > 4 && q++ < 5) {\n                System.out.print(p + \" \" + q + \" \");\n            }\n        }\n    }\n}",
                                 "a": "4 5 4 5",
                                 "b": "4 4 5 5",
@@ -2547,7 +2703,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "285. What is the purpose of the `p-- > 4 && q++ < 5` condition in the code provided?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int p = 5;\n        int q = 4;\n        \n        for (int i = 0; i < 3; i++) {\n            if (p-- > 4 && q++ < 5) {\n                System.out.print(p + \" \" + q + \" \");\n            }\n        }\n    }\n}",
                                 "a": "To check if `p` is greater than 4 and `q` is less than 5.",
                                 "b": "To check if `p` is less than 4 or `q` is greater than 5.",
@@ -2556,7 +2714,9 @@ const quizData = [
                                 "correct": "a"
                             },
                             {
+
                                 "question": "286. In the code provided, how many times will the loop iterate?",
+
                                 "code": "class P {\n    public static void main(String[] args) {\n        int i = 0;\n        for (; i < 4; i++) {\n            // loop body\n        }\n    }\n}",
                                 "a": "1 time",
                                 "b": "2 times",
@@ -2565,7 +2725,9 @@ const quizData = [
                                 "correct": "d"
                             },
                                 {
+
                                     "question": "287. What does the following code print?",
+
                                     "code": "class P {\n    public static void main(String[] args) {\n        int r = 2;\n        int s = 7;\n        \n        for (int i = 0; i < 4; i++) {\n            if (r++ > 5 || s-- < 6) {\n                System.out.print(r + \" \" + s + \" \");\n            }\n        }\n    }\n}",
                                     "a": "6 6 4 6",
                                     "b": "6 7 4 5",
@@ -2574,7 +2736,9 @@ const quizData = [
                                     "correct": "a"
                                 },
                                     {
+
                                         "question": "288. What will be the output of the following code?",
+
                                         "code": "class P {\n    public static void main(String[] args) {\n        for (int i = 1; i <= 2; i++) {\n            for (int j = 1; j <= 2; j++) {\n                for (int k = 1; k <= 2; k++) {\n                    for (int l = 1; l <= 2; l++) {\n                        System.out.print(i * j * k * l + \" \");\n                    }\n                }\n            }\n        }\n    }\n}",
                                         "a": "1 2 2 4 2 4 4 8",
                                         "b": "1 2 4 8 2 4 8 16",
@@ -2583,7 +2747,9 @@ const quizData = [
                                         "correct": "d"
                                     },
                                     {
+
                                         "question": "289. What is the purpose of the i * j * k * l statement inside the nested loops in the code provided?",
+
                                         "a": "To calculate the sum of i, j, k, and l.",
                                         "b": "To calculate the product of i, j, k, and l.",
                                         "c": "To calculate the difference between i, j, k, and l.",
@@ -2591,7 +2757,9 @@ const quizData = [
                                         "correct": "b"
                                     },
                                     {
+
                                         "question": "290. In the code provided, how many times will the innermost loop iterate?",
+
                                         "a": "2 times",
                                         "b": "4 times",
                                         "c": "8 times",
@@ -2599,7 +2767,9 @@ const quizData = [
                                         "correct": "d"
                                     },
                                     {
+
                                         "question": "300. In the code provided, how many times will the if block inside the innermost loop be executed?",
+
                                         "a": "1 time",
                                         "b": "2 times",
                                         "c": "3 times",
@@ -2607,7 +2777,9 @@ const quizData = [
                                         "correct": "d"
                                     },
                                     {
+
                                         "question": "301. What does the following code print?",
+
                                         "code": "class P {\n    public static void main(String[] args) {\n        for (int i = 1; i <= 2; i++) {\n            for (int j = 1; j <= 3; j++) {\n                for (int k = 1; k <= 2; k++) {\n                    for (int l = 1; l <= 3; l++) {\n                        if (i + j == k + l) {\n                            System.out.print(i + \" \" + j + \" \" + k + \" \" + l + \" \");\n                        }\n                    }\n                }\n            }\n        }\n    }\n}",
                                         "a": "1 1 1 1 1 1 2 2 1 1 2 3",
                                         "b": "1 2 1 1 1 3 2 2 1 2 2 3",
@@ -2616,7 +2788,9 @@ const quizData = [
                                         "correct": "b"
                                     },
                                     {
+
                                         "question": "302. What is the purpose of the i + j == k + l condition in the code provided?",
+
                                         "a": "To check if the sum of i and j is equal to the sum of k and l.",
                                         "b": "To check if the difference between i and j is equal to the difference between k and l.",
                                         "c": "To check if the product of i and j is equal to the product of k and l.",
@@ -2624,7 +2798,9 @@ const quizData = [
                                         "correct": "a"
                                     },
                                     {
+
                                         "question": "303. What does the following code print?",
+
                                         "code": "class P {\n    public static void main(String[] args) {\n        for (int i = 1; i <= 2; i++) {\n            for (int j = 2; j <= 4; j++) {\n                for (int k = 3; k <= 4; k++) {\n                    for (int l = 4; l <= 5; l++) {\n                        if (i * j * k * l > 30) {\n                            System.out.print(i + \" \" + j + \" \" + k + \" \" + l + \" \");\n                        }\n                    }\n                }\n            }\n        }\n    }\n}",
                                         "a": "2 2 3 4 2 2 3 5 2 2 4 4",
                                         "b": "2 3 4 5 2 3 4 5",
@@ -2633,7 +2809,9 @@ const quizData = [
                                         "correct": "b"
                                     },
                                     {
+
                                         "question": "304. In the code provided, how many times will the innermost loop iterate?",
+
                                         "a": "2 times",
                                         "b": "3 times",
                                         "c": "4 times",
@@ -2641,7 +2819,9 @@ const quizData = [
                                         "correct": "b"
                                     },
                                     {
+
                                         "question": "305. In the code provided, how many times will the if block inside the innermost loop be executed?",
+
                                         "a": "1 time",
                                         "b": "2 times",
                                         "c": "3 times",
@@ -2649,7 +2829,9 @@ const quizData = [
                                         "correct": "d"
                                     },
                                     {
+
                                         "question": "306. What does the following code print?",
+
                                         "code": "class P {\n    public static void main(String[] args) {\n        for (int i = 1; i <= 2; i++) {\n            for (int j = 2; j <= 3; j++) {\n                for (int k = 3; k <= 4; k++) {\n                    for (int l = 4; l <= 5; l++) {\n                        if (i * j * k * l > 20 && (i + j + k + l) % 3 == 0) {\n                            System.out.print(i + \" \" + j + \" \" + k + \" \" + l + \" \");\n                        }\n                    }\n                }\n            }\n        }\n    }\n}",
                                         "a": "1 2 3 4",
                                         "b": "1 2 3 5",
@@ -2658,7 +2840,9 @@ const quizData = [
                                         "correct": "a"
                                     },
                                     {
+
                                         "question": "307. What does the following code print?",
+
                                         "code": "class P {\n    public static void main(String[] args) {\n        int x = 5;\n        for (int i = 1; i <= 3; i++) {\n            x += i;\n        }\n        System.out.print(x);\n    }\n}",
                                         "a": "8",
                                         "b": "9",
@@ -2667,7 +2851,9 @@ const quizData = [
                                         "correct": "d"
                                       },
                                       {
+
                                         "question": "308. What is the output of the following code?",
+
                                         "code": "class P {\n    public static void main(String[] args) {\n        int i = 1;\n        while (i <= 3) {\n            System.out.print(i + \" \");\n            i++;\n        }\n    }\n}",
                                         "a": "1 2",
                                         "b": "1 2 3",
@@ -2676,7 +2862,9 @@ const quizData = [
                                         "correct": "b"
                                       },
                                       {
+
                                         "question": "309. In the following code, what will be the output if the initial value of `x` is 10?",
+
                                         "code": "class P {\n    public static void main(String[] args) {\n        int x = 10;\n        while (x > 0) {\n            System.out.print(x + \" \");\n            x -= 3;\n        }\n    }\n}",
                                         "a": "10 7 4 1",
                                         "b": "10 8 6 4",
@@ -2685,7 +2873,9 @@ const quizData = [
                                         "correct": "a"
                                       },
                                       {
+
                                         "question": "310. What is the final value of `x` after the following code executes?",
+
                                         "code": "class P {\n    public static void main(String[] args) {\n        int x = 0;\n        for (int i = 1; i <= 5; i++) {\n            x += i;\n        }\n        System.out.print(x);\n    }\n}",
                                         "a": "10",
                                         "b": "15",
@@ -2694,7 +2884,9 @@ const quizData = [
                                         "correct": "b"
                                       },
                                       {
+
                                         "question": "311. What will the following code print?",
+
                                         "code": "class P {\n    public static void main(String[] args) {\n        int x = 1;\n        for (int i = 1; i <= 3; i++) {\n            x *= i;\n        }\n        System.out.print(x);\n    }\n}",
                                         "a": "2",
                                         "b": "4",
@@ -2703,7 +2895,9 @@ const quizData = [
                                         "correct": "c"
                                       },
                                       {
+
                                         "question": "312. What is the output of the following code?",
+
                                         "code": "class P {\n    public static void main(String[] args) {\n        int x = 2;\n        for (int i = 0; i < 3; i++) {\n            x += i;\n        }\n        System.out.print(x);\n    }\n}",
                                         "a": "2",
                                         "b": "3",
@@ -2712,7 +2906,9 @@ const quizData = [
                                         "correct": "d"
                                       },
                                       {
+
                                         "question": "313. How many times will the following loop execute?",
+
                                         "code": "class P {\n    public static void main(String[] args) {\n        for (int i = 0; i < 4; i++) {\n            System.out.print(i + \" \");\n        }\n    }\n}",
                                         "a": "1 time",
                                         "b": "2 times",
@@ -2721,7 +2917,9 @@ const quizData = [
                                         "correct": "d"
                                       },
                                       {
+
                                         "question": "314. What will be the final value of `x` after the following code executes?",
+
                                         "code": "class P {\n    public static void main(String[] args) {\n        int x = 1;\n        while (x <= 4) {\n            x++;\n        }\n        System.out.print(x);\n    }\n}",
                                         "a": "3",
                                         "b": "4",
@@ -2730,7 +2928,9 @@ const quizData = [
                                         "correct": "c"
                                       },
                                       {
+
                                         "question": "315. What will be the output of the following code?",
+
                                         "code": "class P {\n    public static void main(String[] args) {\n        int i = 1;\n        while (i < 4) {\n            System.out.print(i + \" \");\n            i++;\n        }\n    }\n}",
                                         "a": "1 2",
                                         "b": "1 2 3",
@@ -2739,7 +2939,9 @@ const quizData = [
                                         "correct": "b"
                                       },
                                       {
+
                                         "question": "316. What is the value of `x` after the following loop?",
+
                                         "code": "class P {\n    public static void main(String[] args) {\n        int x = 10;\n        for (int i = 1; i <= 5; i++) {\n            x -= 2;\n        }\n        System.out.print(x);\n    }\n}",
                                         "a": "0",
                                         "b": "2",
@@ -2748,7 +2950,9 @@ const quizData = [
                                         "correct": "b"
                                       },
                                       {
+
                                         "question": "317. What does the following code print?",
+
                                         "code": "class P {\n    public static void main(String[] args) {\n        int x = 1;\n        for (int i = 1; i < 4; i++) {\n            x *= i;\n        }\n        System.out.print(x);\n    }\n}",
                                         "a": "1",
                                         "b": "2",
@@ -2757,7 +2961,9 @@ const quizData = [
                                         "correct": "c"
                                       },
                                       {
+
                                         "question": "318. What is the output of the following code?",
+
                                         "code": "class P {\n    public static void main(String[] args) {\n        int i = 2;\n        while (i <= 4) {\n            System.out.print(i + \" \");\n            i++;\n        }\n    }\n}",
                                         "a": "2 3",
                                         "b": "2 3 4",
@@ -2766,7 +2972,9 @@ const quizData = [
                                         "correct": "b"
                                       },
                                       {
+
                                         "question": "319. In the following code, what will be the value of `x` after the loop?",
+
                                         "code": "class P {\n    public static void main(String[] args) {\n        int x = 0;\n        for (int i = 1; i <= 3; i++) {\n            x += i;\n        }\n        System.out.print(x);\n    }\n}",
                                         "a": "3",
                                         "b": "4",
@@ -2775,7 +2983,9 @@ const quizData = [
                                         "correct": "c"
                                       },
                                       {
+
                                         "question": "320. How many times will the loop in the following code execute?",
+
                                         "code": "class P {\n    public static void main(String[] args) {\n        for (int i = 1; i <= 5; i += 2) {\n            System.out.print(i + \" \");\n        }\n    }\n}",
                                         "a": "1 time",
                                         "b": "2 times",
@@ -2784,7 +2994,9 @@ const quizData = [
                                         "correct": "c"
                                       },
                                       {
+
                                         "question": "321. What will the following code print?",
+
                                         "code": "class P {\n    public static void main(String[] args) {\n        int x = 3;\n        while (x > 0) {\n            x--;\n            System.out.print(x + \" \");\n        }\n    }\n}",
                                         "a": "2 1 0",
                                         "b": "3 2 1",
@@ -2793,6 +3005,7 @@ const quizData = [
                                         "correct": "a"
                                       },
                                         {
+
                                             "question": "322. What does the following code print?",
                                             "code": "class P {\n    public static void main(String[] args) {\n        boolean flag = false;\n        for (int i = 1; i <= 3; i++) {\n            for (int j = 2; j <= 4; j++) {\n                for (int k = 3; k <= 5; k++) {\n                    if (i * j * k < 10) {\n                        flag = true;\n                    }\n                }\n            }\n        }\n        System.out.println(\"Flag: \" + flag);\n    }\n}",
                                             "a": "Flag: true",
@@ -2803,6 +3016,7 @@ const quizData = [
                                         },
                                         {
                                             "question": "323. What is the purpose of the `i * j * k < 10` condition in the code provided?",
+
                                             "a": "To check if the product of `i`, `j`, and `k` is less than 10.",
                                             "b": "To check if the product of `i`, `j`, and `k` is greater than 10.",
                                             "c": "To check if the sum of `i`, `j`, and `k` is less than 10.",
@@ -2810,7 +3024,9 @@ const quizData = [
                                             "correct": "a"
                                         },
                                         {
+
                                             "question": "324. What does the following code print?",
+
                                             "code": "class P {\n    public static void main(String[] args) {\n        char character = 'A';\n        for (int i = 1; i <= 3; i++) {\n            for (int j = 2; j <= 4; j++) {\n                for (int k = 3; k <= 5; k++) {\n                    System.out.print(character + \" \");\n                    character++;\n                }\n            }\n        }\n    }\n}",
                                             "a": "A B C D E F G H I",
                                             "b": "A B C D E F G H J",
@@ -2819,7 +3035,9 @@ const quizData = [
                                             "correct": "a"
                                         },
                                         {
+
                                             "question": "325. In the code provided, how many times will the innermost loop iterate?",
+
                                             "a": "2 times",
                                             "b": "3 times",
                                             "c": "4 times",
@@ -2827,7 +3045,9 @@ const quizData = [
                                             "correct": "d"
                                         },
                                         {
+
                                             "question": "326. In the code provided, how many times will the `if` block inside the innermost loop be executed?",
+
                                             "a": "1 time",
                                             "b": "2 times",
                                             "c": "3 times",
@@ -2835,7 +3055,9 @@ const quizData = [
                                             "correct": "a"
                                         },
                                         {
+
                                             "question": "327. What will be the output of the following code?",
+
                                             "code": "class P {\n    public static void main(String[] args) {\n        int count = 0;\n        for (int i = 1; i <= 2; i++) {\n            for (byte j = 2; j <= 4; j++) {\n                for (short k = 3; k <= 5; k++) {\n                    if (i * j * k > 10) {\n                        count++;\n                    }\n                }\n            }\n        }\n        System.out.println(\"Count: \" + count);\n    }\n}",
                                             "a": "Count: 10",
                                             "b": "Count: 20",
@@ -2844,7 +3066,9 @@ const quizData = [
                                             "correct": "b"
                                         },
                                         {
+
                                             "question": "328. What is the purpose of the `i * j * k > 10` condition in the code provided?",
+
                                             "a": "To check if the product of `i`, `j`, and `k` is greater than 10.",
                                             "b": "To check if the product of `i`, `j`, and `k` is less than 10.",
                                             "c": "To check if the sum of `i`, `j`, and `k` is greater than 10.",
@@ -2852,7 +3076,9 @@ const quizData = [
                                             "correct": "a"
                                         },
                                         {
+
                                             "question": "329. In the code provided, what is the data type of the `count` variable?",
+
                                             "a": "byte",
                                             "b": "short",
                                             "c": "int",
@@ -2860,7 +3086,9 @@ const quizData = [
                                             "correct": "c"
                                         },
                                         {
+
                                             "question": "329. What does the following code print?",
+
                                             "code": "class P {\n    public static void main(String[] args) {\n        double result = 0.0;\n        for (int i = 1; i <= 5; i++) {\n            for (byte j = 2; j <= 4; j++) {\n                for (short k = 3; k <= 5; k++) {\n                    result += i / j / k;\n                }\n            }\n        }\n        System.out.println(\"Result: \" + result);\n    }\n}",
                                             "a": "Result: 1.3666666666666667",
                                             "b": "Result: 1.511111111111111",
@@ -2869,7 +3097,9 @@ const quizData = [
                                             "correct": "a"
                                         },
                                         {
+
                                             "question": "330. In the code provided, what is the data type of the `result` variable?",
+
                                             "a": "float",
                                             "b": "double",
                                             "c": "int",
@@ -2877,6 +3107,7 @@ const quizData = [
                                             "correct": "b"
                                         },
                                         {
+
                                             "question": "331. What does the following code print?",
                                             "code": "class P {\n    public static void main(String[] args) {\n        boolean flag = false;\n        for (int i = 1; i <= 3; i++) {\n            for (byte j = 2; j <= 4; j++) {\n                for (short k = 3; k <= 5; k++) {\n                    if (i * j * k < 10) {\n                        flag = true;\n                    }\n                }\n            }\n        }\n        System.out.println(\"Flag: \" + flag);\n    }\n}",
                                             "a": "Flag: true",
@@ -2887,6 +3118,7 @@ const quizData = [
                                         },
                                         {
                                             "question": "332. What is the purpose of the `i * j * k < 10` condition in the code provided?",
+
                                             "a": "To check if the product of `i`, `j`, and `k` is less than 10.",
                                             "b": "To check if the product of `i`, `j`, and `k` is greater than 10.",
                                             "c": "To check if the sum of `i`, `j`, and `k` is less than 10.",
@@ -2894,7 +3126,9 @@ const quizData = [
                                             "correct": "a"
                                         },
                                         {
+
                                             "question": "333. What does the following code print?",
+
                                             "code": "class P {\n    public static void main(String[] args) {\n        char character = 'A';\n        for (int i = 1; i <= 3; i++) {\n            for (byte j = 2; j <= 4; j++) {\n                for (short k = 3; k <= 5; k++) {\n                    System.out.print(character + \" \");\n                    character++;\n                }\n            }\n        }\n    }\n}",
                                             "a": "A B C D E F G H I",
                                             "b": "A B C D E F G H J",
@@ -2903,7 +3137,9 @@ const quizData = [
                                             "correct": "a"
                                         },
                                         {
+
                                             "question": "334. In the code provided, how many times will the innermost loop iterate?",
+
                                             "a": "2 times",
                                             "b": "3 times",
                                             "c": "4 times",
@@ -2911,7 +3147,9 @@ const quizData = [
                                             "correct": "d"
                                         },
                                         {
+
                                             "question": "335. In the code provided, how many times will the `if` block inside the innermost loop be executed?",
+
                                             "a": "1 time",
                                             "b": "2 times",
                                             "c": "3 times",
@@ -2919,7 +3157,9 @@ const quizData = [
                                             "correct": "a"
                                         },
                                         {
+
                                             "question": "336. What will be the output of the following code?",
+
                                             "code": "class P {\n    public static void main(String[] args) {\n        int total = 0;\n        for (int i = 1; i <= 2; i++) {\n            for (byte j = 2; j <= 4; j++) {\n                for (short k = 3; k <= 5; k++) {\n                    if (i * j * k > 10) {\n                        total++;\n                    }\n                }\n            }\n        }\n        System.out.println(\"Total: \" + total);\n    }\n}",
                                             "a": "Total: 10",
                                             "b": "Total: 20",
@@ -2928,7 +3168,9 @@ const quizData = [
                                             "correct": "b"
                                         },
                                         {
+
                                             "question": "337. What is the purpose of the `i * j * k > 10` condition in the code provided?",
+
                                             "a": "To check if the product of `i`, `j`, and `k` is greater than 10.",
                                             "b": "To check if the product of `i`, `j`, and `k` is less than 10.",
                                             "c": "To check if the sum of `i`, `j`, and `k` is greater than 10.",
@@ -2936,7 +3178,9 @@ const quizData = [
                                             "correct": "a"
                                         },
                                         {
+
                                             "question": "338. In the code provided, what is the data type of the `total` variable?",
+
                                             "a": "byte",
                                             "b": "short",
                                             "c": "int",
@@ -2944,7 +3188,9 @@ const quizData = [
                                             "correct": "c"
                                         },
                                         {
+
                                             "question": "339. What does the following code print?",
+
                                             "code": "class P {\n    public static void main(String[] args) {\n        double result = 0.0;\n        for (int i = 1; i <= 5; i++) {\n            for (byte j = 2; j <= 4; j++) {\n                for (short k = 3; k <= 5; k++) {\n                    result += i / j / k;\n                }\n            }\n        }\n        System.out.println(\"Result: \" + result);\n    }\n}",
                                             "a": "Result: 1.3666666666666667",
                                             "b": "Result: 1.511111111111111",
@@ -2953,7 +3199,9 @@ const quizData = [
                                             "correct": "a"
                                         },
                                         {
+
                                             "question": "340. In the code provided, what is the data type of the `result` variable?",
+
                                             "a": "float",
                                             "b": "double",
                                             "c": "int",
@@ -2961,14 +3209,18 @@ const quizData = [
                                             "correct": "b"
                                         },
                                         {
+
                                             "question": "341. What does the following code print?",
+
                                             "code": "class P {\n    public static void main(String[] args) {\n        boolean flag = false;\n        for (int i = 1; i <= 3; i++) {\n            for (byte j = 2; j <= 4; j++) {\n                for (short k = 3; k <= 5; k++) {\n                    if (i * j * k < 10) {\n                        flag = true;\n                    }\n                }\n            }\n        }\n        System.out.println(\"Flag: \" + flag);\n    }\n}",
                                             "a": "Flag: true",
                                             "b": "Flag: false",
                                             "correct": "b"
                                         },
                                         {
+
                                             "question": "342. What is the purpose of the `i * j * k < 10` condition in the code provided?",
+
                                             "a": "To check if the product of `i`, `j`, and `k` is less than 10.",
                                             "b": "To check if the product of `i`, `j`, and `k` is greater than 10.",
                                             "c": "To check if the sum of `i`, `j`, and `k` is less than 10.",
@@ -2976,7 +3228,9 @@ const quizData = [
                                             "correct": "a"
                                         },
                                         {
+
                                             "question": "343. What does the following code print?",
+
                                             "code": "class P {\n    public static void main(String[] args) {\n        char character = 'A';\n        for (int i = 1; i <= 3; i++) {\n            for (byte j = 2; j <= 4; j++) {\n                for (short k = 3; k <= 5; k++) {\n                    System.out.print(character + \" \");\n                    character++;\n                }\n            }\n        }\n    }\n}",
                                             "a": "A B C D E F G H I",
                                             "b": "A B C D E F G H J",
@@ -2985,7 +3239,9 @@ const quizData = [
                                             "correct": "a"
                                         },
                                         {
+
                                             "question": "345. In the code provided, how many times will the innermost loop iterate?",
+
                                             "a": "2 times",
                                             "b": "3 times",
                                             "c": "4 times",
@@ -2993,7 +3249,9 @@ const quizData = [
                                             "correct": "d"
                                         },
                                         {
+
                                             "question": "346. In the code provided, how many times will the `if` block inside the innermost loop be executed?",
+
                                             "a": "1 time",
                                             "b": "2 times",
                                             "c": "3 times",
@@ -3002,7 +3260,9 @@ const quizData = [
                                         },
                                         
                                             {
+
                                                 "question": "347. What will be the output of the following code?",
+
                                                 "code": "class P {\n    public static void main(String[] args) {\n        int sum = 0;\n        for (int i = 1; i <= 2; i++) {\n            for (byte j = 2; j <= 4; j++) {\n                for (short k = 3; k <= 5; k++) {\n                    if (i * j * k % 2 == 0) {\n                        sum += i + j + k;\n                    }\n                }\n            }\n        }\n        System.out.println(\"Sum: \" + sum);\n    }\n}",
                                                 "a": "Sum: 40",
                                                 "b": "Sum: 60",
@@ -3011,7 +3271,9 @@ const quizData = [
                                                 "correct": "b"
                                             },
                                             {
+
                                                 "question": "348. What is the purpose of the `i * j * k % 2 == 0` condition in the code provided?",
+
                                                 "a": "To check if the product of `i`, `j`, and `k` is even.",
                                                 "b": "To check if the product of `i`, `j`, and `k` is odd.",
                                                 "c": "To check if the sum of `i`, `j`, and `k` is even.",
@@ -3019,7 +3281,9 @@ const quizData = [
                                                 "correct": "a"
                                             },
                                             {
+
                                                 "question": "349. In the code provided, what is the data type of the `sum` variable?",
+
                                                 "a": "byte",
                                                 "b": "short",
                                                 "c": "int",
@@ -3027,7 +3291,9 @@ const quizData = [
                                                 "correct": "c"
                                             },
                                             {
+
                                                 "question": "350. What does the following code print?",
+
                                                 "code": "class P {\n    public static void main(String[] args) {\n        double result = 0.0;\n        for (float i = 1.0f; i <= 5.0f; i++) {\n            for (double j = 2.0; j <= 4.0; j++) {\n                for (int k = 3; k <= 5; k++) {\n                    result += (i + j + k) / 3.0;\n                }\n            }\n        }\n        System.out.println(\"Result: \" + result);\n    }\n}",
                                                 "a": "Result: 30.0",
                                                 "b": "Result: 40.0",
@@ -3036,7 +3302,9 @@ const quizData = [
                                                 "correct": "b"
                                             },
                                             {
+
                                                 "question": "351. In the code provided, what is the data type of the `result` variable?",
+
                                                 "a": "float",
                                                 "b": "double",
                                                 "c": "int",
@@ -3044,14 +3312,18 @@ const quizData = [
                                                 "correct": "b"
                                             },
                                             {
+
                                                 "question": "352. What does the following code print?",
+
                                                 "code": "class P {\n    public static void main(String[] args) {\n        boolean flag = false;\n        for (int i = 1; i <= 3; i++) {\n            for (byte j = 2; j <= 4; j++) {\n                for (short k = 3; k <= 5; k++) {\n                    if (i * j * k < 10) {\n                        flag = true;\n                    }\n                }\n            }\n        }\n        System.out.println(\"Flag: \" + flag);\n    }\n}",
                                                 "a": "Flag: true",
                                                 "b": "Flag: false",
                                                 "correct": "a"
                                             },
                                             {
+
                                                 "question": "353. What is the purpose of the `i * j * k < 10` condition in the code provided?",
+
                                                 "a": "To check if the product of `i`, `j`, and `k` is less than 10.",
                                                 "b": "To check if the product of `i`, `j`, and `k` is greater than 10.",
                                                 "c": "To check if the sum of `i`, `j`, and `k` is less than 10.",
@@ -3059,7 +3331,9 @@ const quizData = [
                                                 "correct": "a"
                                             },
                                             {
+
                                                 "question": "354. What does the following code print?",
+
                                                 "code": "class P {\n    public static void main(String[] args) {\n        char character = 'A';\n        for (int i = 1; i <= 3; i++) {\n            for (byte j = 2; j <= 4; j++) {\n                for (short k = 3; k <= 5; k++) {\n                    System.out.print(character + \" \");\n                    character++;\n                }\n            }\n        }\n    }\n}",
                                                 "a": "A B C D E F G H I",
                                                 "b": "A B C D E F G H J",
@@ -3068,7 +3342,9 @@ const quizData = [
                                                 "correct": "a"
                                             },
                                             {
+
                                                 "question": "356. In the code provided, how many times will the innermost loop iterate?",
+
                                                 "a": "2 times",
                                                 "b": "3 times",
                                                 "c": "4 times",
@@ -3076,7 +3352,9 @@ const quizData = [
                                                 "correct": "c"
                                             },
                                             {
+
                                                 "question": "357. In the code provided, how many times will the `if` block inside the innermost loop be executed?",
+
                                                 "a": "1 time",
                                                 "b": "2 times",
                                                 "c": "3 times",
@@ -3084,7 +3362,9 @@ const quizData = [
                                                 "correct": "d"
                                             },
                                             {
+
                                                 "question": "358. What will be the output of the following code?",
+
                                                 "code": "class P {\n    public static void main(String[] args) {\n        int result = 0;\n        for (int i = 1; i <= 5; i++) {\n            for (int j = 2; j <= 4; j++) {\n                for (int k = 3; k <= 5; k++) {\n                    if (i % j == 0 && j % k == 0) {\n                        result += i + j + k;\n                    }\n                }\n            }\n        }\n        System.out.println(\"Result: \" + result);\n    }\n}",
                                                 "a": "Result: 15",
                                                 "b": "Result: 33",
@@ -3093,7 +3373,9 @@ const quizData = [
                                                 "correct": "b"
                                             },
                                             {
+
                                                 "question": "359. What is the purpose of the `i % j == 0 && j % k == 0` condition in the code provided?",
+
                                                 "a": "To check if both `i` is divisible by `j` and `j` is divisible by `k`.",
                                                 "b": "To check if either `i` is divisible by `j` or `j` is divisible by `k`.",
                                                 "c": "To check if both `i` is divisible by `j` or `j` is divisible by `k`.",
@@ -3101,7 +3383,9 @@ const quizData = [
                                                 "correct": "a"
                                             },
                                             {
+
                                                 "question": "360. What is the purpose of the `result` variable in the code provided?",
+
                                                 "a": "To store the sum of `i`, `j`, and `k` whenever the condition is met.",
                                                 "b": "To store the product of `i`, `j`, and `k` whenever the condition is met.",
                                                 "c": "To store the quotient of `i`, `j`, and `k` whenever the condition is met.",
@@ -3109,7 +3393,9 @@ const quizData = [
                                                 "correct": "a"
                                             },
                                             {
+
                                                 "question": "361. What does the following code print?",
+
                                                 "code": "class P {\n    public static void main(String[] args) {\n        double total = 0.0;\n        for (float i = 1.0f; i <= 3.0f; i++) {\n            for (double j = 2.0; j <= 4.0; j++) {\n                for (int k = 3; k <= 5; k++) {\n                    total += i * j / k;\n                }\n            }\n        }\n        System.out.println(\"Total: \" + total);\n    }\n}",
                                                 "a": "Total: 13.6",
                                                 "b": "Total: 15.2",
@@ -3118,7 +3404,9 @@ const quizData = [
                                                 "correct": "a"
                                             },
                                             {
+
                                                 "question": "362. In the code provided, what is the data type of the `total` variable?",
+
                                                 "a": "float",
                                                 "b": "double",
                                                 "c": "int",
@@ -3126,7 +3414,9 @@ const quizData = [
                                                 "correct": "b"
                                             },
                                             {
+
                                                 "question": "363. What will be the output of the following code?",
+
                                                 "code": "class P {\n    public static void main(String[] args) {\n        int counter = 0;\n        for (int i = 1; i <= 3; i++) {\n            for (byte j = 2; j <= 4; j++) {\n                for (short k = 3; k <= 5; k++) {\n                    if (i * j * k % 3 == 0) {\n                        counter++;\n                    }\n                }\n            }\n        }\n        System.out.println(\"Counter: \" + counter);\n    }\n}",
                                                 "a": "Counter: 9",
                                                 "b": "Counter: 12",
@@ -3135,7 +3425,9 @@ const quizData = [
                                                 "correct": "b"
                                             },
                                             {
+
                                                 "question": "364. What is the purpose of the `i * j * k % 3 == 0` condition in the code provided?",
+
                                                 "a": "To check if the product of `i`, `j`, and `k` is divisible by 3.",
                                                 "b": "To check if the product of `i`, `j`, and `k` is not divisible by 3.",
                                                 "c": "To check if the sum of `i`, `j`, and `k` is divisible by 3.",
@@ -3143,7 +3435,9 @@ const quizData = [
                                                 "correct": "a"
                                             },
                                             {
+
                                                 "question": "365. What is the purpose of the `counter` variable in the code provided?",
+
                                                 "a": "To count the number of times the `if` condition is true.",
                                                 "b": "To count the number of times the `if` condition is false.",
                                                 "c": "To store the product of `i`, `j`, and `k` whenever the condition is met.",
@@ -3151,7 +3445,9 @@ const quizData = [
                                                 "correct": "a"
                                             },
                                             {
+
                                                 "question": "366. What is the purpose of `(char) (character + i)` in the code provided?",
+
                                                 "a": "To print the character `character` concatenated with `i`.",
                                                 "b": "To print the character after incrementing its ASCII value by `i`.",
                                                 "c": "To print the character before incrementing its ASCII value by `i`.",
@@ -3159,7 +3455,9 @@ const quizData = [
                                                 "correct": "b"
                                             },
                                             {
+
                                                 "question": "367. In the code provided, how many times will the innermost loop iterate?",
+
                                                 "a": "3 times",
                                                 "b": "6 times",
                                                 "c": "9 times",
@@ -3167,7 +3465,9 @@ const quizData = [
                                                 "correct": "d"
                                             },
                                             {
+
                                                 "question": "368. What will be the output of the following code?",
+
                                                 "code": "class P {\n    public static void main(String[] args) {\n        int total = 0;\n        for (int i = 1; i <= 3; i++) {\n            for (int j = 2; j <= 4; j++) {\n                for (int k = 3; k <= 5; k++) {\n                    if (i % 2 == 0 || j % 2 == 0 || k % 2 == 0) {\n                        total += i + j + k;\n                    }\n                }\n            }\n        }\n        System.out.println(\"Total: \" + total);\n    }\n}",
                                                 "a": "Total: 84",
                                                 "b": "Total: 99",
@@ -3176,7 +3476,9 @@ const quizData = [
                                                 "correct": "b"
                                             },
                                             {
+
                                                 "question": "369. What is the purpose of the `i % 2 == 0 || j % 2 == 0 || k % 2 == 0` condition in the code provided?",
+
                                                 "a": "To check if any of `i`, `j`, or `k` is even.",
                                                 "b": "To check if all of `i`, `j`, and `k` are even.",
                                                 "c": "To check if any of `i`, `j`, or `k` is odd.",
@@ -3184,7 +3486,9 @@ const quizData = [
                                                 "correct": "a"
                                             },
                                             {
+
                                                 "question": "370. What does the following code print?",
+
                                                 "code": "class P {\n    public static void main(String[] args) {\n        double result = 0.0;\n        for (int i = 1; i <= 4; i++) {\n            for (double j = 2.0; j <= 5.0; j++) {\n                for (int k = 3; k <= 6; k++) {\n                    result += i * j / k;\n                }\n            }\n        }\n        System.out.println(\"Result: \" + result);\n    }\n}",
                                                 "a": "Result: 30.75",
                                                 "b": "Result: 37.5",
@@ -3193,6 +3497,7 @@ const quizData = [
                                                 "correct": "a"
                                             },
                                             {
+
                                                 "question": "371. What does the following code print?",
                                                 "code": "class P {\n    public static void main(String[] args) {\n        boolean flag = true;\n        for (int i = 1; i <= 3; i++) {\n            for (int j = 2; j <= 4; j++) {\n                for (int k = 3; k <= 5; k++) {\n                    if (!(i * j * k % 2 == 0)) {\n                        flag = false;\n                    }\n                }\n            }\n        }\n        System.out.println(\"Flag: \" + flag);\n    }\n}",
                                                 "a": "Flag: true",
@@ -3203,6 +3508,7 @@ const quizData = [
                                             },
                                             {
                                                 "question": "372. What does the following code print?",
+
                                                 "code": "class P {\n    public static void main(String[] args) {\n        char character = 'A';\n        for (int i = 1; i <= 3; i++) {\n            for (int j = 2; j <= 4; j++) {\n                for (int k = 3; k <= 5; k++) {\n                    if (i % 2 == 0) {\n                        System.out.print((char) (character + j) + \" \");\n                    } else {\n                        System.out.print((char) (character + k) + \" \");\n                    }\n                }\n            }\n        }\n    }\n}",
                                                 "a": "B C D F G H I",
                                                 "b": "D E F H I J K",
@@ -3211,7 +3517,9 @@ const quizData = [
                                                 "correct": "a"
                                             },
                                             {
+
                                                 "question": "373. What is the purpose of `(char) (character + j)` and `(char) (character + k)` in the code provided?",
+
                                                 "a": "To print the character after incrementing its ASCII value by `j` and `k`, respectively.",
                                                 "b": "To print the character after decrementing its ASCII value by `j` and `k`, respectively.",
                                                 "c": "To print the character after incrementing its ASCII value by `k` and `j`, respectively.",
@@ -3219,7 +3527,9 @@ const quizData = [
                                                 "correct": "a"
                                             },
                                             {
+
                                                 "question": "374. In the code provided, how many times will the innermost loop iterate?",
+
                                                 "a": "9 times",
                                                 "b": "12 times",
                                                 "c": "15 times",
@@ -3227,7 +3537,9 @@ const quizData = [
                                                 "correct": "d"
                                             },
                                             {
+
                                                 "question": "375. In the code provided, how many times will the `if` block inside the innermost loop be executed?",
+
                                                 "a": "6 times",
                                                 "b": "9 times",
                                                 "c": "12 times",
@@ -3235,7 +3547,9 @@ const quizData = [
                                                 "correct": "c"
                                             },
                                             {
+
                                                 "question": "376. What will be the output of the following code?",
+
                                                 "code": "class P {\n    public static void main(String[] args) {\n        int total = 0;\n        for (int i = 1; i <= 4; i++) {\n            for (int j = 2; j <= 5; j++) {\n                for (int k = 3; k <= 6; k++) {\n                    if ((i + j) % 2 == 0 && (j + k) % 2 != 0) {\n                        total += i + j + k;\n                    }\n                }\n            }\n        }\n        System.out.println(\"Total: \" + total);\n    }\n}",
                                                 "a": "Total: 44",
                                                 "b": "Total: 61",
@@ -3244,7 +3558,9 @@ const quizData = [
                                                 "correct": "b"
                                             },
                                             {
+
                                                 "question": "377. What is the purpose of the `(i + j) % 2 == 0 && (j + k) % 2 != 0` condition in the code provided?",
+
                                                 "a": "To check if the sum of `i` and `j` is even, and the sum of `j` and `k` is odd.",
                                                 "b": "To check if the sum of `i` and `j` is odd, and the sum of `j` and `k` is even.",
                                                 "c": "To check if the sum of `i` and `j` is even, and the sum of `j` and `k` is even.",
@@ -3252,7 +3568,9 @@ const quizData = [
                                                 "correct": "a"
                                             },
                                             {
+
                                                 "question": "378. What is the purpose of `(char) (character + i)` in the code provided?",
+
                                                 "a": "To print the character `character` concatenated with `i`.",
                                                 "b": "To print the character after incrementing its ASCII value by `i`.",
                                                 "c": "To print the character before incrementing its ASCII value by `i`.",
@@ -3260,7 +3578,9 @@ const quizData = [
                                                 "correct": "b"
                                             },
                                             {
+
                                                 "question": "379. In the code provided, how many times will the innermost loop iterate?",
+
                                                 "a": "3 times",
                                                 "b": "6 times",
                                                 "c": "9 times",
@@ -3268,7 +3588,9 @@ const quizData = [
                                                 "correct": "c"
                                             },
                                             {
+
                                                 "question": "380. What will be the output of the following code?",
+
                                                 "code": "class P {\n    public static void main(String[] args) {\n        int total = 0;\n        for (int i = 1; i <= 3; i++) {\n            for (int j = 2; j <= 4; j++) {\n                for (int k = 3; k <= 5; k++) {\n                    if (i % 2 == 0 || j % 2 == 0 || k % 2 == 0) {\n                        total += i + j + k;\n                    }\n                }\n            }\n        }\n        System.out.println(\"Total: \" + total);\n    }\n}",
                                                 "a": "Total: 84",
                                                 "b": "Total: 99",
@@ -3277,7 +3599,9 @@ const quizData = [
                                                 "correct": "d"
                                             },
                                             {
+
                                                 "question": "381. What is the purpose of the `i % 2 == 0 || j % 2 == 0 || k % 2 == 0` condition in the code provided?",
+
                                                 "a": "To check if any of `i`, `j`, or `k` is even.",
                                                 "b": "To check if all of `i`, `j`, and `k` are even.",
                                                 "c": "To check if any of `i`, `j`, or `k` is odd.",
@@ -3285,7 +3609,9 @@ const quizData = [
                                                 "correct": "a"
                                             },
                                             {
+
                                                 "question": "382. What does the following code print?",
+
                                                 "code": "class P {\n    public static void main(String[] args) {\n        double result = 0.0;\n        for (int i = 1; i <= 4; i++) {\n            for (double j = 2.0; j <= 5.0; j++) {\n                for (int k = 3; k <= 6; k++) {\n                    result += i * j / k;\n                }\n            }\n        }\n        System.out.println(\"Result: \" + result);\n    }\n}",
                                                 "a": "Result: 30.75",
                                                 "b": "Result: 37.5",
@@ -3294,6 +3620,7 @@ const quizData = [
                                                 "correct": "d"
                                             },
                                             {
+
                                                 "question": "383. What does the following code print?",
                                                 "code": "class P {\n    public static void main(String[] args) {\n        boolean flag = true;\n        for (int i = 1; i <= 3; i++) {\n            for (int j = 2; j <= 4; j++) {\n                for (int k = 3; k <= 5; k++) {\n                    if (!(i * j * k % 2 == 0)) {\n                        flag = false;\n                    }\n                }\n            }\n        }\n        System.out.println(\"Flag: \" + flag);\n    }\n}",
                                                 "a": "Flag: true",
@@ -3304,6 +3631,7 @@ const quizData = [
                                             },
                                             {
                                                 "question": "384. What does the following code print?",
+
                                                 "code": "class P {\n    public static void main(String[] args) {\n        char character = 'A';\n        for (int i = 1; i <= 3; i++) {\n            for (int j = 2; j <= 4; j++) {\n                for (int k = 3; k <= 5; k++) {\n                    if (i % 2 == 0) {\n                        System.out.print((char) (character + j) + \" \");\n                    } else {\n                        System.out.print((char) (character + k) + \" \");\n                    }\n                }\n            }\n        }\n    }\n}",
                                                 "a": "B C D F G H I",
                                                 "b": "D E F H I J K",
@@ -3312,7 +3640,9 @@ const quizData = [
                                                 "correct": "b"
                                             },
                                             {
+
                                                 "question": "385. What is the purpose of `(char) (character + j)` and `(char) (character + k)` in the code provided?",
+
                                                 "a": "To print the character after incrementing its ASCII value by `j` and `k`, respectively.",
                                                 "b": "To print the character after decrementing its ASCII value by `j` and `k`, respectively.",
                                                 "c": "To print the character after incrementing its ASCII value by `k` and `j`, respectively.",
@@ -3320,7 +3650,9 @@ const quizData = [
                                                 "correct": "a"
                                             },
                                             {
+
                                                 "question": "386. In the code provided, how many times will the innermost loop iterate?",
+
                                                 "a": "9 times",
                                                 "b": "12 times",
                                                 "c": "15 times",
@@ -3328,7 +3660,9 @@ const quizData = [
                                                 "correct": "d"
                                             },
                                             {
+
                                                 "question": "387. In the code provided, how many times will the `if` block inside the innermost loop be executed?",
+
                                                 "a": "6 times",
                                                 "b": "9 times",
                                                 "c": "12 times",
@@ -3336,7 +3670,9 @@ const quizData = [
                                                 "correct": "d"
                                             },
                                             {
+
                                                 "question": "386. What will be the output of the following code?",
+
                                                 "code": "class P {\n    public static void main(String[] args) {\n        int total = 0;\n        for (int i = 1; i <= 4; i++) {\n            for (int j = 2; j <= 5; j++) {\n                for (int k = 3; k <= 6; k++) {\n                    if ((i + j) % 2 == 0 && (j + k) % 2 != 0) {\n                        total += i + j + k;\n                    }\n                }\n            }\n        }\n        System.out.println(\"Total: \" + total);\n    }\n}",
                                                 "a": "Total: 44",
                                                 "b": "Total: 61",
@@ -3345,7 +3681,9 @@ const quizData = [
                                                 "correct": "b"
                                             },
                                             {
+
                                                 "question": "387. What is the purpose of the `(i + j) % 2 == 0 && (j + k) % 2 != 0` condition in the code provided?",
+
                                                 "a": "To check if the sum of `i` and `j` is even, and the sum of `j` and `k` is odd.",
                                                 "b": "To check if the sum of `i` and `j` is odd, and the sum of `j` and `k` is even.",
                                                 "c": "To check if the sum of `i` and `j` is even, and the sum of `j` and `k` is even.",
@@ -3353,7 +3691,9 @@ const quizData = [
                                                 "correct": "a"
                                             },
                                             {
+
                                                 "question": "388. What does the following code print?",
+
                                                 "code": "class P {\n    public static void main(String[] args) {\n        double result = 0.0;\n        for (int i = 1; i <= 3; i++) {\n            for (double j = 2.0; j <= 4.0; j++) {\n                for (int k = 3; k <= 5; k++) {\n                    if (i % 2 == 0 && j % 2 != 0) {\n                        result += i * j / k;\n                    }\n                }\n            }\n        }\n        System.out.println(\"Result: \" + result);\n    }\n}",
                                                 "a": "Result: 3.75",
                                                 "b": "Result: 6.0",
@@ -3362,14 +3702,18 @@ const quizData = [
                                                 "correct": "a"
                                             },
                                             {
+
                                                 "question": "389. What does the following code print?",
+
                                                 "code": "class P {\n    public static void main(String[] args) {\n        boolean flag = true;\n        for (int i = 1; i <= 4; i++) {\n            for (int j = 2; j <= 5; j++) {\n                for (int k = 3; k <= 6; k++) {\n                    if (i % 2 != 0 && j % 2 == 0) {\n                        flag = false;\n                    }\n                }\n            }\n        }\n        System.out.println(\"Flag: \" + flag);\n    }\n}",
                                                 "a": "Flag: true",
                                                 "b": "Flag: false",
                                                 "correct": "b"
                                             },
                                             {
+
                                                 "question": "390. What does the following code print?",
+
                                                 "code": "class P {\n    public static void main(String[] args) {\n        char character = 'A';\n        for (int i = 1; i <= 4; i++) {\n            for (int j = 2; j <= 5; j++) {\n                for (int k = 3; k <= 6; k++) {\n                    if (i % 2 == 0) {\n                        System.out.print((char) (character + j) + \" \");\n                    } else {\n                        System.out.print((char) (character + k) + \" \");\n                    }\n                }\n            }\n        }\n    }\n}",
                                                 "a": "B C D F G H I",
                                                 "b": "D E F H I J K",
@@ -3378,7 +3722,9 @@ const quizData = [
                                                 "correct": "b"
                                             },
                                             {
+
                                                 "question": "391. What is the purpose of `(char) (character + j)` and `(char) (character + k)` in the code provided?",
+
                                                 "a": "To print the character after incrementing its ASCII value by `j` and `k`, respectively.",
                                                 "b": "To print the character after decrementing its ASCII value by `j` and `k`, respectively.",
                                                 "c": "To print the character after incrementing its ASCII value by `k` and `j`, respectively.",
@@ -3386,7 +3732,9 @@ const quizData = [
                                                 "correct": "a"
                                             },
                                             {
+
                                                 "question": "392. In the code provided, how many times will the innermost loop iterate?",
+
                                                 "a": "12 times",
                                                 "b": "15 times",
                                                 "c": "18 times",
@@ -3394,7 +3742,9 @@ const quizData = [
                                                 "correct": "c"
                                             },
                                             {
+
                                                 "question": "393. In the code provided, how many times will the `if` block inside the innermost loop be executed?",
+
                                                 "a": "6 times",
                                                 "b": "9 times",
                                                 "c": "12 times",
@@ -3402,7 +3752,9 @@ const quizData = [
                                                 "correct": "d"
                                             },
                                             {
+
                                                 "question": "394. What will be the output of the following code?",
+
                                                 "code": "class P {\n    public static void main(String[] args) {\n        int total = 0;\n        for (int i = 1; i <= 5; i++) {\n            for (int j = 2; j <= 6; j++) {\n                for (int k = 3; k <= 7; k++) {\n                    if ((i + j) % 2 != 0 && (j + k) % 2 == 0 && (i + k) % 2 != 0) {\n                        total += i + j + k;\n                    }\n                }\n            }\n        }\n        System.out.println(\"Total: \" + total);\n    }\n}",
                                                 "a": "Total: 240",
                                                 "b": "Total: 265",
@@ -3411,7 +3763,9 @@ const quizData = [
                                                 "correct": "b"
                                             },
                                             {
+
                                                 "question": "395. What is the purpose of the `(i + j) % 2 != 0 && (j + k) % 2 == 0 && (i + k) % 2 != 0` condition in the code provided?",
+
                                                 "a": "To check if the sum of `i` and `j` is odd, the sum of `j` and `k` is even, and the sum of `i` and `k` is odd.",
                                                 "b": "To check if the sum of `i` and `j` is even, the sum of `j` and `k` is odd, and the sum of `i` and `k` is even.",
                                                 "c": "To check if the sum of `i` and `j` is odd, the sum of `j` and `k` is odd, and the sum of `i` and `k` is odd.",
@@ -3419,7 +3773,9 @@ const quizData = [
                                                 "correct": "a"
                                             },
                                             {
+
                                                 "question": "396. What does the following code print?",
+
                                                 "code": "class P {\n    public static void main(String[] args) {\n        double result = 0.0;\n        for (int i = 1; i <= 6; i++) {\n            for (double j = 2.0; j <= 7.0; j++) {\n                for (int k = 3; k <= 8; k++) {\n                    if (i % 2 == 0 && j % 2 != 0 && k % 2 == 0) {\n                        result += i * j / k;\n                    }\n                }\n            }\n        }\n        System.out.println(\"Result: \" + result);\n    }\n}",
                                                 "a": "Result: 3.75",
                                                 "b": "Result: 5.0",
@@ -3428,6 +3784,7 @@ const quizData = [
                                                 "correct": "b"
                                             },
                                             {
+
                                                 "question": "397. What does the following code print?",
                                                 "code": "class P {\n    public static void main(String[] args) {\n        boolean flag = true;\n        for (int i = 1; i <= 5; i++) {\n            for (int j = 2; j <= 6; j++) {\n                for (int k = 3; k <= 7; k++) {\n                    if ((i + j) % 3 == 0 && (j + k) % 3 != 0 && (i + k) % 3 == 0) {\n                        flag = false;\n                    }\n                }\n            }\n        }\n        System.out.println(\"Flag: \" + flag);\n    }\n}",
                                                 "a": "Flag: true",
@@ -3438,6 +3795,7 @@ const quizData = [
                                             },
                                             {
                                                 "question": "398. What does the following code print?",
+
                                                 "code": "class P {\n    public static void main(String[] args) {\n        char character = 'A';\n        for (int i = 1; i <= 6; i++) {\n            for (int j = 2; j <= 7; j++) {\n                for (int k = 3; k <= 8; k++) {\n                    if (i % 3 == 0) {\n                        System.out.print((char) (character + j) + \" \");\n                    } else {\n                        System.out.print((char) (character + k) + \" \");\n                    }\n                }\n            }\n        }\n    }\n}",
                                                 "a": "B C D F G H I",
                                                 "b": "D E F H I J K",
@@ -3446,7 +3804,9 @@ const quizData = [
                                                 "correct": "b"
                                             },
                                             {
+
                                                 "question": "399. What is the purpose of `(char) (character + j)` and `(char) (character + k)` in the code provided?",
+
                                                 "a": "To print the character after incrementing its ASCII value by `j` and `k`, respectively.",
                                                 "b": "To print the character after decrementing its ASCII value by `j` and `k`, respectively.",
                                                 "c": "To print the character after incrementing its ASCII value by `k` and `j`, respectively.",
@@ -3454,7 +3814,9 @@ const quizData = [
                                                 "correct": "a"
                                             },
                                             {
+
                                                 "question": "400. In the code provided, how many times will the innermost loop iterate?",
+
                                                 "a": "18 times",
                                                 "b": "21 times",
                                                 "c": "24 times",
@@ -3462,7 +3824,9 @@ const quizData = [
                                                 "correct": "d"
                                             },
                                             {
+
                                                 "question": "401. In the code provided, how many times will the `if` block inside the innermost loop be executed?",
+
                                                 "a": "9 times",
                                                 "b": "12 times",
                                                 "c": "15 times",
@@ -3470,7 +3834,9 @@ const quizData = [
                                                 "correct": "b"
                                             },
                                             {
+
                                                 "question": "402. What will be the output of the following code?",
+
                                                 "code": "class P {\n    public static void main(String[] args) {\n        int total = 0;\n        for (int i = 1; i <= 4; i++) {\n            for (int j = 2; j <= 5; j++) {\n                for (int k = 3; k <= 6; k++) {\n                    if ((i + j) % 2 == 0) {\n                    }\n                    if ((j + k) % 2 == 0) {\n                        total += i + j + k;\n                    }\n                }\n            }\n        }\n        System.out.println(\"Total: \" + total);\n    }\n}",
                                                 "a": "Total: 56",
                                                 "b": "Total: 68",
@@ -3479,7 +3845,9 @@ const quizData = [
                                                 "correct": "c"
                                             },
                                             {
+
                                                 "question": "403. What does the following code print?",
+
                                                 "code": "class P {\n    public static void main(String[] args) {\n        double result = 0.0;\n        for (int i = 1; i <= 3; i++) {\n            for (double j = 2.0; j <= 4.0; j++) {\n                for (int k = 3; k <= 5; k++) {\n                    if (i % 2 == 0) {\n                        result += i * j / k;\n                    } else {\n                        break;\n                    }\n                }\n            }\n        }\n        System.out.println(\"Result: \" + result);\n    }\n}",
                                                 "a": "Result: 0.0",
                                                 "b": "Result: 2.0",
@@ -3488,7 +3856,9 @@ const quizData = [
                                                 "correct": "a"
                                             },
                                             {
+
                                                 "question": "404. What does the `break` statement in the code provided do?",
+
                                                 "a": "It terminates the innermost loop and continues execution with the next statement after the loop.",
                                                 "b": "It terminates the outermost loop and continues execution with the next statement after the loop.",
                                                 "c": "It terminates all the loops and continues execution with the next statement after the loops.",
@@ -3496,7 +3866,9 @@ const quizData = [
                                                 "correct": "a"
                                             },
                                             {
+
                                                 "question": "405. What does the following code print?",
+
                                                 "code": "class P {\n    public static void main(String[] args) {\n        int total = 0;\n        outer: for (int i = 1; i <= 4; i++) {\n            middle: for (int j = 2; j <= 5; j++) {\n                inner: for (int k = 3; k <= 6; k++) {\n                    if (i + j + k > 10) {\n                        break outer;\n                    }\n                    total += i + j + k;\n                }\n            }\n        }\n        System.out.println(\"Total: \" + total);\n    }\n}",
                                                 "a": "Total: 15",
                                                 "b": "Total: 36",
@@ -3505,6 +3877,7 @@ const quizData = [
                                                 "correct": "a"
                                             },
                                             {
+
                                                 "question": "406. What is the purpose of the labels `outer`, `middle`, and `inner` in the code provided?",
                                                 "a": "To identify the different levels of nesting in the loops.",
                                                 "b": "To create separate instances of the loops with different initial values.",
@@ -3825,12 +4198,14 @@ const quizData = [
                                             {
                                                 "question": "443. What is the purpose of the labels `outer`, `middle`, and `inner` in the code provided?",
                                                 "code": "",
+
                                                 "a": "To identify the different levels of nesting in the loops.",
                                                 "b": "To create separate instances of the loops with different initial values.",
                                                 "c": "To identify the exit points of the loops when using `break` statements.",
                                                 "d": "To differentiate between loops that use `break` statements and loops that don't.",
                                                 "correct": "c"
                                             },
+
                                             {
                                                 "question": "444. What does the following code print?",
                                                 "code": "class P {\n    public static void main(String[] args) {\n        double result = 0.0;\n        outer: for (int i = 1; i <= 4; i++) {\n            middle: for (double j = 2.0; j <= 5.0; j++) {\n                inner: for (int k = 3; k <= 6; k++) {\n                    if (j % 2 == 0) {\n                        result -= i * j / k;\n                    } else {\n                        result += i * j / k;\n                    }\n                }\n            }\n        }\n        System.out.println(\"Result: \" + result);\n    }\n}",
@@ -4649,7 +5024,7 @@ const quizData = [
                                                             "correct": "b",
                                                         },
                                                         
-                                                                                    
+
 ];
 
 const quiz = document.getElementById('quiz');
