@@ -1021,8 +1021,8 @@ const quizData = [
                             "correct": "c"
                         },
                         {
-                            "question": "59. What will be the output of the program?",
-                            "code": "package com.lara;\n\npublic class M6 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        Object obj = \"abc\";\n        String s1 = (String) obj;\n        System.out.println(\"main end\");\n    }\n}",
+                    "question": "59. What will be the output of the program?",
+                "code": "package com.lara;\n\npublic class M6 {\n    public static void main(String[] args) {\n        System.out.println(\"main begin\");\n        Object obj = \"abc\";\n        String s1 = (String) obj;\n        System.out.println(\"main end\");\n    }\n}",
                             "a": "main begin<br>main end<br>",
                             "b": "NumberFormatException<br>",
                             "c": "ClassCastException<br>",
@@ -1293,7 +1293,7 @@ const quizData = [
                                 "c": "Throwable",
                                 "d": "Cachable",
                                 "correct": "c"
-                            }
+                            },
                         
                         
             
