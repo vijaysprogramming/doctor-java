@@ -1041,6 +1041,53 @@ a
 
 /* main menu styles(right side hamburger menu) */
   /* Header styles */
+
+
+  /* udpates begin */
+.header-banner {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    background-color: #eef2f3;
+    background-color: #2E8B57;
+    color: #fff;
+    padding: 15px 25px;
+    text-align: center;
+}
+
+.main-title {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.content-wrapper {
+    margin: 25px;
+}
+
+.info-section {
+    background: #fff;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out;
+}
+
+.info-section:hover {
+    transform: scale(1.03);
+}
+
+.section-title {
+    color: #444;
+    font-size: 1.5rem;
+}
+
+.section-content {
+    color: #555;
+    font-size: 1rem;
+}
+  /* udpates end */
   
 
 

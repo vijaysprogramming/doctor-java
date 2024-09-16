@@ -4,11 +4,12 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Home</title>
+		<!-- Google Fonts -->
 		<link
-			rel="icon"
-			href="images/vijays-programming-website-favicon-color.png"
-			type="image/icon type"
+			href="https://fonts.googleapis.com/css?family=Poppins"
+			rel="stylesheet"
 		/>
+		<link rel="icon" href="images/favicon-16x16.png" type="image/icon type" />
 		<link
 			rel="icon"
 			href="images/vijays-programming-website-favicon-color.png"
@@ -36,7 +37,7 @@
 			</div>
 			<ul class="nav-links">
 				<li><a href="#">Home</a></li>
-				<li><a href="#">Updates</a></li>
+				<li><a href="./updates.html">Updates</a></li>
 				<li><a href="#">Contact us</a></li>
 				<li>
 					<a href="https://wa.me/918867739948" target="_blank">Instant Help</a>
@@ -207,6 +208,15 @@
 
 		<!-- content-divider -->
 		<div class="divider"></div>
+
+
+		<!-- testimony begin -->
+		<div class="unique-testimonials-section">
+			<div class="unique-column">
+				<div class="unique-details">
+					<h4 class="unique-name">Student</h4>
+					<h2 class="unique-title">Spotlight: <b>Stories</b></h2>
+
 		<!-- testimonials begin -->
 		<!-- Testimonials -->
 		<div class="testimonials page_section">
@@ -228,79 +238,642 @@
 							</h1>
 						</div>
 					</div>
+
 				</div>
 
-				<div class="row">
-					<div class="col-lg-10 offset-lg-1">
-						<div class="testimonials_slider_container">
-							<input type="radio" name="carousel" id="carousel-1" checked />
-							<input type="radio" name="carousel" id="carousel-2" />
-							<input type="radio" name="carousel" id="carousel-3" />
+				<div class="unique-navigation">
+					<div class="unique-prev-btn" id="uniquePrevBtn">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="64"
+							height="65"
+							viewBox="0 0 64 65"
+							fill="none"
+						>
+							<circle
+								cx="32"
+								cy="32"
+								r="31"
+								transform="matrix(-1 0 0 1 64 0.947266)"
+								stroke="#FFCB00"
+								stroke-width="2"
+							/>
+							<path
+								d="M34.5967 20.9197C35.1642 20.3521 36.0843 20.3521 36.6519 20.9197C37.2194 21.4872 37.2194 22.4073 36.6519 22.9749L34.5967 20.9197ZM36.6519 22.9749L24.3207 35.306L22.2655 33.2509L34.5967 20.9197L36.6519 22.9749Z"
+								fill="#FFCB00"
+							/>
+							<path
+								d="M34.9724 45.9749C35.5399 46.5424 36.4601 46.5424 37.0276 45.9749C37.5951 45.4073 37.5951 44.4872 37.0276 43.9197L34.9724 45.9749ZM37.0276 43.9197L24.6964 31.5885L22.6412 33.6437L34.9724 45.9749L37.0276 43.9197Z"
+								fill="#FFCB00"
+							/>
+						</svg>
+					</div>
 
-							<div class="testimonials_slider">
-								<div class="testimonials_item">
-									<div class="quote">“</div>
-									<p class="testimonials_text">
-										I strongly believe that it was one of my best decisions to
-										join Vijay's programming for the Full Stack Java course. The
-										experience was fruitful...
-									</p>
-									<div class="testimonial_user">
-										<div class="testimonial_image">
-											<img src="images/review-images/syam.png" alt="Syam N" />
-										</div>
-										<div class="testimonial_name">Syam N</div>
-										<div class="testimonial_title">Java Full-Stack Course</div>
-									</div>
-								</div>
-								<div class="testimonials_item">
-									<div class="quote">“</div>
-									<p class="testimonials_text">
-										We can experience quality teaching. I am not from CS
-										background but still I am able to understand the concept by
-										his simple way of teaching...
-									</p>
-									<div class="testimonial_user">
-										<div class="testimonial_image">
-											<img
-												src="images/review-images/shalini.jpg"
-												alt="Shalini V P"
-											/>
-										</div>
-										<div class="testimonial_name">Shalini V P</div>
-										<div class="testimonial_title">Java Full-Stack Course</div>
-									</div>
-								</div>
-								<div class="testimonials_item">
-									<div class="quote">“</div>
-									<p class="testimonials_text">
-										Vijay sir is a best trainer, fully dedicated and passion
-										towards his work...
-									</p>
-									<div class="testimonial_user">
-										<div class="testimonial_image">
-											<img
-												src="images/review-images/vasundara.jpg"
-												alt="Vasundara"
-											/>
-										</div>
-										<div class="testimonial_name">Vasundara</div>
-										<div class="testimonial_title">Java Full-Stack Course</div>
+					<div class="unique-next-btn" id="uniqueNextBtn">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="64"
+							height="65"
+							viewBox="0 0 64 65"
+							fill="none"
+						>
+							<circle cx="32" cy="32.9473" r="32" fill="#FFCB00" />
+							<path
+								d="M29.4033 20.9197C28.8358 20.3521 27.9157 20.3521 27.3481 20.9197C26.7806 21.4872 26.7806 22.4073 27.3481 22.9749L29.4033 20.9197ZM27.3481 22.9749L39.6793 35.306L41.7345 33.2509L29.4033 20.9197L27.3481 22.9749Z"
+								fill="white"
+							/>
+							<path
+								d="M29.0276 45.9749C28.4601 46.5424 27.5399 46.5424 26.9724 45.9749C26.4049 45.4073 26.4049 44.4872 26.9724 43.9197L29.0276 45.9749ZM26.9724 43.9197L39.3036 31.5885L41.3588 33.6437L29.0276 45.9749L26.9724 43.9197Z"
+								fill="white"
+							/>
+						</svg>
+					</div>
+				</div>
+			</div>
+
+			<div class="unique-slider-container">
+				<div class="unique-slider-track">
+					<div class="unique-slide">
+						<div class="unique-card">
+							<div class="unique-head">
+								<div class="unique-header">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="80"
+										height="81"
+										viewBox="0 0 80 81"
+										fill="none"
+									>
+										<circle cx="40" cy="40.0901" r="40" fill="white" />
+										<image
+											href="./images/review-images/syam.png"
+											x="0"
+											y="0"
+											width="80"
+											height="80"
+											clip-path="circle(40px at 40px 40px)"
+										/>
+									</svg>
+									<div class="unique-title-text">
+										<h4>Syam N</h4>
+										<h6>Full-Stack Java</h6>
 									</div>
 								</div>
 							</div>
-							<div class="carousel_navigation">
-								<label for="carousel-1" class="carousel_button"></label>
-								<label for="carousel-2" class="carousel_button"></label>
-								<label for="carousel-3" class="carousel_button"></label>
-							</div>
+							<p class="unique-text">
+								I strongly believe that it was one of my best decision to join
+								Vijays programming for Full Stack Java course and it was a
+								fruitful experience . As a beginner, I don’t have many ideas
+								about programming , but Vijay sir makes me efficient in java
+								programming and the training technique was remarkable and I
+								really wondered and appreciate the way he handles the classes
+								and topics and he is always ready to help us whenever we need
+								support. His continued support and guidance throughout the
+								course make us more professional and I am extremely thankful to
+								vijay sir.
+							</p>
 						</div>
 					</div>
+					<div class="unique-slide">
+						<div class="unique-card">
+							<div class="unique-head">
+								<div class="unique-header">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="80"
+										height="81"
+										viewBox="0 0 80 81"
+										fill="none"
+									>
+										<circle cx="40" cy="40.0901" r="40" fill="white" />
+										<image
+											href="./images/review-images/shalini.jpg"
+											x="0"
+											y="0"
+											width="80"
+											height="80"
+											clip-path="circle(40px at 40px 40px)"
+										/>
+									</svg>
+									<div class="unique-title-text">
+										<h4>Shalini VP</h4>
+										<h6>Full-Stack Java Course</h6>
+									</div>
+								</div>
+							</div>
+							<p class="unique-text">
+								We can experience quality teaching. I am not from CS background
+								but still I am able to understand the concept by his simple way
+								of teaching. Good start for beginner's. Thankyou
+							</p>
+						</div>
+					</div>
+					<div class="unique-slide">
+						<div class="unique-card">
+							<div class="unique-head">
+								<div class="unique-header">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="80"
+										height="81"
+										viewBox="0 0 80 81"
+										fill="none"
+									>
+										<circle cx="40" cy="40.0901" r="40" fill="white" />
+										<image
+											href="./images/review-images/vasundara.jpg"
+											x="0"
+											y="0"
+											width="80"
+											height="80"
+											clip-path="circle(40px at 40px 40px)"
+										/>
+									</svg>
+									<div class="unique-title-text">
+										<h4>Vasundara</h4>
+										<h6>Java Full-Stack</h6>
+									</div>
+								</div>
+							</div>
+							<p class="unique-text">
+								Vijay sir is a best trainer,fully dedicated and passion towards
+								his work .He try to teach the complicated topics in a simpler
+								manner,so we can understand those topics very easily.I joined
+								course with zero percentage knowledge on java now i can
+								understand each and every topic. Thank you sir.
+							</p>
+						</div>
+					</div>
+					<!-- <div class="unique-slide">
+						<div class="unique-card">
+							<div class="unique-head">
+								<div class="unique-header">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="80"
+										height="81"
+										viewBox="0 0 80 81"
+										fill="none"
+									>
+										<circle cx="40" cy="40.0901" r="40" fill="white" />
+										<image
+											href="./images/review-images/vishnu.jpg"
+											x="0"
+											y="0"
+											width="80"
+											height="80"
+											clip-path="circle(40px at 40px 40px)"
+										/>
+									</svg>
+									<div class="unique-title-text">
+										<h4>Vishnuvardhan Reddy</h4>
+										<h6>Java Full-Stack</h6>
+									</div>
+								</div>
+							</div>
+							<p class="unique-text">
+								You can understand the subject quickly, response from the
+								trainer is fast and good.
+							</p>
+						</div>
+					</div> -->
+					<div class="unique-slide">
+						<div class="unique-card">
+							<div class="unique-head">
+								<div class="unique-header">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="80"
+										height="81"
+										viewBox="0 0 80 81"
+										fill="none"
+									>
+										<circle cx="40" cy="40.0901" r="40" fill="white" />
+										<image
+											href="./images/review-images/chandan.png"
+											x="0"
+											y="0"
+											width="80"
+											height="80"
+											clip-path="circle(40px at 40px 40px)"
+										/>
+									</svg>
+									<div class="unique-title-text">
+										<h4>Chandan K</h4>
+										<h6>Java Full-Stack Course</h6>
+									</div>
+								</div>
+							</div>
+							<p class="unique-text">
+								Great platform to learn full stack java course and trainers are
+								good and friendly they cleared doubts very well and my special
+								thanks to vijay sir who taught me very well which helps to get
+								placed in good company Thanks and regards, Chandan k
+							</p>
+						</div>
+					</div>
+					<!-- <div class="unique-slide">
+						<div class="unique-card">
+							<div class="unique-head">
+								<div class="unique-header">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="80"
+										height="81"
+										viewBox="0 0 80 81"
+										fill="none"
+									>
+										<circle cx="40" cy="40.0901" r="40" fill="white" />
+										<image
+											href="./images/review-images/vasundara.jpg"
+											x="0"
+											y="0"
+											width="80"
+											height="80"
+											clip-path="circle(40px at 40px 40px)"
+										/>
+									</svg>
+									<div class="unique-title-text">
+										<h4>Deekshith R</h4>
+										<h6>Java Full-Stack Course</h6>
+									</div>
+								</div>
+							</div>
+							<p class="unique-text">Nice teaching</p>
+						</div>
+					</div> -->
+					<div class="unique-slide">
+						<div class="unique-card">
+							<div class="unique-head">
+								<div class="unique-header">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="80"
+										height="81"
+										viewBox="0 0 80 81"
+										fill="none"
+									>
+										<circle cx="40" cy="40.0901" r="40" fill="white" />
+										<image
+											href="./images/review-images/sivamyadav.png"
+											x="0"
+											y="0"
+											width="80"
+											height="80"
+											clip-path="circle(40px at 40px 40px)"
+										/>
+									</svg>
+									<div class="unique-title-text">
+										<h4>Shivam Yadav</h4>
+										<h6>Java Full-Stack Course</h6>
+									</div>
+								</div>
+							</div>
+							<p class="unique-text">
+								Hello, I have learned java and some web technologies from vijay
+								sir, because he has very deep knowledge on all the topic so it
+								is very worth to taking classes to him.
+							</p>
+						</div>
+					</div>
+					<div class="unique-slide">
+						<div class="unique-card">
+							<div class="unique-head">
+								<div class="unique-header">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="80"
+										height="81"
+										viewBox="0 0 80 81"
+										fill="none"
+									>
+										<circle cx="40" cy="40.0901" r="40" fill="white" />
+										<image
+											href="./images/review-images/sunilraj.png"
+											x="0"
+											y="0"
+											width="80"
+											height="80"
+											clip-path="circle(40px at 40px 40px)"
+										/>
+									</svg>
+									<div class="unique-title-text">
+										<h4>Sunil Raj</h4>
+										<h6>Java Full-Stack Course</h6>
+									</div>
+								</div>
+							</div>
+							<p class="unique-text">
+								Vijay sir is a best trainer, his training method is amazing.
+								Becoz of him we can able to understand complex topics also in a
+								easyway and he will give all live examples on each and every
+								topic and he will always ready for clarifying our doubts
+							</p>
+						</div>
+					</div>
+					<!-- <div class="unique-slide">
+						<div class="unique-card">
+							<div class="unique-head">
+								<div class="unique-header">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="80"
+										height="81"
+										viewBox="0 0 80 81"
+										fill="none"
+									>
+										<circle cx="40" cy="40.0901" r="40" fill="white" />
+										<image
+											href="./images/review-images/arvind.png"
+											x="0"
+											y="0"
+											width="80"
+											height="80"
+											clip-path="circle(40px at 40px 40px)"
+										/>
+									</svg>
+									<div class="unique-title-text">
+										<h4>Arvind Kumar</h4>
+										<h6>Java Full-Stack Course</h6>
+									</div>
+								</div>
+							</div>
+							<p class="unique-text">
+								Actually I have zero knowledge of it course , because i am from
+								mechanical background.After attending Vijay sir class .he gave
+								me clear explanation and confidence about the concepts in simple
+								manner.Thank you once again sir for giving me training.
+							</p>
+						</div>
+					</div>
+					<div class="unique-slide">
+						<div class="unique-card">
+							<div class="unique-head">
+								<div class="unique-header">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="80"
+										height="81"
+										viewBox="0 0 80 81"
+										fill="none"
+									>
+										<circle cx="40" cy="40.0901" r="40" fill="white" />
+										<image
+											href="./images/review-images/female.png"
+											x="0"
+											y="0"
+											width="80"
+											height="80"
+											clip-path="circle(40px at 40px 40px)"
+										/>
+									</svg>
+									<div class="unique-title-text">
+										<h4>Monika Rana</h4>
+										<h6>Java Full-Stack Course</h6>
+									</div>
+								</div>
+							</div>
+							<p class="unique-text">
+								vijay sir is a best trainer. He got us the concepts clearance
+								very well. Jis method of teaching is very good. By his teaching
+								method I can easily understood even the most difficult concept.
+							</p>
+						</div>
+					</div>
+					<div class="unique-slide">
+						<div class="unique-card">
+							<div class="unique-head">
+								<div class="unique-header">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="80"
+										height="81"
+										viewBox="0 0 80 81"
+										fill="none"
+									>
+										<circle cx="40" cy="40.0901" r="40" fill="white" />
+										<image
+											href="./images/review-images/bunnysrinivas.png"
+											x="0"
+											y="0"
+											width="80"
+											height="80"
+											clip-path="circle(40px at 40px 40px)"
+										/>
+									</svg>
+									<div class="unique-title-text">
+										<h4>Bunny Nivas</h4>
+										<h6>Java Full-Stack Course</h6>
+									</div>
+								</div>
+							</div>
+							<p class="unique-text">
+								I've experienced the best training in Core Java and gained good
+								knowledge. This helped me to get into good organization and
+								started my professional career. I would definitely recommend
+								this to some one looking for good training especially in Java
+								and Python.
+							</p>
+						</div>
+					</div>
+					<div class="unique-slide">
+						<div class="unique-card">
+							<div class="unique-head">
+								<div class="unique-header">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="80"
+										height="81"
+										viewBox="0 0 80 81"
+										fill="none"
+									>
+										<circle cx="40" cy="40.0901" r="40" fill="white" />
+										<image
+											href="./images/review-images/ramkumar.png"
+											x="0"
+											y="0"
+											width="80"
+											height="80"
+											clip-path="circle(40px at 40px 40px)"
+										/>
+									</svg>
+									<div class="unique-title-text">
+										<h4>Ram Kumar</h4>
+										<h6>Java Full-Stack Course</h6>
+									</div>
+								</div>
+							</div>
+							<p class="unique-text">
+								I started my course with Core Java in order to learn the
+								automation tool Selenium. The core java trainer Mr.Vijay is an
+								amazing teacher anybody could ask for, he taught us Java in a
+								very simple,easy and understanding way. I had gone to learn and
+								get a job as a Test Engineer but after attending his class I was
+								confident to try for Developer jobs too! He is very approachable
+								and help students individually and solves all their queries with
+								lot of patience.
+							</p>
+						</div>
+					</div>
+					<div class="unique-slide">
+						<div class="unique-card">
+							<div class="unique-head">
+								<div class="unique-header">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="80"
+										height="81"
+										viewBox="0 0 80 81"
+										fill="none"
+									>
+										<circle cx="40" cy="40.0901" r="40" fill="white" />
+										<image
+											href="./images/review-images/pradeepraj.png"
+											x="0"
+											y="0"
+											width="80"
+											height="80"
+											clip-path="circle(40px at 40px 40px)"
+										/>
+									</svg>
+									<div class="unique-title-text">
+										<h4>Ram Kumar</h4>
+										<h6>Java Full-Stack Course</h6>
+									</div>
+								</div>
+							</div>
+							<p class="unique-text">
+								Vijay sir is very good trainer.He gives his best to make
+								students understand concepts well.All the students even from non
+								IT background can also understand his teaching better.He gives
+								more examples to clear concepts well
+							</p>
+						</div>
+					</div> -->
+					<!-- Add more slides similarly -->
+				</div>
+			</div>
+		</div>
+		<!-- testimony end -->
+
+		<!-- content-divider -->
+		<div class="divider"></div>
+		<!-- content-divider -->
+		<div class="divider"></div>
+		<!-- content-divider -->
+		<div class="divider"></div>
+
+		<!-- infinite scroll start -->
+		<div class="slider">
+			<div class="slide-track">
+				<div class="slide">
+					<img
+						src="./images/infinite-scroll/1.png"
+						height="100"
+						width="250"
+						alt=""
+					/>
+				</div>
+				<div class="slide">
+					<img
+						src="./images/infinite-scroll/2.png"
+						height="100"
+						width="250"
+						alt=""
+					/>
+				</div>
+				<div class="slide">
+					<img
+						src="./images/infinite-scroll/3.png"
+						height="100"
+						width="250"
+						alt=""
+					/>
+				</div>
+				<div class="slide">
+					<img
+						src="./images/infinite-scroll/4.png"
+						height="100"
+						width="250"
+						alt=""
+					/>
+				</div>
+				<div class="slide">
+					<img
+						src="./images/infinite-scroll/5.png"
+						height="100"
+						width="250"
+						alt=""
+					/>
+				</div>
+				<div class="slide">
+					<img
+						src="./images/infinite-scroll/6.png"
+						height="100"
+						width="250"
+						alt=""
+					/>
+				</div>
+				<div class="slide">
+					<img
+						src="./images/infinite-scroll/7.png"
+						height="100"
+						width="250"
+						alt=""
+					/>
+				</div>
+				<div class="slide">
+					<img
+						src="./images/infinite-scroll/8.png"
+						height="100"
+						width="250"
+						alt=""
+					/>
+				</div>
+				<div class="slide">
+					<img
+						src="./images/infinite-scroll/9.png"
+						height="100"
+						width="250"
+						alt=""
+					/>
+				</div>
+				<div class="slide">
+					<img
+						src="./images/infinite-scroll/10.png"
+						height="100"
+						width="250"
+						alt=""
+					/>
+				</div>
+				<div class="slide">
+					<img
+						src="./images/infinite-scroll/11.png"
+						height="100"
+						width="250"
+						alt=""
+					/>
+				</div>
+				<div class="slide">
+					<img
+						src="./images/infinite-scroll/10.png"
+						height="100"
+						width="250"
+						alt=""
+					/>
+				</div>
+				<div class="slide">
+					<img
+						src="./images/infinite-scroll/11.png"
+						height="100"
+						width="250"
+						alt=""
+					/>
 				</div>
 			</div>
 		
 
-		<!-- testimonials end -->
+		<!-- infinite scroll end -->
 
 		
 		<div class="slider">
@@ -585,5 +1158,9 @@
 		<!-- footer section end  -->
 
 		<script src="./js/login-signup/login-signup.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		<script src="./js/index.js"></script>
 	</body>
 </html>
