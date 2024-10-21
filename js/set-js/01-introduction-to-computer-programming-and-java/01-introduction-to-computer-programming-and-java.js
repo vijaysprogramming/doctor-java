@@ -1,4 +1,5 @@
 const quizData = [
+
     {
         question: "01. What is machine-level language also known as?",
         code: `select the correct option`,
@@ -198,7 +199,8 @@ const quizData = [
         correct: "c",
     },
     
-   
+    
+    
 ];
 
 const quiz = document.getElementById('quiz');
