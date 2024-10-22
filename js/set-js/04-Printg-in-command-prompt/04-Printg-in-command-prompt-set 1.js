@@ -14,7 +14,6 @@ const quizData = [
         code: `Select The Correct Answer`,
         a: "true",
         b: "false",
-        b: "false",
         c: "not applicable",
         d: "non of above",
         correct: "a"
