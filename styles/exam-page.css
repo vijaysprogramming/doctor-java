@@ -662,9 +662,13 @@ input[type="radio"]{
     color: #fff;
 }
 
+
+15. Footer
+
 #signup:checked ~ .login{
     color: #212121;
 }
+
 
 .form-container .form-inner{
     display: flex;
