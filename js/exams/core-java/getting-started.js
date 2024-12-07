@@ -1,245 +1,324 @@
 const quizData = [
 
+    
     {
-        question: "01.What will be the output of the following Java program?",
-        code: `class I
-{
-    public static void main(String[] args)
-    {
-        boolean flag = !(!(!false != !true)); 
-        if(flag)
-        {
-            System.out.println("from if");
-        }
-        System.out.println("end of main");
-    }
-}`,
-        a: "from if<br>end of main",
-        b: "end of main",
-        c: "Compilation error",
-        d: "Runtime error",
-        correct: "b",
+        "question": "1. How can you check the system's bit size?",
+        "code": "Select the correct answer",
+        "a": "By using Notepad",
+        "b": "By using an int variable",
+        "c": "By right-clicking on the browser and checking properties",
+        "d": "By right-clicking on 'Computer' and checking properties",
+        "correct": "d"
     },
     {
-            "question": "2.which command is used to read env variable in the command prompt?",
-            "code": "Select The Correct Answer",
-            "a": "echo",
-            "b": "path",
-            "c": "classpath",
-            "d": "set",
+        "question": "2. Which feature is not advisable to install while installing the JDK?",
+        "code": "Select the correct answer",
+        "a": "Development tools",
+        "b": "Source code",
+        "c": "Public JRE",
+        "d": "None of the above",
+        "correct": "c"
+    },
+    {
+        "question": "3. Which environment variable is required to specify the location of executable commands?",
+        "code": "Select the correct answer",
+        "a": "echo",
+        "b": "PATH",
+        "c": "CLASSPATH",
+        "d": "SET",
+        "correct": "b"
+    },
+    {
+        "question": "4. Which command is used to set environment variables in the command prompt?",
+        "code": "Select the correct answer",
+        "a": "echo",
+        "b": "PATH",
+        "c": "CLASSPATH",
+        "d": "SET",
+        "correct": "d"
+    },
+    {
+        "question": "5. Which command is used to read environment variables in the command prompt?",
+        "code": "Select the correct answer",
+        "a": "echo",
+        "b": "PATH",
+        "c": "CLASSPATH",
+        "d": "SET",
+        "correct": "a"
+    },
+    {
+        "question": "6. How many ways are there to set the PATH environment variable?",
+        "code": "Select the correct answer",
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "0",
+        "correct": "b"
+    },
+    {
+        "question": "7. Which method of setting the PATH will be local to the current command prompt session?",
+        "code": "Select the correct answer",
+        "a": "Through the SET command",
+        "b": "In 'My Computer' under the user level",
+        "c": "In 'My Computer' under the system level",
+        "d": "None of the above",
+        "correct": "a"
+    },
+    {
+        "question": "8. Which method of setting the PATH will apply to the current user and all of their sessions?",
+        "code": "Select the correct answer",
+        "a": "Through the SET command",
+        "b": "In 'My Computer' under the user level",
+        "c": "In 'My Computer' under the system level",
+        "d": "None of the above",
+        "correct": "b"
+    },
+    {
+        "question": "9. Which method of setting the PATH will apply to all users?",
+        "code": "Select the correct answer",
+        "a": "Through the SET command",
+        "b": "In 'My Computer' under the user level",
+        "c": "In 'My Computer' under the system level",
+        "d": "None of the above",
+        "correct": "c"
+    },
+    {
+        "question": "10. Which method of setting the PATH is the most preferable?",
+        "code": "Select the correct answer",
+        "a": "Through the SET command",
+        "b": "In 'My Computer' under the user level",
+        "c": "In 'My Computer' under the system level",
+        "d": "None of the above",
+        "correct": "c"
+    },
+    {
+        "question": "11. How do you check the version of the JDK?",
+        "code": "Select the correct answer",
+        "a": "javac -version",
+        "b": "javac version",
+        "c": "JDK -version",
+        "d": "JDK version",
+        "correct": "a"
+    },
+    {
+        "question": "12. Which folder in the JDK contains the commands?",
+        "code": "Select the correct answer",
+        "a": "bin",
+        "b": "lib",
+        "c": "cmd",
+        "d": "javac",
+        "correct": "a"
+    },
+    {
+        "question": "13. Which command is used to compile a Java program?",
+        "code": "Select the correct answer",
+        "a": "java",
+        "b": "javac",
+        "c": "compile",
+        "d": "java_c",
+        "correct": "b"
+    },
+    {
+        "question": "14. Which command is used to run a Java program?",
+        "code": "Select the correct answer",
+        "a": "java",
+        "b": "javac",
+        "c": "compile",
+        "d": "java_c",
+        "correct": "a"
+    },
+    {
+        "question": "15. What is the file extension for a Java program?",
+        "code": "Select the correct answer",
+        "a": ".java",
+        "b": ".javac",
+        "c": ".compile",
+        "d": ".txt",
+        "correct": "a"
+    },
+    {
+        "question": "16. What type of file is generated by the javac command?",
+        "code": "Select the correct answer",
+        "a": ".java",
+        "b": ".class",
+        "c": ".compile",
+        "d": ".txt",
+        "correct": "b"
+    },
+    {
+        "question": "17. Which type of file is used by the java command to run the program?",
+        "code": "Select the correct answer",
+        "a": ".java",
+        "b": ".class",
+        "c": ".compile",
+        "d": ".txt",
+        "correct": "b"
+    },
+    {
+        "question": "18. From which location should you run the javac command?",
+        "code": "Select the correct answer",
+        "a": "From where the .java file is saved",
+        "b": "From where the .class file is generated",
+        "c": "From where the javac command is available",
+        "d": "From where the java command is available",
+        "correct": "a"
+    },
+    {
+        "question": "19. From which location should you run the java command?",
+        "code": "Select the correct answer",
+        "a": "From where the .java file is saved",
+        "b": "From where the .class file is generated",
+        "c": "From where the javac command is available",
+        "d": "From where the java command is available",
+        "correct": "b"
+    },
+    {
+        "question": "20. What is the correct order of commands to run a Java program?",
+        "code": "Select the correct answer",
+        "a": "First javac, then java",
+        "b": "First java, then javac",
+        "correct": "a"
+    },
+    
+        {
+            "question": "20. What is the correct order of commands to run a Java program?",
+            "code": "Select the correct answer",
+            "a": "First javac, then java",
+            "b": "First java, then javac",
+            "c": "None of the above",
+            "d": "Not applicable",
             "correct": "a"
         },
         {
-            "question": "3.How many ways are there to set path env variable?",
-            "code": "Select The Correct Answer",
-            "a": "1",
-            "b": "2",
-            "c": "3",
-            "d": "0",
-            "correct": "b"
-        },
-        {
-            "question": "4.which way of setting a path will be local to the current command prompt?",
-            "code": "Select The Correct Answer",
-            "a": "through set command",
-            "b": "in my computer under user level",
-            "c": "in my computer under system level",
-            "d": "none of the above",
+            "question": "21. Which option of the javac command is used to specify a different location for class files?",
+            "code": "Select the correct answer",
+            "a": "-d",
+            "b": "-cp",
+            "c": "None of the above",
+            "d": "Not applicable",
             "correct": "a"
         },
         {
-            "question": "5.which way of setting a path will be to the current user and all of his every session?",
-            "code": "Select The Correct Answer",
-            "a": "through set command",
-            "b": "in my computer under user level",
-            "c": "in my computer under system level",
-            "d": "none of the above",
+            "question": "22. Which option of the java command is used to specify the location of class files?",
+            "code": "Select the correct answer",
+            "a": "-d",
+            "b": "-cp",
+            "c": "None of the above",
+            "d": "Not applicable",
             "correct": "b"
         },
         {
-            "question": "6.which way of setting a path will be to every user?",
-            "code": "Select The Correct Answer",
-            "a": "through set command",
-            "b": "in my computer under user level",
-            "c": "in my computer under system level",
-            "d": "none of the above",
-            "correct": "c"
-        },
-        {
-            "question": "7.Why do we need to set the path?",
-            "code": "Select The Correct Answer",
-            "a": "to find out the java version",
-            "b": "in order to specify the commands location",
-            "c": "in order open command prompt",
-            "d": "none of the above",
-            "correct": "b"
-        },
-        {
-            "question": "8.how to know the version of JDK?",
-            "code": "Select The Correct Answer",
-            "a": "javac -version",
-            "b": "javac -version",
-            "c": "JDK version",
-            "d": "JDK version",
+            "question": "23. Which option of the java command is used to find the version of the JDK?",
+            "code": "Select the correct answer",
+            "a": "-version",
+            "b": "-java",
+            "c": "None of the above",
+            "d": "Not applicable",
             "correct": "a"
         },
         {
-            "question": "9.which folder of JDK contains the commands?",
-            "code": "Select The Correct Answer",
-            "a": "bin",
-            "b": "lib",
-            "c": "cmd",
-            "d": "javac",
-            "correct": "a"
-        },
-        {
-            "question": "10.which command is used to compile java program?",
-            "code": "Select The Correct Answer",
-            "a": "java",
-            "b": "javac",
-            "c": "Compile",
-            "d": "java_c",
+            "question": "24. Which option of the java command is used to list all available options and their descriptions?",
+            "code": "Select the correct answer",
+            "a": "-all",
+            "b": "-help",
+            "c": "None of the above",
+            "d": "Not applicable",
             "correct": "b"
         },
         {
-            "question": "11.which command is used to run java program?",
-            "code": "Select The Correct Answer",
-            "a": "java",
-            "b": "javac",
-            "c": "Compile",
-            "d": "java_c",
-            "correct": "a"
-        },
-        {
-            "question": "12.what is the file extension to java program?",
-            "code": "Select The Correct Answer",
-            "a": "java",
-            "b": "javac",
-            "c": "Compile",
-            "d": "txt",
-            "correct": "a"
-        },
-        {
-            "question": "13.Which type of file will be developed by javac command?",
-            "code": "Select The Correct Answer",
-            "a": "java",
-            "b": "class",
-            "c": "Compile",
-            "d": "txt",
-            "correct": "b"
-        },
-        {
-            "question": "14.Which type of file will be used by java command to run?",
-            "code": "Select The Correct Answer",
-            "a": "java",
-            "b": "class",
-            "c": "compile",
-            "d": "txt",
-            "correct": "b"
-        },
-        {
-            "question": "15.rom which location we have to trigger javac command?",
-            "code": "Select The Correct Answer",
-            "a": "from the place where java file is saved",
-            "b": "from the place where class file is generated",
-            "c": "from the place where javac command available",
-            "d": "from the place where java command available",
-            "correct": "a"
-        },
-        {
-            "question": "16.From which location we have to trigger java command?",
-            "code": "Select The Correct Answer",
-            "a": "from the place where java file is saved",
-            "b": "from the place where class file is generated",
-            "c": "from the place where javac command available",
-            "d": "from the place where java command available",
-            "correct": "b"
-        },
-        {
-            "question": "17.what is the order of the commands to be triggered?",
-            "code": "Select The Correct Answer",
-            "a": "first javac and then java",
-            "b": "first java and then javac",
-            "c": "compile",
-            "d": "txt",
-            "correct": "a"
-        },
-        {
-            "question": "18.Which option of javac command is used to specify different location for class files?",
-            "code": "Select The Correct Answer",
-            "a": "d",
-            "b": "cp",
-            "c": "compile",
-            "d": "txt",
-             "correct": "a"
-        },
-        {
-            "question": "19.Which option of java command is used to specify class files location?",
-            "code": "Select The Correct Answer",
-            "a": "d",
-            "b": "cp",
-            "c": "compile",
-            "d": "txt",
-            "correct": "b"
-        },
-        {
-            "question": "20.Which option of java command is used to find out version of JDK?",
-            "code": "Select The Correct Answer",
-            "a": "version",
-            "b": "java",
-            "c": "JDK",
-            "d": "txt",
-            "correct": "a"
-        },
-        {
-            "question": "21.Which option of java command is used to find out all options and their description?",
-            "code": "Select The Correct Answer",
-            "a": "all",
-            "b": "help",
-            "c": "total",
-            "c": "compile",
-            "d": "txt",
-            "correct": "b"
-        },
-        {
-            "question": "22.Which command is used to change the current directory in the command prompt?",
-            "code": "Select The Correct Answer",
+            "question": "25. Which command is used to change the current directory in the command prompt?",
+            "code": "Select the correct answer",
             "a": "cd",
             "b": "change",
-            "c": "move",
-            "d": "txt",
+            "c": "None of the above",
+            "d": "Not applicable",
             "correct": "a"
         },
         {
-            "question": "23.Which command is used to move to parent of the current directory?",
-            "code": "Select The Correct Answer",
+            "question": "26. Which command is used to move to the parent directory in the command prompt?",
+            "code": "Select the correct answer",
             "a": "cd parent",
             "b": "cd ..",
-            "c": "cd mv",
-            "d": "txt",
+            "c": "None of the above",
+            "d": "Not applicable",
             "correct": "b"
         },
         {
-    "question":  "24.we can use any constructor to create an object even the same constructor not available in the same class",
-    "code":"Select the correct answer",
-    "a": "Yes",
-    "b": "No",
-    "c": "None of the above",
-    "d": "Not applicable",
-    "correct": "b"
-},
-{
-    "question": "25.What is the output for given code?",
-    "code": "Select the correct answer",
-    "a": "Yes",
-    "b": "No",
-    "c": "None of the above",
-    "d": "Not applicable",
-    "correct": "b"
-},
+            "question": "27. What is the file extension for a Java source file?",
+            "code": "Select the correct answer",
+            "a": ".java",
+            "b": ".class",
+            "c": "None of the above",
+            "d": "Not applicable",
+            "correct": "a"
+        },
+        {
+            "question": "28. What is the file extension for a compiled Java class file?",
+            "code": "Select the correct answer",
+            "a": ".java",
+            "b": ".class",
+            "c": "None of the above",
+            "d": "Not applicable",
+            "correct": "b"
+        },
+        {
+            "question": "29. What is the correct command to compile a Java file named Test.java?",
+            "code": "Select the correct answer",
+            "a": "java Test.java",
+            "b": "javac Test.java",
+            "c": "None of the above",
+            "d": "Not applicable",
+            "correct": "b"
+        },
+        {
+            "question": "30. What is the correct command to run a compiled Java class file named Test.class?",
+            "code": "Select the correct answer",
+            "a": "java Test",
+            "b": "javac Test",
+            "c": "None of the above",
+            "d": "Not applicable",
+            "correct": "a"
+        },
+        {
+            "question": "31. How do you set the PATH environment variable to make Java commands available from any location in the terminal?",
+            "code": "Select the correct answer",
+            "a": "Use the classpath variable",
+            "b": "Use the javahome variable",
+            "c": "None of the above",
+            "d": "Set the PATH variable to include the JDK bin directory",
+            "correct": "d"
+        },
+        {
+            "question": "32. Which method is the entry point for a Java program?",
+            "code": "Select the correct answer",
+            "a": "start()",
+            "b": "main()",
+            "c": "None of the above",
+            "d": "Not applicable",
+            "correct": "b"
+        },
+        {
+            "question": "33. How do you declare a main method in Java?",
+            "code": "Select the correct answer",
+            "a": "public static void main(String args[])",
+            "b": "public void start(String args[])",
+            "c": "None of the above",
+            "d": "Not applicable",
+            "correct": "a"
+        },
+        {
+            "question": "34. What is the command to compile multiple Java files in a directory?",
+            "code": "Select the correct answer",
+            "a": "javac *.java",
+            "b": "java *.java",
+            "c": "None of the above",
+            "d": "Not applicable",
+            "correct": "a"
+        },
+    
+    
 
-    
-    
+  
 ];
 
 const quiz = document.getElementById('quiz');
